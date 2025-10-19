@@ -2,7 +2,9 @@
 /.quarto/
 _site/
 *.html
+!docs/**/*.html
 *.pdf
+!docs/**/*.pdf
 /.luarc.json
 
 # R and RStudio
