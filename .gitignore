@@ -51,10 +51,18 @@ Desktop.ini
 # Si no usas GitHub Pages, descomenta la siguiente línea:
 # docs/
 
-# Data files (opcional - descomenta si no quieres versionar datos grandes)
-# data/*.csv
-# data/*.xlsx
-# data/*.rds
+# Data files - Exclude personal documents and images
+data/*.csv
+data/*.xlsx
+data/*.rds
+data/*.pdf
+data/*.docx
+data/*.doc
+
+# Images - Exclude all images from img/ folder
+img/
+# But keep images in docs/img/ for GitHub Pages
+!docs/img/
 
 # Backups
 *.bak
