@@ -1,0 +1,53 @@
+---
+title: "Blog"
+subtitle: "Reflections on marine research, biogeochemistry, and ocean science"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+## Welcome to the Blog
+
+This space is dedicated to sharing reflections, experiences, and knowledge about marine research, ocean biogeochemistry, and the challenges of studying the ocean in the context of climate change.
+
+### Topics
+
+Here you will find posts about:
+
+- **Field research**: Experiences during oceanographic expeditions
+- **Ocean acidification**: Trends, impacts, and future perspectives
+- **Methods and techniques**: Carbon system analysis and new methodologies
+- **Data science**: AI and Big Data applications in oceanography
+- **Science communication**: Accessible explanations of complex concepts
+- **Academic life**: Reflections on the research career
+
+---
+
+## Coming Soon
+
+This section will be populated with content about:
+
+- Chronicles of oceanographic expeditions
+- Analysis of recent results
+- Tutorials on oceanographic data analysis
+- Reflections on marine climate change
+- Experiences in international collaborations
+
+---
+
+### Stay Connected
+
+For updates and additional content:
+
+- **LinkedIn**: [Susana Flecha](https://www.linkedin.com/in/susana-flecha-b5b05a44/) - Regular research updates
+- **Email**: susana.flecha@csic.es - For questions or topic suggestions
+
+---
+
+*"The ocean is the Earth's largest life support system. Understanding it is essential for our future."*

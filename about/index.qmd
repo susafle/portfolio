@@ -1,0 +1,159 @@
+---
+title: "About"
+image: ../img/SFS.jpeg
+about:
+  template: solana
+  image-shape: rounded
+---
+
+## Biography
+
+I hold a PhD in Marine Sciences from the University of Cádiz (2015, Summa Cum Laude) and currently develop my research career as a **Postdoctoral Researcher** at the Institute of Marine Sciences of Andalusia (ICMAN-CSIC).
+
+My research centers on the **variability and distribution of greenhouse gases (GHGs) in aquatic ecosystems**, including coastal zones, the open ocean, and transitional environments like wetlands and estuaries. I also examine global change variables—such as pH, dissolved oxygen, temperature, and salinity—using **long-term time series and innovative AI-based methods**.
+
+Since 2008, I have coordinated the **Gibraltar Fixed Timeseries (GIFT)** and, since 2018, the **Balearic Ocean Acidification Time Series (BOATS)** climate monitoring programs. I have participated in 37 scientific conferences, supervised 4 Master's theses, and co-supervise a PhD student. My fieldwork includes coordinating and participating in **46 oceanographic cruises** (approximately 270 days at sea) across the Southern Ocean, Atlantic Ocean, Strait of Gibraltar, Gulf of Cádiz, and Baltic and Mediterranean Seas, as well as over 180 field campaigns in diverse environments.
+
+## Academic Background
+
+**PhD in Marine Sciences**
+University of Cádiz, Spain (2015)
+*Summa Cum Laude*
+Thesis: Study of carbon system variability in the Atlantic Ocean and Mediterranean Sea
+
+**MSc in Oceanography**
+University of Cádiz, Spain (2010)
+
+**BSc in Marine Sciences**
+University of Cádiz, Spain (2008)
+
+## Professional Experience
+
+### Current Position
+
+**Postdoctoral Researcher** (2024 - Present)
+*Institute of Marine Sciences of Andalusia (ICMAN-CSIC), Cádiz, Spain*
+
+- Research on greenhouse gas variability in aquatic ecosystems
+- Application of Artificial Intelligence techniques to oceanographic data analysis
+- Coordination of GIFT and BOATS climate monitoring programs
+- Development of biogeochemical models and climate change indicators
+
+### Previous Experience
+
+**Postdoctoral Researcher** (2022 - 2024)
+*Spanish National Research Council (CSIC), Spain*
+
+- Principal Investigator in climate change and ocean acidification projects
+- Coordination of oceanographic campaigns in Mediterranean and Atlantic waters
+- Machine learning applications for oceanographic time series analysis
+
+**Associate Research Scientist** (2020 - 2022)
+*Spanish National Research Council (CSIC), Spain*
+
+- Research on ocean acidification trends in the Mediterranean Sea
+- Development of high-frequency monitoring systems
+- International collaboration projects
+
+**Postdoctoral Researcher** (2017 - 2019)
+*University of the Balearic Islands (UIB), Spain*
+
+- Analysis of biogeochemical time series data
+- Coordination of BOATS monitoring program
+- pH variability studies in coastal areas
+
+**Postdoctoral Researcher** (2016 - 2017)
+*Spanish National Research Council (CSIC), Spain*
+
+- Gibraltar Fixed Timeseries coordination
+- Carbon system analysis in transitional waters
+
+**PhD Fellow** (2011 - 2015)
+*Spanish National Research Council (CSIC), Spain*
+
+- Doctoral research on ocean acidification in the Mediterranean Sea
+- Participation in international oceanographic expeditions
+- High-frequency data collection and analysis
+
+**Associate Research Scientist** (2009 - 2011)
+*Spanish National Research Council (CSIC), Spain*
+
+- Carbon system measurements and analysis
+- Laboratory technical support
+
+**Laboratory Technician** (2008 - 2009)
+*Spanish National Research Council (CSIC), Spain*
+
+- Sample processing and analytical procedures
+- Equipment maintenance and calibration
+
+## Research Stays
+
+I have conducted research stays at prestigious international institutions:
+
+- **University of Washington**, Seattle, USA
+- **Université de Liège**, Belgium (COST Action 735 grant)
+- **LOCEAN (Laboratoire d'Océanographie et du Climat)**, Paris, France
+- **JAMSTEC (Japan Agency for Marine-Earth Science and Technology)**, Japan (Canon Foundation fellowship)
+- **OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale)**, Trieste, Italy
+
+## Skills and Techniques
+
+### Analytical Techniques
+
+- Carbon system analysis (DIC, TA, pH, pCO₂)
+- Spectrophotometry and potentiometric titration
+- Nutrient and biogeochemical parameter analysis
+- Oceanographic sampling and field work
+
+### Computational Tools
+
+- Oceanographic Big Data processing and analysis
+- Programming: R, Python, MATLAB
+- Machine Learning and Deep Learning applications
+- Geographic Information Systems (GIS)
+- Biogeochemical modeling
+
+## Research Metrics
+
+- **Publications**: 26 articles in indexed journals (SCI)
+- **H-index**: 15 (Google Scholar), 14 (Scopus)
+- **Citations**: >700 (Google Scholar)
+- **Projects**: Principal Investigator/Coordinator in 7 competitive projects
+- **Expeditions**: 46 oceanographic cruises (~270 days at sea)
+- **Field campaigns**: >180 campaigns in diverse environments
+- **Students supervised**: 4 Master's theses, 1 PhD (co-supervision)
+- **Conferences**: 37 scientific conferences
+- **Leadership**: Steering Committee member of ICONEC (GOA-ON) since 2023
+
+## Outreach and Knowledge Transfer
+
+I am committed to science communication and knowledge transfer to society. I actively participate in:
+
+- Talks and lectures for general audiences
+- Collaborations with media outlets
+- Educational activities in schools
+- Scientific social networks and science blogs
+
+## Research Interests
+
+My current research lines include:
+
+1. **Greenhouse gas dynamics (GHG)** - CO₂, CH₄, and N₂O variability in aquatic ecosystems
+2. **Carbon system variability** in the Atlantic Ocean and Mediterranean Sea
+3. **Ocean acidification** and its effects on marine ecosystems
+4. **Ocean-atmosphere gas fluxes** and their role in climate change
+5. **AI applications** for massive oceanographic data analysis
+6. **Long-term time series** of biogeochemical parameters and climate change
+7. **Climate monitoring programs** - GIFT and BOATS observatories
+
+---
+
+## Contact
+
+For collaborations, inquiries, or more information:
+
+- **Email**: susana.flecha@csic.es
+- **ORCID**: [0000-0003-2826-5820](https://orcid.org/0000-0003-2826-5820)
+- **LinkedIn**: [Susana Flecha](https://www.linkedin.com/in/susana-flecha-b5b05a44/)
+- **GitHub**: [susanaflecha](https://github.com/susanaflecha)

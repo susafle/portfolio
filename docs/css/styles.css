@@ -1,0 +1,471 @@
+/* Estilos CSS adicionales para el portfolio */
+
+/* Reduce image sizes for better proportions */
+.column-page img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Centrar los pies de foto en column-page */
+.column-page p {
+  text-align: center !important;
+}
+
+/* Centrar captions de imágenes */
+.column-page figcaption {
+  text-align: center !important;
+}
+
+.column-page figure p {
+  text-align: center !important;
+}
+
+.column-body img {
+  max-width: 50%;
+}
+
+/* Grid images in gallery */
+.grid img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Tipografía mejorada */
+body {
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+/* Justificar listas */
+li {
+  text-align: justify;
+}
+
+/* Justificar contenido en divs */
+div {
+  text-align: justify;
+}
+
+/* Excepciones: No justificar en grids (Research Areas, etc.) */
+.grid li {
+  text-align: left;
+}
+
+.grid p {
+  text-align: left;
+}
+
+.grid div {
+  text-align: left;
+}
+
+/* Mejoras para la página About */
+.about-entity {
+  margin-top: 2rem;
+}
+
+.about-links {
+  margin-top: 1.5rem;
+}
+
+.about-link {
+  display: inline-block;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #006994;
+  color: white !important;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.about-link:hover {
+  background-color: #4A90A4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Grid mejorado para publicaciones y proyectos */
+.publication-item,
+.project-item {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: white;
+  border-left: 4px solid #006994;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.publication-item:hover,
+.project-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateX(5px);
+}
+
+/* Estilos para métricas */
+.metrics-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.metric-box {
+  flex: 1;
+  min-width: 200px;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #006994 0%, #4A90A4 100%);
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.metric-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Galería de imágenes - Grid Matrix Layout */
+.image-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  aspect-ratio: 4/3;
+  transition: all 0.4s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%, transparent 100%);
+  display: flex;
+  align-items: flex-end;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  padding: 1.5rem;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-text {
+  color: white;
+  transform: translateY(20px);
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover .gallery-text {
+  transform: translateY(0);
+}
+
+.gallery-text h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 0;
+}
+
+.gallery-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  opacity: 0.95;
+}
+
+/* Responsive adjustments for gallery */
+@media (max-width: 768px) {
+  .image-gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .gallery-item {
+    aspect-ratio: 1/1;
+  }
+
+  .gallery-text h3 {
+    font-size: 1rem;
+  }
+
+  .gallery-text p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Estilos para destacados */
+.highlight-box {
+  background: #f8f9fa;
+  border-left: 4px solid #006994;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.highlight-box h3 {
+  margin-top: 0;
+  color: #006994;
+}
+
+/* Iconos sociales mejorados */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #006994;
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #4A90A4;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Timeline para experiencia */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #006994;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.5rem;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #006994;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #006994;
+}
+
+/* Botones personalizados */
+.btn-custom {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #006994;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  background-color: #4A90A4;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilos para tags/categorías */
+.tag {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  margin: 0.2rem;
+  background-color: #e9ecef;
+  color: #333;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tag:hover {
+  background-color: #006994;
+  color: white;
+}
+
+/* Divisores decorativos */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #006994, transparent);
+  margin: 2rem 0;
+}
+
+/* Efectos de scroll */
+.scroll-fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .metric-box {
+    min-width: 100%;
+  }
+
+  .metrics-container {
+    flex-direction: column;
+  }
+
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline {
+    padding-left: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Dark mode support (opcional) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  .card,
+  .publication-item,
+  .project-item {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+  }
+
+  .highlight-box {
+    background-color: #2d2d2d;
+  }
+}
+
+/* Accesibilidad mejorada */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #006994;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Loading animation */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(0,105,148,.3);
+  border-radius: 50%;
+  border-top-color: #006994;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

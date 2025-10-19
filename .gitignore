@@ -1,0 +1,68 @@
+# Quarto
+/.quarto/
+_site/
+*.html
+*.pdf
+/.luarc.json
+
+# R and RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build outputs (keep docs/ for GitHub Pages)
+# Si no usas GitHub Pages, descomenta la siguiente línea:
+# docs/
+
+# Data files (opcional - descomenta si no quieres versionar datos grandes)
+# data/*.csv
+# data/*.xlsx
+# data/*.rds
+
+# Backups
+*.bak
+*.backup
+
+# System files
+.Spotlight-V100
+.Trashes
+._*
+
+**/*.quarto_ipynb

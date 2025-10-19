@@ -1,0 +1,241 @@
+/*-- scss:defaults --*/
+
+// Paleta de colores inspirada en el océano
+$primary: #006994;        // Azul océano profundo
+$secondary: #4A90A4;      // Azul océano medio
+$success: #2E8B57;        // Verde marino
+$info: #5BC0DE;           // Azul cielo
+$warning: #F0AD4E;        // Ámbar
+$danger: #D9534F;         // Coral
+$light: #F8F9FA;          // Gris muy claro
+$dark: #2C3E50;           // Azul oscuro profundo
+
+// Tipografía
+$font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Montserrat", "Open Sans", sans-serif;
+$headings-font-weight: 600;
+
+// Espaciado
+$spacer: 1rem;
+
+/*-- scss:rules --*/
+
+// Estilos para el navbar
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+// Estilos para títulos
+h1, h2, h3, h4, h5, h6 {
+  color: $dark;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  border-bottom: 3px solid $primary;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid $secondary;
+  padding-bottom: 0.3rem;
+}
+
+// Estilos para enlaces
+a {
+  color: $primary;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $secondary;
+    text-decoration: underline;
+  }
+}
+
+// Estilos para el footer
+.page-footer {
+  background: linear-gradient(135deg, $dark 0%, $primary 100%);
+  color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+
+  a {
+    color: $light;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+// Estilos para cards y contenedores
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,.15);
+  }
+}
+
+// Estilos para imágenes
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+// About page profile image
+.about-entity .about-image {
+  border: 4px solid $primary;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+// Grid personalizado
+.grid {
+  gap: 1.5rem;
+}
+
+// Estilos para bloques de código
+pre {
+  background-color: #f5f5f5;
+  border-left: 4px solid $primary;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+code {
+  color: $primary;
+  background-color: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+// Estilos para tablas
+table {
+  width: 100%;
+  margin: 1.5rem 0;
+
+  thead {
+    background-color: $primary;
+    color: white;
+  }
+
+  th, td {
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+
+  tbody tr:hover {
+    background-color: #e9ecef;
+  }
+}
+
+// Estilos para blockquotes
+blockquote {
+  border-left: 5px solid $primary;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #555;
+}
+
+// Estilos para listas
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+}
+
+// Hero section en homepage
+.hero-section {
+  background: linear-gradient(135deg, rgba(0,105,148,0.9) 0%, rgba(74,144,164,0.9) 100%);
+  color: white;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+// Estilos para badges/tags
+.badge {
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+}
+
+// Smooth scroll
+html {
+  scroll-behavior: smooth;
+}
+
+// Espaciado general
+.quarto-title-block {
+  margin-bottom: 2rem;
+}
+
+// Responsive images en galería
+.column-page img {
+  width: 100%;
+  object-fit: cover;
+}
+
+// Hover effects para links de redes sociales
+.navbar-nav .nav-link {
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 4px;
+  }
+}
+
+// Estilos para el listing de blog
+.quarto-listing {
+  margin-top: 2rem;
+}
+
+.listing-item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 1.5rem 0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// Mejoras de accesibilidad
+a:focus, button:focus {
+  outline: 2px solid $primary;
+  outline-offset: 2px;
+}
+
+// Print styles
+@media print {
+  .navbar, .page-footer {
+    display: none;
+  }
+
+  a {
+    color: $dark;
+    text-decoration: none;
+  }
+}

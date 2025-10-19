@@ -1,0 +1,83 @@
+# Scientific Portfolio - Susana Flecha Saura
+# Marine Scientist - Biogeochemistry
+
+website:
+  title: "Susana Flecha Saura"
+  description: "Marine Scientist | Biogeochemistry | CSIC"
+  site-url: https://susanaflecha.github.io/portfolio
+
+  favicon: img/GOPR0143.JPG
+
+  navbar:
+    pinned: true
+    background: primary
+    search: true
+
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about/index.qmd
+      - text: "Research"
+        menu:
+          - text: "Projects"
+            href: projects/index.qmd
+          - text: "Publications"
+            href: publications/index.qmd
+      - text: "Training"
+        href: training/index.qmd
+      - text: "Gallery"
+        href: media/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+
+    right:
+      - icon: envelope-fill
+        href: mailto:susana.flecha@csic.es
+        aria-label: Email
+      - icon: linkedin
+        href: https://www.linkedin.com/in/susana-flecha-b5b05a44/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/susanaflecha
+        aria-label: GitHub
+      - text: "ORCID"
+        href: https://orcid.org/0000-0003-2826-5820
+        aria-label: ORCID
+
+  page-footer:
+    left: |
+      <span class="faux-block">Susana Flecha Saura, PhD</span>
+      <span class="faux-block">Institute of Marine Sciences of Andalusia (CSIC)</span>
+    center: |
+      <span class="faux-block">Marine Scientist | Ocean Biogeochemistry</span>
+    right: |
+      <span class="faux-block">© 2025 Susana Flecha | Built with <a href="https://quarto.org/" target="_blank">Quarto</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview:
+    port: 4200
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme:
+      - cosmo
+      - css/custom.scss
+    css: css/styles.css
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    link-external-newwindow: true
+    link-external-icon: true

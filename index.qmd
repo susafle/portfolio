@@ -1,0 +1,65 @@
+---
+title: "Susana Flecha Saura"
+subtitle: "Marine Scientist | Ocean Biogeochemistry & AI"
+image: img/SFS.jpeg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 20em
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:susana.flecha@csic.es
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/susana-flecha-b5b05a44/
+    - icon: github
+      text: GitHub
+      href: https://github.com/susanaflecha
+    - text: "ORCID"
+      href: https://orcid.org/0000-0003-2826-5820
+---
+
+## Welcome
+
+I am a **PhD in Marine Sciences** specialized in **ocean biogeochemistry**, with particular emphasis on the study of the carbon system, ocean acidification, and their implications for global climate change.
+
+I am currently a **Postdoctoral Researcher** at the [Institute of Marine Sciences of Andalusia (ICMAN-CSIC)](https://www.icman.csic.es/) in Cádiz, Spain, where I develop my research within the competitive **MOMENTUM** program.
+
+### Research Areas
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Carbon System & GHG**
+
+- Ocean-atmosphere CO₂ fluxes
+- Greenhouse gas dynamics (CO₂, CH₄, N₂O)
+- Biogeochemical carbon cycle
+- Ocean acidification
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Technology & Innovation**
+
+- Artificial Intelligence applications
+- Oceanographic Big Data processing
+- Biogeochemical modeling
+- Long-term time series analysis
+:::
+
+:::
+
+### Highlights
+
+- **26 articles** in high-impact international journals
+- **H-index: 15** (Google Scholar)
+- Experience in oceanographic expeditions in the **Mediterranean and Baltic Seas, Atlantic and Southern Oceans**
+- Principal Investigator in competitive national and international projects
+- International collaborations with institutions from **Europe, America, and Asia**
+
+---
+
+::: {.column-page}
+![Field research in the Cabrera Archipelago](img/Susana_Flecha en Cabrera junto a una linea de fondeo con sensores de pH_oxigeno disuelto_temperatura_y_salinidad.jpeg)
+:::

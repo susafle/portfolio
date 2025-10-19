@@ -1,0 +1,346 @@
+---
+title: "Specialized Training & Courses"
+subtitle: "Professional development and technical certifications"
+---
+
+## Artificial Intelligence & Machine Learning
+
+### AI for Earth and Climate Sciences
+
+- **ELLIS Summer School: AI for Earth and Climate Sciences**
+  - Institution: ELLIS UNIT, Jena, Germany
+  - Year: 2025
+  - Duration: 40 hours
+  - Focus: Application of artificial intelligence techniques to earth and climate sciences
+  - Topics: Machine learning for environmental data, deep learning applications
+
+### Environmental AI Applications
+
+- **Formación Experta Inteligencia Artificial aplicada al medio ambiente**
+  - Institution: Datamecum
+  - Year: 2025
+  - Duration: 6 hours
+  - Focus: Expert training in AI applied to environmental sciences
+  - Application: AI-driven environmental monitoring and analysis
+
+### NASA Satellite Data Training
+
+- **PACE Data Hackweek**
+  - Institution: NASA - University of Maryland Baltimore County
+  - Location: Baltimore, United States
+  - Year: 2025
+  - Duration: 40 hours
+  - Focus: Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite data processing
+  - Topics: Remote sensing data analysis, satellite oceanography
+
+---
+
+## Programming & Data Science
+
+### Python Programming
+
+- **Análisis y visualización de datos con Python**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Madrid, Spain
+  - Year: 2024
+  - Duration: 20 hours
+  - Topics: Data analysis and visualization with Python
+  - Libraries: pandas, numpy, matplotlib, seaborn
+
+- **Python avanzado online**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Madrid, Spain
+  - Year: 2021
+  - Duration: 40 hours
+  - Topics: Advanced Python programming
+  - Focus: Scientific computing, data structures, object-oriented programming
+
+- **Python avanzado online**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Madrid, Spain
+  - Year: 2020
+  - Duration: 40 hours
+  - Topics: Advanced Python programming techniques
+  - Application: Oceanographic data processing and automation
+
+### Design & Visualization Software
+
+- **Photoshop CS4 avanzado online**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Madrid, Spain
+  - Year: 2011
+  - Duration: 35 hours
+  - Instructor: Miguel Ángel Zapardiel Álvarez
+  - Topics: Advanced image editing for scientific publications
+
+- **Photoshop CS4 básico online**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Madrid, Spain
+  - Year: 2010
+  - Duration: 24 hours
+  - Instructor: Maria Flor Garrido Calero
+  - Topics: Basic image editing and scientific figure preparation
+
+---
+
+## Biogeochemical & Analytical Techniques
+
+### Oceanographic Training
+
+- **4º Surface Ocean-Lower Atmosphere Study (SOLAS) Summer School**
+  - Institution: Université de Corse
+  - Location: Cargese, Corsica, France
+  - Year: 2009
+  - Duration: 100 hours
+  - Instructor: Veronique Garçon
+  - Topics: Ocean-atmosphere interactions, biogeochemical cycles
+  - Focus: Carbon system, gas exchange, marine biogeochemistry
+
+- **Regional Training Course onboard R/V "Professor Shtokman"**
+  - Institution: Russian State Hydrometeorological University
+  - Location: Saint Petersburg, Russia
+  - Year: 2007
+  - Duration: 58 hours
+  - Instructor: M. Mamaeva
+  - Topics: At-sea operations, oceanographic sampling techniques
+  - Focus: Hands-on training during oceanographic cruise
+
+### Practical Experience
+
+- **Internship in CSIC**
+  - Institution: Universidad de Cádiz / CSIC
+  - Location: Cádiz, Spain
+  - Year: 2008
+  - Duration: 300 hours
+  - Supervisor: Nieves Gómez Aguilar
+  - Topics: Laboratory techniques, biogeochemical analysis
+  - Focus: Carbon system measurements, sample processing
+
+- **Teaching Assistant - Applied Physics Department**
+  - Institution: Universidad de Cádiz
+  - Location: Cádiz, Spain
+  - Year: 2008
+  - Duration: 400 hours
+  - Supervisor: Diego Sales Márquez
+  - Topics: Teaching support, practical demonstrations
+  - Focus: Physics applied to marine sciences
+
+---
+
+## Maritime & Navigation
+
+### Scientific Diving
+
+- **Buceador 3 estrellas (3-Star Diver)**
+  - Institution: FEDAS (Federación Española de Actividades Subacuáticas)
+  - Year: 2024
+  - Level: 3-Star CMAS certification
+  - Specialization: Advanced diving skills for scientific research
+  - Depth: Advanced depth certification
+
+- **Scientific Diving**
+  - Institution: IMEDEA (Instituto Mediterráneo de Estudios Avanzados)
+  - Year: 2023
+  - Duration: 8 hours
+  - Focus: Underwater sampling techniques for marine research
+  - Topics: Scientific protocols, underwater data collection
+
+- **Dive Master**
+  - Institution: PADI (Professional Association of Diving Instructors)
+  - Year: 2023
+  - Level: Professional level certification
+  - Specialization: Leadership and dive supervision
+  - Focus: Scientific diving operations, research support
+
+- **React Right: First Aid O₂ AID Training**
+  - Institution: Scuba Schools International
+  - Year: 2022
+  - Topics: Oxygen administration, first aid for diving emergencies
+  - Focus: Emergency response for diving accidents
+
+### Nautical Training
+
+- **Introducción a las Ciencias Náuticas**
+  - Institution: Universidad de Cádiz
+  - Location: Cádiz, Spain
+  - Year: 2007
+  - Topics: Introduction to nautical sciences
+  - Focus: Navigation, seamanship, maritime operations
+
+- **Formación Básica en Seguridad (STCW Basic Safety)**
+  - Institution: Ministerio de Fomento - España
+  - Location: Cádiz, Spain
+  - Year: 2017
+  - Duration: 70 hours
+  - Topics: Standards of Training, Certification and Watchkeeping
+  - Focus: Personal survival techniques, fire prevention, first aid, personal safety
+
+---
+
+## Safety & Emergency Response
+
+### Laboratory & Field Safety
+
+- **Formación Básica en Salidas de Campo**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Year: 2019
+  - Duration: 4 hours
+  - Topics: Field work safety protocols
+  - Focus: Risk assessment, emergency procedures for field campaigns
+
+- **Nivel Básico Prevención de Riesgos Laborales**
+  - Institution: PREVICAT, SL
+  - Year: 2020
+  - Duration: 450 hours
+  - Topics: Basic occupational risk prevention
+  - Focus: Workplace safety, hazard identification, risk management
+
+- **Riesgo Químico en Centros de Investigación**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Year: 2021
+  - Duration: 4 hours
+  - Topics: Chemical risk in research centers
+  - Focus: Safe handling of hazardous materials, laboratory safety
+
+- **Prevención de Riesgos Laborales en la Utilización de Productos Químicos**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Sevilla, Spain
+  - Year: 2011
+  - Duration: 2 hours
+  - Topics: Risk prevention in chemical product use
+  - Focus: Proper handling, storage, and disposal of chemicals
+
+- **Seguridad en la Manipulación de Gases**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Sevilla, Spain
+  - Year: 2011
+  - Duration: 2 hours
+  - Topics: Safety in gas handling
+  - Focus: Compressed gas cylinders, gas detection, emergency procedures
+
+- **Prevención de Riesgos Laborales en el Trabajo con Pantallas de Visualización de Datos**
+  - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+  - Location: Sevilla, Spain
+  - Year: 2011
+  - Duration: 2 hours
+  - Topics: Ergonomics and health in computer work
+  - Focus: Workstation setup, visual health, posture
+
+---
+
+## Professional Development
+
+### Personal Development & Resilience
+
+- **Estrategias para desarrollar la resiliencia (Curso online)**
+  - Institution: CSIC (Agencia Estatal Consejo Superior de Investigaciones Científicas)
+  - Year: 2022
+  - Duration: 35 hours
+  - Topics: Resilience development strategies
+  - Focus: Stress management, adaptability, work-life balance in research
+
+### Language Training
+
+- **English Language Courses**
+
+  - **Super Intensive English Program - Advanced (500) Level**
+    - Institution: Institute of Intensive English
+    - Location: Honolulu, Hawaii, United States
+    - Year: 2008
+    - Duration: 70 hours
+    - Instructor: Ed Lee
+    - Level: Advanced (500)
+    - Focus: Intensive English immersion
+
+  - **English Language Immersion Course**
+    - Institution: Universidad Internacional Menéndez Pelayo (UIMP)
+    - Year: 2009
+    - Duration: 40 hours
+    - Focus: English language immersion for academic purposes
+
+  - **Course Specific English: Writing**
+    - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
+    - Year: 2014
+    - Duration: 30 hours
+    - Focus: Scientific writing in English, manuscript preparation
+
+- **Italian Language**
+
+  - **Course "Italian as a Foreign Language"**
+    - Institution: Universidad de Cádiz
+    - Location: Cádiz, Spain
+    - Year: 2015
+    - Duration: 90 hours
+    - Level: B1 (First part)
+    - Focus: Italian language acquisition for international collaboration
+
+---
+
+## Summary by Category
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### AI & Data Science
+- ELLIS Summer School (AI for Earth Sciences)
+- NASA PACE Data Hackweek
+- AI for Environmental Applications
+- Python Programming (120+ hours)
+- Data Analysis & Visualization
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Oceanographic Methods
+- SOLAS Summer School
+- Onboard R/V Training
+- CSIC Internship
+- Field Safety Training
+- At-Sea Operations
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Maritime & Diving
+- CMAS 3-Star Diver (FEDAS)
+- PADI Dive Master
+- Scientific Diving (IMEDEA)
+- Diving First Aid & O₂
+- STCW Basic Safety (70 hours)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Professional Skills
+- Resilience Development
+- English (Advanced - 140+ hours)
+- Italian (B1 Level)
+- Laboratory Safety
+- Risk Prevention (450+ hours)
+:::
+
+:::
+
+---
+
+## Training Statistics
+
+- **Total Training Hours**: 1,800+ documented hours
+- **AI & Programming**: 5 specialized courses (146 hours)
+- **Diving Certifications**: 4 professional levels including Dive Master
+- **Safety Training**: 540+ hours of occupational safety and risk prevention
+- **Language Training**: 200+ hours in English and Italian
+- **International Programs**: Training in USA, France, Russia, Germany
+
+---
+
+## Continuous Professional Development
+
+Throughout my career, I have maintained a commitment to continuous learning and professional development, with particular emphasis on:
+
+- **Artificial Intelligence Applications**: Specialized training in AI for environmental and climate sciences
+- **Scientific Diving**: Professional-level certifications enabling autonomous underwater research
+- **Programming & Data Science**: Comprehensive Python training for scientific computing
+- **Safety & Compliance**: Extensive training in laboratory, field, and maritime safety protocols
+- **International Collaboration**: Language skills and cross-cultural training experiences
+
+---
+
+*For inquiries about training programs or collaboration: susana.flecha@csic.es*

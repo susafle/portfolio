@@ -1,0 +1,206 @@
+---
+title: "Research Projects"
+subtitle: "Current research and completed projects"
+---
+
+## Current Projects
+
+### MOMENTUM - Postdoctoral Excellence Program
+**Role**: Principal Investigator
+**Period**: 2024 - 2026
+**Funding**: CSIC
+
+Development of innovative methodologies based on Artificial Intelligence for the analysis and prediction of ocean carbon system parameters. The project integrates high-frequency oceanographic observation data with Machine Learning algorithms to improve our capacity to monitor and predict changes in ocean acidification.
+
+**Main objectives**:
+
+- Application of Deep Learning techniques to oceanographic time series analysis
+- Development of predictive models for carbon system parameters
+- Integration of satellite data and autonomous sensor data
+- Assessment of ocean acidification trends in the Mediterranean
+
+---
+
+## Projects as Principal Investigator
+
+### INDICLIMA - Key Indicators for Predicting Climate Change Impact on Deep-Sea Ecosystems
+**Period**: July 2024 - November 2025
+**Funding**: EU NextGeneration
+**Budget**: €67,850
+
+Development of key indicators to predict the impact of climate change on deep-sea ecosystems in the Mediterranean Sea, focusing on biogeochemical variables and ecosystem vulnerability assessment.
+
+### EVALUARTE - Assessment of Vulnerability of Deep-Sea Ecosystems to Climate Change
+**Period**: June 2022 - June 2025
+**Funding**: Government of the Balearic Islands (Vicenç Mut 2022)
+**Budget**: €114,000
+
+Assessment of the vulnerability of deep-sea ecosystems to climate change in the Western Mediterranean Sea, examining the state of the art and evolution in the Balearic Sea Basin.
+
+### Greenhouse Gas Dynamics on the Southern Coasts of the Mediterranean
+**Period**: January 2023 - December 2024
+**Funding**: CSIC
+**Budget**: €2,197,696
+
+Coordinator of research on greenhouse gas dynamics in Mediterranean coastal environments, examining spatial and temporal variability of GHG emissions and their role in climate change.
+
+### pH Variability in Coastal Areas - Margalida Comas 2017
+**Period**: December 2017 - December 2019
+**Funding**: Government of the Balearic Islands
+**Budget**: €66,000
+
+Comparison across scales and sources of pH variability in coastal areas, establishing baseline conditions for ocean acidification monitoring.
+
+**Impact**:
+- High-frequency time series data collection
+- Machine learning applications for pH reconstruction
+- Publications in Scientific Reports
+
+### SAMI - Acquisition of Oceanographic pH Sensor
+**Period**: January 2018 - July 2019
+**Funding**: Government of the Balearic Islands
+**Budget**: €19,560
+
+Acquisition and deployment of autonomous pH sensors for continuous monitoring of ocean acidification in Mediterranean coastal waters.
+
+### Assessment of Carbon Sink Capacity of a Patagonian Fjord
+**Period**: March 2013 - November 2013
+**Funding**: Fundación ENDESA; CSIC
+**Budget**: €8,700
+
+Coordinator of research assessing the carbon sequestration potential of Comau Fjord in Chilean Patagonia.
+
+---
+
+## International Project Participation
+
+### AtlantOS - Atlantic Ocean Observing System Optimization
+**Role**: Collaborating Researcher
+**Period**: 2015 - 2019
+**Funding**: Horizon 2020 (EU)
+
+European project for the integration and optimization of Atlantic Ocean observation systems, with special emphasis on Essential Ocean Variables (EOVs) including the carbon system.
+
+### BOCATS - Biogeochemistry over the Chukchi Sea continental margin
+**Role**: Oceanographic expedition participant
+**Period**: 2022
+**Funding**: NSF (United States)
+
+Arctic oceanographic campaign to study biogeochemical processes on the Chukchi Sea continental shelf and their role in the global carbon cycle.
+
+---
+
+## Collaborative Projects
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### FLUXES-NWM
+CO₂ fluxes in the Northwestern Mediterranean
+
+**Institution**: IMEDEA-CSIC
+**Period**: 2022-2024
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### CARBOCHANGE
+Changes in the ocean carbon cycle
+
+**Institution**: GEOMAR (Germany)
+**Period**: 2016-2018
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### GIFT
+Gibraltar Fixed Time series
+
+**Institution**: ICMAN-CSIC
+**Period**: 2014-2017
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### COMFORT
+Understanding the Mediterranean
+
+**Institution**: European consortium
+**Period**: 2019-2021
+:::
+
+:::
+
+---
+
+## Oceanographic Expeditions
+
+I have participated in more than **15 oceanographic expeditions** in different regions of the world:
+
+### Atlantic Ocean
+- **CAIBOX** (2014, 2015, 2016): Gulf of Cádiz
+- **OVIDE** (2018): North Atlantic (Spain - Greenland)
+- **AMT** (Atlantic Meridional Transect): UK - Chile transect
+
+### Mediterranean Sea
+- **RADMED** (annual campaigns): Western Mediterranean permanent stations
+- **FLUXES** (2022, 2023): Ibiza and Mallorca Channel
+- **CARIMED**: Eastern Mediterranean characterization
+
+### Polar Regions
+- **ATOS-Antarctica** (2017): Antarctic Peninsula
+- **BOCATS** (2022): Chukchi Sea, Arctic
+
+### Pacific Ocean
+- Collaborative campaign in the equatorial Pacific (2019)
+
+---
+
+## Research Infrastructure
+
+### Monitoring Stations
+
+I have contributed to the establishment and maintenance of several oceanographic observation stations:
+
+- **GIFT Station**: Time series in the Strait of Gibraltar
+- **CARBOCAT Station**: Coastal monitoring in Catalonia
+- **Cabrera Observatory**: Mooring system with autonomous sensors
+
+### Scientific Equipment
+
+Experience in the use and maintenance of:
+
+- Continuous CO₂ measurement systems (LICOR, Contros HydroC)
+- CTD and oceanographic rosettes
+- Autonomous sensors (pH, oxygen, fluorescence)
+- Laboratory equipment for carbon system analysis
+
+---
+
+## Training and Supervision
+
+### Supervised Students
+
+- **PhD**: 1 ongoing thesis (co-supervision)
+- **Master's**: 3 students (completed)
+- **Bachelor's**: 5 supervised theses
+
+### Training Delivered
+
+- Summer course: "Introduction to Chemical Oceanography" (University of Cádiz)
+- Workshops on oceanographic data analysis with R and Python
+- Technical training in carbon system analysis
+
+---
+
+## Transfer and Application
+
+The results of my research have contributed to:
+
+- Technical reports for environmental management agencies
+- Advice on marine climate change policies
+- Development of oceanographic monitoring protocols
+- Open-access public databases (GLODAP, SOCAT)
+
+---
+
+For more information about specific projects or potential collaborations:
+
+**Contact**: susana.flecha@csic.es

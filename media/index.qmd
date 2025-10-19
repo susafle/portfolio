@@ -1,0 +1,170 @@
+---
+title: "Field Research Gallery"
+subtitle: "Oceanographic expeditions and research activities"
+---
+
+## Research Imagery
+
+A visual collection of fieldwork across different marine ecosystems worldwide.
+
+---
+
+<div class="image-gallery-grid">
+
+<div class="gallery-item">
+  <img src="../img/Susana_Flecha en Cabrera junto a una linea de fondeo con sensores de pH_oxigeno disuelto_temperatura_y_salinidad.jpeg" alt="Cabrera mooring">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Cabrera Archipelago</h3>
+      <p>Mooring line with oceanographic sensors - pH, dissolved oxygen, temperature, and salinity monitoring station</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="../img/GOPR0143.JPG" alt="Sensor maintenance">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Sensor Maintenance</h3>
+      <p>Maintenance of moored biogeochemical sensors during oceanographic campaign</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="../img/GOPR0199.JPG" alt="Autonomous monitoring">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Autonomous Monitoring</h3>
+      <p>Maintenance of biogeochemical sensors for autonomous long-term monitoring</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="../img/Glaciar.jpeg" alt="Polar research">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Polar Expeditions</h3>
+      <p>Glacier research - biogeochemical processes in polar cold waters</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="../img/GOPR0302.JPG" alt="Mediterranean campaign">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Mediterranean Campaign</h3>
+      <p>Oceanographic operations during research campaign in the Mediterranean Sea</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="../img/2015-06-10 14.35.08.jpg" alt="Field work">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Field Research</h3>
+      <p>Field work during marine research expedition</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="../img/SFS.jpeg" alt="Researcher profile">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Professional Profile</h3>
+      <p>Susana Flecha Saura - Researcher in Ocean Biogeochemistry</p>
+    </div>
+  </div>
+</div>
+
+<div class="gallery-item">
+  <img src="../img/WhatsApp Image 2025-03-14 at 11.37.51.jpeg" alt="Deception Island">
+  <div class="gallery-overlay">
+    <div class="gallery-text">
+      <h3>Deception Island, Antarctica</h3>
+      <p>Water sample collection with oceanographic rosette at Deception Island</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+---
+
+## Research Areas
+
+My field work has covered diverse marine ecosystems:
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Mediterranean Sea
+- Balearic Islands
+- Strait of Gibraltar
+- Western basin
+- Coastal time series
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Atlantic Ocean
+- North Atlantic
+- Gulf of Cádiz
+- Meridional transects
+- Water mass exchange
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Polar Regions
+- Antarctic Peninsula
+- Southern Ocean
+- Deception Island
+- Cold water biogeochemistry
+:::
+
+:::
+
+---
+
+## Expedition Highlights
+
+- **46 oceanographic cruises** (~270 days at sea)
+- **>180 field campaigns** in diverse environments
+- Research in **Southern Ocean, Atlantic, Mediterranean, and Baltic Seas**
+- Locations: Comau Fjord (Chile), Balearic Sea, Guadalquivir estuary, Doñana National Park, Scheldt estuary (Belgium)
+
+---
+
+## Monitoring Programs
+
+### Long-term Time Series
+
+**Gibraltar Fixed Timeseries (GIFT)**
+- Coordinated since 2008
+- Strait of Gibraltar water mass exchange monitoring
+- Carbon system and biogeochemical parameters
+
+**Balearic Ocean Acidification Time Series (BOATS)**
+- Coordinated since 2018
+- High-frequency pH and biogeochemical monitoring
+- Ocean acidification assessment in Mediterranean coastal waters
+
+---
+
+## International Collaborations
+
+Field research in collaboration with:
+
+- **University of Washington**, Seattle, USA
+- **Université de Liège**, Belgium
+- **LOCEAN**, Paris, France
+- **JAMSTEC**, Japan
+- **OGS**, Trieste, Italy
+- **CSIC, IEO**, and Universities in Spain
+
+---
+
+*All images © Susana Flecha Saura. For use of images for educational or outreach purposes, please contact: susana.flecha@csic.es*
