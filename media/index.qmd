@@ -12,83 +12,83 @@ A visual collection of fieldwork across different marine ecosystems worldwide.
 <div class="image-gallery-grid">
 
 <div class="gallery-item">
-  <img src="../img/Susana_Flecha en Cabrera junto a una linea de fondeo con sensores de pH_oxigeno disuelto_temperatura_y_salinidad.jpeg" alt="Cabrera mooring">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Cabrera Archipelago</h3>
-      <p>Mooring line with oceanographic sensors - pH, dissolved oxygen, temperature, and salinity monitoring station</p>
-    </div>
-  </div>
+<img src="../img/Susana_Flecha en Cabrera junto a una linea de fondeo con sensores de pH_oxigeno disuelto_temperatura_y_salinidad.jpeg" alt="Mooring line with oceanographic sensors - pH, dissolved oxygen, temperature, and salinity monitoring station">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Cabrera Archipelago</h3>
+<p>Mooring line with oceanographic sensors - pH, dissolved oxygen, temperature, and salinity monitoring station</p>
+</div>
+</div>
 </div>
 
 <div class="gallery-item">
-  <img src="../img/GOPR0143.JPG" alt="Sensor maintenance">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Sensor Maintenance</h3>
-      <p>Maintenance of moored biogeochemical sensors during oceanographic campaign</p>
-    </div>
-  </div>
+<img src="../img/GOPR0143.JPG" alt="Maintenance of moored biogeochemical sensors during oceanographic campaign">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Sensor Maintenance</h3>
+<p>Maintenance of moored biogeochemical sensors during oceanographic campaign</p>
+</div>
+</div>
 </div>
 
 <div class="gallery-item">
-  <img src="../img/GOPR0199.JPG" alt="Autonomous monitoring">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Autonomous Monitoring</h3>
-      <p>Maintenance of biogeochemical sensors for autonomous long-term monitoring</p>
-    </div>
-  </div>
+<img src="../img/GOPR0199.JPG" alt="Maintenance of biogeochemical sensors for autonomous long-term monitoring">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Autonomous Monitoring</h3>
+<p>Maintenance of biogeochemical sensors for autonomous long-term monitoring</p>
+</div>
+</div>
 </div>
 
 <div class="gallery-item">
-  <img src="../img/Glaciar.jpeg" alt="Polar research">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Polar Expeditions</h3>
-      <p>Glacier research - biogeochemical processes in polar cold waters</p>
-    </div>
-  </div>
+<img src="../img/Glaciar.jpeg" alt="Glacier research - biogeochemical processes in polar cold waters">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Polar Expeditions</h3>
+<p>Glacier research - biogeochemical processes in polar cold waters</p>
+</div>
+</div>
 </div>
 
 <div class="gallery-item">
-  <img src="../img/GOPR0302.JPG" alt="Mediterranean campaign">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Mediterranean Campaign</h3>
-      <p>Oceanographic operations during research campaign in the Mediterranean Sea</p>
-    </div>
-  </div>
+<img src="../img/GOPR0302.JPG" alt="Oceanographic operations during research campaign in the Mediterranean Sea">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Mediterranean Campaign</h3>
+<p>Oceanographic operations during research campaign in the Mediterranean Sea</p>
+</div>
+</div>
 </div>
 
 <div class="gallery-item">
-  <img src="../img/2015-06-10 14.35.08.jpg" alt="Field work">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Field Research</h3>
-      <p>Field work during marine research expedition</p>
-    </div>
-  </div>
+<img src="../img/2015-06-10 14.35.08.jpg" alt="Field work during marine research expedition">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Field Research</h3>
+<p>Field work during marine research expedition</p>
+</div>
+</div>
 </div>
 
 <div class="gallery-item">
-  <img src="../img/SFS.jpeg" alt="Researcher profile">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Professional Profile</h3>
-      <p>Susana Flecha Saura - Researcher in Ocean Biogeochemistry</p>
-    </div>
-  </div>
+<img src="../img/SFS.jpeg" alt="Susana Flecha Saura - Researcher in Ocean Biogeochemistry">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Professional Profile</h3>
+<p>Susana Flecha Saura - Researcher in Ocean Biogeochemistry</p>
+</div>
+</div>
 </div>
 
 <div class="gallery-item">
-  <img src="../img/WhatsApp Image 2025-03-14 at 11.37.51.jpeg" alt="Deception Island">
-  <div class="gallery-overlay">
-    <div class="gallery-text">
-      <h3>Deception Island, Antarctica</h3>
-      <p>Water sample collection with oceanographic rosette at Deception Island</p>
-    </div>
-  </div>
+<img src="../img/WhatsApp Image 2025-03-14 at 11.37.51.jpeg" alt="Water sample collection with oceanographic rosette at Deception Island, Antarctica">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Deception Island, Antarctica</h3>
+<p>Water sample collection with oceanographic rosette at Deception Island</p>
+</div>
+</div>
 </div>
 
 </div>
