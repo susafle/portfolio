@@ -61,10 +61,8 @@ data/*.pdf
 data/*.docx
 data/*.doc
 
-# Images - Exclude all images from img/ folder
-img/
-# But keep images in docs/img/ for GitHub Pages
-!docs/img/
+# Images - Keep images for GitHub Pages
+# img/ folder is tracked for Quarto to copy to docs/img/
 
 # Backups
 *.bak
