@@ -16,7 +16,7 @@ subtitle: "Professional development and technical certifications"
 
 ### Environmental AI Applications
 
-- **Formación Experta Inteligencia Artificial aplicada al medio ambiente**
+- **Expert Training in Artificial Intelligence Applied to the Environment**
   - Institution: Datamecum
   - Year: 2025
   - Duration: 6 hours
@@ -39,7 +39,7 @@ subtitle: "Professional development and technical certifications"
 
 ### Python Programming
 
-- **Análisis y visualización de datos con Python**
+- **Data Analysis and Visualization with Python**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Madrid, Spain
   - Year: 2024
@@ -47,7 +47,7 @@ subtitle: "Professional development and technical certifications"
   - Topics: Data analysis and visualization with Python
   - Libraries: pandas, numpy, matplotlib, seaborn
 
-- **Python avanzado online**
+- **Advanced Python Online**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Madrid, Spain
   - Year: 2021
@@ -55,7 +55,7 @@ subtitle: "Professional development and technical certifications"
   - Topics: Advanced Python programming
   - Focus: Scientific computing, data structures, object-oriented programming
 
-- **Python avanzado online**
+- **Advanced Python Online**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Madrid, Spain
   - Year: 2020
@@ -65,7 +65,7 @@ subtitle: "Professional development and technical certifications"
 
 ### Design & Visualization Software
 
-- **Photoshop CS4 avanzado online**
+- **Advanced Photoshop CS4 Online**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Madrid, Spain
   - Year: 2011
@@ -73,7 +73,7 @@ subtitle: "Professional development and technical certifications"
   - Instructor: Miguel Ángel Zapardiel Álvarez
   - Topics: Advanced image editing for scientific publications
 
-- **Photoshop CS4 básico online**
+- **Basic Photoshop CS4 Online**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Madrid, Spain
   - Year: 2010
@@ -131,8 +131,8 @@ subtitle: "Professional development and technical certifications"
 
 ### Scientific Diving
 
-- **Buceador 3 estrellas (3-Star Diver)**
-  - Institution: FEDAS (Federación Española de Actividades Subacuáticas)
+- **3-Star Diver**
+  - Institution: FEDAS (Spanish Federation of Underwater Activities)
   - Year: 2024
   - Level: 3-Star CMAS certification
   - Specialization: Advanced diving skills for scientific research
@@ -160,14 +160,14 @@ subtitle: "Professional development and technical certifications"
 
 ### Nautical Training
 
-- **Introducción a las Ciencias Náuticas**
+- **Introduction to Nautical Sciences**
   - Institution: Universidad de Cádiz
   - Location: Cádiz, Spain
   - Year: 2007
   - Topics: Introduction to nautical sciences
   - Focus: Navigation, seamanship, maritime operations
 
-- **Formación Básica en Seguridad (STCW Basic Safety)**
+- **Basic Safety Training (STCW Basic Safety)**
   - Institution: Ministerio de Fomento - España
   - Location: Cádiz, Spain
   - Year: 2017
@@ -181,28 +181,28 @@ subtitle: "Professional development and technical certifications"
 
 ### Laboratory & Field Safety
 
-- **Formación Básica en Salidas de Campo**
+- **Basic Training in Field Work**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Year: 2019
   - Duration: 4 hours
   - Topics: Field work safety protocols
   - Focus: Risk assessment, emergency procedures for field campaigns
 
-- **Nivel Básico Prevención de Riesgos Laborales**
+- **Basic Level Occupational Risk Prevention**
   - Institution: PREVICAT, SL
   - Year: 2020
   - Duration: 450 hours
   - Topics: Basic occupational risk prevention
   - Focus: Workplace safety, hazard identification, risk management
 
-- **Riesgo Químico en Centros de Investigación**
+- **Chemical Risk in Research Centers**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Year: 2021
   - Duration: 4 hours
   - Topics: Chemical risk in research centers
   - Focus: Safe handling of hazardous materials, laboratory safety
 
-- **Prevención de Riesgos Laborales en la Utilización de Productos Químicos**
+- **Occupational Risk Prevention in Chemical Product Use**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Sevilla, Spain
   - Year: 2011
@@ -210,7 +210,7 @@ subtitle: "Professional development and technical certifications"
   - Topics: Risk prevention in chemical product use
   - Focus: Proper handling, storage, and disposal of chemicals
 
-- **Seguridad en la Manipulación de Gases**
+- **Safety in Gas Handling**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Sevilla, Spain
   - Year: 2011
@@ -218,7 +218,7 @@ subtitle: "Professional development and technical certifications"
   - Topics: Safety in gas handling
   - Focus: Compressed gas cylinders, gas detection, emergency procedures
 
-- **Prevención de Riesgos Laborales en el Trabajo con Pantallas de Visualización de Datos**
+- **Occupational Risk Prevention in Computer Work**
   - Institution: CSIC (Consejo Superior de Investigaciones Científicas)
   - Location: Sevilla, Spain
   - Year: 2011
@@ -232,7 +232,7 @@ subtitle: "Professional development and technical certifications"
 
 ### Personal Development & Resilience
 
-- **Estrategias para desarrollar la resiliencia (Curso online)**
+- **Strategies for Developing Resilience (Online Course)**
   - Institution: CSIC (Agencia Estatal Consejo Superior de Investigaciones Científicas)
   - Year: 2022
   - Duration: 35 hours
