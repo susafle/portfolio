@@ -5,6 +5,7 @@ Professional scientific portfolio created with [Quarto](https://quarto.org/), de
 ## 🌊 Description
 
 This portfolio professionally presents the research trajectory, publications, projects, and field experience of Susana Flecha Saura, a marine scientist specialized in ocean biogeochemistry at CSIC.
+https://susafle.github.io/portfolio/
 
 ## 📁 Project Structure
 
