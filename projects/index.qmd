@@ -132,7 +132,7 @@ Experience in the use and maintenance of:
 
 - Continuous CO₂ measurement systems (LICOR, Contros HydroC)
 - CTD and oceanographic rosettes
-- Autonomous sensors (pH, oxygen, fluorescence)
+- Autonomous sensors (pH, CO₂, oxygen, temperature, salinity, fluorescence)
 - Laboratory equipment for carbon system analysis
 
 ---
@@ -142,14 +142,15 @@ Experience in the use and maintenance of:
 ### Supervised Students
 
 - **PhD**: 1 ongoing thesis (co-supervision)
-- **Master's**: 3 students (completed)
-- **Bachelor's**: 5 supervised theses
+- **Master's**: 4 students (completed) and 1 ongoing
+- **Bachelor's**: 2 supervised theses
 
 ### Training Delivered
 
-- Summer course: "Introduction to Chemical Oceanography" (University of Cádiz)
-- Workshops on oceanographic data analysis with R and Python
-- Technical training in carbon system analysis
+- Course: "Cambio climático en humedales costeros" (UIMP)
+- Workshops on oceanographic biogeochemical sensor management and data analysis (MASS, AZTI)
+- Scientific Diving Course (IMEDEA)
+- Technical training in carbon system analysis (ICMAN, IMEDEA)
 
 ---
 
@@ -157,10 +158,10 @@ Experience in the use and maintenance of:
 
 The results of my research have contributed to:
 
-- Technical reports for environmental management agencies
-- Advice on marine climate change policies
-- Development of oceanographic monitoring protocols
-- Open-access public databases (GLODAP, SOCAT)
+- Technical reports for environmental management agencies (IPCC, CLIVAR)
+- Advice on marine climate change policies (IPCC, CLIVAR)
+- Development of oceanographic monitoring protocols (OOI Biogeochemical Sensor Data Best Practices and User Guide) 
+- Open-access public databases (IODE, DIGITAL.CSIC, GLODAP, SOCAT)
 
 ---
 
