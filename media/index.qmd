@@ -131,7 +131,7 @@ My field work has covered diverse marine ecosystems:
 
 ## Expedition Highlights
 
-- **46 oceanographic cruises** (~270 days at sea)
+- **47 oceanographic cruises** (~275 days at sea)
 - **>180 field campaigns** in diverse environments
 - Research in **Southern Ocean, Atlantic, Mediterranean, and Baltic Seas**
 - Locations: Comau Fjord (Chile), Balearic Sea, Guadalquivir estuary, Doñana National Park, Scheldt estuary (Belgium)
@@ -163,7 +163,7 @@ Field research in collaboration with:
 - **LOCEAN**, Paris, France
 - **JAMSTEC**, Japan
 - **OGS**, Trieste, Italy
-- **CSIC, IEO**, and Universities in Spain
+- **Institut National de Recherche Halieutique (INRH)**, Casablanca, Morocco
 
 ---
 
