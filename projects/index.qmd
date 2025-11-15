@@ -74,17 +74,16 @@ Coordinator of research assessing the carbon sequestration potential of Comau Fj
 
 ## International Project Participation
 
-### AtlantOS - Atlantic Ocean Observing System Optimization
+### PERSEUS: Policy-oriented marine Enviromental Research in the Southern EUropean Seas
 **Role**: Collaborating Researcher
-**Period**: 2015 - 2019
-**Funding**: Horizon 2020 (EU)
+**Period**: 2012 - 2016
+**Funding**: FP7-OCEAN-2011
 
-European project for the integration and optimization of Atlantic Ocean observation systems, with special emphasis on Essential Ocean Variables (EOVs) including the carbon system.
 
-### BOCATS - Biogeochemistry over the Chukchi Sea continental margin
-**Role**: Oceanographic expedition participant
-**Period**: 2022
-**Funding**: NSF (United States)
+### PERSEUS: Policy-oriented marine Enviromental Research in the Southern EUropean Seas
+**Role**: Collaborating Researcher
+**Period**: 2012 - 2016
+**Funding**: FP7-OCEAN-2011
 
 Arctic oceanographic campaign to study biogeochemical processes on the Chukchi Sea continental shelf and their role in the global carbon cycle.
 
@@ -132,24 +131,22 @@ Understanding the Mediterranean
 
 ## Oceanographic Expeditions
 
-I have participated in more than **15 oceanographic expeditions** in different regions of the world:
+I have participated in more than **47 oceanographic expeditions** in different regions of the world:
 
 ### Atlantic Ocean
-- **CAIBOX** (2014, 2015, 2016): Gulf of Cádiz
-- **OVIDE** (2018): North Atlantic (Spain - Greenland)
-- **AMT** (Atlantic Meridional Transect): UK - Chile transect
+- **P3A2** (2008): Gulf of Cádiz
 
 ### Mediterranean Sea
-- **RADMED** (annual campaigns): Western Mediterranean permanent stations
-- **FLUXES** (2022, 2023): Ibiza and Mallorca Channel
-- **CARIMED**: Eastern Mediterranean characterization
+- **GIFT** (periodical campaigns): Strait of Gibraltar permanent stations
+- **CANALES** (2022-205): Ibiza and Mallorca Channel
 
 ### Polar Regions
-- **ATOS-Antarctica** (2017): Antarctic Peninsula
-- **BOCATS** (2022): Chukchi Sea, Arctic
+- **DICHOSO** (2024-2025): Antarctic Peninsula
+- **POLAROMICS** (2026): Antarctic Peninsula
 
-### Pacific Ocean
-- Collaborative campaign in the equatorial Pacific (2019)
+### Baltic Sea
+- Regional Training course onboard the Research Vessel "Professor Shtokman” (2007)
+
 
 ---
 
@@ -159,9 +156,9 @@ I have participated in more than **15 oceanographic expeditions** in different r
 
 I have contributed to the establishment and maintenance of several oceanographic observation stations:
 
-- **GIFT Station**: Time series in the Strait of Gibraltar
-- **CARBOCAT Station**: Coastal monitoring in Catalonia
-- **Cabrera Observatory**: Mooring system with autonomous sensors
+- **GIFT Stations**: Time series in the Strait of Gibraltar
+- **BOATS Stations**: Balearic Ocean Acidification TimeSeries
+
 
 ### Scientific Equipment
 
