@@ -70,6 +70,7 @@ Acquisition and deployment of autonomous pH sensors for continuous monitoring of
 
 Coordinator of research assessing the carbon sequestration potential of Comau Fjord in Chilean Patagonia.
 
+
 ---
 
 ## International Project Participation
@@ -80,52 +81,17 @@ Coordinator of research assessing the carbon sequestration potential of Comau Fj
 **Funding**: FP7-OCEAN-2011
 
 
-### PERSEUS: Policy-oriented marine Enviromental Research in the Southern EUropean Seas
+### CARBOCHANGE: Change in carbon uptake and emissions by oceans in a changing climate
 **Role**: Collaborating Researcher
-**Period**: 2012 - 2016
+**Period**: 2011 - 2015
 **Funding**: FP7-OCEAN-2011
 
-Arctic oceanographic campaign to study biogeochemical processes on the Chukchi Sea continental shelf and their role in the global carbon cycle.
 
----
+### SESAME: Southern European Seas: Assessing and Modelling Ecosystem changes
+**Role**: Collaborating Researcher
+**Period**: 2006 - 2011
+**Funding**: FP6-036949 GOCE
 
-## Collaborative Projects
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-### FLUXES-NWM
-CO₂ fluxes in the Northwestern Mediterranean
-
-**Institution**: IMEDEA-CSIC
-**Period**: 2022-2024
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### CARBOCHANGE
-Changes in the ocean carbon cycle
-
-**Institution**: GEOMAR (Germany)
-**Period**: 2016-2018
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### GIFT
-Gibraltar Fixed Time series
-
-**Institution**: ICMAN-CSIC
-**Period**: 2014-2017
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### COMFORT
-Understanding the Mediterranean
-
-**Institution**: European consortium
-**Period**: 2019-2021
-:::
-
-:::
 
 ---
 
