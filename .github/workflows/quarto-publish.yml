@@ -1,16 +1,21 @@
-name: Render and Deploy Quarto Site
+name: Render and Update Quarto Site
 
 on:
   push:
     branches:
       - main
+    paths:
+      - '**.qmd'
+      - '**.yml'
+      - 'css/**'
+      - 'img/**'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  render-and-deploy:
+  render-and-commit:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,10 +30,9 @@ jobs:
       - name: Render Quarto project
         run: quarto render
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: main
-          keep_files: false
+      - name: Commit rendered files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-render: Update HTML files" && git push)
