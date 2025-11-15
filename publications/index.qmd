@@ -14,7 +14,7 @@ subtitle: "Articles in indexed journals and scientific contributions"
 
 ::: {.g-col-12 .g-col-md-4}
 ### H-Index
-**15** (Google Scholar)
+**16** (Google Scholar)
 **14** (Scopus)
 :::
 
