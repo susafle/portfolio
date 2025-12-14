@@ -9,7 +9,7 @@ subtitle: "Articles in indexed journals and scientific contributions"
 
 ::: {.g-col-12 .g-col-md-4}
 ### SCI Articles
-**26** publications in indexed journals
+**28** publications in indexed journals
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -32,6 +32,16 @@ subtitle: "Articles in indexed journals and scientific contributions"
 Below is a selection of the most relevant publications. For the complete and updated list, please consult my [ORCID](https://orcid.org/0000-0003-2826-5820) or [Google Scholar](https://scholar.google.com) profile.
 
 ### Recent Articles (2022-2025)
+
+Villarino, E., Essel, D.A., Citores, L., Larreta, J., Lopez, A., Borja, A., **Flecha, S.**, González, M., Cuesta, L., Orue-Echevarria, D., Esteban, X., Chust, G. (2025).
+*Long-term pH trends across depth in coastal areas of the southeastern Bay of Biscay*.
+**Continental Shelf Research**, 293, 105532.
+[DOI: 10.1016/j.csr.2025.105532](https://doi.org/10.1016/j.csr.2025.105532)
+
+**Flecha, S.**, Amaya-Vías, S., Medina, M., Fraile-Nuez, E., Jiménez-Morales, V., Contreras-Guijarro, G., Díez-Minguito, M., Caballero-Martínez, O.A., Navarro, G., Tovar-Sanchez, A., Huertas, I.E. (2025).
+*Integrated meteocean and seismic dataset for AI-based seawater CO₂ estimation at Deception Island, Antarctica*.
+**Scientific Data**, 12, 69.
+[DOI: 10.1038/s41597-025-06351-4](https://doi.org/10.1038/s41597-025-06351-4)
 
 **Flecha, S.**, de la Paz, M., Pérez, F.F., Marbá, N., Morell, C., Alou-Font, E., Tintoré, J., Hendriks, I.E. (2025).
 *Drivers of the spatiotemporal distribution of dissolved nitrous oxide and air-sea exchange in a coastal Mediterranean area*.

@@ -91,6 +91,26 @@ A visual collection of fieldwork across different marine ecosystems worldwide.
 </div>
 </div>
 
+<div class="gallery-item">
+<img src="../img/sensors.jpeg" alt="Susana Flecha preparing the instrumentation of the Gibraltar Fixed Timeseries (GIFT) mooring">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>GIFT Mooring Preparation</h3>
+<p>Susana Flecha preparing the instrumentation of the Gibraltar Fixed Timeseries (GIFT) mooring in the Strait of Gibraltar</p>
+</div>
+</div>
+</div>
+
+<div class="gallery-item">
+<img src="../img/maniobra.jpeg" alt="Deployment maneuver of the GIFT mooring in the Strait of Gibraltar">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>GIFT Deployment Operation</h3>
+<p>Deployment maneuver of the GIFT mooring in the Strait of Gibraltar</p>
+</div>
+</div>
+</div>
+
 </div>
 
 ---
