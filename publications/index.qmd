@@ -1,171 +1,270 @@
 ---
 title: "Scientific Publications"
-subtitle: "Articles in indexed journals and scientific contributions"
+subtitle: "Peer-reviewed articles, open datasets and book chapters"
 ---
 
-## Bibliometric Metrics
+## Bibliometric Profile
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
-### SCI Articles
-**28** publications in indexed journals
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">29</span>
+<span class="metric-label">SCI Articles</span>
+</div>
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### H-Index
-**16** (Google Scholar)
-**14** (Scopus)
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">17</span>
+<span class="metric-label">Q1 JCR (59 %)</span>
+</div>
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### Citations
-**>700** total citations
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">16</span>
+<span class="metric-label">H-index (GS)</span>
+</div>
+:::
+
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">731</span>
+<span class="metric-label">Citations (GS)</span>
+</div>
 :::
 
 :::
-
----
-
-## Selected Publications
-
-Below is a selection of the most relevant publications. For the complete and updated list, please consult my [ORCID](https://orcid.org/0000-0003-2826-5820) or [Google Scholar](https://scholar.google.com) profile.
-
-### Recent Articles (2022-2025)
-
-Villarino, E., Essel, D.A., Citores, L., Larreta, J., Lopez, A., Borja, A., **Flecha, S.**, González, M., Cuesta, L., Orue-Echevarria, D., Esteban, X., Chust, G. (2025).
-*Long-term pH trends across depth in coastal areas of the southeastern Bay of Biscay*.
-**Continental Shelf Research**, 293, 105532.
-[DOI: 10.1016/j.csr.2025.105532](https://doi.org/10.1016/j.csr.2025.105532)
-
-**Flecha, S.**, Amaya-Vías, S., Medina, M., Fraile-Nuez, E., Jiménez-Morales, V., Contreras-Guijarro, G., Díez-Minguito, M., Caballero-Martínez, O.A., Navarro, G., Tovar-Sanchez, A., Huertas, I.E. (2025).
-*Integrated meteocean and seismic dataset for AI-based seawater CO₂ estimation at Deception Island, Antarctica*.
-**Scientific Data**, 12, 69.
-[DOI: 10.1038/s41597-025-06351-4](https://doi.org/10.1038/s41597-025-06351-4)
-
-**Flecha, S.**, de la Paz, M., Pérez, F.F., Marbá, N., Morell, C., Alou-Font, E., Tintoré, J., Hendriks, I.E. (2025).
-*Drivers of the spatiotemporal distribution of dissolved nitrous oxide and air-sea exchange in a coastal Mediterranean area*.
-**Ocean Science**, EGUSPHERE-2024-4166.
-
-Aramburu, P.A., **Flecha, S.**, Lujan-Williams, C.A.M., Hendriks, I.E. (2024).
-*Water column oxygenation by Posidonia oceanica seagrass meadows in coastal areas: A modelling approach*.
-**Science of the Total Environment**, 92, 173805.
-[DOI: 10.1016/j.scitotenv.2024.173805](https://doi.org/10.1016/j.scitotenv.2024.173805)
-
-Lange, N., Fiedler, B., Álvarez, M., Benoit-Cattin, A., Benway, H., Buttigieg, P.L., Coppola, L., Currie, K., **Flecha, S.**, et al. (2024).
-*Synthesis Product for Ocean Time Series (SPOTS) – a ship-based biogeochemical pilot*.
-**Earth System Science Data**, 16, 1901-1935.
-[DOI: 10.5194/essd-16-1901-2024](https://doi.org/10.5194/essd-16-1901-2024)
-
-Amaya-Vías, S., **Flecha, S.**, García-Lafuente, J., Pérez, F.F., Makaoui, A., Huertas, I.E. (2023).
-*The time series at the Strait of Gibraltar as a baseline for long-term assessment of vulnerability of calcifiers to ocean acidification*.
-**Frontiers in Marine Science**, 10.
-[DOI: 10.3389/fmars.2023.1196938](https://doi.org/10.3389/fmars.2023.1196938)
-
-**Flecha, S.**, Rueda, D., de la Paz, M., Pérez, F.F., Alou-Font, E., Tintoré, J., Hendriks, I.E. (2023).
-*Spatial and temporal variation of methane emissions in the coastal Balearic Sea, Western Mediterranean*.
-**Science of the Total Environment**, 865.
-[DOI: 10.1016/j.scitotenv.2022.161249](https://doi.org/10.1016/j.scitotenv.2022.161249)
-
-**Flecha, S.**, Giménez-Romero, A., Pérez, F.F., Tintoré, J., Alou-Font, E., Matias, M., Hendriks, I.E. (2022).
-*pH trends and seasonal cycle in the coastal Balearic Sea reconstructed through machine learning*.
-**Scientific Reports**, 12, 12956.
-[DOI: 10.1038/s41598-022-17253-5](https://doi.org/10.1038/s41598-022-17253-5)
-
-### Key Publications (2015-2019)
-
-**Flecha, S.**, Pérez, F.F., Murata, A., Makaoui, A., Huertas, I.E. (2019).
-*Decadal acidification in Atlantic and Mediterranean water masses exchanging at the Strait of Gibraltar*.
-**Scientific Reports**, 9, 15533.
-[DOI: 10.1038/s41598-019-52084-x](https://doi.org/10.1038/s41598-019-52084-x)
-
-**Flecha, S.**, Pérez, F.F., García-Lafuente, J., Sammartino, S., Ríos, A.F., Huertas, I.E. (2015).
-*Trends of pH decrease in the Mediterranean Sea through high frequency observational data: indication of ocean acidification in the basin*.
-**Scientific Reports**, 5, 16770.
-[DOI: 10.1038/srep16770](https://doi.org/10.1038/srep16770)
-*[>150 citations]*
-
-**Flecha, S.**, Huertas, I.E., Navarro, G., Morris, E.P., Ruiz, J. (2015).
-*Air–Water CO₂ Fluxes in a Highly Heterotrophic Estuary*.
-**Estuaries and Coasts**, 38(6), 2295-2309.
-[DOI: 10.1007/s12237-014-9923-1](https://doi.org/10.1007/s12237-014-9923-1)
-
-### Earlier Work (2013)
-
-Morris, E.P., **Flecha, S.**, Figuerola, J., Costas, E., Navarro, G., Ruiz, J., Rodriguez, P., Huertas, I.E. (2013).
-*Contribution of Doñana wetlands to carbon sequestration*.
-**PLoS One**, 8(8).
-[DOI: 10.1371/journal.pone.0071456](https://doi.org/10.1371/journal.pone.0071456)
-
-## Thematic Areas
-
-My publications cover the following research areas:
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### Greenhouse Gases (GHG)
-- CO₂, CH₄, and N₂O dynamics
-- Ocean-atmosphere gas fluxes
-- Spatial and temporal variability
-- Marine biogeochemical cycles
+### Leadership Metrics
+- **8** first-author publications (28 %)
+- **7** corresponding-author publications (24 %)
+- **Average IF**: 4.2 (4.8 since PhD)
+- Production consistently in international top venues
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Impact Indicators
+- **3** papers in the **Top 10 %** most-cited in their fields
+- **4** papers with more than 40 citations
+- **13** papers with more than 20 citations
+- **H-index**: 14 (Scopus) / 16 (Google Scholar) · 503 / 731 citations
+:::
+
+:::
+
+*Data updated: April 2026. Full list available on [ORCID](https://orcid.org/0000-0003-2826-5820), Google Scholar and [ResearchGate](https://www.researchgate.net/profile/Susana-Flecha).*
+
+---
+
+## 2025 · Latest Publications
+
+**Álvarez, M., García-Ibáñez, M.I., Lange, N., Kozyr, A., Velo, A., Tanhua, T., Civitarese, G., Cantoni, C., Belgacem, M., Schroeder, K., *et al.*, Flecha, S., *et al.*** (2025).
+*CARIMED: CARbon, tracers and ancillary data In the MEDiterranean Sea — a ship-based data synthesis product: overview and quality-control procedures.*
+**Earth System Science Data Discussions** *[preprint, in review]*. [DOI: 10.5194/essd-2025-759](https://doi.org/10.5194/essd-2025-759)
+
+**Flecha, S.**, Amaya-Vías, S., Medina, M., Fraile-Nuez, E., Jiménez-Morales, V., Contreras-Guijarro, G., Díez-Minguito, M., Caballero-Martínez, O.A., Navarro, G., Tovar-Sánchez, A., Huertas, I.E. (2025).
+*Integrated meteocean and seismic dataset for AI-based seawater CO₂ estimation at Deception Island, Antarctica.*
+**Scientific Data**, 12, 69. *(First and corresponding author)* · [DOI: 10.1038/s41597-025-06351-4](https://doi.org/10.1038/s41597-025-06351-4)
+
+Villarino, E., Essel, D.A., Citores, L., Larreta, J., Lopez, A., Borja, A., **Flecha, S.**, González, M., Cuesta, L., Orue-Echevarria, D., Esteban, X., Chust, G. (2025).
+*Long-term pH trends across depth in coastal areas of the southeastern Bay of Biscay.*
+**Continental Shelf Research**, 293, 105532. [DOI: 10.1016/j.csr.2025.105532](https://doi.org/10.1016/j.csr.2025.105532)
+
+Amaya-Vías, S., **Flecha, S.**, Román, A., Haro, S., Oviedo, J.L., Navarro, G., Arroyo, G.M., Huertas, I.E. (2025).
+*Air–water CO₂ exchange in transformed saltmarshes under different uses and management models.*
+**Journal of Environmental Management**, 380, 125188. [DOI: 10.1016/j.jenvman.2025.125188](https://doi.org/10.1016/j.jenvman.2025.125188)
+
+**Flecha, S.**, de la Paz, M., Pérez, F.F., Marbà, N., Morell, C., Alou-Font, E., Tintoré, J., Hendriks, I.E. (2025).
+*Drivers of the spatiotemporal distribution of dissolved nitrous oxide and air–sea exchange in a coastal Mediterranean area.*
+**Ocean Science**, 21(4), 1515–1532. *(First and corresponding author)* · [DOI: 10.5194/os-21-1515-2025](https://doi.org/10.5194/os-21-1515-2025)
+
+---
+
+## 2022 – 2024 · Recent Publications
+
+Lange, N., Fiedler, B., Álvarez, M., Benoit-Cattin, A., Benway, H., Buttigieg, P.L., Coppola, L., Currie, K., **Flecha, S.**, *et al.* (2024).
+*Synthesis Product for Ocean Time Series (SPOTS) — a ship-based biogeochemical pilot.*
+**Earth System Science Data**, 16(4), 1901–1931. [DOI: 10.5194/essd-16-1901-2024](https://doi.org/10.5194/essd-16-1901-2024)
+
+Palevsky, H.I., Clayton, S., Benway, H., Maheigan, M., *et al.*, **Flecha, S.**, *et al.* (2024).
+*A model for community-driven development of best practices: the OOI Biogeochemical Sensor Data Best Practices and User Guide.*
+**Frontiers in Marine Science**, 11, 1358591. [DOI: 10.3389/fmars.2024.1358591](https://doi.org/10.3389/fmars.2024.1358591)
+
+Águeda Aramburu, P., **Flecha, S.**, Lujan-Williams, C.A.M., Hendriks, I.E. (2024).
+*Water column oxygenation by *Posidonia oceanica* seagrass meadows in coastal areas: a modelling approach.*
+**Science of the Total Environment**, 942, 173805. [DOI: 10.1016/j.scitotenv.2024.173805](https://doi.org/10.1016/j.scitotenv.2024.173805)
+
+**Flecha, S.**, Rueda, D., de la Paz, M., Pérez, F.F., Alou-Font, E., Tintoré, J., Hendriks, I.E. (2023).
+*Spatial and temporal variation of methane emissions in the coastal Balearic Sea, Western Mediterranean.*
+**Science of the Total Environment**, 865, 161249. *(First and corresponding author)* · [DOI: 10.1016/j.scitotenv.2022.161249](https://doi.org/10.1016/j.scitotenv.2022.161249)
+
+Amaya-Vías, S., **Flecha, S.**, Pérez, F.F., Navarro, G., García-Lafuente, J., Makaoui, A., Huertas, I.E. (2023).
+*The time series at the Strait of Gibraltar as a baseline for long-term assessment of vulnerability of calcifiers to ocean acidification.*
+**Frontiers in Marine Science**, 10, 1196938. [DOI: 10.3389/fmars.2023.1196938](https://doi.org/10.3389/fmars.2023.1196938)
+
+**Flecha, S.**, Giménez-Romero, À., Tintoré, J., Pérez, F.F., Alou-Font, E., Matías, M.A., Hendriks, I.E. (2022).
+*pH trends and seasonal cycle in the coastal Balearic Sea reconstructed through machine learning.*
+**Scientific Reports**, 12(1), 12956. *(First and corresponding author)* · [DOI: 10.1038/s41598-022-17253-5](https://doi.org/10.1038/s41598-022-17253-5)
+
+Hendriks, I.E., Escolano-Moltó, A., **Flecha, S.**, Vaquer-Sunyer, R., Wesselmann, M., Marbà, N. (2022).
+*Mediterranean seagrasses as carbon sinks: methodological and regional differences.*
+**Biogeosciences**, 19(18), 4619–4637. [DOI: 10.5194/bg-19-4619-2022](https://doi.org/10.5194/bg-19-4619-2022)
+
+---
+
+## 2019 – 2021 · Selected Publications
+
+García-Lafuente, J., Sammartino, S., Huertas, I.E., **Flecha, S.**, *et al.* (2021).
+*Hotter and weaker Mediterranean outflow as a response to basin-wide alterations.*
+**Frontiers in Marine Science**, 8, 613444. [DOI: 10.3389/fmars.2021.613444](https://doi.org/10.3389/fmars.2021.613444)
+
+Marx, L., **Flecha, S.**, Wesselmann, M., Morell, C., Hendriks, I.E. (2021).
+*Marine macrophytes as carbon sinks: comparison between seagrasses and *Halimeda incrassata* in the Western Mediterranean.*
+**Frontiers in Marine Science**, 8, 746379. [DOI: 10.3389/fmars.2021.746379](https://doi.org/10.3389/fmars.2021.746379)
+
+Álvarez-Salgado, X.A., Otero, J., **Flecha, S.**, Huertas, I.E. (2020).
+*Seasonality of dissolved organic carbon exchange across the Strait of Gibraltar.*
+**Geophysical Research Letters**, 47(18), e2020GL089601. [DOI: 10.1029/2020GL089601](https://doi.org/10.1029/2020GL089601)
+
+**Flecha, S.**, Pérez, F.F., Murata, A., Makaoui, A., Huertas, I.E. (2019).
+*Decadal acidification in Atlantic and Mediterranean water masses exchanging at the Strait of Gibraltar.*
+**Scientific Reports**, 9(1), 15533. *(First and corresponding author)* · [DOI: 10.1038/s41598-019-52084-x](https://doi.org/10.1038/s41598-019-52084-x)
+
+Huertas, I.E., de la Paz, M., Pérez, F.F., Navarro, G., **Flecha, S.** (2019).
+*Methane emissions from the salt marshes of Doñana wetlands: spatio-temporal variability and controlling factors.*
+**Frontiers in Ecology and Evolution**, 7, 032. [DOI: 10.3389/fevo.2019.00032](https://doi.org/10.3389/fevo.2019.00032)
+
+---
+
+## Landmark Publications · Top 10 % most-cited
+
+**Flecha, S.**, Pérez, F.F., García-Lafuente, J., Sammartino, S., Ríos, A.F., Huertas, I.E. (2015).
+*Trends of pH decrease in the Mediterranean Sea through high-frequency observational data: indication of ocean acidification in the basin.*
+**Scientific Reports**, 5, 16770.
+*— 48 citations · Q1 · Top 10 % most-cited in its field.*
+[DOI: 10.1038/srep16770](https://doi.org/10.1038/srep16770)
+
+Navarro, G., Huertas, I.E., Costas, E., **Flecha, S.**, Díez-Minguito, M., Caballero, I., López-Rodas, V., Prieto, L., Ruiz, J. (2012).
+*Use of a real-time remote-monitoring network (RTRM) to characterise the Guadalquivir estuary.*
+**Sensors**, 12(2), 1398–1421.
+*— 50 citations · Top 10 % most-cited in its field.*
+[DOI: 10.3390/s120201398](https://doi.org/10.3390/s120201398)
+
+Vázquez, A., **Flecha, S.**, Bruno, M., Macías, D., Navarro, G. (2009).
+*Internal waves and short-scale distribution patterns of chlorophyll in the Strait of Gibraltar and Alborán Sea.*
+**Geophysical Research Letters**, 36(23), L23601.
+*— 54 citations · Q1 · Top 10 % most-cited in its field.*
+[DOI: 10.1029/2009GL040959](https://doi.org/10.1029/2009GL040959)
+
+---
+
+## Foundational Work (2012 – 2018)
+
+Huertas, I.E., **Flecha, S.**, Navarro, G., Pérez, F.F., de la Paz, M. (2018).
+*Spatio-temporal variability and controls on methane and nitrous oxide in the Guadalquivir Estuary, SW Europe.*
+**Aquatic Sciences**, 80(3), 29. [DOI: 10.1007/s00027-018-0580-5](https://doi.org/10.1007/s00027-018-0580-5)
+
+Huertas, I.E., **Flecha, S.**, Figuerola, J., Costas, E., Morris, E.P. (2017).
+*Effect of hydroperiod on CO₂ fluxes at the air–water interface in the Mediterranean coastal wetlands of Doñana.*
+**Journal of Geophysical Research: Biogeosciences**, 122(7), 1615–1631. [DOI: 10.1002/2017JG003793](https://doi.org/10.1002/2017JG003793)
+
+Carracedo, L.I., Pardo, P.C., **Flecha, S.**, Pérez, F.F. (2016).
+*On the Mediterranean water composition.*
+**Journal of Physical Oceanography**, 46(4), 1339–1358. [DOI: 10.1175/JPO-D-15-0095.1](https://doi.org/10.1175/JPO-D-15-0095.1)
+
+**Flecha, S.**, Huertas, I.E., Navarro, G., Morris, E.P., Ruiz, J. (2015).
+*Air–water CO₂ fluxes in a highly heterotrophic estuary.*
+**Estuaries and Coasts**, 38(6), 2295–2309. [DOI: 10.1007/s12237-014-9923-1](https://doi.org/10.1007/s12237-014-9923-1)
+
+de la Paz, M., Huertas, I.E., **Flecha, S.**, Ríos, A.F., Pérez, F.F. (2015).
+*Nitrous oxide and methane in Atlantic and Mediterranean waters in the Strait of Gibraltar: air–sea fluxes and inter-basin exchange.*
+**Progress in Oceanography**, 138, 18–31. [DOI: 10.1016/j.pocean.2015.09.009](https://doi.org/10.1016/j.pocean.2015.09.009)
+
+Morris, E.P., **Flecha, S.**, Figuerola, J., Costas, E., Navarro, G., Ruiz, J., Rodriguez, P., Huertas, I.E. (2013).
+*Contribution of Doñana wetlands to carbon sequestration.*
+**PLoS One**, 8(8), e71456. [DOI: 10.1371/journal.pone.0071456](https://doi.org/10.1371/journal.pone.0071456)
+
+**Flecha, S.**, Pérez, F.F., Navarro, G., Ruiz, J., Olivé, I., Rodríguez-Gálvez, S., Costas, E., Huertas, I.E. (2012).
+*Anthropogenic carbon inventory in the Gulf of Cádiz.*
+**Journal of Marine Systems**, 92(1), 67–75. [DOI: 10.1016/j.jmarsys.2011.10.010](https://doi.org/10.1016/j.jmarsys.2011.10.010)
+
+---
+
+## Book Chapters & Technical Reports
+
+- Huertas, I.E., **Flecha, S.**, de la Paz, M., Navarro, G., Pérez, F.F. (2022). *Efecto de la permeabilización de la marisma del Parque Nacional de Doñana sobre la estructura biogeoquímica de sus ecosistemas acuáticos.* In *Proyectos de investigación en parques nacionales: 2015–2019*, pp. 155–171. OA Parques Nacionales. ISBN 978-84-8014-870-2.
+- Huertas, I.E., Morris, E.P., **Flecha, S.**, *et al.* (2015). *Contribución del compartimento acuático de Doñana al intercambio de CO₂ atmosférico.* In *Proyectos de investigación en parques nacionales: 2010–2013*, pp. 213–238.
+- Vázquez, A., Navarro, G., **Flecha, S.**, Bruno, M. (2009). *Application of remote-sensing techniques to the study of internal waves in the Strait of Gibraltar.* *Proceedings of MARTECH09*, SARTI-UPC.
+- **Flecha, S.** (2012). *The characterisation and quantification of carbon-cycle processes in the Gulf of Cádiz and the Strait of Gibraltar.* *SOLAS Newsletter*, 14, 12–13.
+
+---
+
+## Open Scientific Datasets
+
+Aligned with **FAIR principles** and the CSIC open-science strategy, I have contributed continuously to the curation and publication of scientific datasets in internationally recognised repositories.
+
+- **SOCAT v2026** · Surface ocean CO₂ observations from Deception Island, Antarctica *(Padin, Huertas, Amaya-Vías, Flecha et al., 2026)*
+- **CARIMED** · CARbon, tracers and ancillary data in the Mediterranean Sea · DIGITAL.CSIC · [10.20350/digitalCSIC/17785](https://doi.org/10.20350/digitalCSIC/17785)
+- **Dissolved GHGs in Deception Island, Antarctica** · DIGITAL.CSIC · [10.20350/digitalCSIC/17871](https://doi.org/10.20350/digitalCSIC/17871)
+- **N₂O emissions in the coastal Balearic Sea (2018–2023)** · DIGITAL.CSIC · [10.20350/DIGITALCSIC/17284](https://doi.org/10.20350/DIGITALCSIC/17284)
+- **Methane emissions in the coastal Balearic Sea (2019–2021)** · DIGITAL.CSIC · [10.20350/DIGITALCSIC/15491](https://doi.org/10.20350/DIGITALCSIC/15491)
+- **Coastal pH variability reconstructed through ML in the Balearic Sea** · DIGITAL.CSIC · [10.20350/DIGITALCSIC/14750](https://doi.org/10.20350/DIGITALCSIC/14750)
+- **Carbon-system parameters in the Strait of Gibraltar (2005–2021)** · DIGITAL.CSIC · [10.20350/DIGITALCSIC/16463](https://doi.org/10.20350/DIGITALCSIC/16463)
+- **GIFT database (2005–2015)** · IOC-UNESCO SDG 14.3.1 Data Portal · [10.25607/OBP-1116](https://doi.org/10.25607/OBP-1116)
+- **SPOTS · Synthesis Product for Ocean Time Series** · ESSD · [10.5194/essd-16-1901-2024](https://doi.org/10.5194/essd-16-1901-2024)
+
+---
+
+## Thematic Areas
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Greenhouse Gases
+- CO₂, CH₄, N₂O dynamics across scales
+- Air–sea fluxes in coastal, shelf and open-ocean settings
+- Volcanic and anthropogenic forcings on CO₂ in Antarctica
+- Biogeochemical cycling in wetlands, estuaries and seagrass meadows
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ### Ocean Acidification
-- pH trends and decadal changes
-- Impacts on marine calcifiers
-- High-frequency time series
-- Vulnerability assessments
+- Decadal pH and carbonate chemistry trends
+- Vulnerability of marine calcifiers
+- High-frequency observations & sensor validation
+- Long-term coastal and water-mass monitoring
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Regional Studies
-- Mediterranean Sea (Balearic Sea, Strait of Gibraltar)
-- Atlantic Ocean (water mass exchange)
-- Coastal ecosystems and estuaries
-- Wetlands and transitional waters
+### Regional Focus
+- Mediterranean Sea — Balearic Sea, Strait of Gibraltar
+- Atlantic Ocean — Gulf of Cádiz, water-mass exchange
+- Antarctic — Deception Island, polar coastal systems
+- Coastal wetlands — Doñana, Guadalquivir estuary
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-### Advanced Methodologies
-- Machine Learning and AI applications
-- Long-term time series (GIFT, BOATS)
-- Oceanographic Big Data
-- Autonomous sensors and moorings
+### Methodological Innovation
+- Deep learning (BiLSTM, feed-forward NN) for time-series reconstruction
+- OCEAN–IA framework: AI for environmental impact assessment
+- FAIR-aligned open tools and datasets
+- Integration of oceanographic, meteorological and seismic data
 :::
 
 :::
-
-## International Collaborations
-
-I have collaborated with researchers and institutions from:
-
-- **Europe**: Spain, United Kingdom, France, Germany, Norway, Italy
-- **America**: Canada, United States, Argentina
-- **Asia**: China, Japan
-
-## Publication Venues
-
-My work has been published in high-impact journals, including:
-
-- Nature
-- Scientific Reports
-- Global Biogeochemical Cycles
-- Biogeosciences
-- Deep-Sea Research
-- Journal of Marine Systems
-- Estuarine, Coastal and Shelf Science
 
 ---
 
 ## Access to Publications
 
-To access my complete publications:
+- **ORCID** — [0000-0003-2826-5820](https://orcid.org/0000-0003-2826-5820)
+- **Google Scholar** — via the ORCID profile
+- **ResearchGate** — [Susana-Flecha](https://www.researchgate.net/profile/Susana-Flecha)
+- **GitHub** — [susafle](https://github.com/susafle)
 
-- **ORCID**: [0000-0003-2826-5820](https://orcid.org/0000-0003-2826-5820)
-- **Google Scholar**: [Google Scholar Profile](https://scholar.google.com)
-- **ResearchGate**: [ResearchGate Profile](https://www.researchgate.net)
-- **Scopus**: [Author ID](https://www.scopus.com)
-
-For PDF requests or collaborations, contact: susana.flecha@csic.es
+*For PDF requests or collaborations:* [susana.flecha@csic.es](mailto:susana.flecha@csic.es)

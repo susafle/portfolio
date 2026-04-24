@@ -1,170 +1,236 @@
 ---
 title: "Research Projects"
-subtitle: "Current research and completed projects"
+subtitle: "Competitive funding, observational infrastructures and open tools"
 ---
 
-## Current Projects
+## Overview
 
-### MOMENTUM - Postdoctoral Excellence Program
-**Role**: Principal Investigator
-**Period**: 2024 - 2026
-**Funding**: CSIC
+My research trajectory is sustained by **continuous competitive funding** as **Principal Investigator (PI)** and as **team member**, and is articulated around two long-term observational infrastructures — the **Gibraltar Fixed Time Series (GIFT)** and the **Balearic Ocean Acidification Time Series (BOATS)** — and the **OCEAN–IA** framework that applies artificial intelligence to environmental impact assessment in marine systems.
 
-Development of innovative methodologies based on Artificial Intelligence for the analysis and prediction of ocean carbon system parameters. The project integrates high-frequency oceanographic observation data with Machine Learning algorithms to improve our capacity to monitor and predict changes in ocean acidification.
+::: {.grid}
+
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">6</span>
+<span class="metric-label">Projects as PI</span>
+</div>
+:::
+
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">€ 359k</span>
+<span class="metric-label">Captured as PI</span>
+</div>
+:::
+
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">24</span>
+<span class="metric-label">Team Projects</span>
+</div>
+:::
+
+::: {.g-col-6 .g-col-md-3}
+<div class="metric-box">
+<span class="metric-number">7</span>
+<span class="metric-label">International (FP6/FP7/H2020)</span>
+</div>
+:::
+
+:::
+
+---
+
+## Current Position · MOMENTUM Programme
+
+### MOMENTUM — Postdoctoral Excellence Programme
+**Role**: Postdoctoral Researcher · **Period**: 2024 – 2028 · **Funding**: CSIC
+
+Research framed within the **OCEAN–IA** line: development of deep-learning methodologies for reconstructing and predicting ocean acidification, deoxygenation and greenhouse-gas fluxes in coastal and deep-sea environments, integrating high-frequency oceanographic observations, satellite products and geophysical information.
 
 **Main objectives**:
 
-- Application of Deep Learning techniques to oceanographic time series analysis
-- Development of predictive models for carbon system parameters
-- Integration of satellite data and autonomous sensor data
-- Assessment of ocean acidification trends in the Mediterranean
+- Deep-learning models (BiLSTM) for continuous pH, pCO₂ and GHG time series
+- Integration of oceanographic, meteorological and seismic data
+- Extension of the OCEAN–IA framework to polar systems (Deception Island, Antarctica)
+- Assessment of ocean acidification trends in the Western Mediterranean
 
 ---
 
 ## Projects as Principal Investigator
 
-### INDICLIMA - Key Indicators for Predicting Climate Change Impact on Deep-Sea Ecosystems
-**Period**: July 2024 - November 2025
-**Funding**: EU NextGeneration
-**Budget**: €67,850
+### GHG Monitoring across Andalusian Ecosystems
+**Entity**: ICMAN-CSIC — Grants for Technical & R&D Management Support
+**Budget**: **€ 80,000**
 
-Development of key indicators to predict the impact of climate change on deep-sea ecosystems in the Mediterranean Sea, focusing on biogeochemical variables and ecosystem vulnerability assessment.
+Multiplatform monitoring of greenhouse-gas emissions across coastal, continental and marine systems of Andalusia, combining fixed stations, autonomous sensors and ship-based observations.
 
-### EVALUARTE - Assessment of Vulnerability of Deep-Sea Ecosystems to Climate Change
-**Period**: June 2022 - June 2025
-**Funding**: Government of the Balearic Islands (Vicenç Mut 2022)
-**Budget**: €114,000
+### INDICLIMA — Key Indicators for Climate-Change Impacts in Deep-Sea Ecosystems
+**Period**: July 2024 – July 2027 · **Funding**: EU NextGeneration — BIOACT 2024 · **Budget**: **€ 67,850.10**
 
-Assessment of the vulnerability of deep-sea ecosystems to climate change in the Western Mediterranean Sea, examining the state of the art and evolution in the Balearic Sea Basin.
+Development of biogeochemical indicators for evaluating climate-change impacts on deep-sea ecosystems of the Western Mediterranean, building on the methodological outputs of EVALUARTE.
 
-### Greenhouse Gas Dynamics on the Southern Coasts of the Mediterranean
-**Period**: January 2023 - December 2024
-**Funding**: CSIC
-**Budget**: €2,197,696
+### EVALUARTE — Vulnerability of Deep-Sea Ecosystems to Climate Change
+**Period**: June 2022 – June 2025 · **Funding**: Government of the Balearic Islands — *Vicenç Mut 2022* · **Budget**: **€ 114,000**
 
-Coordinator of research on greenhouse gas dynamics in Mediterranean coastal environments, examining spatial and temporal variability of GHG emissions and their role in climate change.
+Integrated assessment of the vulnerability of deep-sea ecosystems to climate change in the Western Mediterranean, examining the state of the art and trends in the Balearic Sea Basin.
 
-### pH Variability in Coastal Areas - Margalida Comas 2017
-**Period**: December 2017 - December 2019
-**Funding**: Government of the Balearic Islands
-**Budget**: €66,000
+### STARTER — Impact of Wastewater Outfalls on *Posidonia oceanica*
+**Period**: March 2021 – March 2022 · **Funding**: Cátedra de la Mar — Fundación Iberostar · **Budget**: **€ 12,000**
 
-Comparison across scales and sources of pH variability in coastal areas, establishing baseline conditions for ocean acidification monitoring.
+Quantification of the impact of wastewater discharges on the ecosystem services provided by *Posidonia oceanica* meadows in Mallorca.
 
-**Impact**:
-- High-frequency time series data collection
-- Machine learning applications for pH reconstruction
-- Publications in Scientific Reports
+### Margalida Comas 2017 — pH Variability in Coastal Areas
+**Period**: December 2017 – December 2019 · **Funding**: Government of the Balearic Islands · **Budget**: **€ 66,000**
 
-### SAMI - Acquisition of Oceanographic pH Sensor
-**Period**: January 2018 - July 2019
-**Funding**: Government of the Balearic Islands
-**Budget**: €19,560
+Comparison across scales and sources of pH variability in Mediterranean coastal areas, establishing baselines for ocean acidification monitoring. Machine-learning applications for pH reconstruction, published in *Scientific Reports*.
 
-Acquisition and deployment of autonomous pH sensors for continuous monitoring of ocean acidification in Mediterranean coastal waters.
+### AAEE111/2017 — Acquisition of Autonomous pH Sensors (SAMI)
+**Period**: June 2018 – July 2019 · **Funding**: Government of the Balearic Islands · **Budget**: **€ 19,560**
 
-### Assessment of Carbon Sink Capacity of a Patagonian Fjord
-**Period**: March 2013 - November 2013
-**Funding**: Fundación ENDESA; CSIC
-**Budget**: €8,700
+Acquisition and deployment of autonomous SAMI pH sensors for continuous monitoring of ocean acidification in Mediterranean coastal waters.
 
-Coordinator of research assessing the carbon sequestration potential of Comau Fjord in Chilean Patagonia.
-
+> **Total competitive funding captured as PI: € 359,410.10**
 
 ---
 
-## International Project Participation
+## Selected Team-Member Projects *(post-doctoral period)*
 
-### PERSEUS: Policy-oriented marine Enviromental Research in the Southern EUropean Seas
-**Role**: Collaborating Researcher
-**Period**: 2012 - 2016
-**Funding**: FP7-OCEAN-2011
+### BIMAR2025 — GIFT4ALL · Gibraltar Fixed Time Series for AI Operational Tools
+**Period**: 2026 – 2028 · **Funding**: CSIC — BIMAR2025 · **Budget**: € 17,605.34
+**Role**: *Work-package leader for Artificial Intelligence*
 
+### DICHOSO — Deception Island Biogeochemical Inventories in the Southern Ocean
+**Period**: 2023 – 2026 · **Funding**: Spanish Ministry of Science and Innovation · **Budget**: € 338,800
+**Role**: *Work-package leader for Greenhouse Gases*
 
-### CARBOCHANGE: Change in carbon uptake and emissions by oceans in a changing climate
-**Role**: Collaborating Researcher
-**Period**: 2011 - 2015
-**Funding**: FP7-OCEAN-2011
+### CYCLE — Complex Dynamics of Coastal Ecosystems and Climate Resilience
+**Period**: 2022 – 2026 · **Funding**: MCIN · **Budget**: € 258,940
+**Role**: *BOATS network station coordinator*
 
+### COOPB22023 — GHG Dynamics on the Southern Coasts of the Mediterranean
+**Period**: 2023 – 2024 · **Funding**: CSIC · **Budget**: € 21,976
+**Role**: *Scientific coordinator*
 
-### SESAME: Southern European Seas: Assessing and Modelling Ecosystem changes
-**Role**: Collaborating Researcher
-**Period**: 2006 - 2011
-**Funding**: FP6-036949 GOCE
+### SuMaEco — Sustainability of Coastal Mediterranean Marine Ecosystems
+**Period**: 2019 – 2022 · **Funding**: MCIN · **Budget**: € 239,580
+**Role**: *BOATS network station coordinator*
 
+### Posi-COIN — Ecosystem Services & Carbon Sinks of *Posidonia oceanica*
+**Period**: 2019 – 2021 · **Funding**: Fundación BBVA · **Budget**: € 99,830
+**Role**: *Scientific coordinator*
+
+### ANTROPOSI — Human Pressures on *Posidonia* in the Anthropocene
+**Period**: 2018 – 2019 · **Funding**: Save Posidonia Project · **Budget**: € 83,821.54
+
+### PERMEAD — Biogeochemistry of Doñana Wetlands
+**Period**: 2015 – 2018 · **Funding**: Autonomous Agency for National Parks · **Budget**: € 57,312.55
+
+---
+
+## International Projects (FP6 · FP7 · Transnational)
+
+- **PERSEUS** — *Policy-oriented marine Environmental Research in the Southern European Seas* · FP7-OCEAN-2011 · 2012–2016
+- **CARBOCHANGE** — *Change in Carbon Uptake and Emissions by Oceans in a Changing Climate* · FP7, Ref. 264879 · 2011–2015
+- **SESAME** — *Southern European Seas: Assessing and Modelling Ecosystem Changes* · FP6-036949 GOCE · 2006–2011
+- **CARBOOCEAN** — *Marine Carbon Sources and Sinks Assessment* · FP6-511176 GOCE · 2005–2009
+- **COST Action 735** — *Tools for Assessing Air–Sea Fluxes of Climate Gases* · Short-Term Scientific Mission, Université de Liège (2010)
+- **Canon Foundation in Europe Research Fellowship** — JAMSTEC (Japan), 2016–2017
+- **Pier2Peer Mentorship Programme** — NOAA Ocean Acidification Program, 2025–2026
+
+---
+
+## Observational Infrastructures
+
+### GIFT — Gibraltar Fixed Time Series *(2008 – Present)*
+
+Long-term oceanographic series based on high-frequency sampling of biogeochemical and physical variables in the Strait of Gibraltar.
+**Role**: *Scientific coordinator*.
+
+- Quantification of decadal acidification rates in Atlantic and Mediterranean water masses
+- Results integrated into the **IPCC SROCC (2019)** and the **CLIVAR-Spain 2025** report
+- Data deposited in IOC-UNESCO and DIGITAL.CSIC open repositories
+
+### BOATS — Balearic Ocean Acidification Time Series *(2018 – Present)*
+
+Coastal observation network in the Balearic Sea, with emphasis on *Posidonia oceanica* meadows.
+**Role**: *Co-founder and co-Principal Investigator*.
+
+- AI-based methodologies for continuous pH reconstruction
+- Characterisation of acidification trends, water-column oxygenation and GHG emissions
+- Methodologies transferred to deep-sea ecosystems through EVALUARTE and INDICLIMA
+
+---
+
+## Open-Source Tools & Digital Transfer
+
+### [GIFT Dashboard](https://github.com/susafle/GIFT_DASHBOARD)
+Open-source platform for managing, visualising and analysing the GIFT biogeochemical time series. Developed as lead author and aligned with the FAIR principles.
+
+### [CO₂ Prediction · BiLSTM](https://github.com/susafle/CO2_prediction_BiLSTM)
+Deep-learning model that integrates oceanographic, meteorological and **seismic** data to estimate seawater CO₂ at **Deception Island (Antarctica)**. A novel methodological development identifying the influence of volcanic seismicity on CO₂ dynamics, fully reproducible through open data and open models (published in *Scientific Data*, 2025).
 
 ---
 
 ## Oceanographic Expeditions
 
-I have participated in more than **47 oceanographic expeditions** in different regions of the world:
+I have participated in **48 oceanographic cruises** (≈ 278 days at sea) across a wide range of regions:
 
-### Atlantic Ocean
-- **P3A2** (2008): Gulf of Cádiz
+::: {.grid}
 
+::: {.g-col-12 .g-col-md-6}
+### Atlantic & Iberian Margin
+- **GIFT** campaigns — Strait of Gibraltar permanent stations (2008 – present)
+- **P3A2** — Gulf of Cádiz (2008)
+- **Patagonia Fjord** — San Ignacio de Huinay, Chile (2013)
+:::
+
+::: {.g-col-12 .g-col-md-6}
 ### Mediterranean Sea
-- **GIFT** (periodical campaigns): Strait of Gibraltar permanent stations
-- **CANALES** (2022-205): Ibiza and Mallorca Channel
+- **CANALES** — Ibiza and Mallorca Channel (2022 – 2025)
+- **BOATS** — Balearic Islands (2018 – present)
+- **Mediterranean CARIMED** synthesis campaigns
+:::
 
+::: {.g-col-12 .g-col-md-6}
 ### Polar Regions
-- **DICHOSO** (2024-2025): Antarctic Peninsula
-- **POLAROMICS** (2026): Antarctic Peninsula
+- **DICHOSO** — Antarctic Peninsula (2024 – 2025)
+- **POLAROMICS** — Antarctic Peninsula (2026)
+- **Deception Island** — volcanic CO₂ dynamics
+:::
 
-### Baltic Sea
-- Regional Training course onboard the Research Vessel "Professor Shtokman” (2007)
+::: {.g-col-12 .g-col-md-6}
+### Northern Europe
+- Regional Training course onboard R/V *Professor Shtokman* — Baltic Sea (2007)
+:::
 
+:::
 
 ---
 
 ## Research Infrastructure
 
-### Monitoring Stations
-
-I have contributed to the establishment and maintenance of several oceanographic observation stations:
-
-- **GIFT Stations**: Time series in the Strait of Gibraltar
-- **BOATS Stations**: Balearic Ocean Acidification TimeSeries
-
-
 ### Scientific Equipment
 
-Experience in the use and maintenance of:
+Experience with the design, deployment and maintenance of:
 
 - Continuous CO₂ measurement systems (LICOR, Contros HydroC)
-- CTD and oceanographic rosettes
-- Autonomous sensors (pH, CO₂, oxygen, temperature, salinity, fluorescence)
-- Laboratory equipment for carbon system analysis
+- Autonomous pH sensors (SAMI, SeaFET)
+- Oxygen, temperature, salinity and fluorescence optodes
+- CTD rosettes and oceanographic moorings
+- Laboratory instrumentation for carbon-system analysis (DIC/TA coulometry, spectrophotometry, gas chromatography)
 
 ---
 
-## Training and Supervision
-
-### Supervised Students
-
-- **PhD**: 1 ongoing thesis (co-supervision)
-- **Master's**: 4 students (completed) and 1 ongoing
-- **Bachelor's**: 2 supervised theses
-
-### Training Delivered
-
-- Course: "Climate Change in Coastal Wetlands" (UIMP)
-- Workshops on oceanographic biogeochemical sensor management and data analysis (MASS, AZTI)
-- Scientific Diving Course (IMEDEA)
-- Technical training in carbon system analysis (ICMAN, IMEDEA)
-
----
-
-## Transfer and Application
+## Transfer & Applications
 
 The results of my research have contributed to:
 
-- Technical reports for environmental management agencies (IPCC, CLIVAR)
-- Advice on marine climate change policies (IPCC, CLIVAR)
-- Development of oceanographic monitoring protocols (OOI Biogeochemical Sensor Data Best Practices and User Guide) 
-- Open-access public databases (IODE, DIGITAL.CSIC, GLODAP, SOCAT)
+- **International climate assessments** — IPCC SROCC (2019), CLIVAR-Spain 2025
+- **Monitoring protocols** — OOI Biogeochemical Sensor Data Best Practices and User Guide
+- **Open-access public databases** — IOC-UNESCO SDG 14.3.1, DIGITAL.CSIC, SOCAT v2026, GLODAP
+- **Regional policy support** — Andalusian Regional Government, Government of the Balearic Islands
 
 ---
 
-For more information about specific projects or potential collaborations:
-
-**Contact**: susana.flecha@csic.es
+*For more information about specific projects or potential collaborations:* **susana.flecha@csic.es**

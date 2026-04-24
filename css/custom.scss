@@ -1,241 +1,508 @@
 /*-- scss:defaults --*/
 
-// Paleta de colores inspirada en el océano
-$primary: #006994;        // Azul océano profundo
-$secondary: #4A90A4;      // Azul océano medio
-$success: #2E8B57;        // Verde marino
-$info: #5BC0DE;           // Azul cielo
-$warning: #F0AD4E;        // Ámbar
-$danger: #D9534F;         // Coral
-$light: #F8F9FA;          // Gris muy claro
-$dark: #2C3E50;           // Azul oscuro profundo
+// ====================================================================
+// Ocean palette — refined for a senior scientific profile
+// ====================================================================
+$primary:        #0A4D6B;    // Deep ocean blue (brand)
+$primary-light:  #1B6A8C;    // Mid ocean blue
+$secondary:      #3F8EA3;    // Atlantic blue
+$accent:         #F2B544;    // Warm sand / coastal amber
+$success:        #2E8B6B;    // Sea grass
+$info:           #5BC0DE;    // Surface sky
+$warning:        #E8A63C;    // Sunrise
+$danger:         #C54434;    // Coral
+$light:          #F4F6F8;    // Sea foam
+$dark:           #0F2A3A;    // Abyssal
 
-// Tipografía
-$font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-family: "Montserrat", "Open Sans", sans-serif;
-$headings-font-weight: 600;
+// Typography — modern, readable
+$font-family-sans-serif: "Inter", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Lora", "Playfair Display", "Georgia", serif;
+$headings-font-weight:   600;
+$headings-line-height:   1.25;
 
-// Espaciado
+$font-size-base:         1rem;
+$line-height-base:       1.75;
+
 $spacer: 1rem;
 
 /*-- scss:rules --*/
 
-// Estilos para el navbar
-.navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
-  font-weight: 500;
-}
-
-.navbar-brand {
-  font-weight: 700;
-  font-size: 1.3em;
-}
-
-// Estilos para títulos
-h1, h2, h3, h4, h5, h6 {
+// ====================================================================
+// Global typography
+// ====================================================================
+body {
   color: $dark;
-  margin-top: 1.5rem;
+  letter-spacing: 0.01em;
+}
+
+// Serif, elegant headings paired with sans-serif body for a professional,
+// editorial tone.
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $dark;
+  margin-top: 2rem;
   margin-bottom: 1rem;
+  letter-spacing: -0.01em;
 }
 
 h1 {
+  font-size: clamp(2rem, 1.4rem + 1.8vw, 2.75rem);
+  font-weight: 700;
+  padding-bottom: 0.75rem;
   border-bottom: 3px solid $primary;
-  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 70px;
+  height: 3px;
+  background: $accent;
 }
 
 h2 {
-  border-bottom: 2px solid $secondary;
-  padding-bottom: 0.3rem;
+  font-size: clamp(1.5rem, 1.2rem + 0.9vw, 2rem);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba($primary, 0.2);
+  margin-top: 2.5rem;
 }
 
-// Estilos para enlaces
-a {
+h3 {
+  font-size: 1.35rem;
   color: $primary;
-  text-decoration: none;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: $secondary;
-    text-decoration: underline;
-  }
+  font-weight: 600;
 }
 
-// Estilos para el footer
-.page-footer {
+p {
+  line-height: 1.75;
+  color: #2A3A46;
+}
+
+// ====================================================================
+// Navbar — refined, minimal, confident
+// ====================================================================
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  background: linear-gradient(90deg, $primary 0%, $primary-light 100%) !important;
+  letter-spacing: 0.02em;
+}
+
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.92) !important;
+  transition: color 0.25s ease, background-color 0.25s ease;
+  border-radius: 6px;
+  padding: 0.5rem 0.9rem !important;
+}
+
+.navbar .nav-link:hover {
+  color: $accent !important;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+// ====================================================================
+// Links
+// ====================================================================
+a {
+  color: $primary-light;
+  text-decoration: none;
+  transition: color 0.25s ease, border-color 0.25s ease;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: $primary;
+  border-bottom-color: $accent;
+}
+
+// ====================================================================
+// Footer — deep ocean band
+// ====================================================================
+.page-footer,
+.nav-footer {
   background: linear-gradient(135deg, $dark 0%, $primary 100%);
-  color: white;
-  padding: 2rem 0;
+  color: $light;
+  padding: 2.5rem 0;
   margin-top: 4rem;
+  font-size: 0.95rem;
 
   a {
     color: $light;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
+  }
 
-    &:hover {
-      color: white;
-    }
+  a:hover {
+    color: $accent;
+    border-bottom-color: $accent;
   }
 }
 
-// Estilos para cards y contenedores
+// ====================================================================
+// Cards and generic containers
+// ====================================================================
 .card {
-  border: none;
-  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0,0,0,.15);
-  }
+  background: #FFFFFF;
 }
 
-// Estilos para imágenes
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(10, 77, 107, 0.12);
+}
+
+// ====================================================================
+// Images
+// ====================================================================
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
-// About page profile image
 .about-entity .about-image {
   border: 4px solid $primary;
-  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  box-shadow: 0 6px 20px rgba(10, 77, 107, 0.25);
 }
 
-// Grid personalizado
+// ====================================================================
+// About page action links (Email, LinkedIn, ORCID ...)
+// ====================================================================
+.about-link,
+.about-links a {
+  border-bottom: none !important;
+}
+
+.about-links a {
+  background: linear-gradient(135deg, $primary 0%, $primary-light 100%);
+  color: #FFFFFF !important;
+  padding: 0.6rem 1.25rem !important;
+  border-radius: 8px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  box-shadow: 0 4px 12px rgba(10, 77, 107, 0.15);
+}
+
+.about-links a:hover {
+  background: linear-gradient(135deg, $primary-light 0%, $accent 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(10, 77, 107, 0.25);
+  color: #FFFFFF !important;
+}
+
+// ====================================================================
+// Grids — responsive, spacious
+// ====================================================================
 .grid {
   gap: 1.5rem;
 }
 
-// Estilos para bloques de código
+.grid > div {
+  background: #FFFFFF;
+  padding: 1.5rem 1.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid > div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(10, 77, 107, 0.1);
+}
+
+.grid > div h3 {
+  margin-top: 0;
+  color: $primary;
+  font-family: $headings-font-family;
+}
+
+// ====================================================================
+// Metric boxes — scientific dashboard feel
+// ====================================================================
+.metric-box {
+  position: relative;
+  padding: 1.75rem 1rem;
+  background: linear-gradient(135deg, $primary 0%, $primary-light 55%, $secondary 100%);
+  color: #FFFFFF;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 10px 28px rgba(10, 77, 107, 0.22);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.metric-box::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -60% auto;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba($accent, 0.28) 0%, transparent 70%);
+  z-index: -1;
+}
+
+.metric-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(10, 77, 107, 0.3);
+}
+
+.metric-number {
+  display: block;
+  font-family: $headings-font-family;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+  letter-spacing: -0.02em;
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.92;
+}
+
+// ====================================================================
+// Timeline — used in About page
+// ====================================================================
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, $primary 0%, $accent 100%);
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.75rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -2.35rem;
+  top: 0.6rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: $primary;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 0 0 2px $primary, 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.timeline-item:hover::before {
+  background: $accent;
+  box-shadow: 0 0 0 2px $accent, 0 2px 10px rgba($accent, 0.4);
+}
+
+.timeline-item h3 {
+  font-family: $headings-font-family;
+  color: $primary;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+// ====================================================================
+// Blockquotes — call-out for emphasis
+// ====================================================================
+blockquote {
+  border-left: 4px solid $accent;
+  padding: 0.9rem 1.25rem;
+  margin: 1.75rem 0;
+  font-style: italic;
+  color: #465764;
+  background: linear-gradient(90deg, rgba($primary, 0.04) 0%, transparent 100%);
+  border-radius: 0 8px 8px 0;
+}
+
+// ====================================================================
+// Code blocks
+// ====================================================================
 pre {
-  background-color: #f5f5f5;
-  border-left: 4px solid $primary;
-  padding: 1rem;
-  border-radius: 4px;
+  background-color: #0F2A3A;
+  color: #F4F6F8;
+  border-left: 4px solid $accent;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 code {
   color: $primary;
-  background-color: #f5f5f5;
-  padding: 0.2rem 0.4rem;
-  border-radius: 3px;
-  font-size: 0.9em;
+  background-color: rgba($primary, 0.08);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.88em;
 }
 
-// Estilos para tablas
+// ====================================================================
+// Tables — clean, restrained
+// ====================================================================
 table {
   width: 100%;
   margin: 1.5rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
 
   thead {
-    background-color: $primary;
-    color: white;
+    background: linear-gradient(90deg, $primary 0%, $primary-light 100%);
+    color: #FFFFFF;
   }
 
   th, td {
-    padding: 0.75rem;
-    border: 1px solid #dee2e6;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   }
 
   tbody tr:nth-child(even) {
-    background-color: #f8f9fa;
+    background-color: rgba($primary, 0.03);
   }
 
   tbody tr:hover {
-    background-color: #e9ecef;
+    background-color: rgba($accent, 0.08);
   }
 }
 
-// Estilos para blockquotes
-blockquote {
-  border-left: 5px solid $primary;
-  padding-left: 1.5rem;
-  margin: 1.5rem 0;
-  font-style: italic;
-  color: #555;
-}
-
-// Estilos para listas
+// ====================================================================
+// Lists
+// ====================================================================
 ul, ol {
   margin: 1rem 0;
-  padding-left: 2rem;
+  padding-left: 1.75rem;
 
   li {
     margin-bottom: 0.5rem;
-    line-height: 1.6;
+    line-height: 1.75;
   }
 }
 
-// Hero section en homepage
-.hero-section {
-  background: linear-gradient(135deg, rgba(0,105,148,0.9) 0%, rgba(74,144,164,0.9) 100%);
-  color: white;
-  padding: 3rem 0;
-  margin-bottom: 2rem;
-  border-radius: 8px;
+// ====================================================================
+// Hero section (homepage column-page figure)
+// ====================================================================
+.column-page img {
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(10, 77, 107, 0.18);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-// Estilos para badges/tags
+.column-page img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 18px 40px rgba(10, 77, 107, 0.25);
+}
+
+.column-page figcaption,
+.column-page p {
+  text-align: center;
+  font-style: italic;
+  color: #586874;
+  margin-top: 0.75rem;
+}
+
+// ====================================================================
+// Badges
+// ====================================================================
 .badge {
   font-weight: 500;
   padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  letter-spacing: 0.03em;
 }
 
-// Smooth scroll
+// ====================================================================
+// Smooth scroll & selection
+// ====================================================================
 html {
   scroll-behavior: smooth;
 }
 
-// Espaciado general
-.quarto-title-block {
-  margin-bottom: 2rem;
+::selection {
+  background: $primary;
+  color: #FFFFFF;
 }
 
-// Responsive images en galería
-.column-page img {
-  width: 100%;
-  object-fit: cover;
-}
-
-// Hover effects para links de redes sociales
-.navbar-nav .nav-link {
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: rgba(255,255,255,0.1);
-    border-radius: 4px;
-  }
-}
-
-// Estilos para el listing de blog
-.quarto-listing {
-  margin-top: 2rem;
-}
-
-.listing-item {
-  border-bottom: 1px solid #dee2e6;
-  padding: 1.5rem 0;
-
-  &:last-child {
-    border-bottom: none;
-  }
-}
-
-// Mejoras de accesibilidad
-a:focus, button:focus {
-  outline: 2px solid $primary;
+// ====================================================================
+// Accessibility
+// ====================================================================
+a:focus,
+button:focus {
+  outline: 2px solid $accent;
   outline-offset: 2px;
 }
 
-// Print styles
+// ====================================================================
+// Print
+// ====================================================================
 @media print {
-  .navbar, .page-footer {
+  .navbar,
+  .page-footer,
+  .nav-footer {
     display: none;
   }
 
+  body {
+    color: #000000;
+    background: #FFFFFF;
+  }
+
   a {
-    color: $dark;
-    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
+    border-bottom: none;
+  }
+
+  .metric-box {
+    background: #FFFFFF !important;
+    color: $dark !important;
+    border: 1px solid $primary;
+    box-shadow: none;
+  }
+}
+
+// ====================================================================
+// Responsive tweaks
+// ====================================================================
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.85rem;
+  }
+
+  .metric-number {
+    font-size: 2rem;
+  }
+
+  .metric-label {
+    font-size: 0.72rem;
   }
 }

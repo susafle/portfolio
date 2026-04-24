@@ -5,13 +5,13 @@
 
 /* Global Design System Variables */
 :root {
-  /* Brand Colors */
-  --primary-color: #006994;
-  --primary-hover: #4A90A4;
-  --primary-dark: #004d6b;
-  --accent-color: #00a8e1;
-  --accent-light: #5bc0de;
-  --secondary-color: #2c5f7d;
+  /* Brand Colors — refined ocean palette */
+  --primary-color: #0A4D6B;
+  --primary-hover: #1B6A8C;
+  --primary-dark: #062F44;
+  --accent-color: #F2B544;
+  --accent-light: #F7CF7A;
+  --secondary-color: #3F8EA3;
 
   /* Text Colors */
   --text-dark: #1a1a1a;
@@ -391,16 +391,16 @@ em {
 }
 
 .metric-box {
-  padding: var(--spacing-2xl) var(--spacing-lg);
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+  padding: var(--spacing-xl) var(--spacing-md);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 55%, var(--secondary-color) 100%);
   color: white;
-  border-radius: var(--border-radius-xl);
+  border-radius: var(--border-radius-lg);
   text-align: center;
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 10px 28px rgba(10, 77, 107, 0.22);
   transition: var(--transition-slow);
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.14);
 }
 
 .metric-box::before {
@@ -445,28 +445,27 @@ em {
 }
 
 .metric-number {
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 700;
   display: block;
-  margin-bottom: var(--spacing-sm);
-  text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+  margin-bottom: var(--spacing-xs);
+  font-family: "Lora", "Playfair Display", Georgia, serif;
+  letter-spacing: -0.02em;
+  line-height: 1;
   position: relative;
   z-index: 1;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.8) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
 .metric-label {
-  font-size: 1rem;
-  opacity: 0.95;
+  font-size: 0.8rem;
+  opacity: 0.92;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.14em;
   position: relative;
   z-index: 1;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 /* Modern Image Gallery - Grid Matrix Layout */

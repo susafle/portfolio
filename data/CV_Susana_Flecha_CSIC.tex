@@ -1,0 +1,1945 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage{array}
+\usepackage{booktabs} % opcional, pero recomendado
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+% CSIC Corporate Colors
+\definecolor{csicred}{RGB}{139,0,0}
+\definecolor{csicgold}{RGB}{255,215,0}
+\definecolor{darkgray}{RGB}{64,64,64}
+\definecolor{lightgray}{RGB}{240,240,240}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=csicred,
+    urlcolor=csicred,
+    citecolor=csicred
+}
+
+% Section formatting
+\titleformat{\section}
+{\color{csicred}\Large\bfseries}
+{\thesection.}{0.5em}{}[\titlerule]
+
+\titleformat{\subsection}
+{\color{csicred}\large\bfseries}
+{\thesubsection.}{0.5em}{}
+
+\titleformat{\subsubsection}
+{\color{csicred}\normalsize\bfseries}
+{\thesubsubsection.}{0.5em}{}
+
+% Custom commands
+% --- Nueva definición de Breve Exposición ---
+\newcommand{\breveexposicion}[2]{
+    \subsection*{\color{darkgray}\textbf{BREVE EXPOSICIÓN -- #1}}
+    \vspace{0.3em}
+    \noindent\colorbox{lightgray}{%
+        \begin{minipage}{0.97\textwidth}
+        \vspace{0.5em}
+        \color{darkgray}
+        #2
+        \vspace{0.5em}
+        \end{minipage}
+    }
+    \vspace{1em}
+}
+
+\newcommand{\publication}[1]{\item #1}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\color{csicred}\textbf{SUSANA FLECHA SAURA}}\\[0.5em]
+    {\Large\color{darkgray}Doctora en Ciencias}\\[1em]
+
+    \begin{tabular}{c c c c}
+        \faEnvelope\ \href{mailto:susana.flecha@csic.es}{susana.flecha@csic.es} &
+        \faOrcid\ \href{https://orcid.org/0000-0001-8285-5517}{0000-0001-8285-5517} &
+        \faGlobe\ \href{https://susafle.github.io/portfolio/}{Web personal} &
+        \faGlobe\ \href{https://www.researchgate.net/profile/Susana-Flecha}{ResearchGate}
+    \end{tabular}
+\end{center}
+
+\vspace{0.5em}
+
+
+
+% ============================================================================
+% DATOS ACADÉMICOS BÁSICOS
+% ============================================================================
+
+\section*{DATOS ACADÉMICOS Y POSICIÓN ACTUAL}
+
+\subsection*{Formación Académica}
+
+\textbf{Doctorado en Ciencias} -- Universidad de Cádiz (2015)\\
+\textit{Calificación: Sobresaliente Cum Laude}\\
+Título: \textit{Flujos de carbono en sistemas costeros de la cuenca Sur-Atlántica Ibérica:Intercambios de CO\textsubscript{2} con la atmósfera y cuantificación de la huella antropogénica}\\
+\textbf{Premio Extraordinario de Doctorado y Mención Internacional} (2016)
+
+\textbf{Máster en Oceanografía} -- Universidad de Cádiz (2009)\\
+\textit{Calificación: Notable}
+
+\textbf{Programa Experto en Data Science + IA Generativa} -- DATAMECUM DATA MANAGEMENT, SL (En curso)
+
+\textbf{Licenciatura en Ciencias del Mar} -- Universidad de Cádiz (2008)\\
+\textit{Calificación: Notable}
+
+\subsection*{Posición Actual}
+
+\textbf{Investigadora Postdoctoral Programa MOMENTUM CSIC} (Diciembre 2024 - Presente)\\
+Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC), Cádiz, España\\
+Departamento de Ecología y Gestión Costera - Grupo de Oceanografía de Ecosistemas
+
+\subsection*{Líneas de Investigación}
+
+\begin{itemize}[leftmargin=*]
+    \item Evaluación de \textbf{impactos de origen natural y antrópico sobre sistemas costeros, estuarinos y fondos marinos} mediante el análisis del \textbf{sistema del carbono} y de los intercambios océano–atmósfera.
+    \item Estudio de la \textbf{acidificación oceánica y la desoxigenación} como \textbf{indicadores de presión e impacto ambiental}, abordando su variabilidad espacial y temporal en costas, plataforma continental y entornos profundos.
+    \item Análisis integrado del \textbf{cambio global en el medio marino} desde la perspectiva de la oceanografía química y la biogeoquímica marina, con énfasis en procesos sensibles a forzamientos naturales y actividades humanas.
+    \item Desarrollo de la línea \textbf{OCEAN--IA}: \textbf{aplicación de inteligencia artificial y aprendizaje automático} al diagnóstico, reconstrucción y predicción de impactos de origen natural y antropogénico en sistemas marinos, integrando observaciones oceanográficas, meteorológicas y geofísicas.
+    \item \textbf{Modelización avanzada y análisis de series temporales oceanográficas de largo plazo}, orientados a la detección de tendencias, anomalías y eventos compuestos asociados al cambio global en costas y fondos marinos.
+\end{itemize}
+
+\begin{center}
+\color{darkgray}\small
+\textit{Última actualización: Abril 2026}\\
+\vspace{0.5em}
+\textit{Currículum Vitae estructurado según criterios de evaluación BOE}
+\end{center}
+
+\newpage
+
+\clearpage
+\section*{ÍNDICE}
+
+\small
+\begin{itemize}[leftmargin=*, itemsep=0.35em]
+
+\item \textbf{A. Contribuciones científicas y tecnológicas}
+  \begin{itemize}[leftmargin=1.2em]
+    \item A.1 Artículos publicados en revistas científicas
+    \item A.2 Proyectos de investigación financiados competitivamente
+    \item A.3 Libros, capítulos, informes y bases de datos
+    \item A.4 Dirección o coordinación de equipamientos o instalaciones singulares
+    \item A.5 Asesoramiento científico
+    \item A.6 Desarrollo y transferencia de herramientas digitales
+  \end{itemize}
+
+\item \textbf{B. Otros méritos curriculares}
+  \begin{itemize}[leftmargin=1.2em]
+    \item B.1 Dirección de estudiantes
+    \item B.2 Premios, menciones y distinciones
+    \item B.3 Ayudas y becas obtenidas
+    \item B.4 Divulgación científica
+    \item B.5 Congresos, seminarios y cursos
+    \item B.6 Organización de actividades científicas
+    \item B.7 Representación en organismos científicos
+    \item B.8 Formación en igualdad de género
+    \item B.9 Formación complementaria y especialización técnica
+  \end{itemize}
+
+\item \textbf{C. Internacionalización}
+  \begin{itemize}[leftmargin=1.2em]
+    \item C.1 Movilidad internacional
+    \item C.2 Programas y proyectos internacionales
+    \item C.3 Publicaciones en colaboración internacional
+  \end{itemize}
+
+\item \textbf{D. Liderazgo}
+  \begin{itemize}[leftmargin=1.2em]
+    \item D.1 Liderazgo en proyectos como IP
+    \item D.2 Liderazgo en publicaciones científicas
+    \item D.3 Campañas oceanográficas
+    \item D.4 Autonomía científica y capacidad de gestión
+    \item D.5 Reconocimiento científico
+  \end{itemize}
+
+\end{itemize}
+
+\clearpage
+\newpage
+
+\clearpage
+\section*{RESUMEN GRÁFICO}
+
+\begin{center}
+    \includegraphics[width=0.95\textwidth]{graphical_abstract_CV.png}
+\end{center}
+
+\clearpage
+\newpage
+% ============================================================================
+% CRITERIO 1
+% ============================================================================
+
+% Configurar numeración con letras para secciones desde aquí
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\Alph{section}.\arabic{subsection}.\arabic{subsubsection}}
+\setcounter{section}{0}
+
+\section{CONTRIBUCIONES CIENTÍFICAS Y TECNOLÓGICAS}
+
+\subsection{Artículos publicados en revistas científicas}
+
+\breveexposicion{Criterio A.1. Artículos publicados en revistas científicas}{
+La producción científica desarrollada \textbf{desde la obtención del doctorado} se caracteriza por una trayectoria \textbf{continua, coherente y altamente competitiva}, centrada en la oceanografía química y la biogeoquímica marina aplicada al \textbf{análisis de impactos de origen natural y antrópico sobre sistemas costeros, plataforma continental y fondos marinos}. Un rasgo distintivo de esta trayectoria es la \textbf{incorporación sistemática de técnicas de inteligencia artificial y aprendizaje automático} para el análisis de procesos del sistema del carbono, la acidificación oceánica y los flujos de gases de efecto invernadero como \textbf{indicadores funcionales de presión e impacto ambiental}.
+
+Esta actividad se traduce en \textbf{29 artículos en revistas científicas indexadas}, de los cuales \textbf{24 corresponden al periodo postdoctoral}, con un \textbf{59\,\% publicados en revistas Q1 JCR} (63\,\% desde el doctorado) y un \textbf{factor de impacto promedio de 4.2} (4.8 desde el doctorado). Las publicaciones se concentran en revistas internacionales de \textbf{gran reputación científica}, como \textit{Scientific Reports}, \textit{Scientific Data} y \textit{Earth System Science Data}, adecuadas para la difusión de resultados sobre impactos ambientales marinos.
+
+El impacto científico queda reflejado en un \textbf{H-index de 14 (Scopus) / 16 (Google Scholar)} y un total de \textbf{503 citas (Scopus) / 731 citas (Google Scholar)}. Destacan \textbf{tres publicaciones situadas en el Top 10\,\% de citas} en sus respectivos campos, que constituyen \textbf{indicios objetivos de calidad excepcional} conforme a los criterios de evaluación.
+
+Finalmente, la mayoría de las contribuciones incorporan \textbf{desarrollos metodológicos} para la el análisis de series de datos ambientales, permitiendo avanzar desde la observación discontinua hacia la \textbf{evaluación robusta de impactos y cambios inducidos por forzamientos naturales y antrópicos}. Estas aportaciones definen una línea metodológica diferenciada, alineada con el perfil de la plaza.
+}
+
+\subsubsection{Métricas Bibliométricas}
+
+\begin{minipage}[t]{0.48\textwidth}
+\raggedright
+\textbf{TOTALES (2009-2025)}
+\begin{itemize}[leftmargin=*,label={}]
+    \item \textbf{Artículos en revistas indexadas:} 29~publicaciones
+    \item \textbf{Artículos en revistas Q1:} 17~publicaciones (59\%)
+    \item \textbf{Factor de Impacto promedio:} 4.2
+    \item \textbf{Primera autora:} 8~publicaciones
+    \item \textbf{Autora correspondiente:} 7~publicaciones
+    \item \textbf{Artículos con +40 citas:} 4~publicaciones
+    \item \textbf{Artículos con +20 citas:} 13~publicaciones
+\end{itemize}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedright
+\textbf{DESDE DOCTORADO (2015-2025)}
+\begin{itemize}[leftmargin=*,label={}]
+    \item \textbf{Artículos en revistas indexadas:} 24~publicaciones
+    \item \textbf{Artículos en revistas Q1:} 15~publicaciones (63\%)
+    \item \textbf{Factor de Impacto promedio:} 4.8
+    \item \textbf{Primera autora:} 7~publicaciones
+    \item \textbf{Autora correspondiente:} 7~publicaciones
+    \item \textbf{Artículos con +40 citas:} 1~publicación
+    \item \textbf{Artículos con +20 citas:} 8~publicaciones
+\end{itemize}
+\end{minipage}
+
+\vspace{0.5em}
+\noindent\textit{\small Datos actualizados: abril 2026.}
+
+\vspace{0.3em}
+\noindent\textbf{Leyenda:} $\blacktriangleright$ Publicación desde el doctorado (2015) | \textbf{1A:} Primera autora | \textbf{AC:} Autora correspondiente | \textbf{Q1:} Cuartil JCR (solo se indica Q1, las demás no llevan indicación) | \textbf{IF:} Factor de Impacto
+
+\subsubsection{Listado Completo de Publicaciones (orden cronológico inverso)}
+
+\begin{enumerate}[leftmargin=*]
+
+% ===== 2025 (5 publicaciones) =====
+\item $\blacktriangleright$ Álvarez, M., García-Ibáñez, M.I., Lange, N., Kozyr, A., Velo, A., Tanhua, T., Civitarese, G., Cantoni, C., Belgacem, M., Schroeder, K., Acerbi, R., Coppola, L., Wagener, T., Fajar, N.M., \textbf{Flecha, S.} \textbf{(15/30)}, et al. (2025). CARIMED (CARbon, tracers, and ancillary data In the MEDiterranean Sea): A ship-based data synthesis product – overview and quality control procedures. \textit{Earth System Science Data Discussions} [preprint]. \href{https://doi.org/10.5194/essd-2025-759}{DOI: 10.5194/essd-2025-759}. \textcolor{darkgray}{\small [En revisión | IF estimado: 11.2 | Q1]}
+
+\item $\blacktriangleright$ \textbf{Flecha, S.} \textbf{(1A, AC, 1/7)}, Amaya-Vías, S., Medina, M., et al. (2025). Integrated meteocean and seismic dataset for AI-based seawater CO2 estimation at Deception Island, Antarctica. \textit{Scientific Data}. \href{https://doi.org/10.1038/s41597-025-06351-4}{DOI: 10.1038/s41597-025-06351-4}. \textcolor{darkgray}{\small [IF estimado: 6.9 | Q1]}
+
+\item $\blacktriangleright$ Villarino, E., Essel, D.A., Citores, L., Larreta, J., Lopez, A., Borja, A., \textbf{Flecha, S.} \textbf{(7/12)}, González, M., Cuesta, L., Orue-Echevarria, D., Esteban, X., Chust, G. (2025). Long-term pH trends across depth in coastal areas of the southeastern Bay of Biscay. \textit{Continental Shelf Research}, 293, 105532. \href{https://doi.org/10.1016/j.csr.2025.105532}{DOI: 10.1016/j.csr.2025.105532}. \textcolor{darkgray}{\small [IF estimado: 2.2 | Q1]}
+
+\item $\blacktriangleright$ Amaya-Vías, S., \textbf{Flecha, S.}, Román, A., Haro, S., Oviedo, J.L., Navarro, G., Arroyo, G.M., Huertas, I.E. (2025). Air-water CO2 exchange in transformed saltmarshes for different uses and under various management models. \textit{Journal of Environmental Management}, 380, 125188. \href{https://doi.org/10.1016/j.jenvman.2025.125188}{DOI: 10.1016/j.jenvman.2025.125188}. \textcolor{darkgray}{\small [IF estimado: 8.4 | Q1]}
+
+\item $\blacktriangleright$ \textbf{Flecha, S.} \textbf{(1A, AC)}, De La Paz, M., Pérez, F.F., Marbà, N., Morell, C., Alou-Font, E., Tintoré, J., Hendriks, I.E. (2025). Drivers of the spatiotemporal distribution of dissolved nitrous oxide and air-sea exchange in a coastal Mediterranean area. \textit{Ocean Science}, 21(4), 1515-1532. \href{https://doi.org/10.5194/os-21-1515-2025}{DOI: 10.5194/os-21-1515-2025}. \textcolor{darkgray}{\small [IF estimado: 3.3 | Q1]}
+
+% ===== 2024 (3 publicaciones) =====
+\item $\blacktriangleright$ Lange, N., Fiedler, B., Álvarez, M., Benoit-Cattin, A., Benway, H., Buttigieg, P.L., Coppola, L., Currie, K., \textbf{Flecha, S.} \textbf{(9/23)}, et al. (2024). Synthesis Product for Ocean Time Series (SPOTS) - a ship-based biogeochemical pilot. \textit{Earth System Science Data}, 16(4), 1901-1931. \href{https://doi.org/10.5194/essd-16-1901-2024}{DOI: 10.5194/essd-16-1901-2024}. \textcolor{darkgray}{\small [7 citas | IF: 11.6 | Q1]}
+
+\item $\blacktriangleright$ Palevsky, H.I., Clayton, S., Benway, H., Maheigan, M., Atamanchuk, D., Battisti, R., Batryn, J., Bourbonnais, A., Briggs, E.M., Carvalho, F., Chase, A.P., Eveleth, R., Fatland, R., Fogaren, K.E., Fram, J.P., Hartman, S.E., Le Bras, I., Manning, C.C.M., Needoba, J.A., Neely, M.B., Oliver, H., Reed, A.C., Rheuban, J.E., Schallenberg, C., Walsh, I., Wingard, C., Bauer, K., Chen, B., Cuevas, J., \textbf{Flecha, S.} \textbf{(30/37)}, et al. (2024). A model for community-driven development of best practices: the Ocean Observatories Initiative Biogeochemical Sensor Data Best Practices and User Guide. \textit{Frontiers in Marine Science}, 11, 1358591. \href{https://doi.org/10.3389/fmars.2024.1358591}{DOI: 10.3389/fmars.2024.1358591}. \textcolor{darkgray}{\small [1 cita | IF: 3.0 | Q1]}
+
+\item $\blacktriangleright$ Agueda Aramburu, P., \textbf{Flecha, S.} \textbf{(2/4)}, Lujan-Williams, C.A.M., Hendriks, I.E. (2024). Water column oxygenation by Posidonia oceanica seagrass meadows in coastal areas: A modelling approach. \textit{Science of the Total Environment}, 942, 173805. \href{https://doi.org/10.1016/j.scitotenv.2024.173805}{DOI: 10.1016/j.scitotenv.2024.173805}. \textcolor{darkgray}{\small [5 citas | IF: 8.0 | Q1]}
+
+% ===== 2023 (2 publicaciones) =====
+\item $\blacktriangleright$ \textbf{Flecha, S.} \textbf{(1A, AC, 1/7)}, Rueda, D., de la Paz, M., Pérez, F.F., Alou-Font, E., Tintoré, J., Hendriks, I.E. (2023). Spatial and temporal variation of methane emissions in the coastal Balearic Sea, Western Mediterranean. \textit{Science of the Total Environment}, 865, 161249. \href{https://doi.org/10.1016/j.scitotenv.2022.161249}{DOI: 10.1016/j.scitotenv.2022.161249}. \textcolor{darkgray}{\small [5 citas | IF: 8.2 | Q1]}
+
+\item $\blacktriangleright$ Amaya-Vías, S., \textbf{Flecha, S.} \textbf{(2/7)}, Pérez, F.F., Navarro, G., García-Lafuente, J., Makaoui, A., Huertas, I.E. (2023). The time series at the Strait of Gibraltar as a baseline for long-term assessment of vulnerability of calcifiers to ocean acidification. \textit{Frontiers in Marine Science}, 10, 1196938. \href{https://doi.org/10.3389/fmars.2023.1196938}{DOI: 10.3389/fmars.2023.1196938}. \textcolor{darkgray}{\small [4 citas | IF: 2.8 | Q1]}
+
+% ===== 2022 (2 publicaciones) =====
+\item $\blacktriangleright$ \textbf{Flecha, S.} \textbf{(1A, AC, 1/7)}, Giménez-Romero, À., Tintoré, J., Pérez, F.F., Alou-Font, E., Matías, M.A., Hendriks, I.E. (2022). pH trends and seasonal cycle in the coastal Balearic Sea reconstructed through machine learning. \textit{Scientific Reports}, 12(1), 12956. \href{https://doi.org/10.1038/s41598-022-17253-5}{DOI: 10.1038/s41598-022-17253-5}. \textcolor{darkgray}{\small [11 citas | IF: 4.6]}
+
+\item $\blacktriangleright$ Hendriks, I.E., Escolano-Moltó, A., \textbf{Flecha, S.} \textbf{(3/6)}, Vaquer-Sunyer, R., Wesselmann, M., Marbà, N. (2022). Mediterranean seagrasses as carbon sinks: methodological and regional differences. \textit{Biogeosciences}, 19(18), 4619-4637. \href{https://doi.org/10.5194/bg-19-4619-2022}{DOI: 10.5194/bg-19-4619-2022}. \textcolor{darkgray}{\small [8 citas | IF: 4.9 | Q1]}
+
+% ===== 2021 (2 publicaciones) =====
+\item $\blacktriangleright$ García-Lafuente, J., Sammartino, S., Huertas, I.E., \textbf{Flecha, S.} \textbf{(4/8)}, Sánchez-Leal, R.F., Naranjo, C., Nadal, I., Bellanco, M.J. (2021). Hotter and Weaker Mediterranean Outflow as a Response to Basin-Wide Alterations. \textit{Frontiers in Marine Science}, 8, 613444. \href{https://doi.org/10.3389/fmars.2021.613444}{DOI: 10.3389/fmars.2021.613444}. \textcolor{darkgray}{\small [21 citas | IF: 5.247 | Q1]}
+
+\item $\blacktriangleright$ Marx, L., \textbf{Flecha, S.} \textbf{(2/5)}, Wesselmann, M., Morell, C., Hendriks, I.E. (2021). Marine Macrophytes as Carbon Sinks: Comparison Between Seagrasses and the Non-native Alga Halimeda incrassata in the Western Mediterranean (Mallorca). \textit{Frontiers in Marine Science}, 8, 746379. \href{https://doi.org/10.3389/fmars.2021.746379}{DOI: 10.3389/fmars.2021.746379}. \textcolor{darkgray}{\small [16 citas | IF: 5.247 | Q1]}
+
+% ===== 2020 (1 publicación) =====
+\item $\blacktriangleright$ Álvarez-Salgado, X.A., Otero, J., \textbf{Flecha, S.} \textbf{(3/4)}, Huertas, I.E. (2020). Seasonality of Dissolved Organic Carbon Exchange Across the Strait of Gibraltar. \textit{Geophysical Research Letters}, 47(18), e2020GL089601. \href{https://doi.org/10.1029/2020GL089601}{DOI: 10.1029/2020GL089601}. \textcolor{darkgray}{\small [4 citas | IF: 4.720 | Q1]}
+
+% ===== 2019 (2 publicaciones) =====
+\item $\blacktriangleright$ \textbf{Flecha, S.} \textbf{(1A, AC, 1/5)}, Pérez, F.F., Murata, A., Makaoui, A., Huertas, I.E. (2019). Decadal acidification in Atlantic and Mediterranean water masses exchanging at the Strait of Gibraltar. \textit{Scientific Reports}, 9(1), 15533. \href{https://doi.org/10.1038/s41598-019-52084-x}{DOI: 10.1038/s41598-019-52084-x}. \textcolor{darkgray}{\small [21 citas | IF: 3.998 | Q1]}
+
+\item $\blacktriangleright$ Huertas, I.E., de la Paz, M., Perez, F.F., Navarro, G., \textbf{Flecha, S.} \textbf{(5/5)} (2019). Methane emissions from the Salt Marshes of Doñana wetlands: Spatio-temporal variability and controlling factors. \textit{Frontiers in Ecology and Evolution}, 7, 032. \href{https://doi.org/10.3389/fevo.2019.00032}{DOI: 10.3389/fevo.2019.00032}. \textcolor{darkgray}{\small [27 citas | IF: 2.416]}
+
+% ===== 2018 (1 publicación) =====
+\item $\blacktriangleright$ Huertas, I.E., \textbf{Flecha, S.} \textbf{(2/5)}, Navarro, G., Perez, F.F., de la Paz, M. (2018). Spatio-temporal variability and controls on methane and nitrous oxide in the Guadalquivir Estuary, Southwestern Europe. \textit{Aquatic Sciences}, 80(3), 29. \href{https://doi.org/10.1007/s00027-018-0580-5}{DOI: 10.1007/s00027-018-0580-5}. \textcolor{darkgray}{\small [22 citas | IF: 2.303 | Q1]}
+
+% ===== 2017 (2 publicaciones) =====
+\item $\blacktriangleright$ Huertas, I.E., \textbf{Flecha, S.} \textbf{(2/5)}, Figuerola, J., Costas, E., Morris, E.P. (2017). Effect of hydroperiod on CO2 fluxes at the air-water interface in the Mediterranean coastal wetlands of Doñana. \textit{Journal of Geophysical Research: Biogeosciences}, 122(7), 1615-1631. \href{https://doi.org/10.1002/2017JG003793}{DOI: 10.1002/2017JG003793}. \textcolor{darkgray}{\small [14 citas | IF: 3.484 | Q1]}
+
+\item $\blacktriangleright$ Bartual, A., Vicente-Cera, I., \textbf{Flecha, S.} \textbf{(3/4)}, Prieto, L. (2017). Effect of dissolved polyunsaturated aldehydes on the size distribution of transparent exopolymeric particles in an experimental diatom bloom. \textit{Marine Biology}, 164(5), 120. \href{https://doi.org/10.1007/s00227-017-3146-5}{DOI: 10.1007/s00227-017-3146-5}. \textcolor{darkgray}{\small [12 citas | IF: 2.215]}
+
+% ===== 2016 (1 publicación) =====
+\item $\blacktriangleright$ Carracedo, L.I., Pardo, P.C., \textbf{Flecha, S.} \textbf{(3/4)}, Pérez, F.F. (2016). On the mediterranean water composition. \textit{Journal of Physical Oceanography}, 46(4), 1339-1358. \href{https://doi.org/10.1175/JPO-D-15-0095.1}{DOI: 10.1175/JPO-D-15-0095.1}. \textcolor{darkgray}{\small [23 citas | IF: 3.130 | Q1]}
+
+% ===== 2015 (3 publicaciones) =====
+\item $\blacktriangleright$ \textbf{Flecha, S.} \textbf{(1A, AC, 1/6)}, Pérez, F.F., García-Lafuente, J., Sammartino, S., Ríos, A.F., Huertas, I.E. (2015). Trends of pH decrease in the Mediterranean Sea through high frequency observational data: Indication of ocean acidification in the basin. \textit{Scientific Reports}, 5, 16770. \href{https://doi.org/10.1038/srep16770}{DOI: 10.1038/srep16770}. \textcolor{darkgray}{\small [\textbf{48 citas - Top 10\% | IF: 5.228 | Q1}]}
+
+\item \textbf{Flecha, S.} \textbf{(1A, AC, 1/5)}, Huertas, I.E., Navarro, G., Morris, E.P., Ruiz, J. (2015). Air–Water CO2 Fluxes in a Highly Heterotrophic Estuary. \textit{Estuaries and Coasts}, 38(6), 2295-2309. \href{https://doi.org/10.1007/s12237-014-9923-1}{DOI: 10.1007/s12237-014-9923-1}. \textcolor{darkgray}{\small [24 citas | IF: 2.659 | Q1]}
+
+\item de la Paz, M., Huertas, I.E., \textbf{Flecha, S.} \textbf{(3/5)}, Ríos, A.F., Pérez, F.F. (2015). Nitrous oxide and methane in Atlantic and Mediterranean waters in the Strait of Gibraltar: Air-sea fluxes and inter-basin exchange. \textit{Progress in Oceanography}, 138, 18-31. \href{https://doi.org/10.1016/j.pocean.2015.09.009}{DOI: 10.1016/j.pocean.2015.09.009}. \textcolor{darkgray}{\small [21 citas | IF: 3.512 | Q1]}
+
+% ===== 2013 (1 publicación) =====
+\item Morris, E.P., \textbf{Flecha, S.} \textbf{(2/8)}, Figuerola, J., Costas, E., Navarro, G., Ruiz, J., Rodriguez, P., Huertas, E. (2013). Contribution of Doñana wetlands to carbon sequestration. \textit{PloS one}, 8(8), e71456. \href{https://doi.org/10.1371/journal.pone.0071456}{DOI: 10.1371/journal.pone.0071456}. \textcolor{darkgray}{\small [22 citas | IF: 3.534 | Q1]}
+
+% ===== 2012 (3 publicaciones) =====
+\item Navarro, G., Huertas, I.E., Costas, E., \textbf{Flecha, S.} \textbf{(4/9)}, Díez-Minguito, M., Caballero, I., López-Rodas, V., Prieto, L., Ruiz, J. (2012). Use of a real-time remote monitoring network (RTRM) to characterize the guadalquivir estuary (Spain). \textit{Sensors}, 12(2), 1398-1421. \href{https://doi.org/10.3390/s120201398}{DOI: 10.3390/s120201398}. \textcolor{darkgray}{\small [\textbf{50 citas - Top 10\% | IF: 1.953}]}
+
+\item Navarro, G., Caballero, I., Prieto, L., Vázquez, A., \textbf{Flecha, S.} \textbf{(5/7)}, Huertas, I.E., Ruiz, J. (2012). Seasonal-to-interannual variability of chlorophyll-a bloom timing associated with physical forcing in the Gulf of Cádiz. \textit{Advances in Space Research}, 50(8), 1164-1172. \href{https://doi.org/10.1016/j.asr.2011.11.034}{DOI: 10.1016/j.asr.2011.11.034}. \textcolor{darkgray}{\small [40 citas | IF: 1.183]}
+
+\item \textbf{Flecha, S.} \textbf{(1A, 1/8)}, Pérez, F.F., Navarro, G., Ruiz, J., Olivé, I., Rodríguez-Gálvez, S., Costas, E., Huertas, I.E. (2012). Anthropogenic carbon inventory in the Gulf of Cádiz. \textit{Journal of Marine Systems}, 92(1), 67-75. \href{https://doi.org/10.1016/j.jmarsys.2011.10.010}{DOI: 10.1016/j.jmarsys.2011.10.010}. \textcolor{darkgray}{\small [30 citas | IF: 2.655 | Q1]}
+
+% ===== 2009 (1 publicación) =====
+\item Vázquez, A., \textbf{Flecha, S.} \textbf{(2/5)}, Bruno, M., Macías, D., Navarro, G. (2009). Internal waves and short-scale distribution patterns of chlorophyll in the Strait of Gibraltar and Alborán Sea. \textit{Geophysical Research Letters}, 36(23), L23601. \href{https://doi.org/10.1029/2009GL040959}{DOI: 10.1029/2009GL040959}. \textcolor{darkgray}{\small [\textbf{54 citas - Top 10\% | IF: 3.204 | Q1}]}
+
+\end{enumerate}
+
+\newpage
+
+\subsection{Proyectos de Investigación Financiados Competitivamente}
+
+\breveexposicion{Criterio A.2. Proyectos de Investigación Financiados Competitivamente}{
+La trayectoria investigadora presenta una \textbf{captación continuada de financiación competitiva} desde el periodo postdoctoral, vinculada al desarrollo de investigaciones sobre \textbf{impactos de origen natural y antrópico en sistemas costeros, plataforma continental y fondos marinos}. Los proyectos financiados han permitido integrar observación oceanográfica, análisis biogeoquímico y, de forma diferencial, \textbf{metodologías basadas en inteligencia artificial y aprendizaje automático} aplicadas a la evaluación ambiental.
+
+Como \textbf{Investigadora Principal}, se han liderado \textbf{seis proyectos competitivos}, financiados por administraciones autonómicas, nacionales y programas transnacionales, con una \textbf{financiación total captada de 359.410,10 EUR}. Estos proyectos abarcan desde sistemas costeros antropizados y prístinos hasta ecosistemas profundos y polares, e incluyen el análisis de procesos relacionados con acidificación, oxigenación y emisiones de gases de efecto invernadero como indicadores de impacto ambiental. Destacan especialmente los proyectos \textbf{EVALUARTE}, \textbf{INDICLIMA} y el proyecto de monitorización multiplataforma de GEI en costas y sistemas continentales y marinos de Andalucía, por su orientación a la evaluación de impactos ambientales.
+
+De manera complementaria, se ha participado en \textbf{24 proyectos competitivos} (11 desde el doctorado), incluyendo \textbf{programas europeos FP6, FP7 y COST}, así como proyectos internacionales y transnacionales. En varios de ellos se han asumido \textbf{responsabilidades de coordinación científica y liderazgo de paquetes de trabajo}, particularmente en ámbitos relacionados con \textbf{gases de efecto invernadero y análisis de datos mediante inteligencia artificial} (p. ej., \textbf{BIMAR2025--GIFT4ALL} y \textbf{DICHOSO}).
+
+En conjunto, la participación en proyectos financiados competitivamente muestra una \textbf{coherencia clara entre financiación, producción científica y desarrollo metodológico}, consolidando una línea de investigación orientada a la \textbf{evaluación y diagnóstico de impactos del cambio global en costas y fondos marinos}, alineada con las prioridades estratégicas del ICMAN.
+}
+
+\subsubsection{Como Investigadora Principal (IP)}
+
+\begin{enumerate}[leftmargin=*]
+
+    \item \textbf{Apoyo técnico especializado para la monitorización multiplataforma de Gases de Efecto Invernadero en sistemas costeros, continentales y marinos de Andalucía}\\
+    Subvenciones a la Contratación de Personal Técnico de Apoyo y de Gestión de I+D+I\\
+    \textbf{IP: Susana Flecha Saura (ICMAN)}\\
+    Presupuesto: 80.000 EUR
+
+    \item \textbf{BIOACT2024-004 -- Key Indicators for Predicting Climate-Change Impacts in Deep-Sea Ecosystems of the Western Mediterranean (INDICLIMA)} (01/07/2024--01/07/2027)\\
+    UE NextGeneration -- Convocatoria BIOACT 2024\\
+    \textbf{IP: Susana Flecha Saura (IMEDEA)}\\
+    Presupuesto: 67.850,10 EUR
+
+    \item \textbf{EVALUARTE (Vicenç Mut 2022)} (16/06/2022--15/06/2025)\\
+    \textit{Vulnerabilidad de los ecosistemas profundos al cambio climático en el Mediterráneo occidental: estado del arte y tendencias en el Mar Balear}\\
+    Gobierno de las Illes Balears -- Convocatoria Vicenç Mut 2022\\
+    \textbf{IP: Susana Flecha Saura (IMEDEA)}\\
+    Presupuesto: 114.000 EUR
+
+    \item \textbf{STARTER -- Impact of wastewater outfalls on ecosystem services provided by \textit{Posidonia oceanica} meadows} (05/03/2021--05/03/2022)\\
+    Cátedra de la Mar -- Fundación Iberostar\\
+    \textbf{IP: Susana Flecha Saura (IMEDEA)}\\
+    Presupuesto: 12.000 EUR
+
+    \item \textbf{Margalida Comas 2017 -- pH variability in coastal areas: comparison across scales and sources of variability} (31/12/2017--31/12/2019)\\
+    Gobierno de las Illes Balears -- Convocatoria Margalida Comas 2017\\
+    \textbf{IP: Susana Flecha Saura (UIB)}\\
+    Presupuesto: 66.000 EUR
+
+    \item \textbf{AAEE111/2017 -- Acquisition of an oceanographic pH sensor (SAMI)} (01/06/2018--01/07/2019)\\
+    Gobierno de las Illes Balears -- Convocatoria AAEE 2017\\
+    \textbf{IP: Susana Flecha Saura (UIB)}\\
+    Presupuesto: 19.560 EUR
+
+\end{enumerate}
+
+\textbf{Financiación total captada como Investigadora Principal: 359.410,10 EUR}
+
+\subsubsection{Como Miembro del Equipo de Investigación}
+
+\noindent\textbf{Resumen de participación:}
+
+\begin{minipage}[t]{0.48\textwidth}
+\raggedright
+\textbf{TOTALES (2005-2028)}
+\begin{itemize}[leftmargin=*,label={}]
+    \item \textbf{Total proyectos:} 24~proyectos
+    \item \textbf{Proyectos internacionales:} 7~proyectos (FP6, FP7, H2020, transnacionales)
+    \item \textbf{Proyectos nacionales:} 17~proyectos
+    \item \textbf{Roles de coordinación:} 6~proyectos (líder de paquete de trabajo o coordinadora científica)
+\end{itemize}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\raggedright
+\textbf{DESDE PERIODO POSTDOCTORAL (2015-2028)}
+\begin{itemize}[leftmargin=*,label={}]
+    \item \textbf{Total proyectos:} 11~proyectos
+    \item \textbf{Proyectos internacionales:} 2~proyectos (FP7, parciales)
+    \item \textbf{Proyectos nacionales:} 9~proyectos
+    \item \textbf{Roles de coordinación:} 5~proyectos
+\end{itemize}
+\end{minipage}
+
+\vspace{0.5em}
+\noindent\textit{\small Nota: Los proyectos marcados con $\blacktriangleright$ corresponden al periodo postdoctoral (desde 2015).}
+
+\vspace{0.5em}
+
+\begin{itemize}[leftmargin=*]
+
+    \item $\blacktriangleright$ \textbf{BIMAR2025 – GIFT4ALL} (01/01/2026--31/12/2028):
+    Gibraltar Fixed Time Series for Artificial Intelligent Operational Tools.\\
+    CSIC – Convocatoria BIMAR2025.\\
+    IP: Emma Huertas (ICMAN-CSIC).\\
+    Presupuesto: 17.605,34 EUR.\\
+    \textbf{Rol: Investigadora participante y líder del paquete de trabajo de Inteligencia Artificial}.
+
+    \item $\blacktriangleright$ \textbf{PID2021-125783OB-I00 – DICHOSO} (01/01/2023--31/12/2026):
+    Contribution of Deception Island water masses to biogeochemical inventories in the Southern Ocean.\\
+    Ministerio de Ciencia e Innovación (Convocatoria PID2021).\\
+    IPs: Antonio Tovar / Emma Huertas (ICMAN-CSIC).\\
+    Presupuesto: 338.800 EUR.\\
+    \textbf{Rol: Investigadora participante y líder del paquete de trabajo de GEIs}.
+
+    \item $\blacktriangleright$ \textbf{PID2021-123723OB-C21 – CYCLE} (01/10/2022--30/09/2026):
+    Dinámica compleja de ecosistemas costeros: resiliencia al cambio climático.\\
+    Ministerio de Ciencia e Innovación.\\
+    IPs: Núria Marbà Bordalba; Iris Hendriks (IMEDEA-UIB-CSIC).\\
+    Presupuesto: 258.940 EUR.\\
+    \textbf{Rol: Investigadora participante y coordinadora de estaciones de la red BOATS}.
+
+    \item $\blacktriangleright$ \textbf{COOPB22023} (01/01/2023--31/12/2024):
+    Greenhouse Gas Dynamics on the Southern Coasts of the Mediterranean.\\
+    CSIC – Convocatoria COOPB 2023.\\
+    IP: Iris Hendriks (IMEDEA-UIB-CSIC).\\
+    Presupuesto: 21.976 EUR.\\
+    \textbf{Rol: Investigadora participante y coordinadora científica}.
+
+    \item $\blacktriangleright$ \textbf{SuMaEco – RTI2018-095441-B-C21} (01/01/2019--31/12/2022):
+    Sostenibilidad de ecosistemas marinos costeros en el contexto del cambio global en el Mar Mediterráneo.\\
+    Ministerio de Ciencia e Innovación.\\
+    IPs: Núria Marbà Bordalba; Iris Hendriks (IMEDEA-UIB-CSIC).\\
+    Presupuesto: 239.580 EUR.\\
+    \textbf{Rol: Investigadora participante y coordinadora de estaciones de la red BOATS}.
+
+    \item $\blacktriangleright$ \textbf{Posi-COIN} (01/05/2019--30/04/2021):
+    Ecosystem services, carbon sinks and water oxygenation as incentives for \textit{Posidonia oceanica} conservation.\\
+    Fundación BBVA.\\
+    IP: Iris Hendriks (IMEDEA-UIB-CSIC).\\
+    Presupuesto: 99.830 EUR.\\
+    \textbf{Rol: Investigadora participante y coordinadora científica}.
+
+    \item $\blacktriangleright$ \textbf{ANTROPOSI} (01/04/2018--30/09/2019):
+    Entre emisarios y embarcaciones: cómo afectan las actividades humanas directas a las praderas de \textit{Posidonia} en el Antropoceno.\\
+    Save Posidonia Project.\\
+    IP: Iris E. Hendriks (IMEDEA-UIB-CSIC)\\
+    Presupuesto: 83.821,54 EUR.\\
+    \textbf{Rol: Investigadora participante}.
+
+    \item $\blacktriangleright$ \textbf{Efectos del cambio global sobre las praderas de \textit{Posidonia oceanica}} (21/12/2017--30/09/2018):
+    Desde genes al ecosistema.\\
+    Obra Social Fundación "la Caixa".\\
+    IP: Iris E. Hendriks (IMEDEA-UIB-CSIC)\\
+    Presupuesto: 35.999,23 EUR.\\
+    \textbf{Rol: Investigadora participante}.
+
+    \item $\blacktriangleright$ \textbf{PERMEAD} (2015--2018): 
+    Efecto de la permeabilización de la Marisma del Parque Nacional de Doñana sobre la estructura biogeoquímica de sus ecosistemas acuáticos.\\
+    Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente – Organismo Autónomo de Parques Nacionales.\\
+    IP: I. Emma Huertas Cabilla (ICMAN-CSIC).\\
+    Presupuesto: 57.312,55 EUR.\\
+    \textbf{Rol: Investigadora participante (muestreos de campo, análisis de datos e interpretación de resultados)}.
+\item $\blacktriangleright$ \textbf{PERSEUS – Policy-oriented marine Environmental Research in the Southern European Seas} (01/01/2012--01/04/2016).\\
+    Comisión Europea – Séptimo Programa Marco (FP7-OCEAN-2011).\\
+    IPs: Joaquín Tintoré; Javier Ruíz Segura; I. Emma Huertas Cabilla.\\
+    Presupuesto total: 35.000.000 EUR (subproyecto: 800.000 EUR).\\
+    \textbf{Rol: Miembro del equipo}. Responsable del seguimiento del sistema del carbono mediante fondeo en el Estrecho de Gibraltar, análisis de datos, contribución a entregables y transferencia del conocimiento.\\
+    \textit{\small (Parcialmente en periodo postdoctoral: 2015-2016)}
+
+    \item $\blacktriangleright$ \textbf{CARBOCHANGE – Change in Carbon Uptake and Emissions by Oceans in a Changing Climate} (01/03/2011--01/02/2015).\\
+    Comisión Europea – Séptimo Programa Marco (FP7, Ref. 264879).\\
+    IP: I. Emma Huertas Cabilla.\\
+    Presupuesto del subproyecto: 120.277 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Responsable del sistema de observación del carbono en el Estrecho de Gibraltar, liderazgo de campañas oceanográficas GIFT, análisis de datos y participación en WP1 y WP5.\\
+    \textit{\small (Parcialmente en periodo postdoctoral: 2015)}
+
+    \item \textbf{Contribución del compartimento acuático del Parque Nacional de Doñana al intercambio de CO\textsubscript{2} atmosférico} (01/01/2011--31/12/2013).\\
+    Ministerio de Medio Ambiente y Medio Rural y Marino – Organismo Autónomo Parques Nacionales (Ref. 049/2010).\\
+    IP: I. Emma Huertas Cabilla.\\
+    Presupuesto: 72.105 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Liderazgo de campañas de muestreo, análisis de datos e interpretación de resultados.
+
+    \item \textbf{Evaluación de la capacidad de un fiordo de la Patagonia como sumidero de carbono} (01/03/2013--30/11/2013).\\
+    Fundación ENDESA / CSIC – Fundación Huinay (Ref. 2013CL0013).\\
+    IPs: Edward P. Morris; Susana Flecha Saura; I. Emma Huertas Cabilla; Simone Taglialatela.\\
+    Presupuesto: 8.700 EUR.\\
+    \textbf{Rol: Coordinadora}. Coordinación científica y líder del trabajo de campo y análisis de datos del proyecto.
+
+    \item \textbf{El Estrecho como actor y receptor del cambio global: sistema de observación en los ecosistemas marinos de Andalucía} (2010--2013).\\
+    Junta de Andalucía – Observatorio de Cambio Global del Estrecho.\\
+    IP: Javier Ruíz Segura.\\
+    Presupuesto: 1.250.000 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Participación en campañas, mantenimiento de fondeos y análisis de datos.
+
+    \item \textbf{Vulnerabilidad del fitoplancton al cambio global: capacidad genética y estrategias adaptativas} (01/01/2009--31/12/2011).\\
+    Ministerio de Medio Ambiente – Plan Nacional I+D+i (Ref. CTM2008-05680-C02/MAR).\\
+    IP: I. Emma Huertas Cabilla.\\
+    Presupuesto: 157.000 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Preparación de campañas oceanográficas, análisis de muestras e interpretación de resultados.
+
+    \item \textbf{SESAME – Southern European Seas: Assessing and Modelling Ecosystem Changes} (01/11/2006--30/04/2011).\\
+    Comisión Europea – Sexto Programa Marco (FP6-036949 GOCE).\\
+    IPs: Evangelos Papathanassiou; Javier Ruíz Segura.\\
+    Presupuesto total: 14.790.000 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Participación en campañas, análisis de muestras y difusión de resultados científicos.
+
+    \item \textbf{Campañas oceanográficas para el mantenimiento de la serie temporal GIFT en el contexto del proyecto CARBOOCEAN} (01/01/2009--31/01/2011).\\
+    Plan Nacional I+D+i (Ref. CTM2009-05835-E/MAR).\\
+    IP: I. Emma Huertas Cabilla.\\
+    Presupuesto: 4.000 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Participación en campañas del Estrecho de Gibraltar y análisis de datos.
+
+    \item \textbf{CARBOOCEAN – Marine Carbon Sources and Sinks Assessment} (01/01/2005--01/12/2009).\\
+    Comisión Europea – Sexto Programa Marco (FP6-511176 GOCE).\\
+    IP: Javier Ruíz Segura.\\
+    Presupuesto total: 14.500.000 EUR (subproyecto: 120.000 EUR).\\
+    \textbf{Rol: Miembro del equipo}. Participación en campañas oceanográficas, análisis de muestras e interpretación de resultados.
+
+    \item \textbf{Propuesta metodológica para diagnosticar y pronosticar las consecuencias de actividades humanas en el estuario del Guadalquivir} (2007--2009).\\
+    Autoridad Portuaria de Sevilla.\\
+    IP: Javier Ruíz Segura.\\
+    Presupuesto: 2.874.760 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Muestreos de campo, análisis de muestras, interpretación de resultados y elaboración de informes.
+
+    \item \textbf{Campañas oceanográficas asociadas al proyecto Producción Pelágica en la Plataforma Atlántico-Andaluza} (16/03/2007--31/12/2008).\\
+    Plan Nacional I+D+i (Ref. CTM2006-28141-E/MAR).\\
+    IP: I. Emma Huertas Cabilla.\\
+    Presupuesto: 108.000 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Participación en campañas y análisis de datos.
+
+    \item \textbf{Producción Pelágica en la Plataforma Atlántico-Andaluza (P3A2)} (15/10/2005--15/12/2008).\\
+    Ministerio de Medio Ambiente – Plan Nacional I+D+i (Ref. CTM2005-01091/MAR).\\
+    IP: I. Emma Huertas Cabilla.\\
+    Presupuesto: 224.910 EUR.\\
+    \textbf{Rol: Miembro del equipo}. Preparación y participación en campañas oceanográficas, análisis de muestras y difusión de resultados.
+
+    \item \textbf{Diagnóstico ambiental del medio acuático y evaluación de la contaminación acústica del Campo de Gibraltar} (2006--2008).\\
+    Junta de Andalucía – Consejería de Medio Ambiente.\\
+    IP: Rafael Mañanes Salinas.\\
+    \textbf{Rol: Estudiante universitaria}. Participación en campañas oceanográficas en la Bahía de Algeciras.
+
+\end{itemize}
+\subsubsection{Financiación Personal Competitiva}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Contrato Postdoctoral -- Convocatoria Vicenç Mut 2022} (16/06/2022--15/06/2025)\\
+    Gobierno de las Illes Balears\\
+    \textbf{Investigadora: Susana Flecha Saura (IMEDEA)}
+
+    \item \textbf{Contrato Postdoctoral -- Convocatoria Margalida Comas 2017} (31/12/2017--31/12/2019)\\
+    Gobierno de las Illes Balears\\
+      \textbf{Investigadora: Susana Flecha Saura, (UIB)}
+
+    \item \textbf{Contrato Predoctoral JAE-Intro} (2011--2015)\\
+    Consejo Superior de Investigaciones Científicas (CSIC)\\
+  \textbf{Investigadora: Susana Flecha Saura (ICMAN)}
+\end{itemize}
+
+
+\subsection{Publicación de libros, capítulos, informes y bases de datos}
+
+\breveexposicion{Criterio A.3. Publicación de libros, capítulos, informes y bases de datos}{
+La actividad investigadora se complementa con \textbf{contribuciones científicas y tecnológicas relevantes} en forma de capítulos de libro, informes científico--técnicos y, de manera especialmente destacada, \textbf{bases de datos científicas en acceso abierto}, directamente vinculadas a proyectos competitivos y a redes de observación oceanográfica de largo plazo.
+
+Los \textbf{capítulos de libro e informes técnicos} recogen resultados integrados sobre biogeoquímica marina, acidificación oceánica y flujos de carbono en sistemas estratégicos como el Parque Nacional de Doñana y el estrecho de Gibraltar, constituyendo productos de referencia utilizados en \textbf{programas de seguimiento ambiental y evaluación de impactos de origen natural y antrópico} sobre ecosistemas costeros y marinos.
+
+De forma particularmente relevante, se ha contribuido de manera continuada a la \textbf{generación, curación y publicación de bases de datos científicas en repositorios abiertos de referencia} (DIGITAL.CSIC, IOC--UNESCO, SOCAT, ESSD), que incluyen series temporales de pH, oxígeno disuelto, CH$_4$, N$_2$O, CO$_2$ y parámetros del sistema del carbono en costas, plataforma continental y fondos marinos. Estas bases de datos constituyen \textbf{productos científicos reutilizables de alto valor}, alineados con los principios FAIR y con las prioridades de ciencia abierta del CSIC.
+
+Varias de estas contribuciones incorporan \textbf{metodologías basadas en inteligencia artificial y aprendizaje automático} para la reconstrucción de series temporales, el control de calidad y el análisis de patrones, permitiendo mejorar la detección de tendencias, anomalías y señales de impacto ambiental en contextos de observación discontinua.
+
+En conjunto, estas aportaciones refuerzan la \textbf{repercusión científica, tecnológica y aplicada} de la trayectoria, y son plenamente coherentes con el perfil de la plaza, al proporcionar herramientas y productos orientados a la \textbf{evaluación de impactos del cambio global sobre costas y fondos marinos}.
+}
+\subsubsection{Capítulos de libro}
+
+\begin{itemize}[leftmargin=*]
+
+    \item Huertas Cabilla, I. E.; \textbf{Flecha Saura, S.}; de la Paz, M.; Navarro, G.; Pérez, F. F. (2022). 
+    \textit{Efecto de la permeabilización de la marisma del Parque Nacional de Doñana sobre la estructura biogeoquímica de sus ecosistemas acuáticos}. 
+    En: \textit{Proyectos de investigación en parques nacionales: 2015--2019}, pp. 155--171. 
+    Ministerio de Agricultura, Pesca y Alimentación, Organismo Autónomo Parques Nacionales. 
+    ISBN: 978-84-8014-870-2.
+
+    \item Huertas Cabilla, I. E.; Morris, E. P.; \textbf{Flecha Saura, S.}; Figuerola Borrás, J.; Rodríguez Gálvez, S.; Costas Costas, E.; Ruíz Segura, J. (2015). 
+    \textit{Contribución del compartimento acuático de Doñana al intercambio de CO\textsubscript{2} atmosférico}. 
+    En: \textit{Proyectos de investigación en parques nacionales: 2010--2013}, pp. 213--238. 
+    Ministerio de Agricultura, Pesca y Alimentación, Organismo Autónomo Parques Nacionales. 
+    ISBN: 978-84-8014-870-2.
+
+    \item Vázquez López-Escobar, Á.; Navarro Almendros, G.; \textbf{Flecha Saura, S.}; Bruno Mejías, M. (2009). 
+    \textit{Application of remote sensing techniques to the study of internal waves in the Strait of Gibraltar}. 
+    En: \textit{Proceedings of MARTECH09}, pp. 1--3. SARTI--UPC. 
+    ISBN: 978-84-692-5896-5.
+
+\end{itemize}
+
+\subsubsection{Informes científico-técnicos}
+
+\begin{itemize}[leftmargin=*]
+
+    \item Ruíz Segura, J.; Huertas Cabilla, I. E.; Prieto Gálvez, L.; Navarro Almendros, G.; \textbf{Flecha Saura, S.}; Ferrer Marco, M.; Moreno Muñoz, A.; Astorga García, D.; Taglialatela, S.; Macías, D.; García Cruz, R.; Rodríguez Gálvez, S.; Martínez Aragón, J. F. (2012). 
+    \textit{El estrecho como actor y receptor global: sistemas de observación en los ecosistemas marinos de Andalucía}. 
+    Informe final. Red de Observatorios de Cambio Global de Andalucía.
+
+    \item Ruíz Segura, J.; Huertas Cabilla, I. E.; Prieto Gálvez, L.; Navarro Almendros, G.; \textbf{Flecha Saura, S.}; Ferrer Marco, M.; Moreno Muñoz, A.; Astorga García, D.; Taglialatela, S.; Macías, D.; García Cruz, R.; Rodríguez Gálvez, S.; Martínez Aragón, J. F. (2011). 
+    \textit{El estrecho como actor y receptor global: sistemas de observación en los ecosistemas marinos de Andalucía}. 
+    Primer informe. Red de Observatorios de Cambio Global de Andalucía.
+
+    \item Navarro Almendros, G.; Huertas Cabilla, I. E.; Prieto Gálvez, L.; \textbf{Flecha Saura, S.}; Taglialatela, S.; Ruíz Segura, J. (2009). 
+    \textit{Coordinated acquisition of new multidisciplinary field data in the Mediterranean and Black Sea: Spanish scientific activity report}. 
+    SESAME Project Reports, Bucarest.
+
+    \item \textbf{Flecha Saura, S.} (2012). 
+    \textit{The characterisation and quantification of carbon cycle processes in the Gulf of Cádiz and the Strait of Gibraltar}. 
+    SOLAS Newsletter, 14, pp. 12--13.
+
+\end{itemize}
+
+\subsubsection{Bases de datos científicas (repositorios abiertos)}
+
+\begin{itemize}[leftmargin=*]
+
+\item Padin, A.; Huertas, E.; Amaya-Vías, S.; \textbf{Flecha, S.}; et al. (2026).
+\textit{Surface ocean CO$_2$ observations from Deception Island, Antarctica}.
+Repositorio SOCAT v2026 (Surface Ocean CO$_2$ Atlas), iniciativa internacional de referencia que compila observaciones de CO$_2$ superficial de alta calidad a escala global para la cuantificación del sumidero de carbono oceánico, el estudio de la acidificación del océano, la evaluación de modelos biogeoquímicos y el apoyo a la toma de decisiones en materia de cambio climático. SOCAT es un esfuerzo colaborativo internacional avalado por programas científicos como el \textbf{International Ocean Carbon Coordination Project (IOCCP)}, \textbf{SOLAS} y \textbf{IMBeR}.
+
+
+    \item García-Ibáñez, M. I.; Álvarez, M.; Lange, N.; Kozyr, A.; Velo, A.; \textbf{Flecha, S.}; et al. (2025).
+    \textit{CARIMED (CARbon, tracers, and ancillary data In the MEDiterranean Sea) aggregated original cruise data product}.
+    DIGITAL.CSIC.
+    DOI: \href{https://digital.csic.es/handle/10261/408914}{10.20350/digitalCSIC/17785}.
+
+    \item Amaya-Vías, S.;  \textbf{Flecha, S.}; et al. (2025).
+    \textit{Dissolved greenhouse gases in the surface waters of Deception Island, Antarctica}.
+    Repositorio DIGITAL.CSIC (datos en acceso abierto).
+    DOI: \href{https://digital.csic.es/handle/10261/412717}{10.20350/digitalCSIC/17871}.
+
+    \item Hendriks, I. E.; Iuculano, F.; Vaquer-…; Ricart, A. M.; Steckbauer, A.;  \textbf{Flecha, S.}; Duarte, C. M. (2025).
+    \textit{Daily maximum, minimum, range and deviation of time series... the water column and benthic compartment in the Spanish littoral}.
+    Repositorio DIGITAL.CSIC (datos en acceso abierto).
+    DOI: \href{https://doi.org/10.20350/digitalCSIC/17039}{10.20350/digitalCSIC/17039}.
+
+    \item Hendriks, I.; \textbf{Flecha, S.}; de la Paz, M.; Pérez, F.; Morell Lujan-Williams, A.; Alou Font, E.; Marbà, N.; Tintoré, J. (2025). 
+    \textit{Nitrous oxide emissions in the coastal Balearic Sea between August 2018 – November 2023}. 
+    DIGITAL.CSIC. DOI: 10.20350/DIGITALCSIC/17284.
+
+    \item Lange, N.; Fiedler, B.; Álvarez, M.; Benoit-Cattin, A.; Benway, H.; Buttigieg, P. L.;\textbf{Flecha, S.}; \textit{et al.}; Tanhua, T. (2024).
+    \textit{Synthesis Product for Ocean Time Series (SPOTS) – a ship-based biogeochemical pilot}.
+    Earth System Science Data.
+    DOI: \href{https://doi.org/10.5194/essd-16-1901-2024}{10.5194/essd-16-1901-2024}.
+
+    \item Agueda Aramburu, P.; \textbf{Flecha, S.}; Lujan-Williams, C. A. M.; Hendriks, I. E. (2024).
+    \textit{Water column oxygenation by \textit{Posidonia oceanica} seagrass meadows in coastal areas: A modelling approach}.
+    Science of the Total Environment.
+    DOI: \href{https://doi.org/10.1016/j.scitotenv.2024.173805}{10.1016/j.scitotenv.2024.173805}.
+
+    \item Amaya-Vías, S.; \textbf{Flecha, S.}; Pérez, F. F.; Navarro, G.; García-Lafuente, J.; Makaoui, A.; Huertas, I. E. (2023).
+    \textit{The time series at the Strait of Gibraltar as a baseline for long-term assessment of vulnerability of calcifiers to ocean acidification}.
+    Frontiers in Marine Science.
+    DOI: \href{https://doi.org/10.3389/fmars.2023.1196938}{10.3389/fmars.2023.1196938}.
+
+    \item Hendriks, I.; \textbf{Flecha, S.}; de la Paz, M.; Pérez, F. F.; Morell, C.; Tintoré, J.; Marbà, N. (2023).
+    \textit{Methane emissions in the coastal Balearic Sea between October 2019 – October 2021}.
+    DIGITAL.CSIC.
+    DOI: \href{https://doi.org/10.20350/DIGITALCSIC/15491}{10.20350/DIGITALCSIC/15491}.
+
+    \item Hendriks, I.; Águeda Aramburu, P.; \textbf{Flecha, S.}; Morell, C. (2023).
+    \textit{Oxygen concentration in the water column over a \textit{Posidonia oceanica} meadow in Cabrera Archipelago Marine-Terrestrial National Park}.
+    DIGITAL.CSIC.
+    DOI: \href{https://doi.org/10.20350/DIGITALCSIC/15483}{10.20350/DIGITALCSIC/15483}.
+
+    \item Hendriks, I.; \textbf{Flecha Saura, S.}; Giménez Romero, A.; Tintoré, J.; Fernández Pérez, F.; Alou Font, E.; Matias, A. (2022).
+    \textit{Coastal pH variability reconstructed through machine learning in the Balearic Sea}.
+    DIGITAL.CSIC.
+    DOI: \href{https://doi.org/10.20350/DIGITALCSIC/14750}{10.20350/DIGITALCSIC/14750}.
+
+    \item Huertas, I. E.; Amaya Vías, S.; \textbf{Flecha Saura, S.}; Makaoui, A.; Pérez, F. F. (2022).
+    \textit{Carbon system parameters in the water column of the Strait of Gibraltar over 2005--2021}.
+    DIGITAL.CSIC.
+    DOI: \href{https://doi.org/10.20350/DIGITALCSIC/16463}{10.20350/DIGITALCSIC/16463}.
+
+    \item Huertas, I. E.; Makaoui, A.; Pérez, F. F.; \textbf{Flecha Saura, S.} (2020).
+    \textit{GIFT database (2005--2015): Oceanographic campaigns hydrographic and carbon system parameters in the Strait of Gibraltar}.
+    IOC-UNESCO SDG 14.3.1 Data Portal.
+    DOI: \href{https://doi.org/10.25607/OBP-1116}{10.25607/OBP-1116}.
+
+    \item Huertas, I. E.; García-Lafuente, J.; Sammartino, S.; \textbf{Flecha Saura, S.} (2020).
+    \textit{GIFT database (2012--2015): Mooring line hydrographic and pH data in the Strait of Gibraltar}.
+    IOC-UNESCO SDG 14.3.1 Data Portal.
+    DOI: \href{https://doi.org/10.25607/OBP-1117}{10.25607/OBP-1117}.
+
+    \item Huertas, I. E.; \textbf{Flecha Saura, S.}; Otero, J.; Álvarez-Salgado, X. A. (2020).
+    \textit{Dissolved organic carbon in the water column of the Strait of Gibraltar over 2008--2015}.
+    DIGITAL.CSIC.
+    DOI: \href{https://doi.org/10.20350/DIGITALCSIC/12499}{10.20350/DIGITALCSIC/12499}.
+
+    \item Huertas, I. E.; \textbf{Flecha Saura, S.}; Makaoui, A.; Pérez, F. F. (2020).
+    \textit{GIFT database (2005--2015): Hydrographic and carbon system parameters in the Strait of Gibraltar}.
+    DIGITAL.CSIC.
+    DOI: \href{https://doi.org/10.20350/DIGITALCSIC/10549}{10.20350/DIGITALCSIC/10549}.
+
+\end{itemize}
+
+
+\subsection{Dirección o coordinación científica de equipamientos o de instalaciones singulares}
+
+\breveexposicion{Criterio A.4. Dirección o coordinación científica de equipamientos o de instalaciones singulares}{
+La trayectoria investigadora incluye la \textbf{dirección y coordinación científica continuada de infraestructuras singulares de observación oceanográfica}, concebidas como herramientas clave para la \textbf{evaluación de impactos de origen natural y antrópico sobre sistemas costeros, plataforma continental y fondos marinos}. Estas infraestructuras destacan por su \textbf{carácter de series temporales de largo plazo}, su continuidad operativa y su integración en redes nacionales e internacionales de observación.
+
+La coordinación científica de estas instalaciones ha implicado responsabilidades directas en el diseño de estrategias de muestreo, la implementación de protocolos de control de calidad, la gestión y explotación de grandes volúmenes de datos y la interpretación de señales biogeoquímicas complejas asociadas a procesos de cambio ambiental. De forma diferencial, se ha promovido la \textbf{integración de metodologías basadas en inteligencia artificial y aprendizaje automático} para la reconstrucción de series temporales, la detección de anomalías y el análisis de tendencias, mejorando la capacidad diagnóstica de estas infraestructuras en contextos de observación discontinua.
+
+Los productos derivados de estas series temporales han contribuido a la \textbf{cuantificación de tendencias a medio y largo plazo} en variables clave del sistema del carbono, la oxigenación y los gases de efecto invernadero, y han sido incorporados en \textbf{evaluaciones científicas de referencia internacional} (IPCC, CLIVAR). Asimismo, han servido como base para proyectos competitivos y para la transferencia metodológica a nuevos entornos ambientales, incluyendo ecosistemas costeros profundos y regiones polares.
+
+En conjunto, estas contribuciones consolidan el uso de infraestructuras singulares como \textbf{activos científicos estratégicos para la evaluación de impactos del cambio global en costas y fondos marinos}, en plena coherencia con el perfil de la plaza y las prioridades del ICMAN.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Coordinación científica de la serie temporal GIFT (Gibraltar Fixed Time Series)} (2008--presente).\\
+    Serie temporal oceanográfica basada en muestreos de alta frecuencia de variables biogeoquímicas y físicas en el Estrecho de Gibraltar.\\
+    \textbf{Rol: Coordinadora científica}. Responsable de la planificación de muestreos, control de calidad de datos, análisis e interpretación de series temporales.\\
+    \textbf{Resultados y relevancia}: cuantificación de tasas decenales de acidificación en masas de agua atlánticas y mediterráneas, y evaluación de procesos de mezcla y ventilación en una región clave de intercambio oceánico.\\
+    \textbf{Impacto}: resultados incorporados en evaluaciones científicas de referencia, incluyendo el \textit{IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC, 2019)} y el informe \textit{CLIVAR-Spain 2025}.
+
+    \item \textbf{Cofundadora y coinvestigadora principal de la red BOATS (Balearic Ocean Acidification Time Series)} (2018--presente).\\
+    Red de observación centrada en sistemas costeros del mar Balear, con especial énfasis en praderas de \textit{Posidonia oceanica}.\\
+    \textbf{Rol: Cofundadora y coinvestigadora principal}. Desarrollo metodológico y coordinación científica.\\
+    \textbf{Contribuciones}: desarrollo de metodologías basadas en inteligencia artificial para la reconstrucción de series temporales continuas de pH, y caracterización de tendencias y ciclos estacionales de acidificación, oxigenación de la columna de agua y emisiones de gases de efecto invernadero.\\
+    \textbf{Aplicación}: metodologías y resultados aplicados posteriormente al análisis de indicadores de impacto en ecosistemas profundos del Mediterráneo occidental en los proyectos \textit{EVALUARTE} e \textit{INDICLIMA}.
+
+\end{itemize}
+
+
+
+\subsection{Participación en trabajos e informes de asesoramiento científico}
+
+\breveexposicion{Criterio A.5. Participación en trabajos e informes de asesoramiento científico}{
+La trayectoria investigadora incluye una \textbf{participación reconocida en actividades de asesoramiento científico y evaluación experta} en el ámbito de la observación oceanográfica y la instrumentación biogeoquímica, asociadas a infraestructuras científicas de gran escala y a programas internacionales de referencia.
+
+La participación en paneles y comités de evaluación ha implicado la \textbf{valoración técnica de sensores biogeoquímicos, plataformas observacionales y flotas de investigación}, así como la revisión de protocolos operativos, estándares de calidad de datos y criterios de priorización científica. Estas actividades se han apoyado en una experiencia consolidada en observación de largo plazo y en el uso de \textbf{herramientas avanzadas de análisis de datos, control de calidad e inteligencia artificial}, aplicadas a la validación y explotación de información oceanográfica compleja.
+
+Este asesoramiento contribuye directamente a la \textbf{mejora de la calidad y fiabilidad de los datos utilizados en la evaluación de impactos de origen natural y antrópico sobre costas y fondos marinos}, y refuerza la proyección institucional del CSIC en foros internacionales. En conjunto, estas actividades evidencian una capacidad contrastada para aportar conocimiento experto a procesos de toma de decisiones científicas y técnicas en el contexto de la evaluación de impactos naturales o antrópicos.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Evaluadora experta para el “OOI Biogeochemical Sensor Best Practices and User Guide”}.\\
+    Ocean Observatories Initiative (OOI). Centro de I+D.\\
+    Área geográfica: Internacional (no UE).\\
+    Especialidad UNESCO: Oceanografía biológica (251001) y oceanografía química (251002).\\
+    Lugar: Woods Hole, Massachusetts, Estados Unidos.\\
+    Periodo: 16/06/2022 -- 18/06/2022.
+
+    \item \textbf{Revisora experta del Panel de Buques de Investigación Alemanes (Gutachterpanel Forschungsschiffe, GPF)}.\\
+    Entidades: German Research Foundation (DFG) y Helmholtz Association.\\
+    Tipo de actividad: Evaluación experta y gestión de acciones y proyectos de I+D+i.\\
+    Rol: Evaluadora experta.\\
+    Periodo: desde 24/05/2023 (duración: 1 mes).
+
+\end{itemize}
+\newpage
+\subsection{Diseño, desarrollo y transferencia de prototipos, herramientas digitales y explotación de resultados}
+
+\breveexposicion{Criterio A.6. Diseño, desarrollo y transferencia de prototipos, herramientas digitales y explotación de resultados}{
+La trayectoria investigadora incluye \textbf{contribuciones tecnológicas basadas en el desarrollo y transferencia de herramientas digitales con inteligencia artificial}, orientadas a la \textbf{evaluación de impactos de origen natural y antrópico sobre sistemas costeros y fondos marinos}.
+
+Estas aportaciones se concretan en \textbf{plataformas y modelos de aprendizaje profundo de acceso abierto} para la explotación avanzada de datos oceanográficos, que permiten transformar series observacionales discontinuas en productos continuos, facilitando la \textbf{detección de tendencias, anomalías y señales de impacto ambiental}.
+
+De forma diferencial, se han aplicado \textbf{modelos de Deep Learning} que integran información oceanográfica, meteorológica y geofísica, ampliando la capacidad de diagnóstico y predicción en contextos complejos, incluidos entornos poco muestreados y regiones polares.
+
+Las herramientas desarrolladas son \textbf{reproducibles y transferibles}, siguiendo los principios FAIR, al estar documentadas y disponibles en repositorios públicos, reforzando la \textbf{repercusión aplicada y tecnológica} de la investigación y su alineación con el perfil de la plaza y las prioridades del CSIC y en concreto del ICMAN en digitalización y evaluación de los impactos en el medio marino.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{GIFT Dashboard} (plataforma open-source).\\
+    Desarrolladora principal.\\
+    Herramienta de acceso abierto para la gestión, visualización y análisis de datos oceanográficos y biogeoquímicos de la serie temporal GIFT.\\
+    Repositorio público: \url{https://github.com/susafle/GIFT_DASHBOARD}.
+
+    \item \textbf{Modelos de Deep Learning para la predicción de CO\textsubscript{2} integrando datos meteoceánicos y geofísicos}.\\
+    Desarrollo metodológico innovador que identifica la influencia de la sismicidad volcánica en la dinámica del CO\textsubscript{2}, combinando datos oceanográficos, meteorológicos y sísmicos mediante redes neuronales profundas (BiLSTM).\\
+    Resultados totalmente reproducibles mediante datos y modelos de IA de acceso abierto.\\
+    Repositorio público: \url{https://github.com/susafle/CO2_prediction_BiLSTM}.
+
+\end{itemize}
+
+\newpage
+
+% ============================================================================
+% CRITERIO 2
+% ============================================================================
+
+\section{OTROS MÉRITOS CURRICULARES}
+
+
+\subsection{Dirección de estudiantes}
+
+\breveexposicion{Criterio B.1. Dirección de estudiantes}{
+La trayectoria científica muestra un \textbf{compromiso continuado con la formación de recursos humanos}, mediante la dirección y co-dirección de estudiantes de grado, máster y doctorado en el marco de proyectos competitivos y líneas de investigación propias alineadas con la \textbf{evaluación de impactos del cambio global en sistemas costeros y marinos}.
+
+Desde el periodo postdoctoral, se han dirigido \textbf{cinco Trabajos Fin de Máster}, desarrollados en \textbf{universidades nacionales e internacionales}, de los cuales \textbf{cinco obtuvieron calificación de Sobresaliente o superior}, incluyendo \textit{Summa Cum Laude}. Los trabajos se han realizado en programas internacionales de excelencia (\textbf{Erasmus Mundus MER+ e IMBRSea}) y en universidades europeas de referencia (\textbf{Ghent University, Università di Bologna}), abordando temáticas directamente relacionadas con impactos ambientales en ecosistemas costeros y marinos.
+
+Como resultado de esta labor formativa, \textbf{tres de los cinco Trabajos Fin de Máster han sido publicados como artículos científicos}, y \textbf{un cuarto se encuentra actualmente en preparación} (Marta Medina), evidenciando una clara orientación a la generación de conocimiento publicable y transferible. Asimismo, \textbf{todas las personas dirigidas continúan su carrera investigadora en instituciones europeas}, incluyendo la \textbf{University of Portsmouth} (Lukas Marx), la \textbf{Università di Pisa} (Anna Escolano), la \textbf{Università di Bologna} (Beatrice Rogmanoli) y una de ellas desarrolla actualmente su \textbf{tesis doctoral bajo mi co-dirección} (Peru Águeda Aramburu).
+
+En el ámbito doctoral, la \textbf{co-dirección de tesis} se integra en proyectos competitivos y redes internacionales centradas en gases de efecto invernadero en ecosistemas costeros. De forma distintiva, la actividad formativa incorpora \textbf{herramientas avanzadas de análisis de datos e inteligencia artificial}, aplicadas a la reconstrucción de variables ambientales y a la evaluación de impactos, fortaleciendo las competencias metodológicas de los investigadores en formación.
+
+De manera complementaria, la participación en \textbf{programas de mentorización nacional e internacional} (JAE Intro--CSIC y Pier2Peer Mentorship Programme, NOAA) refuerza la transferencia de buenas prácticas en investigación. En conjunto, esta actividad formativa se alinea con las prioridades del CSIC en \textbf{excelencia, internacionalización y ciencia abierta}.
+}
+
+
+\subsubsection{Tesis Doctorales}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Co-dirección}: Tesis doctoral titulada \textit{``Greenhouse gas dynamics in coastal ecosystems of the Balearic Islands''}, desarrollada por \textbf{Peru Águeda Aramburu} (Universitat de les Illes Balears, \textit{Contrato predoctoral María de Maeztu}), codirigida con \textbf{Iris Hendriks}. Inicio: 2024; finalización prevista: 2028.
+\end{itemize}
+
+\subsubsection{Trabajos Fin de Máster}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Reconstrucción de datos de pH en el mar Balear y estimación de tasas de acidificación oceánica mediante técnicas de aprendizaje automático}.\\
+    Trabajo Fin de Máster.\\
+    Estudiante: \textbf{Marta Medina Muñiz}.\\
+    Universidad: \textbf{Universitat de València} (España).\\
+    Rol: Directora (Susana Flecha).\\
+    Fecha de lectura: 15/01/2026.\\
+    Calificación: Sobresaliente.
+
+    \item \textbf{Metabolic rates in a pristine \textit{Posidonia oceanica} meadow in the Balearic Islands and potential export of oxygen to the water column}.\\
+    Trabajo Fin de Máster (\textbf{Programa Erasmus Mundus MER+}).\\
+    Estudiante: \textbf{Peru Águeda Aramburu}.\\
+    Universidad de matrícula: \textbf{Universidad del País Vasco} (España).\\
+    Rol: Co-directora (Susana Flecha, Iris Hendriks).\\
+    Fecha de lectura: 20/09/2022.\\
+    Calificación: \textbf{Sobresaliente}.
+
+    \item \textbf{Ecosystem services, carbon sinks and oxygenation of the water as an incentive for the conservation of \textit{Posidonia oceanica} meadows}.\\
+    Trabajo Fin de Máster (\textbf{Programa Erasmus Mundus IMBRSea}).\\
+    Estudiante: \textbf{Anna Escolano Moltó}.\\
+    Universidad de matrícula: \textbf{Ghent University} (Bélgica).\\
+    Rol: Co-directora (Susana Flecha, Iris Hendriks).\\
+    Calificación: \textbf{Sobresaliente}.
+
+    \item \textbf{Marine macrophytes as carbon sinks: Comparison between two endemic plants and the invasive alga \textit{Halimeda incrassata}}.\\
+    Trabajo Fin de Máster (\textbf{Programa Erasmus Mundus IMBRSea}).\\
+    Estudiante: \textbf{Lukas Marx}.\\
+    Universidad de matrícula: \textbf{Ghent University} (Bélgica).\\
+    Rol: Co-directora (Susana Flecha, Iris Hendriks).\\
+    Fecha de lectura: 28/06/2019.\\
+    Calificación: \textbf{Sobresaliente}.
+
+    \item \textbf{Influence of Guadalquivir estuary on aquatic biogeochemistry of the saltmarshes of Doñana National Park (SW Spain)}.\\
+    Trabajo Fin de Máster.\\
+    Estudiante: \textbf{Beatrice Rogmanoli}.\\
+    Universidad: \textbf{Università di Bologna} (Italia).\\
+    Rol: Co-directora (Susana Flecha, I. Emma Huertas Cabilla).\\
+    Fecha de lectura: 15/02/2018.\\
+    Calificación: \textbf{Summa Cum Laude}.
+
+\end{itemize}
+\subsubsection{Estudiantes de Grado y Programas de Mentorización}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Programa Junta para la Ampliación de Estudios (JAE Intro Programme) – Convocatoria 2026 (concedido)}\\
+    Consejo Superior de Investigaciones Científicas (CSIC)\\
+    \textbf{Tutora principal} del proyecto JAE Intro concedido en 2026 en el marco de la \textbf{Conexión Polar}, titulado:\\
+    \emph{“Evaluación de inventarios y flujos de gases de efecto invernadero (CO\textsubscript{2}, CH\textsubscript{4} y N\textsubscript{2}O) en ecosistemas costeros antárticos mediante análisis de datos avanzados”}.\\
+    Proyecto orientado al estudio integrado de procesos biogeoquímicos en ecosistemas costeros polares mediante el uso de observaciones in situ y metodologías avanzadas de análisis de datos, reforzando la proyección polar e internacional de la actividad formativa.
+
+    \item \textbf{Programa internacional Pier2Peer Mentorship}\\
+    NOAA Ocean Acidification Program (Estados Unidos)\\
+    Programa internacional de mentorización regulada en acidificación oceánica, orientado a la formación de investigadores/as en etapas iniciales.\\
+    Persona mentorizada: \textbf{Yurley Tatiana Zapata Rey} (Instituto de Investigaciones Marinas y Costeras -- INVEMAR, Colombia).\\
+    Periodo: octubre 2025 – octubre 2026.\\
+    Número de personas mentorizadas: 1.
+
+    \item \textbf{Programa Junta para la Ampliación de Estudios (JAE Intro Programme)}\\
+    Consejo Superior de Investigaciones Científicas (CSIC)\\
+    Tutorización de estudiantes JAE Intro en convocatorias previas:
+    \begin{itemize}
+        \item \textbf{Pablo Rodríguez Ros} (2015)
+        \item \textbf{Diego Rueda} (2022)
+    \end{itemize}
+    Número total de estudiantes tutorizados: 2.
+
+\end{itemize}
+\newpage
+\subsection{Premios, Menciones y Distinciones}
+
+\breveexposicion{Criterio B.2. Premios, Menciones y Distinciones}{
+La trayectoria científica ha sido reconocida mediante \textbf{distinciones académicas obtenidas en procesos competitivos con evaluación externa}, que acreditan la \textbf{excelencia científica y la calidad del trabajo doctoral}. Estos reconocimientos reflejan el cumplimiento de altos estándares académicos y constituyen un \textbf{indicio objetivo de mérito científico}, conforme a los criterios de evaluación del sistema universitario y del CSIC.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Premio Extraordinario de Doctorado} -- Universidad de Cádiz (2016).\\
+    Otorgado por la excelencia académica y científica de la tesis doctoral.
+
+    \item \textbf{Mención Internacional del Doctorado} -- Universidad de Cádiz (2016).\\
+    Reconocimiento a la dimensión internacional de la tesis doctoral, incluyendo estancias de investigación y evaluación externa internacional.
+    
+\end{itemize}
+
+\subsection{Ayudas y Becas Obtenidas}
+
+\breveexposicion{Criterio B.3. Ayudas y Becas Obtenidas}{
+La trayectoria investigadora ha estado respaldada por la \textbf{obtención continuada de ayudas y becas competitivas nacionales e internacionales}, concedidas en convocatorias con evaluación externa y alto nivel de exigencia. Estas ayudas han apoyado la \textbf{formación avanzada y la movilidad científica} desde etapas tempranas de la carrera investigadora hasta el periodo postdoctoral, incluyendo la mentorización de jóvenes investigadores, en coherencia con una línea de trabajo centrada en la \textbf{evaluación de impactos de origen natural y antrópico sobre sistemas costeros y marinos}.
+
+Las estancias financiadas se han desarrollado en \textbf{centros internacionales de referencia} en Europa, Estados Unidos y Asia, permitiendo la adquisición de competencias metodológicas especializadas en oceanografía biogeoquímica, observación oceánica y análisis avanzado de datos. De forma destacada, estas ayudas han sido \textbf{altamente productivas desde el punto de vista científico}, dando lugar a \textbf{publicaciones posteriores en revistas internacionales de alto impacto}. En particular, la \textbf{Canon Foundation Research Fellowship} y la \textbf{Short Term Scientific Mission (COST)} derivaron en artículos científicos que han contribuido de manera significativa al avance del conocimiento sobre procesos biogeoquímicos y sus implicaciones en la evaluación de impactos ambientales.
+
+En conjunto, estas ayudas constituyen un \textbf{indicio objetivo de reconocimiento al potencial investigador, a la calidad científica de la trayectoria y a la capacidad de convertir la movilidad internacional en resultados científicos concretos}.
+}
+
+\begin{itemize}[leftmargin=*]
+
+\item \textbf{Ayuda JAE Intro para la formación de personal investigador en etapas iniciales (convocatoria 2026, concedida).}\\
+Consejo Superior de Investigaciones Científicas (CSIC).\\
+\textbf{Rol: Tutora principal y responsable científica de la propuesta}.\\
+Título del proyecto formativo: \emph{“Evaluación de inventarios y flujos de gases de efecto invernadero (CO\textsubscript{2}, CH\textsubscript{4} y N\textsubscript{2}O) en ecosistemas costeros antárticos mediante análisis de datos avanzados”}.\\
+Marco estratégico: \textbf{Conexión Polar CSIC}.\\
+Descripción: Captación de financiación competitiva destinada a la formación de personal investigador mediante un proyecto propio de investigación y mentorización en ecosistemas polares.
+    \item \textbf{Canon Foundation Research Fellowship in Japan} (2016).\\
+    Fundación Canon (Amstelveen, Países Bajos).\\
+    Ayuda postdoctoral altamente competitiva para estancias de investigación en Japón.\\
+    Centro de destino: Japan Agency for Marine-Earth Science and Technology (JAMSTEC),\\
+    Research and Development Center for Global Change.\\
+    Duración: 3 meses y 10 días (02/12/2015 -- 17/02/2017).\\
+    Financiación concedida: 14.200~€.
+
+    \item \textbf{Short Term Scientific Stay Fellowship} -- Consejo Superior de Investigaciones Científicas (CSIC).\\
+    Ayuda predoctoral competitiva para movilidad internacional.\\
+    Centro de destino: Université Pierre et Marie Curie (París, Francia),\\
+    Laboratoire d'Océanographie et du Climat.\\
+    Duración: 15 días (2014).\\
+    Financiación concedida: 575~€.
+
+    \item \textbf{Short Term Scientific Stay Fellowship} -- Consejo Superior de Investigaciones Científicas (CSIC).\\
+    Ayuda predoctoral competitiva para estancias de investigación.\\
+    Centro de destino: University of Washington (Seattle, EE.\,UU.),\\
+    School of Oceanography.\\
+    Duración: 90 días (2011).\\
+    Financiación concedida: 5.750~€.
+
+    \item \textbf{Short Term Scientific Mission (COST Action 735)} -- Unión Europea.\\
+    Ayuda competitiva predoctoral en el marco del Programa Marco Europeo de I+D.\\
+    Centro de destino: Université de Liège (Bélgica),\\
+    Chemical Oceanography Unit.\\
+    Duración: 82 días (2010).\\
+    Financiación concedida: 2.500~€.
+
+    \item \textbf{Beca de Participación -- 4th SOLAS Summer School}.\\
+    International Geosphere-Biosphere Programme (IGBP).\\
+    Ayuda competitiva internacional para formación avanzada predoctoral.\\
+    Centro de destino: Université de Corse,\\
+    Institut d’Études Scientifiques de Cargèse.\\
+    Duración: 12 días (2009).\\
+    Financiación concedida: 800~€.
+
+    \item \textbf{Beca de Participación -- Regional Training Course onboard R/V ``Professor Shtokman''}.\\
+    Universidad de Cádiz.\\
+    Ayuda competitiva para formación en oceanografía operacional durante una campaña oceanográfica en el mar Báltico.\\
+    Centro de destino: Russian State Hydrometeorological University,\\
+    Baltic Floating University.\\
+    Duración: 17 días (2007).
+
+\end{itemize}
+   
+
+\subsection{Actividades de Divulgación Científica}
+
+\breveexposicion{Criterio B.4. Actividades de Divulgación Científica}{
+La trayectoria investigadora incluye una \textbf{actividad continuada y diversificada de divulgación científica}, con \textbf{19 acciones documentadas} desarrolladas en medios de comunicación, ferias científicas, talleres educativos y conferencias por invitación. Estas actividades han estado centradas en la \textbf{comunicación de resultados científicos relacionados con el cambio climático y sus impactos en el medio marino}, incluyendo procesos de acidificación oceánica y alteraciones en sistemas costeros.
+
+Destaca la \textbf{presencia regular en medios regionales y nacionales} (prensa escrita, radio, televisión y formatos digitales), contribuyendo a la transferencia social del conocimiento científico y a la sensibilización sobre los impactos de origen natural y antrópico en costas y fondos marinos. De forma complementaria, la asunción de \textbf{responsabilidades institucionales en divulgación científica}, como miembro de la \textbf{Comisión de Divulgación del IMEDEA (2022--2024)}, refuerza el compromiso con la comunicación pública de la ciencia y la proyección social de la actividad investigadora.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Participación en medios de comunicación (prensa, radio, televisión y podcast)}\\
+    Actividad continuada de divulgación científica por invitación en medios regionales y nacionales:
+    \begin{itemize}
+        \item \textit{La acidificación del mar amenaza la pesca}. \textbf{La Vanguardia} (Economía Verde), 01/10/2025. Artículo de divulgación científica en prensa nacional.
+        \item \textit{El Mirador. Cambio Climático}. Onda Cádiz RTV, 18/09/2025. Entrevista televisiva por invitación.
+        \item Entrevista en \textbf{Radio IB3} (programa \textit{Al día}), 24/04/2024.
+        \item \textit{La acidificación de los océanos}. ICUES, Cartagena Oceanographic Research, 29/05/2023. Entrevista en podcast.
+        \item \textit{Monitorización del cambio climático}. Programa Nautilus, IB3 Radio, 20/11/2021.
+        \item Podcast \textit{Islas, estrechos y acidificación}. \textbf{Voces CSIC Baleares}, 17/02/2021.
+        \item Programa \textit{75 Minutos – Aquí se investiga}. Canal Sur RTV, 16/05/2017.
+        \item Blog CSIC \textit{La cuadratura del círculo}: \textit{¿Qué sabemos sobre la acidificación oceánica?}, 20/01/2017.
+        \item Blog divulgativo \textit{Investiga, que no es poco}: \textit{El Mar Mediterráneo se está acidificando}, 30/01/2018.
+    \end{itemize}
+
+    \item \textbf{Ferias científicas, exposiciones y eventos de divulgación}\\
+    Participación activa como investigadora representante y ponente:
+    \begin{itemize}
+        \item \textit{Explorando el océano: desde el cielo hasta el fondo del mar}. \textbf{Noche Europea de los Investigadores}, 26/09/2025. San Fernando (Cádiz).
+        \item \textit{Cambio climático y acidificación oceánica}. \textbf{Ocean Night}, IMEDEA, Palma de Mallorca (2023 y 2022).
+        \item \textit{Citas rápidas con científicos}. Semana de la Ciencia del CSIC, 09/11/2018.
+        \item FEMSTEM Movement. Actividad de fomento de vocaciones científicas femeninas, 27/05/2021.
+    \end{itemize}
+
+    \item \textbf{Workshops y talleres divulgativos}\\
+    Diseño e impartición de talleres orientados a público general y educativo:
+    \begin{itemize}
+        \item Workshop \textit{Entendamos el cambio climático}. IMEDEA, Esporles (2022, 2020 y 2018).
+        \item Taller \textit{Acidificación oceánica} en el marco de programas educativos regionales.
+    \end{itemize}
+
+    \item \textbf{Conferencias y seminarios divulgativos por invitación}\\
+    \begin{itemize}
+        \item \textit{Carbon fluxes in coastal systems in the South-Atlantic Iberian Basin}. Seminarios científicos JAMSTEC, Yokosuka (Japón), 29/11/2016.
+        \item \textit{Flujos de gases de efecto invernadero en humedales: de la teoría a la práctica}. Jornadas sobre Cambio Climático y Humedales Costeros.
+    \end{itemize}
+
+    \item \textbf{Gestión y coordinación de actividades de divulgación científica}\\
+    \textbf{Miembro de la Comisión de Divulgación del IMEDEA (CSIC-UIB)} durante el periodo \textbf{2022--2024}, participando en la planificación estratégica, coordinación de actividades públicas y representación institucional en eventos de divulgación científica.
+
+\end{itemize}
+
+\subsection{Participación en Congresos, Seminarios y Cursos}
+
+\breveexposicion{Criterio B.5. Participación en Congresos, Seminarios y Cursos}{
+La trayectoria científica presenta una \textbf{participación continuada y activa en congresos científicos, seminarios y cursos especializados} entre 2009 y 2026, en los principales foros internacionales de oceanografía, biogeoquímica marina y cambio climático (AGU, ASLO, EGU, Ocean Sciences Meeting, SOLAS, OceanObs, IMBER, entre otros).
+
+Se contabilizan \textbf{40 contribuciones científicas}, incluyendo \textbf{22 comunicaciones orales}, \textbf{16 pósters}, \textbf{18 como autora correspondiente} y \textbf{3 participaciones invitadas}, lo que evidencia una presencia sostenida en la difusión y discusión de resultados científicos a nivel internacional. Una parte significativa de estas contribuciones se ha centrado en la \textbf{evaluación de impactos de origen natural y antrópico sobre sistemas costeros y marinos}, en coherencia con el perfil de la plaza.
+
+De forma complementaria, la participación en \textbf{cursos y seminarios especializados}, tanto como asistente como ponente invitada, ha estado estrechamente vinculada a líneas activas de investigación, incorporando el uso de \textbf{series temporales de largo plazo, casos de estudio reales y metodologías avanzadas de análisis de datos}, incluyendo inteligencia artificial aplicada a la evaluación ambiental. En conjunto, esta actividad refleja una \textbf{implicación continuada en la actualización científica, la transferencia de conocimiento y el intercambio especializado} dentro de la comunidad científica internacional.
+}
+
+\subsubsection{Congresos y Seminarios}
+
+\textbf{Leyenda:}
+\textbf{AC} = Autora principal y de correspondencia.  
+\textbf{CI} = Contribución invitada (seminario o workshop).
+
+\vspace{0.5em}
+
+\textbf{Listado completo (orden cronológico decreciente):}
+
+\begin{itemize}[leftmargin=*]
+
+\item[40.] \textbf{Flecha, S.} \textbf{(AC, CI)}. 
+\textit{Tendencias de acidificación en el Mediterráneo occidental: ciencia de datos para entender el campo global}. 
+Jornadas de Presentación de Resultados del Plan Complementario de Biodiversidad. 
+Universidad de Extremadura y Junta de Extremadura. 
+2026. Badajoz, España. Conferencia invitada.
+
+\item[39.] Ibello, V.; Álvarez, M.; Bednarsek, N.; \textbf{Flecha, S.}; et al. 
+\textit{An Inter-Laboratory Comparison of Marine Carbonate System Measurements in the Mediterranean Basin}. 
+Ocean Sciences Meeting (AGU). 2026. Glasgow, Reino Unido. Comunicación.
+
+\item[38.] Águeda Aramburu, P.; Medina, M.; Juza, M.; Zarokanelos, N.; Hendriks, I.E.; Tintoré, J.; \textbf{Flecha, S.} 
+\textit{From Observations to Predictions: Machine Learning Assessment of pH and Carbonate Saturation in the Western Mediterranean Sea}. 
+Ocean Sciences Meeting (AGU). 2026. Glasgow, Reino Unido. Comunicación.
+
+\item[37.] Hendriks, I.E.; Hassoun, A.R.; Ziveri, P.; Bednarsek, N.; Reale, M.; Hadjioannou, L.; \textbf{Flecha, S.}; et al. 
+\textit{OA Med Hub Panel}. 
+Ocean Acidification Week 2025 (GOA-ON). 2025. Online. Seminario. \textbf{AC, CI}.
+
+\item[36.] \textbf{Flecha, S.} \textbf{(AC)}. 
+\textit{Uso de aprendizaje profundo para la estimación de CO\textsubscript{2} a partir de variables geofísicas y ambientales en Isla Decepción}. 
+Encuentro Rompehielos del Área de Riesgos y Peligros de la Conexión PolarCSIC. 
+2025. Online. Comunicación oral.
+
+\item[35.] \textbf{Flecha, S.} 
+\textit{Sensors data acquisition and validation}. 
+Mallorca Science School (MASS) 2024. IMEDEA. Palma, España. Workshop. \textbf{AC, CI}.
+
+\item[34.] Águeda Aramburu, P.; \textbf{Flecha, S.}; Marbà, N.; Traveset, A.; Hendriks, I. 
+\textit{Alterations in Greenhouse Gas Fluxes from Posidonia oceanica Berm Due to Human Interference}. 
+Coastal Resilience Symposium. 2025. Palma, España. Póster.
+
+\item[33.] Águeda Aramburu, P.; \textbf{Flecha, S.}; Marbà, N.; Hendriks, I. 
+\textit{Greenhouse gas emissions from Posidonia oceanica beach wrack}. 
+SIBECOL Meeting. 2025. Pontevedra, España. Comunicación oral.
+
+\item[32.] Juza, M.; de Alfonso, M.; Mora-Fernández, A.; Zarokanellos, N.; \textbf{Flecha, S.}; Hendriks, I. 
+\textit{Marine heatwaves in the Mediterranean Sea}. 
+WMO Workshop. 2024. Norrköping, Suecia. Comunicación oral.
+
+\item[31.] Wesselmann, M.; Ruiz, J.M.; Marbà, N.; \textbf{Flecha, S.}; et al. 
+\textit{Effects of treated sewage discharge on Posidonia oceanica meadows}. 
+ASLO Aquatic Sciences Meeting. 2023. Palma, España. Comunicación.
+
+\item[30.] \textbf{Flecha, S.}; de la Paz, M.; Fernández-Pérez, F.; Alou-Font, E.; Tintoré, J.; Hendriks, I. 
+\textit{Nitrous oxide fluxes in a coastal Mediterranean area: the Balearic Sea case study}. 
+ASLO Aquatic Sciences Meeting. 2023. Palma, España. Póster. \textbf{AC}.
+
+\item[29.] Huertas, I.E.; Amaya-Vías, S.; García-Lafuente, J.; Sammartino, S.; \textbf{Flecha, S.} 
+\textit{Towards 2 Decades of Observations of Essential Ocean Variables at the Strait of Gibraltar Observatory}. 
+AGU Fall Meeting. 2022. Chicago, EE.UU. Comunicación oral.
+
+\item[28.] Amaya-Vías, S.; \textbf{Flecha, S.}; Fernández-Pérez, F.; et al. 
+\textit{Carbonate availability for biogenic calcification in the Strait of Gibraltar}. 
+ISMS 2022. Las Palmas, España. Póster.
+
+\item[27.] Aponte, O.; Hendriks, I.; Calvo-Cubero, J.; \textbf{Flecha, S.} 
+\textit{Assessing the impact of sewage on ecosystem services}. 
+SIBECOL Meeting. 2022. Aveiro, Portugal. Comunicación oral.
+
+\item[26.] Hendriks, I.; \textbf{Flecha, S.}; Fernández-Pérez, F.; et al. 
+\textit{Coastal pH variability in the Balearic Sea}. 
+ASLO Aquatic Sciences Meeting. 2021. Palma, España. Comunicación.
+
+\item[25.] Rueda, D.; \textbf{Flecha, S.}; et al. 
+\textit{Spatial and temporal variations of methane emissions in Mallorca}. 
+ASLO Aquatic Sciences Meeting. 2021. Palma, España. Comunicación.
+
+\item[24.] \textbf{Flecha, S.}; Huertas, I.E.; Fernández-Pérez, F.; et al. 
+\textit{Monitoring pH trends in the Mediterranean Sea}. 
+MONGOOS Meeting. 2019. Trieste, Italia. Comunicación oral. \textbf{AC}.
+
+\item[23.] \textbf{Flecha, S.}; Tintoré, J.; Huertas, I.E.; et al. 
+\textit{Monitoring seawater pH in the Mediterranean Sea}. 
+OceanObs’19. 2019. Honolulu, EE.UU. Comunicación oral. \textbf{AC}.
+
+\item[22.] Hendriks, I.; Vaquer-Sunyer, R.; \textbf{Flecha, S.}; Morell, C. 
+\textit{Carbon fluxes in Posidonia oceanica meadows}. 
+SIBECOL/AEET. 2019. Barcelona, España. Póster.
+
+\item[21.] García Lafuente, J.; Naranjo, C.; Sammartino, S.; \textbf{Flecha, S.}; et al. 
+\textit{Western Mediterranean Transition}. 
+EGU General Assembly. 2017. Viena, Austria. Comunicación oral.
+
+\item[20.] \textbf{Flecha, S.}; Huertas, I.E. 
+\textit{Papel del compartimento acuático de Doñana en el intercambio de CO$_2$}. 
+Presentación Proyectos Doñana. 2016. España. Comunicación oral. \textbf{AC}.
+
+\item[19.] \textbf{Flecha, S.}; de la Paz, M.; Sammartino, S.; et al. 
+\textit{First evidence of Ocean Acidification in the Mediterranean Sea}. 
+SOLAS OSC. 2015. Kiel, Alemania. Póster. \textbf{AC}.
+
+\item[18.] de la Paz, M.; Huertas, I.E.; \textbf{Flecha, S.}; et al. 
+\textit{Oceanic N$_2$O measurements}. 
+SOLAS OSC. 2015. Kiel, Alemania. Póster.
+
+\item[17.] de la Paz, M.; Huertas, I.E.; \textbf{Flecha, S.}; et al. 
+\textit{Distribution of Nitrous Oxide}. 
+ASLO ASM. 2015. Granada, España. Póster.
+
+\item[16.] Huertas, I.E.; \textbf{Flecha, S.}; et al. 
+\textit{GIFT: A sensor for global change}. 
+ASLO ASM. 2015. Granada, España. Comunicación oral.
+
+\item[15.] Taglialatela, S.; \textbf{Flecha, S.}; et al. 
+\textit{Carbon cycling in a Patagonian fjord}. 
+IOC-UNESCO. 2014. Barcelona, España. Póster.
+
+\item[14.] \textbf{Flecha, S.}; Huertas, I.E.; et al. 
+\textit{Monitoring carbon exchange at GIFT}. 
+IMBER OSC. 2014. Bergen, Noruega. Póster. \textbf{AC}.
+
+\item[13.] \textbf{Flecha, S.}; et al. 
+\textit{Carbon monitoring in the Strait of Gibraltar}. 
+ICCD9. 2013. Beijing, China. Póster. \textbf{AC}.
+
+\item[12.] \textbf{Flecha, S.}; Morris, E.P.; et al. 
+\textit{Temporal monitoring of CO$_2$ exchange}. 
+ICCD9. 2013. Beijing, China. Póster. \textbf{AC}.
+
+\item[11.] Morris, E.P.; \textbf{Flecha, S.}; et al. 
+\textit{Air-water CO$_2$ fluxes in wetlands}. 
+ASLO ASM. 2013. New Orleans, EE.UU. Comunicación oral.
+
+\item[10.] \textbf{Flecha, S.}; et al. 
+\textit{Air-Sea CO$_2$ exchange in SW Iberian Peninsula}. 
+SOLAS OSC. 2012. EE.UU. Póster. \textbf{AC}.
+
+\item[9.] \textbf{Flecha, S.}; et al. 
+\textit{Carbon monitoring at GIFT}. 
+CARBOCHANGE Annual Meeting. 2012. Irlanda. Póster. \textbf{AC}.
+
+\item[8.] Navarro Almendros, G.; \textbf{Flecha, S.}; et al. 
+\textit{Humedales costeros y CO$_2$}. 
+Irún. 2012. Comunicación oral.
+
+\item[7.] \textbf{Flecha, S.}; Navarro Almendros, G.; Huertas, I.E. 
+\textit{Flujos de CO$_2$ en el Golfo de Cádiz}. 
+XVI SIQM. 2012. Cádiz. Comunicación oral. \textbf{AC}.
+
+\item[6.] \textbf{Flecha, S.}; et al. 
+\textit{Anthropogenic carbon inventory}. 
+Liège Colloquium. 2011. Bélgica. Comunicación oral. \textbf{AC}.
+
+\item[5.] \textbf{Flecha, S.}; Olivé Samarra, I.; Huertas, I.E. 
+\textit{Carbon system distribution}. 
+SESAME Final Conference. 2011. Atenas. Comunicación oral. \textbf{AC}.
+
+\item[4.] Navarro Almendros, G.; \textbf{Flecha, S.}; et al. 
+\textit{Masas de agua y nutrientes}. 
+XV SIQM. 2010. Vigo. Comunicación oral.
+
+\item[3.] \textbf{Flecha, S.}; et al. 
+\textit{Air-Sea CO$_2$ fluxes in Southern European basins}. 
+SOLAS OSC. 2009. Barcelona. Póster. \textbf{AC}.
+
+\item[2.] Vázquez López-Escobar, Á.; Navarro Almendros, G.; \textbf{Flecha, S.}; et al. 
+\textit{Remote sensing of internal waves}. 
+MARTECH 09. 2009. Vilanova i la Geltrú. Póster.
+
+\item[1.] Prieto Gálvez, L.; Navarro Almendros, G.; \textbf{Flecha, S.}; et al. 
+\textit{Macroscale variations of the carbon system}. 
+ICCD8. 2009. Jena, Alemania. Póster.
+
+\end{itemize}
+
+\subsubsection{Cursos}
+
+\textbf{Posgrado}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Prácticas de Ecología Marina}.\\
+    Máster Universitario en Ecología Marina.\\
+    Universidad de las Illes Balears (UIB).\\
+    Tipo de docencia: Sesiones prácticas presenciales.\\
+    Duración: \textbf{8 horas} (2 sesiones de 4 h).\\
+    Fechas: 13/11/2020 y 20/11/2020.\\
+    Contenidos: Procesos ecológicos y biogeoquímicos en sistemas marinos costeros, análisis de datos ambientales y discusión de casos de estudio reales basados en series temporales y observación oceanográfica.
+
+    \item \textbf{Litoral zone, key site for biogeochemical processes in the ocean: carbon fluxes}.\\
+    Máster Universitario en Ecología Marina.\\
+    Universidad de las Illes Balears (UIB).\\
+    Tipo de docencia: Seminario temático especializado.\\
+    Duración: \textbf{2 horas} (1 h por curso académico).\\
+    Fechas: 13/03/2019 y 18/03/2020.\\
+    Contenidos: Papel de la zona litoral en los flujos de carbono, intercambio aire--agua y relevancia de los sistemas costeros en el contexto del cambio climático.
+
+    \item \textbf{Curso: ``Cambio climático en humedales costeros''}.\\
+    Universidad Internacional Menéndez Pelayo (UIMP).\\
+    Lugar: Sevilla, Andalucía, España.\\
+    Tipo de docencia: Curso especializado de posgrado.\\
+    Duración: \textbf{12 horas}.\\
+    Fecha: 05/07/2016.\\
+    Idioma: Español.\\
+    Rol: \textbf{Miembro del comité científico y organizador}, además de docente.\\
+    Contenidos: Impactos del cambio climático en humedales costeros, flujos de gases de efecto invernadero, metodologías de observación y evaluación ambiental.
+
+\end{itemize}
+
+\textbf{Grado}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Redacción y Ejecución de Proyectos}.\\
+    Asignatura obligatoria de 4º curso del Grado en Biología.\\
+    Universidad de las Illes Balears (UIB).\\
+    Tipo de docencia: Seminarios especializados.\\
+    Duración: \textbf{2 horas} (1 h por curso académico).\\
+    Fechas: 08/10/2018 y 14/10/2019.\\
+    Contenidos: Diseño y formulación de proyectos científicos, definición de objetivos e hipótesis, planificación metodológica y nociones básicas de gestión de proyectos de I+D.
+
+\end{itemize}
+
+
+\subsection{Organización de Actividades Científicas}
+
+\breveexposicion{Criterio B.6. Organización de Actividades Científicas}{
+La trayectoria científica incluye una \textbf{participación activa en la organización de actividades científicas} de ámbito nacional e internacional, tales como escuelas especializadas, cursos avanzados, workshops y congresos científicos, en áreas directamente relacionadas con la \textbf{evaluación de impactos del cambio global en sistemas costeros y marinos}.
+
+La asunción de responsabilidades como \textbf{organizadora, presidenta de sesión y miembro de comités científicos} ha implicado tareas de coordinación académica, definición de contenidos científicos y articulación de programas orientados al análisis de procesos biogeoquímicos, oceanografía química y metodologías avanzadas de análisis de datos, incluyendo \textbf{inteligencia artificial aplicada a ciencias del mar}.
+
+En conjunto, estas actividades contribuyen a la \textbf{dinamización de la comunidad científica}, refuerzan la \textbf{visibilidad institucional del CSIC} en foros especializados y favorecen la consolidación de \textbf{redes científicas interdisciplinarias} alineadas con las prioridades estratégicas y el perfil de la plaza.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{MAllorca Science School (MASS) 2024: Interdisciplinary Science for Marine and Coastal Conservation in a Changing World}\\
+    Escuela especializada internacional.\\
+    Entidad organizadora: Instituto Mediterráneo de Estudios Avanzados (IMEDEA, CSIC-UIB).\\
+    Lugar: Palma, Illes Balears, España.\\
+    Rol: \textbf{Organizadora}.\\
+    Número de asistentes: 40.\\
+    Periodo: 20/10/2024 -- 26/10/2024 (7 días).
+
+    \item \textbf{Curso ``Cambio climático en humedales costeros''}\\
+    Curso de posgrado de ámbito nacional.\\
+    Entidad organizadora: Universidad Internacional Menéndez Pelayo (UIMP).\\
+    Lugar: Sevilla, Andalucía, España.\\
+    Periodo: 05/07/2016 -- 08/07/2016 (4 días).\\
+    Roles desempeñados:
+    \begin{itemize}
+        \item \textbf{Organizadora}
+        \item \textbf{Presidenta}
+        \item \textbf{Secretaria}
+    \end{itemize}
+    Número de asistentes: 26.
+
+    \item \textbf{PERSEUS International Workshop: ``Coming to grips with the jellyfish phenomenon in the Southern European and other Seas: Research to the rescue of coastal managers''}\\
+    Workshop internacional (Unión Europea).\\
+    Entidad organizadora: Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC).\\
+    Lugar: Cádiz, Andalucía, España.\\
+    Rol: \textbf{Organizadora}.\\
+    Número de asistentes: 40.\\
+    Periodo: 02/03/2015 -- 03/03/2015 (2 días).
+
+    \item \textbf{Encuentro Rompehielos del Área de Riesgos y Peligros de la Conexión PolarCSIC}.\\
+Actividad científica de coordinación y dinamización de red.\\
+Entidad organizadora: Conexión PolarCSIC (CSIC).\\
+Modalidad: \textbf{Online}.\\
+Rol: \textbf{Organizadora}.\\
+Número de asistentes: \textbf{35 investigadores/as}.\\
+Fechas: \textbf{21 y 22 de octubre}.\\
+Descripción: Encuentro orientado a la creación de red y al establecimiento de sinergias científicas en el ámbito de los riesgos y peligros en regiones polares, con presentaciones breves, sesiones de intercambio científico y definición de líneas de trabajo conjuntas dentro de la Conexión PolarCSIC.
+
+    \item \textbf{XII SCAR Open Science Conference}\\
+    Congreso internacional.\\
+    Lugar: Oslo, Noruega.\\
+    Periodo: 08/08/2026 -- 19/08/2026.\\
+    Rol:
+    \begin{itemize}
+        \item \textbf{Líder de sesión}: \textit{Artificial Intelligence and Machine Learning in Antarctic Science}
+        \item \textbf{Co-líder de sesión}: \textit{Southern Ocean Biogeochemistry: Linking ecosystem dynamics, nutrient cycling, and carbon export in a changing climate}
+    \end{itemize}
+
+\end{itemize}
+
+\subsection{Representación en Organismos e Instituciones Científicas}
+
+\breveexposicion{Criterio B.7. Representación en Organismos e Instituciones Científicas}{
+La trayectoria científica incluye una \textbf{participación activa en órganos de representación y gobernanza científica}, tanto a nivel nacional como internacional, en el marco de redes y organismos vinculados al \textbf{estudio de impactos de origen natural y antrópico en sistemas costeros, oceánicos y regiones polares}. Estas responsabilidades reflejan un \textbf{reconocimiento experto y confianza institucional} para contribuir a la coordinación de comunidades científicas y a la definición de prioridades de investigación en contextos de cambio global.
+
+De forma complementaria, la actividad continuada como \textbf{revisora experta para revistas científicas internacionales de reconocido prestigio} contribuye al \textbf{aseguramiento de la calidad científica} en estudios sobre procesos biogeoquímicos, impactos ambientales y dinámicas marinas, reforzando la proyección institucional del ICMAN y la integración activa en la comunidad científica internacional.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Miembro y representante del Nodo Mediterráneo en el comite de dirección del International Carbon Ocean Network for Early Career (ICONEC)}\\
+    Red internacional vinculada al \textbf{Global Ocean Acidification Network (GOA-ON)}.\\
+    Ámbito geográfico: Internacional (no UE).\\
+    Periodo: desde 01/09/2023 
+    
+    \item \textbf{Coordinadora del Grupo de Riesgos y Peligros} de la \textbf{Conexión Polar CSIC}\\
+    Red temática: Polar CSIC.\\
+    Entidad coordinadora: Consejo Superior de Investigaciones Científicas (CSIC).\\
+    Número de investigadores participantes: 72.\\
+    Periodo: desde 03/03/2025.
+
+    \item \textbf{Miembro del Core Team del Working Group ``Coastal Connection and Hydrographic Drivers of Antarctic Biogeochemistry and Carbon Cycling'' del programa Antarctic InSync}\\
+    Programa científico internacional desarrollado en el marco de la \textbf{Década de las Ciencias Oceánicas de las Naciones Unidas}, promovido y respaldado por la \textbf{UNESCO} a través de la \textbf{Comisión Oceanográfica Intergubernamental (IOC)}.\\
+    Ámbito geográfico: Internacional (no UE).\\
+    Periodo: desde 16/01/2026.
+
+   \item \textbf{Miembro del Comité Representante Institucional del CSIC en el Scientific Committee on Oceanic Research (SCOR)}\\
+    Participación como representante institucional del \textbf{Consejo Superior de Investigaciones Científicas (CSIC)} en el \textbf{Scientific Committee on Oceanic Research (SCOR)}, organismo científico internacional dedicado a la promoción y coordinación de la investigación oceanográfica a escala global.\\
+    Ámbito geográfico: Internacional (no UE).\\
+    Periodo: desde 20/01/2026.
+
+    \item \textbf{Revisora experta de manuscritos} para revistas científicas internacionales de alto impacto:
+    \begin{itemize}
+        \item Nature Scientific Reports, Ocean Science
+        \item Deep Sea Research, Estuarine, Coastal and Shelf Science
+        \item Global Biogeochemical Cycles, Journal of Geophysical Research
+        
+    \end{itemize}
+
+\end{itemize}
+
+\subsection{Formación en Igualdad de Género}
+
+\breveexposicion{Criterio B.9. Formación en Igualdad de Género}{
+La trayectoria incorpora una \textbf{formación acreditada, continuada y diversa en igualdad de género, prevención del acoso y violencia de género, sensibilización LGTBI+ y bienestar psicoemocional}, alineada con las políticas de igualdad, diversidad y salud laboral promovidas por el CSIC y por el sistema público de I+D+i.
+
+Esta formación refuerza la \textbf{capacidad para desarrollar la actividad investigadora, docente y de gestión en entornos científicos seguros, inclusivos y respetuosos}, y evidencia un compromiso explícito con la integración transversal de la igualdad de género, la diversidad y el cuidado psicosocial en el ámbito académico e institucional.
+}
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Curso de Igualdad de Género}\\
+    Entidad impartidora: Universidad de Vitoria-Gasteiz (EUNEIZ).\\
+    Tipo de entidad: Universidad.\\
+    Duración: 60 horas.\\
+    Fecha de finalización: 17/01/2026.
+
+    \item \textbf{Curso de Prevención del acoso y la violencia de género}\\
+    Entidad impartidora: Tecnas, Servicios Integrales de Formación y Desarrollo, S.L.L.\\
+    Tipo de entidad: Empresa.\\
+    Duración: 30 horas.\\
+    Fecha de finalización: 08/01/2026.
+
+    \item \textbf{Curso de Promoción de la igualdad y sensibilización LGTBI+}\\
+    Entidad impartidora: Tecnas, Servicios Integrales de Formación y Desarrollo, S.L.L.\\
+    Tipo de entidad: Empresa.\\
+    Duración: 30 horas.\\
+    Fecha de finalización: 08/01/2026.
+
+    \item \textbf{Formación Psicoemocional -- Proyecto \#BIEM CSIC 360}\\
+    Entidad impartidora: ASPY PREVENCIÓN, S.L.U.\\
+    Tipo de entidad: Empresa.\\
+    Duración: 25 horas.\\
+    Fecha de finalización: 09/04/2024.
+
+    \item \textbf{Sesión formativa en igualdad, diversidad e inclusión}\\
+Entidad impartidora: Ministerio de Ciencia, Innovación y Universidades (MCIN) – Unidad Mujeres y Ciencia.\\
+Tipo de entidad: Administración pública.\\
+Docente: Silvia Rueda Pascual, directora de la Unidad Mujeres y Ciencia.\\
+Duración: Sesión formativa 1 hora.\\
+Fecha de realización: 11/10/2023.\\
+Contexto: Formación recibida con motivo de la participación en la Campaña Antártica 2023–2024.
+
+    \item \textbf{Curso ``Estrategias para desarrollar la resiliencia'' (modalidad online)}\\
+    Entidad impartidora: Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC).\\
+    Tipo de entidad: Organismo Público de Investigación.\\
+    Duración: 35 horas.\\
+    Fecha de finalización: 20/05/2022.
+
+\end{itemize}
+
+\subsection{Formación Complementaria y Especialización Técnica}
+
+\breveexposicion{Formación Complementaria y Especialización Técnica}{
+La trayectoria investigadora se ha visto reforzada por una \textbf{formación complementaria amplia y especializada}, orientada a la actualización continua de competencias técnicas, metodológicas y operativas necesarias para el desarrollo de investigación avanzada en oceanografía, análisis de impactos ambientales y trabajo de campo en entornos complejos.
+
+Esta formación, aunque no evaluable de forma directa en la presente convocatoria, ha contribuido de manera significativa a la \textbf{capacitación en inteligencia artificial y análisis de datos ambientales}, al \textbf{trabajo seguro en campañas oceanográficas y entornos costeros y marinos}, y al \textbf{cumplimiento de estándares de seguridad, prevención de riesgos y bienestar laboral}, en coherencia con el perfil de la plaza y las prioridades del CSIC en excelencia científica y responsabilidad institucional.
+}
+
+\subsubsection{Inteligencia Artificial, Ciencia de Datos y Programación}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Bootcamp en Inteligencia Artificial}.\\
+    Upgrade Hub. 190 horas. Fecha de finalización: 19/01/2026.
+    
+    \item \textbf{ELLIS Summer School: AI for Earth and Climate Sciences}.\\
+    ELLIS Unit (Jena, Alemania). 40 horas. 2025.
+
+    \item \textbf{PACE Data Hackweek}.\\
+    NASA -- University of Maryland Baltimore County (EE.\,UU.). 40 horas. 2025.
+
+    \item \textbf{Formación experta en Inteligencia Artificial aplicada al medio ambiente}.\\
+    Datamecum. 6 horas. 2025.
+
+    \item \textbf{Análisis y visualización de datos con Python}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 20 horas. 2024.
+
+    \item \textbf{Python avanzado (online)}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 40 horas. 2020 y 40 horas. 2021.
+\end{itemize}
+
+\subsubsection{Oceanografía, Observación Marina y Formación Científica Especializada}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{4th Surface Ocean--Lower Atmosphere Study (SOLAS) Summer School}.\\
+    Université de Corse (Francia). 100 horas. 2009.
+
+    \item \textbf{Regional Training Course onboard R/V ``Professor Shtokman''}.\\
+    Russian State Hydrometeorological University. 58 horas. 2007.
+
+    \item \textbf{Scientific Diving}.\\
+    Instituto Mediterráneo de Estudios Avanzados (IMEDEA--CSIC). 8 horas. 2023.
+
+    \item \textbf{Internship in CSIC}.\\
+    Universidad de Cádiz. 300 horas. 2008.
+\end{itemize}
+
+\subsubsection{Buceo Científico, Náutico y Trabajo de Campo}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Dive Master}.\\
+    Professional Association of Diving Instructors (PADI). 2023.
+
+    \item \textbf{Buceador 3 estrellas}.\\
+    Federación Española de Actividades Subacuáticas (FEDAS). 2024.
+
+    \item \textbf{React Right: First Aid \& O$_2$ Provider}.\\
+    Scuba Schools International (SSI). 5 horas. 2022.
+
+    \item \textbf{Coastal Skipper Certificate of Competence}.\\
+    Dirección General de la Marina Mercante. 2007.
+
+    \item \textbf{Introducción a las Ciencias Náuticas}.\\
+    Universidad de Cádiz. 90 horas. 2007.
+\end{itemize}
+
+\subsubsection{Prevención de Riesgos Laborales, Seguridad y Bienestar}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Nivel Básico en Prevención de Riesgos Laborales}.\\
+    PREVICAT, S.L. 450 horas. 2020.
+
+    \item \textbf{Riesgo químico en centros de investigación}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 4 horas. 2021.
+
+    \item \textbf{Prevención de riesgos laborales en pantallas de visualización de datos}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 2 horas. 2011.
+
+    \item \textbf{Prevención de riesgos laborales en la utilización de productos químicos}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 2 horas. 2011.
+
+    \item \textbf{Seguridad en la manipulación de gases}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 2 horas. 2011.
+
+    \item \textbf{Formación básica en seguridad}.\\
+    Ministerio de Fomento (España). 70 horas. 2017.
+
+    \item \textbf{Formación básica en salidas de campo}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 4 horas. 2019.
+
+    \item \textbf{Formación psicoemocional -- Proyecto \#BIEM CSIC 360}.\\
+    ASPY Prevención, S.L.U. 25 horas. 2024.
+
+    \item \textbf{Estrategias para desarrollar la resiliencia}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 35 horas. 2022.
+\end{itemize}
+
+\subsubsection{Competencias Transversales y Comunicación Científica}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Specific English: Scientific Writing}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 30 horas. 2014.
+
+    \item \textbf{English language immersion courses}.\\
+    Universidad Internacional Menéndez Pelayo (2009) y Institute of Intensive English, Hawai (2008).
+
+    \item \textbf{Italian as a Foreign Language (nivel B1)}.\\
+    Universidad de Cádiz. 90 horas. 2015.
+
+    \item \textbf{Photoshop CS4 (básico y avanzado)}.\\
+    Consejo Superior de Investigaciones Científicas (CSIC). 24 horas. 2010 y 35 horas. 2011.
+\end{itemize}
+
+
+\newpage
+
+% ============================================================================
+% CRITERIO 3
+% ============================================================================
+
+\section{INTERNACIONALIZACIÓN}
+
+\subsection{Movilidad Internacional Predoctoral y Postdoctoral}
+
+\breveexposicion{Criterio C.1. Movilidad Internacional Predoctoral y Postdoctoral}{
+La trayectoria científica presenta una \textbf{movilidad internacional sostenida, estratégica y competitiva}, desarrollada mediante estancias predoctorales y postdoctorales en \textbf{centros de referencia internacional} de Europa, Asia y América, financiadas a través de programas altamente competitivos (CSIC, COST, Canon Foundation in Europe). Esta movilidad se ha orientado de forma coherente al \textbf{análisis de impactos de origen natural y antrópico sobre sistemas costeros y marinos}.
+
+Las estancias han sido clave para la \textbf{adquisición e intercalibración de metodologías avanzadas en biogeoquímica marina y observación oceánica}, así como para la transferencia bidireccional de conocimiento y el establecimiento de \textbf{colaboraciones científicas estables}. De manera destacada, la estancia postdoctoral en Japón, financiada por la \textbf{Canon Foundation}, dio lugar a \textbf{un artículo científico} y a \textbf{varias contribuciones en congresos internacionales}, y los datos generados han sido incorporados al \textbf{informe CLIVAR--Spain 2025}, evidenciando su impacto y reutilización en evaluaciones internacionales.
+
+La estancia en Italia permitió desarrollar una \textbf{intercalibración de análisis de variables del sistema del carbono} en el marco del \textbf{GOA--ON Mediterranean Hub}, cuyos resultados serán presentados en el \textbf{Ocean Sciences Meeting 2026} y están dando lugar a \textbf{un manuscrito actualmente en preparación}. Por su parte, la estancia en Bélgica derivó en \textbf{una publicación científica} y en \textbf{múltiples ponencias en congresos internacionales}, incluyendo el \textbf{SOLAS Open Science Conference}, consolidando la visibilidad internacional de los resultados.
+
+En conjunto, la movilidad internacional acumulada asciende a \textbf{aproximadamente 16 meses en seis instituciones de prestigio}, y ha contribuido de forma directa a la \textbf{consolidación de una línea de investigación propia con proyección internacional}, así como al posicionamiento del CSIC en consorcios, redes de observación y foros científicos internacionales orientados a la evaluación de impactos del cambio global en el océano.
+}
+\subsubsection{Estancias Postdoctorales}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Istituto Nazionale di Oceanografia e di Geofisica Sperimentale (OGS)}\\
+    Sección Oceanográfica.\\
+    Sgonico, Friuli-Venezia Giulia, Italia.\\
+    Duración: 3 meses (23/09/2019 -- 24/12/2019).\\
+    Actividades desarrolladas: Procesamiento de datos para la identificación de la señal biogeoquímica de masas de agua del mar Mediterráneo.
+
+    \item \textbf{Japan Agency for Marine-Earth Science and Technology (JAMSTEC)}\\
+    Research and Development Center for Global Change.\\
+    Yokosuka, Japón.\\
+    Duración: 6 meses (07/11/2016 -- 07/05/2017).\\
+    Programa de financiación: Canon Foundation in Europe Research Fellowship.\\
+    Entidad financiadora: Canon Foundation in Europe (Fundación).\\
+    Actividades desarrolladas: Dinámica del carbono en océano abierto y cuantificación de la huella antropogénica del carbono.
+
+\end{itemize}
+
+\subsubsection{Estancias Predoctorales}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Université Pierre et Marie Curie (UPMC)}\\
+    Laboratoire d’Océanographie et du Climat.\\
+    París, Île-de-France, Francia.\\
+    Duración: 15 días (09/11/2014 -- 24/11/2014).\\
+    Entidad financiadora: Consejo Superior de Investigaciones Científicas (CSIC).\\
+    Actividades desarrolladas: Análisis e interpretación de datos de radioisótopos de carbono en el océano.
+
+    \item \textbf{San Ignacio of Huinay Foundation}\\
+    Centro de Investigación de la Fundación San Ignacio de Huinay.\\
+    Huinay, Chile.\\
+    Duración: 14 días (28/10/2013 -- 11/11/2013).\\
+    Entidad financiadora: Endesa Distribución Eléctrica, S.L.\\
+    Actividades desarrolladas: Participación en actividades de investigación oceanográfica en fiordos patagónicos.
+
+    \item \textbf{University of Washington}\\
+    School of Oceanography.\\
+    Seattle, Estados Unidos de América.\\
+    Duración: 90 días (04/04/2012 -- 03/07/2012).\\
+    Entidad financiadora: Consejo Superior de Investigaciones Científicas (CSIC).\\
+    Actividades desarrolladas: Determinación de $\delta^{13}$C en aguas del Estrecho de Gibraltar y análisis e interpretación de los datos obtenidos.
+
+    \item \textbf{Université de Liège}\\
+    Lieja, Bélgica.\\
+    Duración: 82 días (01/10/2010 -- 21/12/2010).\\
+    Entidad financiadora: Programa Marco de I+D de la Unión Europea (COST Action).\\
+    Actividades desarrolladas: Caracterización de flujos de CO$_2$ en sistemas estuarinos (caso de estudio: estuario del río Escalda).
+
+\end{itemize}
+
+
+\subsection{Participación en Programas y Proyectos Internacionales}
+
+\breveexposicion{Criterio C.2. Participación en Programas y Proyectos Internacionales}{
+La trayectoria científica presenta una \textbf{participación internacional sostenida y estructural}, materializada en la integración activa en \textbf{programas y consorcios internacionales de alto nivel} (FP6, FP7, COST), redes globales de observación oceánica y proyectos transnacionales competitivos, con una orientación coherente al \textbf{análisis de impactos de origen natural y antrópico en sistemas costeros, oceánicos y regiones polares}, en alineación con el perfil de la plaza.
+
+Esta participación se ha traducido en la asunción de \textbf{responsabilidades científicas y de coordinación internacional}, incluyendo el diseño y coordinación de sistemas de observación, la contribución a estrategias científicas comunes y la participación en órganos de dirección y comités internacionales. Las \textbf{principales funciones de representación y coordinación internacional} (ICONEC--GOA-ON, Conexión Polar CSIC, Antarctic InSync, SCOR). Estas funciones se desarrollan como parte de responsabilidades estables de representación institucional y coordinación científica a nivel internacional, descritas en detalle en la \textbf{Sección B.7}.
+
+De forma complementaria, la internacionalización se ha reforzado mediante la \textbf{participación en programas internacionales altamente selectivos de capacitación científica y tecnológica} (PACE Data Hackweek, NASA–University of Maryland; ELLIS Summer School on AI for Earth and Climate Sciences), así como mediante la \textbf{actividad continuada como revisora experta} para revistas científicas internacionales de alto impacto. En conjunto, estos méritos reflejan una \textbf{integración reconocida, operativa y con capacidad de coordinación} en el Espacio Internacional de Investigación, reforzando el posicionamiento del CSIC en redes globales de oceanografía y cambio global.
+}
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{PERSEUS -- Policy-oriented marine Environmental Research in the Southern European Seas} (2012--2016).\\
+    Programa \textbf{FP7} de la Unión Europea.\\
+    Consorcio internacional multidisciplinar centrado en los mares del sur de Europa.\\
+    \textbf{Rol: Investigadora participante}.\\
+    Participación en campañas oceanográficas internacionales, mantenimiento de sistemas de observación y análisis de datos del sistema del carbono, con contribuciones a entregables científicos y de transferencia.
+
+    \item \textbf{CARBOCHANGE -- Change in Carbon Uptake and Emissions by Oceans in a Changing Climate} (2011--2015).\\
+    Programa \textbf{FP7} de la Unión Europea.\\
+    Consorcio internacional con más de 30 instituciones europeas.\\
+    \textbf{Rol: Investigadora participante}.\\
+    Participación en el análisis de datos observacionales del sistema del carbono y en campañas oceanográficas internacionales, con contribuciones a productos científicos de alcance europeo.
+
+    \item \textbf{SESAME -- Southern European Seas: Assessing and Modelling Ecosystem Changes} (2006--2011).\\
+    Programa \textbf{FP6} de la Unión Europea.\\
+    Consorcio internacional europeo centrado en el Mediterráneo y mares adyacentes.\\
+    \textbf{Rol: Investigadora participante}.\\
+    Contribución al análisis de muestras oceanográficas, campañas internacionales y difusión de resultados científicos en el contexto del cambio global.
+
+    \item \textbf{Acción COST 735 -- Tools for Assessing Global Air--Sea Fluxes of Climate and Air Pollution Relevant Gases}.\\
+    Programa \textbf{COST} de cooperación científica europea.\\
+    \textbf{Rol: Investigadora participante (Short Term Scientific Mission)}.\\
+    Desarrollo de metodologías para la caracterización de flujos de CO$_2$ en sistemas estuarinos, en colaboración con grupos europeos especializados.
+
+    \item \textbf{Global Ocean Acidification Observing Network (GOA-ON)} (2014--presente).\\
+    Red internacional de observación de la acidificación oceánica auspiciada por IOC-UNESCO.\\
+    \textbf{Rol: Miembro activo}.\\
+    Contribución de datos observacionales, participación en actividades científicas y en iniciativas de coordinación internacional.
+
+    \item \textbf{Pier2Peer Mentorship Programme} (2025--2026).\\
+    Programa internacional del \textbf{NOAA Ocean Acidification Program}.\\
+    \textbf{Rol: Mentora}.\\
+    Participación en un programa internacional regulado de transferencia de conocimiento y fortalecimiento de capacidades en acidificación oceánica en áreas costeras.
+
+    \item \textbf{Canon Foundation in Europe Research Fellowship} (2016--2017).\\
+    Programa internacional altamente competitivo.\\
+    \textbf{Rol: Investigadora beneficiaria}.\\
+    Proyecto de investigación llevado a cabo en \textit{Japan Agency for Marine-Earth Science and Technology (JAMSTEC)}, reforzando la colaboración científica Europa--Asia.
+
+    
+    \item \textbf{Evaluadora experta en paneles internacionales de programas europeos altamente competitivos}.\\
+    Participación continuada como \textbf{Expert Evaluator} en paneles \textbf{ENV} de evaluación de acciones \textbf{Marie Skłodowska-Curie} (IEF, IIF, IOF) y convocatorias asociadas al \textbf{European Research Council}.\\
+    \textbf{Entidad}: \textbf{Research Executive Agency (Comisión Europea)}.\\
+    Periodos de evaluación: \textbf{2020, 2021, 2023, 2024 y 2025}.\\
+    Funciones: evaluación científica y técnica de propuestas internacionales, análisis de excelencia, impacto y viabilidad, y participación en procesos de priorización competitiva de proyectos europeos.
+
+
+    \item \textbf{Formación y tutorización en programas internacionales de máster}.\\
+    Participación activa en la \textbf{formación de estudiantes internacionales de posgrado}, mediante la tutorización de Trabajos Fin de Máster en el marco de programas internacionales de excelencia:
+    \begin{itemize}
+        \item \textbf{Programa Erasmus Mundus MER+}: tutorización de \textbf{1 estudiante de TFM}, en un entorno formativo internacional y multidisciplinar.
+        \item \textbf{Programa Erasmus Mundus IMBRSea}: tutorización de \textbf{2 estudiantes de TFM}, vinculados a universidades europeas y proyectos internacionales en ciencias marinas.
+        \item \textbf{Università di Bologna} (Italia): tutorización de \textbf{1 Trabajo Fin de Máster}, reforzando la colaboración académica bilateral y la dimensión internacional de la supervisión docente.
+    \end{itemize}
+
+\end{itemize}
+\subsection{Publicaciones en Colaboración Internacional}
+
+\breveexposicion{Criterio C.3. Publicaciones en Colaboración Internacional}{
+La producción científica presenta una \textbf{dimensión internacional claramente consolidada}, reflejada en un elevado número de publicaciones realizadas en colaboración con investigadores de \textbf{instituciones extranjeras} y vinculadas a proyectos europeos, programas internacionales y redes globales de observación oceánica.
+
+Estas publicaciones abordan de manera prioritaria la \textbf{evaluación de impactos de origen natural y antrópico en el medio marino}, incluyendo procesos de acidificación oceánica, dinámica del sistema del carbono y flujos de gases de efecto invernadero, y se han difundido mayoritariamente en \textbf{revistas internacionales de alto impacto}. Constituyen un indicador objetivo de integración activa en la comunidad científica internacional y de contribución relevante a líneas de investigación de alcance global.
+
+En numerosos casos, la participación en estas publicaciones se ha materializado en \textbf{roles de responsabilidad científica} (primera autora y/o autora correspondiente), y, de manera sistemática, en \textbf{posiciones de segunda autora asociadas a la tutorización y liderazgo formativo de investigadores en etapas iniciales}, evidenciando capacidad de coordinación, autonomía investigadora y compromiso con la formación científica en entornos colaborativos internacionales.
+}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Diez publicaciones científicas} (aprox.\ \textbf{35\,\% del total}) desarrolladas en \textbf{colaboración internacional}, con coautoría de investigadores de Europa, Norteamérica y Asia.
+
+    \item Publicaciones mayoritariamente en \textbf{revistas internacionales Q1}, asociadas a proyectos competitivos, estancias internacionales y programas de observación oceánica y costera.
+
+    \item Asunción de \textbf{roles de responsabilidad científica} (primera autora, autora correspondiente o segunda autora en el marco de la tutorización científica) en estudios orientados al análisis de \textbf{impactos de origen natural y antrópico en el medio marino}.
+\end{itemize}
+
+
+\newpage
+
+% ============================================================================
+% CRITERIO 4
+% ============================================================================
+
+\section{LIDERAZGO}
+
+
+\subsection{Liderazgo en Proyectos de Investigación como IP}
+
+\breveexposicion{Criterio D.1. Liderazgo en Proyectos de Investigación como IP}{
+La trayectoria investigadora evidencia un \textbf{liderazgo científico consolidado y autónomo}, sustentado en la definición de un \textbf{programa de investigación propio}, la \textbf{captación continuada de financiación competitiva como Investigadora Principal} y la coordinación de equipos multidisciplinares en contextos regionales, nacionales e internacionales. Este liderazgo se materializa en la concepción, dirección y gestión integral de proyectos orientados a la \textbf{evaluación de impactos de origen natural y antrópico sobre costas, plataforma continental y fondos marinos}.
+
+La independencia científica se refleja de forma especialmente clara en el desarrollo de un \textbf{marco metodológico propio} basado en la \textbf{integración pionera de inteligencia artificial como herramienta central de análisis, reconstrucción y predicción en oceanografía}. Este enfoque, articulado en torno a la línea \textit{OCEAN--IA}, previamente definida, permite avanzar desde la observación sostenida hacia la \textbf{evaluación predictiva de procesos clave del cambio global}, como la acidificación oceánica, la desoxigenación, el calentamiento y los flujos de gases de efecto invernadero, integrando series temporales de largo plazo, datos satelitales y variables oceanográficas, meteorológicas y geofísicas.
+
+El liderazgo como IP se concreta asimismo en la \textbf{gestión autónoma de recursos humanos y económicos}, la \textbf{formación y supervisión de personal investigador en distintas etapas} y la coordinación de colaboraciones científicas nacionales e internacionales. En conjunto, estos méritos evidencian \textbf{capacidad de innovación metodológica, autonomía investigadora y liderazgo científico efectivo}, plenamente alineados con los criterios de evaluación y con las competencias exigidas para la figura de \textbf{Científica Titular del CSIC}.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Apoyo técnico especializado para la monitorización multiplataforma de Gases de Efecto Invernadero en sistemas costeros, continentales y marinos de Andalucía}.\\
+    Subvenciones a la Contratación de Personal Técnico de Apoyo y de Gestión de I+D+I.\\
+    \textbf{Entidad}: ICMAN-CSIC.\\
+    \textbf{Rol: Investigadora Principal}.\\
+    Presupuesto: 80.000~€.\\
+    Monitorización de emisiones de gases de efecto invernadero en sistemas costeros, continentales y marinos de Andalucía mediante metodologías multiplataforma.
+
+    \item \textbf{INDICLIMA -- Key Indicators for Predicting Climate-Change Impacts in Deep-Sea Ecosystems of the Western Mediterranean} (2024--2027).\\
+    UE NextGeneration -- Convocatoria BIOACT 2024.\\
+    \textbf{Rol: Investigadora Principal}.\\
+    Presupuesto: 67.850,10~€.\\
+    Desarrollo de indicadores avanzados para evaluar impactos del cambio climático en ecosistemas profundos del Mediterráneo occidental.
+
+    \item \textbf{EVALUARTE} (2022--2025).\\
+    Gobierno de las Illes Balears -- Convocatoria Vicenç Mut 2022.\\
+    \textbf{Rol: Investigadora Principal}.\\
+    Presupuesto: 114.000~€.\\
+    Evaluación integrada de la vulnerabilidad de ecosistemas profundos al cambio climático en el Mar Balear.
+
+    \item \textbf{STARTER} (2021--2022).\\
+    Fundación Iberostar -- Cátedra de la Mar.\\
+    \textbf{Rol: Investigadora Principal}.\\
+    Presupuesto: 12.000~€.\\
+    Análisis del impacto de emisarios submarinos sobre los servicios ecosistémicos de praderas de \textit{Posidonia oceanica}.
+
+    \item \textbf{Proyectos autonómicos de consolidación científica} (2017--2019).\\
+    Convocatorias Margalida Comas y AAEE (Govern de les Illes Balears).\\
+    \textbf{Rol: Investigadora Principal}.\\
+    Presupuesto conjunto: 85.560~€.\\
+    Desarrollo y fortalecimiento de capacidades instrumentales y observacionales para el seguimiento de pH en sistemas costeros.
+
+    \item \textbf{Proyectos nacionales como IP} (2018--2022).\\
+    Junta de Andalucía y Ministerio de Ciencia e Innovación.\\
+    \textbf{Rol: Investigadora Principal}.\\
+    Presupuesto conjunto: 95.000~€.\\
+    Resultados destacados:
+    \begin{itemize}
+        \item Publicaciones en revistas Q1
+        \item Desarrollo de herramientas basadas en \textit{Machine Learning}
+        \item Formación de personal investigador (TFM y tesis doctoral en curso)
+    \end{itemize}
+
+\end{itemize}
+
+\subsubsection{Evidencias de Independencia Científica}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Desarrollo y liderazgo de un programa científico propio}, articulado en torno a la aplicación de inteligencia artificial a la evaluación de impactos marinos, con continuidad temática desde sistemas costeros antropizados hasta plataformas continentales, fondos marinos y regiones polares.
+
+    \item \textbf{Definición y consolidación del marco OCEAN--IA} como eje metodológico distintivo, orientado a la evaluación predictiva de procesos clave del cambio global (acidificación, desoxigenación, calentamiento y flujos de gases de efecto invernadero).
+
+    \item \textbf{Producción de desarrollos metodológicos propios basados en IA} para la reconstrucción y explotación de series temporales oceánicas (pH, CO$_2$, O$_2$, CH$_4$, N$_2$O), validados con datos independientes y publicados en revistas internacionales, evidenciando autonomía metodológica.
+
+    \item \textbf{Aplicación interdisciplinar de IA} mediante la integración de observaciones oceanográficas, atmosféricas y geofísicas, incluyendo datos sísmicos, para la interpretación de impactos naturales y antrópicos en entornos volcánicos, costeros y polares.
+
+    \item \textbf{Desarrollo y transferencia de herramientas abiertas y reproducibles}, con repositorios públicos y plataformas operativas basadas en IA, alineadas con principios FAIR y políticas de ciencia abierta del CSIC.
+
+    \item \textbf{Captación y gestión de financiación competitiva como Investigadora Principal} en proyectos que incorporan la IA como herramienta central de análisis y predicción, con una financiación acumulada superior a \textbf{300.000~€}.
+
+    \item \textbf{Formación de personal investigador en enfoques avanzados de análisis de datos}, mediante dirección y co-dirección de tesis doctorales, TFM internacionales y programas de mentorización científica.
+
+\end{itemize}
+\newpage
+\subsection{Liderazgo en Publicaciones Científicas}
+
+\breveexposicion{Criterio D.2. Liderazgo en en Publicaciones Científicas}{
+
+La autonomía científica se refleja en el papel desempeñado en las publicaciones como primera autora y/o autora correspondiente, en la supervisión de personal investigador en distintas etapas formativas y en la coordinación de colaboraciones nacionales e internacionales. Asimismo, la participación en comités científicos, actividades de organización académica y paneles de expertos evidencia una capacidad contrastada de liderazgo y gestión científica acorde con los criterios establecidos para la figura de Científica Titular.
+}
+
+\subsubsection{Métricas de Liderazgo en Publicaciones}
+
+\begin{tabular}{ll}
+    \textbf{Artículos en revistas indexadas:} & 29 publicaciones \\
+    \textbf{Artículos en revistas Q1:} & 17 publicaciones (59\%) \\
+    \textbf{Artículos como primera autora:} & 8 publicaciones (28\%) \\
+    \textbf{Artículos como autora correspondiente:} & 7 publicaciones (24\%) \\
+    \textbf{Artículos en posición de liderazgo} & \\
+    \quad (primera y/o autora correspondiente): & 8 publicaciones (28\%) \\
+    \textbf{Artículos Q1 liderados} & \\
+    \quad (1ª autora y/o correspondiente): & 7 publicaciones (24\%) \\
+    \textbf{Artículos altamente citados:} & \\
+    \quad $>$40 citas: & 4 publicaciones \\
+    \quad $>$20 citas: & 13 publicaciones \\
+    \textbf{Factor de impacto promedio:} & 4.2 \\
+\end{tabular}
+
+\subsubsection{Publicaciones Lideradas en Revistas de Máximo Impacto}
+
+\begin{enumerate}[leftmargin=*]
+
+    \publication{\textbf{Flecha, S.} \textbf{(1ª autora y correspondiente)}; Pérez, F.F.; García-Lafuente, J.; Sammartino, S.; Ríos, A.F.; Huertas, I.E. (2015). 
+    \textit{Trends of pH decrease in the Mediterranean Sea through high frequency observational data: Indication of ocean acidification in the basin}. 
+    \textit{Scientific Reports} (Nature Portfolio), \textbf{Q1}. 
+    \textbf{[48 citas – Top 10\% en su campo; estudio pionero de referencia en el Mediterráneo, incluido en el informe CLIVAR-Spain y citado en el IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)]}}
+
+    \publication{\textbf{Flecha, S.} \textbf{(1ª autora y correspondiente)}; Pérez, F.F.; Murata, A.; Makaoui, A.; Huertas, I.E. (2019). 
+    \textit{Decadal acidification in Atlantic and Mediterranean water masses exchanging at the Strait of Gibraltar}. 
+    \textit{Scientific Reports}, \textbf{Q1}. 
+    \textbf{[21 citas; referencia clave en intercambios Atlántico–Mediterráneo, incluida en el informe CLIVAR-Spain]}}
+
+    \publication{\textbf{Flecha, S.} \textbf{(1ª autora y correspondiente)}; Giménez-Romero, À.; Tintoré, J.; Pérez, F.F.; Alou-Font, E.; Matías, M.A.; Hendriks, I.E. (2022). 
+    \textit{pH trends and seasonal cycle in the coastal Balearic Sea reconstructed through machine learning}. 
+    \textit{Scientific Reports}, \textbf{Q1}. 
+    \textbf{[Uso pionero de Machine Learning; artículo metodológico de alto impacto incluido en el informe CLIVAR-Spain]}}
+
+    \publication{\textbf{Flecha, S.} \textbf{(1ª autora y correspondiente)}; Rueda, D.; de la Paz, M.; Pérez, F.F.; Alou-Font, E.; Tintoré, J.; Hendriks, I.E. (2023). 
+    \textit{Spatial and temporal variation of methane emissions in the coastal Balearic Sea, Western Mediterranean}. 
+    \textit{Science of the Total Environment}, \textbf{Q1}. 
+    \textbf{[Evaluación integrada de GEI costeros; alta visibilidad interdisciplinar]}}
+
+    \publication{\textbf{Flecha, S.} \textbf{(1ª autora y correspondiente)}; De La Paz, M.; Pérez, F.F.; Marbà, N.; Morell, C.; Alou-Font, E.; Tintoré, J.; Hendriks, I.E. (2025). 
+    \textit{Drivers of the spatiotemporal distribution of dissolved nitrous oxide and air--sea exchange in a coastal Mediterranean area}. 
+    \textit{Ocean Science}, \textbf{Q1}. 
+    \textbf{[Liderazgo completo; referencia en N$_2$O costero]}}
+
+    \publication{\textbf{Flecha, S.} \textbf{(1ª autora y correspondiente)}; Amaya-Vías, S.; Medina, M.; et al. (2025). 
+    \textit{Integrated meteocean and seismic dataset for AI-based seawater CO$_2$ estimation at Deception Island, Antarctica}. 
+    \textit{Scientific Data}, \textbf{Q1}. 
+    \textbf{[Revista Nature; liderazgo en IA aplicada y ciencia abierta]}}
+
+\end{enumerate}
+\subsection{Participación y liderazgo en Campañas Oceanográficas}
+\breveexposicion{Criterio D.3. Participación y liderazgo en Campañas Oceanográficas}{
+La trayectoria investigadora se caracteriza por una \textbf{actividad de campo intensiva, continuada y estratégicamente orientada a la evaluación de impactos de origen natural y antrópico en el medio marino}, abarcando sistemas costeros, plataforma continental, fondos marinos y regiones polares. Esta experiencia se concreta en la participación en \textbf{48 campañas oceanográficas} (278 días embarcados) y en más de \textbf{180 salidas de campo} en estuarios, costas, plataformas continentales y océano abierto, incluyendo el Guadalquivir, Doñana, los mares Báltico y Mediterráneo, y los océanos Atlántico y Austral. La actividad de campo se concibe no solo como adquisición de datos, sino como el \textbf{pilar observacional para el análisis integrado del cambio global}, la validación de procesos biogeoquímicos y el desarrollo de herramientas avanzadas de análisis e inteligencia artificial.
+
+La participación y el liderazgo en campañas oceanográficas, expediciones internacionales y series temporales de largo plazo han permitido generar \textbf{conjuntos de datos robustos, comparables y de alto valor estratégico}, fundamentales para caracterizar la variabilidad natural, identificar señales antropogénicas y evaluar tendencias de largo plazo en variables clave del sistema del carbono, la oxigenación y los flujos de gases de efecto invernadero.
+
+El liderazgo científico se materializa en la \textbf{coordinación de campañas y expediciones internacionales}, la \textbf{dirección de series temporales operativas} y la definición de protocolos de muestreo y control de calidad orientados a maximizar la trazabilidad, reproducibilidad y reutilización de los datos. Estas responsabilidades han sido clave para integrar observaciones in situ con enfoques de \textbf{aprendizaje automático e IA explicable}, permitiendo avanzar desde la observación descriptiva hacia la \textbf{detección de tendencias, anomalías y eventos compuestos} asociados a impactos naturales y antrópicos en costas, fondos marinos y entornos polares.
+}
+\clearpage
+
+
+\subsection{Autonomía Científica y Capacidad de Gestión}
+
+\breveexposicion{Criterio D.4. Autonomía Científica y Capacidad de Gestión}{
+La trayectoria investigadora muestra una \textbf{autonomía científica plenamente consolidada en la gestión integral y sostenida de líneas de investigación propias}, evidenciada por su definición y desarrollo continuado, la \textbf{obtención reiterada de financiación competitiva como Investigadora Principal} y la \textbf{asunción de la responsabilidad científica y operativa completa} en proyectos, equipos e infraestructuras de observación oceanográfica.
+
+Esta autonomía se sustenta en una \textbf{capacidad contrastada de gestión científica}, que integra liderazgo conceptual, innovación metodológica —con la \textbf{inteligencia artificial como herramienta transversal para la evaluación de impactos en el medio marino}— y una gestión eficiente de recursos humanos, económicos y logísticos. Asimismo, se manifiesta en la \textbf{supervisión de personal investigador en distintas etapas formativas}, la coordinación de redes de observación a largo plazo y el establecimiento de colaboraciones estratégicas nacionales e internacionales, garantizando la \textbf{continuidad, solidez y proyección} de los resultados científicos.
+
+En conjunto, estos elementos satisfacen de forma directa los criterios BOE relativos a independencia científica, liderazgo como IP y liderazgo en publicaciones, dentro del rango máximo de valoración del apartado D.
+
+}
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Diseño, consolidación y liderazgo de un programa científico propio} desde 2018, orientado a la evaluación y predicción de impactos del cambio global en costas, plataformas y fondos marinos, integrando observación oceánica de largo plazo, biogeoquímica marina y \textbf{inteligencia artificial aplicada} (programa OCEAN--IA).
+
+    \item \textbf{Capacidad demostrada de liderazgo científico independiente}, reflejada en la obtención de financiación competitiva como Investigadora Principal en proyectos regionales, nacionales, europeos y transnacionales, así como en el liderazgo metodológico y conceptual de estudios publicados en revistas internacionales Q1.
+
+    \item \textbf{Supervisión y formación de personal investigador en distintos niveles}:
+    \begin{itemize}
+        \item Co-dirección de \textbf{1 tesis doctoral internacional} en curso.
+        \item Dirección y co-dirección de \textbf{5 Trabajos Fin de Máster}, incluyendo programas internacionales Erasmus Mundus (MER+ e IMBRSea) y universidades extranjeras.
+        \item Tutorización de estudiantes de grado y programas competitivos (JAE-Intro).
+        \item Mentorización internacional en el marco del programa \textit{Pier2Peer} del NOAA Ocean Acidification Program.
+    \end{itemize}
+\item \textbf{Captación de financiación competitiva para la formación de personal investigador}, mediante la obtención como tutora principal de una ayuda \textbf{JAE Intro (CSIC, convocatoria 2026)}, asociada a un proyecto propio de investigación en ecosistemas polares y análisis avanzado de datos.\\
+Esta actuación evidencia capacidad de liderazgo formativo, gestión científica y alineación estratégica con programas institucionales del CSIC (Conexión Polar).
+    \item \textbf{Gestión integral de recursos económicos y proyectos}:
+    \begin{itemize}
+        \item Captación y gestión de más de \textbf{300.000~€ como Investigadora Principal} en convocatorias competitivas (autonómicas, nacionales, NextGeneration EU y transnacionales).
+        \item Gestión científica, administrativa y económica completa de proyectos, incluyendo planificación, seguimiento de hitos, coordinación de equipos, justificación económica y rendición de cuentas.
+    \end{itemize}
+
+    \item \textbf{Coordinación de infraestructuras y observatorios científicos operativos}:
+    \begin{itemize}
+        \item Coordinadora científica de la serie temporal \textbf{GIFT} (desde 2008).
+        \item Cofundadora y coordinadora científica de la red \textbf{BOATS} (desde 2018).
+    \end{itemize}
+
+    \item \textbf{Establecimiento y mantenimiento de colaboraciones estratégicas internacionales}, tanto científicas como institucionales, con centros de referencia en Europa, Asia y Norteamérica, así como con administraciones públicas y entidades gestoras del medio marino.
+
+\end{itemize}
+
+\subsection{Reconocimiento Científico de la Trayectoria}
+
+\breveexposicion{Criterio D.5. Reconocimiento Científico de la Trayectoria}{
+La trayectoria investigadora presenta un \textbf{reconocimiento científico sólido y contrastado}, tanto a nivel nacional como internacional, evidenciado por la \textbf{obtención de financiación competitiva evaluada por pares}, la \textbf{invitación como experta} en foros científicos de referencia y la \textbf{incorporación de resultados propios en informes y evaluaciones internacionales de alto impacto}.
+
+Este reconocimiento se refuerza mediante la \textbf{confianza depositada por instituciones científicas y agencias financiadoras} en tareas de evaluación experta, participación en paneles internacionales y liderazgo en actividades de organización científica, constituyendo un indicador robusto de prestigio, proyección internacional y madurez científica acorde con los estándares exigidos para la figura de Científica Titular del CSIC.
+}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Reconocimiento mediante financiación competitiva personal y contratos de excelencia}, incluyendo contratos postdoctorales autonómicos altamente competitivos y liderazgo continuado como IP en convocatorias evaluadas por pares.
+
+    \item \textbf{Reconocimiento científico internacional a través de invitaciones como ponente experta} en centros de referencia:
+    \begin{itemize}
+        \item Seminario científico invitado en la \textbf{Japan Agency for Marine-Earth Science and Technology} (Japón).
+        \item Ponencia invitada en la  \textbf{GOA-ON Ocean Acidification Week}.
+       
+    \end{itemize}
+
+    \item \textbf{Contribuciones científicas incorporadas en evaluaciones y síntesis internacionales de referencia}:
+    \begin{itemize}
+        \item Inclusión de publicaciones lideradas en el informe \textbf{CLIVAR--Spain 2025}.
+        \item Inclusión de resultados en el \textbf{Intergovernmental Panel on Climate Change} (Informe Especial sobre Océanos y Criosfera, SROCC).
+    \end{itemize}
+
+    \item \textbf{Participación como experta en paneles, comités y procesos de evaluación científica}:
+    \begin{itemize}
+        \item Evaluadora experta en la convocatoria postdoctoral Marie Slodowska-Curie.
+        \item Participación como experta en grupos de trabajo sobre acidificación oceánica y biogeoquímica marina (GOA-ON, OOI).
+    \end{itemize}
+
+    \item \textbf{Liderazgo y reconocimiento en organización científica internacional}:
+    \begin{itemize}
+        \item Organización y coordinación de escuelas y workshops científicos internacionales.
+        \item Presidencia y coorganización de sesiones científicas en congresos y cursos internacionales de referencia (SCAR,  MASS).
+    \end{itemize}
+
+\end{itemize}
+\vspace{2em}
+
+
+
+\end{document}
+
+
+
+
+\vspace{2em}
+
+\begin{center}
+\color{darkgray}\small
+\textit{Última actualización: Abril 2026}\\
+\textit{Curriculum Vitae estructurado según criterios de evaluación BOE}
+\end{center}
+
+\end{document}
