@@ -17,7 +17,7 @@ subtitle: "Peer-reviewed articles, open datasets and book chapters"
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
 <span class="metric-number">17</span>
-<span class="metric-label">Q1 JCR (59 %)</span>
+<span class="metric-label">Q1 JCR · 59 %</span>
 </div>
 :::
 

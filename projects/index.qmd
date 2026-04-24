@@ -18,7 +18,7 @@ My research trajectory is sustained by **continuous competitive funding** as **P
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">€ 359k</span>
+<span class="metric-number">€359k</span>
 <span class="metric-label">Captured as PI</span>
 </div>
 :::
@@ -33,7 +33,7 @@ My research trajectory is sustained by **continuous competitive funding** as **P
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
 <span class="metric-number">7</span>
-<span class="metric-label">International (FP6/FP7/H2020)</span>
+<span class="metric-label">International</span>
 </div>
 :::
 

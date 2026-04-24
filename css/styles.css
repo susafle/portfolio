@@ -391,7 +391,12 @@ em {
 }
 
 .metric-box {
-  padding: var(--spacing-xl) var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  padding: 1.5rem 1rem;
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 55%, var(--secondary-color) 100%);
   color: white;
   border-radius: var(--border-radius-lg);
@@ -401,6 +406,7 @@ em {
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,0.14);
+  word-break: break-word;
 }
 
 .metric-box::before {
@@ -410,8 +416,10 @@ em {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(255,255,255,0.10) 0%, transparent 70%);
   animation: metricPulse 4s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
 }
 
 @keyframes metricPulse {
@@ -445,27 +453,40 @@ em {
 }
 
 .metric-number {
-  font-size: 2.5rem;
+  font-size: clamp(1.6rem, 1.2rem + 1vw, 2.4rem);
   font-weight: 700;
   display: block;
-  margin-bottom: var(--spacing-xs);
+  margin-bottom: 0.4rem;
   font-family: "Lora", "Playfair Display", Georgia, serif;
   letter-spacing: -0.02em;
-  line-height: 1;
+  line-height: 1.1;
   position: relative;
   z-index: 1;
   color: #FFFFFF;
   text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 .metric-label {
-  font-size: 0.8rem;
-  opacity: 0.92;
+  font-size: 0.72rem;
+  opacity: 0.95;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   position: relative;
   z-index: 1;
+  color: #FFFFFF;
+  line-height: 1.3;
+}
+
+/* Reset paragraph wrapping that Quarto injects around span content */
+.metric-box p {
+  margin: 0 !important;
+  padding: 0;
+  text-align: center !important;
+  line-height: 1.2;
+  color: #FFFFFF;
 }
 
 /* Modern Image Gallery - Grid Matrix Layout */
