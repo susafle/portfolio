@@ -169,7 +169,10 @@ I am strongly committed to the public communication of science:
 - *European Researchers' Night* and *Ocean Night* regular participant
 - Workshops for schools and general audiences — *Entendamos el cambio climático*
 - Invited talks at JAMSTEC (Japan) and at the Andalusian Regional Government
-- Results incorporated into the **IPCC Special Report on the Ocean and Cryosphere (SROCC, 2019)** and the **CLIVAR-Spain 2025** report
+- Research outputs cited in major international and national climate assessments:
+  - **IPCC (2019)** — *Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)*. Intergovernmental Panel on Climate Change. [DOI: 10.1017/9781009157964](https://doi.org/10.1017/9781009157964)
+  - **IPCC (2023)** — *AR6 Synthesis Report: Climate Change 2023*. Intergovernmental Panel on Climate Change. [DOI: 10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291691647)
+  - **CLIVAR-Spain (2025)** — National assessment of climate variability and change in the Spanish marine environment
 
 ---
 
