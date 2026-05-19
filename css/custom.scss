@@ -1,127 +1,423 @@
 /*-- scss:defaults --*/
 
 // ====================================================================
-// Ocean palette — refined for a senior scientific profile
+// Susana Flecha · ICMAN-CSIC
+// Design system: "Ocean Lab" — confident minimalism for a senior
+// scientific profile. Deep-ocean navy structure, institutional CSIC
+// red as a singular accent, generous whitespace, technical typography.
 // ====================================================================
-$primary:        #0A4D6B;    // Deep ocean blue (brand)
-$primary-light:  #1B6A8C;    // Mid ocean blue
-$secondary:      #3F8EA3;    // Atlantic blue
-$accent:         #F2B544;    // Warm sand / coastal amber
-$success:        #2E8B6B;    // Sea grass
-$info:           #5BC0DE;    // Surface sky
-$warning:        #E8A63C;    // Sunrise
-$danger:         #C54434;    // Coral
-$light:          #F4F6F8;    // Sea foam
-$dark:           #0F2A3A;    // Abyssal
+//
+// Inspired by the visual language of modern editorial-technical sites
+// (Vercel, Linear, Stripe Press, Nature data essays).
 
-// Typography — modern, readable
-$font-family-sans-serif: "Inter", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-family:   "Lora", "Playfair Display", "Georgia", serif;
+// ---- core palette ----
+$paper:        #FAFAFA;   // off-white background
+$paper-alt:    #F2F4F5;   // cool surface
+$ink:          #0A0E14;   // near-black with a hint of blue (body)
+$ink-muted:    #4A5563;   // secondary text
+$hairline:     rgba(10, 14, 20, 0.10);
+$hairline-2:   rgba(10, 14, 20, 0.18);
+
+// ---- ocean tones (structure, not decoration) ----
+$navy:         #0B2447;   // deep ocean — primary brand
+$ocean:        #173A6B;   // mid ocean
+$sea:          #4A6E94;   // steel sea
+$mist:         #C7D6DD;   // pale aqua highlight
+$ice:          #E8EFF3;   // pale aqua surface
+
+// ---- CSIC institutional red (the singular accent) ----
+$csic:         #C8102E;
+$csic-dark:    #A0091F;
+
+// ---- bootstrap-bridge variables (Quarto/cosmo expects these) ----
+$primary:        $navy;
+$primary-light:  $ocean;
+$secondary:      $sea;
+$accent:         $csic;
+$success:        $ocean;
+$info:           $sea;
+$warning:        $csic;
+$danger:         $csic;
+$light:          $paper;
+$dark:           $ink;
+$body-bg:        $paper;
+$body-color:     $ink;
+$link-color:     $ink;
+
+// ---- typography ----
+// Geist — Vercel's open-source neo-grotesque (modern, technical, neutral)
+// Geist Mono — for labels, data, chapter markers
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap');
+
+$font-family-sans-serif: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$font-family-monospace:  "Geist Mono", "SF Mono", "JetBrains Mono", Menlo, monospace;
+
 $headings-font-weight:   600;
-$headings-line-height:   1.25;
-
+$headings-line-height:   1.05;
 $font-size-base:         1rem;
-$line-height-base:       1.75;
-
+$line-height-base:       1.65;
 $spacer: 1rem;
 
 /*-- scss:rules --*/
 
 // ====================================================================
-// Global typography
+// Tokens exposed as CSS variables so plain CSS files can use them
 // ====================================================================
-body {
-  color: $dark;
-  letter-spacing: 0.01em;
+:root {
+  --paper:       #{$paper};
+  --paper-alt:   #{$paper-alt};
+  --ink:         #{$ink};
+  --ink-muted:   #{$ink-muted};
+  --hairline:    #{$hairline};
+  --hairline-2:  #{$hairline-2};
+  --navy:        #{$navy};
+  --ocean:       #{$ocean};
+  --sea:         #{$sea};
+  --mist:        #{$mist};
+  --ice:         #{$ice};
+  --csic:        #{$csic};
+  --csic-dark:   #{$csic-dark};
 }
 
-// Serif, elegant headings paired with sans-serif body for a professional,
-// editorial tone.
+html { scroll-behavior: smooth; }
+
+// ====================================================================
+// Body — clean, technical, generous reading
+// ====================================================================
+body {
+  background: $paper;
+  color: $ink;
+  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  letter-spacing: -0.005em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "ss03", "cv11", "tnum" 0;
+}
+
+// ====================================================================
+// Typography — tight tracking, confident weights
+// ====================================================================
 h1, h2, h3, h4, h5, h6 {
   font-family: $headings-font-family;
-  color: $dark;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  letter-spacing: -0.01em;
+  color: $ink;
+  font-weight: 600;
+  letter-spacing: -0.028em;
+  font-feature-settings: "ss01", "ss03", "cv11";
+  margin: 1.5rem 0 1rem;
 }
 
 h1 {
-  font-size: clamp(2rem, 1.4rem + 1.8vw, 2.75rem);
+  font-size: clamp(2.5rem, 1.6rem + 3.6vw, 4.75rem);
+  line-height: 0.98;
   font-weight: 700;
-  padding-bottom: 0.75rem;
-  border-bottom: 3px solid $primary;
+  letter-spacing: -0.04em;
+  margin: 1rem 0 1.5rem;
+  padding: 0;
+  border: 0;
   position: relative;
 }
 
+// red accent dot at end of h1 (the only flourish)
 h1::after {
   content: "";
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  width: 70px;
-  height: 3px;
-  background: $accent;
+  display: inline-block;
+  width: 0.42em;
+  height: 0.42em;
+  background: $csic;
+  border-radius: 50%;
+  margin-left: 0.18em;
+  vertical-align: 0.04em;
+  transform: translateY(-0.18em);
 }
 
 h2 {
-  font-size: clamp(1.5rem, 1.2rem + 0.9vw, 2rem);
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba($primary, 0.2);
-  margin-top: 2.5rem;
+  font-size: clamp(1.5rem, 1.15rem + 1.3vw, 2.25rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  margin: 4rem 0 1.5rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 2px solid $navy;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  counter-increment: chapter;
+}
+
+// red accent dot to the right of the navy underline
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 64px;
+  height: 2px;
+  background: $csic;
+  z-index: 1;
+}
+
+// numbered chapters
+main { counter-reset: chapter; }
+
+main > section > h2::before,
+main > h2::before,
+.quarto-title-block ~ * h2:first-of-type::before {
+  content: counter(chapter, decimal-leading-zero);
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  color: $paper;
+  align-self: center;
+  flex-shrink: 0;
+  padding: 0.28rem 0.65rem;
+  border: 0;
+  border-radius: 999px;
+  background: $navy;
+  box-shadow: 0 4px 12px -4px rgba(11, 36, 71, 0.4);
 }
 
 h3 {
-  font-size: 1.35rem;
-  color: $primary;
+  font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem);
   font-weight: 600;
+  color: $ink;
+  margin-top: 2.25rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.018em;
+}
+
+h4 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: $ink-muted;
+  font-family: $font-family-monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
 }
 
 p {
-  line-height: 1.75;
-  color: #2A3A46;
+  line-height: 1.7;
+  color: $ink;
+  margin-bottom: 1.05rem;
+  max-width: 70ch;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.grid p, .grid li {
+  max-width: none;
+}
+
+// Justify list items (long content), keeping bullets/numbers aligned
+ul li, ol li {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+// Keep certain contexts left-aligned (where justify hurts readability)
+.metric-box p, .metric-box,
+.navbar p, .navbar,
+.about-links a,
+.about-link,
+figcaption,
+.column-page figcaption,
+.column-page p:has(img),
+caption,
+table p, table td, table th,
+.badge, .tag,
+.metric-label, .metric-number,
+.publication-year,
+.faux-block,
+.page-footer p, .nav-footer p,
+.gallery-text p,
+.timeline-item h3, .timeline-item h3 em, .timeline-item h3 i,
+blockquote, blockquote p {
+  text-align: inherit;
+  hyphens: manual;
+}
+
+// Center where the design already centers
+blockquote, blockquote p { text-align: center; }
+.metric-box, .metric-box p { text-align: center; }
+.column-page figcaption { text-align: center; }
+.gallery-text p { text-align: left; }
+.timeline-item h3, .timeline-item h3 em, .timeline-item h3 i { text-align: left; }
+
+strong { color: $ink; font-weight: 600; }
+em     { color: $ink-muted; font-style: italic; }
+
+// editorial subtitle
+.quarto-title .subtitle,
+.subtitle {
+  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 0.9rem + 0.4vw, 1.2rem);
+  color: $ink-muted;
+  letter-spacing: -0.012em;
+  margin-top: -0.25rem;
+  max-width: 56ch;
 }
 
 // ====================================================================
-// Navbar — refined, minimal, confident
+// Navbar — deep ocean band, paper-coloured text
 // ====================================================================
 .navbar {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(90deg, $navy 0%, $ocean 100%) !important;
+  backdrop-filter: blur(12px) saturate(1.1);
+  -webkit-backdrop-filter: blur(12px) saturate(1.1);
+  box-shadow: 0 4px 18px -10px rgba(11, 36, 71, 0.45);
+  border-bottom: 2px solid $csic;
+  padding: 0.65rem 1rem;
+  font-family: $font-family-sans-serif;
   font-weight: 500;
-  background: linear-gradient(90deg, $primary 0%, $primary-light 100%) !important;
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
+  z-index: 100;
 }
 
 .navbar-brand {
-  font-family: $headings-font-family;
+  font-family: $font-family-sans-serif !important;
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 0.95rem;
+  letter-spacing: -0.015em;
+  color: $paper !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+// CSIC red dot before the brand — the brand mark
+.navbar-brand::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: $csic;
+  display: inline-block;
+  box-shadow: 0 0 0 3px rgba(200, 16, 46, 0.18);
 }
 
 .navbar .nav-link {
-  color: rgba(255, 255, 255, 0.92) !important;
-  transition: color 0.25s ease, background-color 0.25s ease;
-  border-radius: 6px;
-  padding: 0.5rem 0.9rem !important;
+  color: rgba(255, 255, 255, 0.86) !important;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  padding: 0.45rem 0.85rem !important;
+  border-radius: 0;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0.85rem; right: 0.85rem; bottom: 0.3rem;
+  height: 1px;
+  background: $csic;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.3s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .navbar .nav-link:hover {
-  color: $accent !important;
-  background-color: rgba(255, 255, 255, 0.08);
+  color: $paper !important;
+  background: transparent;
+}
+
+.navbar .nav-link:hover::after { transform: scaleX(1); }
+
+// Search + dropdown integration
+.navbar .dropdown-menu {
+  background: $paper;
+  border: 1px solid $hairline-2;
+  border-radius: 4px;
+  box-shadow: 0 18px 40px -22px rgba(11, 36, 71, 0.4);
+  padding: 0.4rem;
+  margin-top: 0.4rem !important;
+}
+
+.navbar .dropdown-item {
+  color: $ink !important;
+  border-radius: 2px;
+  font-size: 0.85rem;
+  padding: 0.45rem 0.7rem;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background: $ice;
+  color: $navy !important;
+}
+
+// Right-side icon buttons (envelope, linkedin, github, ORCID)
+.navbar-nav .nav-item .nav-link i,
+.navbar-nav .nav-item .nav-link svg {
+  color: $paper;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover i,
+.navbar-nav .nav-item .nav-link:hover svg {
+  opacity: 1;
+  color: $csic;
+}
+
+// Search box
+.navbar .aa-DetachedSearchButton,
+.navbar input.aa-Input,
+.navbar .quarto-search-default {
+  color: $paper !important;
+}
+
+.navbar .aa-DetachedSearchButton {
+  background: rgba(255, 255, 255, 0.10) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: rgba(255, 255, 255, 0.86) !important;
+  border-radius: 999px;
+}
+
+.navbar .aa-DetachedSearchButton:hover {
+  background: rgba(255, 255, 255, 0.18) !important;
+  border-color: $csic !important;
+  color: $paper !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.28);
+  color: $paper;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1) brightness(2);
 }
 
 // ====================================================================
-// Links
+// Links — underline grows; red on hover
 // ====================================================================
 a {
-  color: $primary-light;
+  color: $ink;
   text-decoration: none;
-  transition: color 0.25s ease, border-color 0.25s ease;
-  border-bottom: 1px solid transparent;
+  background-image: linear-gradient(0deg, $ink, $ink);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  transition: background-size 0.25s ease, color 0.2s ease, background-image 0.2s ease;
+  border-bottom: 0;
+  padding-bottom: 0.05em;
 }
 
 a:hover {
-  color: $primary;
-  border-bottom-color: $accent;
+  color: $csic;
+  background-image: linear-gradient(0deg, $csic, $csic);
+  background-size: 100% 1px;
 }
 
 // ====================================================================
@@ -129,104 +425,136 @@ a:hover {
 // ====================================================================
 .page-footer,
 .nav-footer {
-  background: linear-gradient(135deg, $dark 0%, $primary 100%);
-  color: $light;
-  padding: 2.5rem 0;
-  margin-top: 4rem;
-  font-size: 0.95rem;
+  background: linear-gradient(180deg, $navy 0%, $ocean 100%);
+  color: $paper;
+  border-top: 3px solid $csic;
+  padding: 3.5rem 1rem 2.5rem;
+  margin-top: 6rem;
+  font-size: 0.82rem;
+  letter-spacing: 0;
+  font-family: $font-family-sans-serif;
+  position: relative;
 
   a {
-    color: $light;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.4);
+    color: $paper;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.35), rgba(255,255,255,0.35));
   }
 
-  a:hover {
-    color: $accent;
-    border-bottom-color: $accent;
-  }
+  a:hover { color: $paper; background-image: linear-gradient(0deg, $csic, $csic); }
+
+  .faux-block { display: block; line-height: 1.7; color: rgba(255,255,255,0.78); }
+  .faux-block:first-child { color: $paper; font-weight: 600; }
 }
 
 // ====================================================================
-// Cards and generic containers
+// About entity / hero image
 // ====================================================================
-.card {
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: #FFFFFF;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 28px rgba(10, 77, 107, 0.12);
-}
-
-// ====================================================================
-// Images
-// ====================================================================
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
-}
-
 .about-entity .about-image {
-  border: 4px solid $primary;
-  box-shadow: 0 6px 20px rgba(10, 77, 107, 0.25);
+  border: 0;
+  border-radius: 2px;
+  filter: saturate(0.95) contrast(1.03);
+  box-shadow:
+    0 0 0 1px $hairline-2,
+    0 30px 60px -30px rgba(10, 14, 20, 0.35);
+  transition: transform 0.5s cubic-bezier(0.65, 0, 0.35, 1),
+              box-shadow 0.5s ease,
+              filter 0.5s ease;
+}
+
+.about-entity .about-image:hover {
+  transform: translateY(-3px);
+  filter: saturate(1) contrast(1.05);
+  box-shadow:
+    0 0 0 1px $navy,
+    0 40px 80px -30px rgba(10, 14, 20, 0.45);
 }
 
 // ====================================================================
-// About page action links (Email, LinkedIn, ORCID ...)
+// About-page action links — sharp pill outlines
 // ====================================================================
 .about-link,
 .about-links a {
   border-bottom: none !important;
+  background-image: none !important;
 }
 
+.about-links { gap: 0.5rem !important; }
+
 .about-links a {
-  background: linear-gradient(135deg, $primary 0%, $primary-light 100%);
-  color: #FFFFFF !important;
-  padding: 0.6rem 1.25rem !important;
-  border-radius: 8px;
+  background: transparent;
+  color: $ink !important;
+  padding: 0.5rem 1rem !important;
+  border: 1px solid $hairline-2;
+  border-radius: 999px;
+  font-size: 0.78rem;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
-  box-shadow: 0 4px 12px rgba(10, 77, 107, 0.15);
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: $font-family-sans-serif;
+  box-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  transition: all 0.25s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .about-links a:hover {
-  background: linear-gradient(135deg, $primary-light 0%, $accent 100%);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(10, 77, 107, 0.25);
-  color: #FFFFFF !important;
+  background: $ink;
+  color: $paper !important;
+  border-color: $ink;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px -12px rgba(10, 14, 20, 0.7);
+}
+
+// CSIC red variant for one button (Email) — handled by markup if desired
+.about-links a.about-link-primary {
+  background: $csic;
+  color: $paper !important;
+  border-color: $csic;
+}
+
+.about-links a.about-link-primary:hover {
+  background: $csic-dark;
+  border-color: $csic-dark;
 }
 
 // ====================================================================
-// Grids — responsive, spacious
+// Grids — paper layout, hairline accents
 // ====================================================================
-.grid {
-  gap: 1.5rem;
-}
+.grid { gap: 2.5rem 2rem; }
 
-// Only style grid cells that are "content cards" — i.e. that contain
-// a heading. Cells that host a .metric-box (or any other self-styled
-// module) keep their own styling instead of a wrapping white card.
 .grid > div:has(> h3),
 .grid > div:has(> h4) {
-  background: #FFFFFF;
-  padding: 1.5rem 1.75rem;
-  border-radius: 12px;
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: transparent;
+  padding: 1.25rem 0 0;
+  border: 0;
+  border-top: 1px solid $hairline;
+  border-radius: 0;
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+  position: relative;
 }
 
-.grid > div:has(> h3):hover,
-.grid > div:has(> h4):hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 28px rgba(10, 77, 107, 0.1);
+.grid > div:has(> h3)::before,
+.grid > div:has(> h4)::before {
+  content: "";
+  position: absolute;
+  left: 0; top: -1px;
+  width: 32px;
+  height: 1px;
+  background: $csic;
+  transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.grid > div:has(> h3):hover::before,
+.grid > div:has(> h4):hover::before { width: 100%; }
+
+.grid > div h3 {
+  margin-top: 0.5rem;
+  color: $ink;
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.05rem;
 }
 
 .grid > div:has(.metric-box) {
@@ -236,14 +564,8 @@ img {
   box-shadow: none;
 }
 
-.grid > div h3 {
-  margin-top: 0;
-  color: $primary;
-  font-family: $headings-font-family;
-}
-
 // ====================================================================
-// Metric boxes — scientific dashboard feel
+// Metric boxes — large numerals in CSIC red, centered
 // ====================================================================
 .metric-box {
   position: relative;
@@ -251,291 +573,518 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 150px;
+  min-height: 170px;
   padding: 1.5rem 1rem;
-  background: linear-gradient(135deg, $primary 0%, $primary-light 55%, $secondary 100%);
-  color: #FFFFFF;
-  border-radius: 14px;
+  background: $paper;
+  color: $ink;
+  border-radius: 2px;
+  border: 1px solid $hairline;
   text-align: center;
-  box-shadow: 0 10px 28px rgba(10, 77, 107, 0.22);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  box-shadow: none;
+  transition: all 0.3s cubic-bezier(0.65, 0, 0.35, 1);
   overflow: hidden;
   isolation: isolate;
-  word-break: break-word;
+  width: 100%;
+}
+
+.metric-box::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  width: 100%;
+  height: 1px;
+  background: $hairline;
+  z-index: 1;
 }
 
 .metric-box::after {
   content: "";
   position: absolute;
-  inset: auto -20% -60% auto;
-  width: 180px;
-  height: 180px;
-  background: radial-gradient(circle, rgba($accent, 0.28) 0%, transparent 70%);
-  z-index: -1;
-  pointer-events: none;
+  inset: 0 auto auto 50%;
+  width: 32px;
+  height: 2px;
+  background: $csic;
+  transform: translateX(-50%);
+  transition: width 0.45s cubic-bezier(0.65, 0, 0.35, 1);
+  z-index: 2;
 }
 
 .metric-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 36px rgba(10, 77, 107, 0.3);
+  transform: translateY(-3px);
+  border-color: $hairline-2;
+  background: $paper;
+  box-shadow: 0 24px 48px -28px rgba(10, 14, 20, 0.3);
 }
+
+.metric-box:hover::after { width: 80%; }
 
 .metric-number {
   display: block;
-  font-family: $headings-font-family;
-  font-size: clamp(1.6rem, 1.2rem + 1vw, 2.4rem);
-  font-weight: 700;
-  line-height: 1.1;
-  margin-bottom: 0.4rem;
-  letter-spacing: -0.02em;
-  color: #FFFFFF;
-  white-space: normal;
-  overflow-wrap: break-word;
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  font-size: clamp(2.2rem, 1.5rem + 2vw, 3.4rem);
+  line-height: 1;
+  margin-bottom: 0.7rem;
+  letter-spacing: -0.045em;
+  color: $csic;
+  font-feature-settings: "tnum" 1, "ss01";
+  white-space: nowrap;
+  overflow-wrap: normal;
+  text-align: center;
+  width: 100%;
 }
 
 .metric-label {
   display: block;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
+  font-family: $font-family-monospace;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  opacity: 0.95;
-  color: #FFFFFF;
-  line-height: 1.3;
+  color: $navy;
+  line-height: 1.4;
+  text-align: center;
+  width: 100%;
 }
 
-// Reset paragraph wrapping injected by Quarto around span content
 .metric-box p {
   margin: 0 !important;
   padding: 0;
   text-align: center !important;
-  line-height: 1.2;
-  color: #FFFFFF;
+  line-height: 1.3;
+  color: $ink;
+  width: 100%;
 }
 
 // ====================================================================
-// Timeline — used in About page
+// Timeline
 // ====================================================================
 .timeline {
   position: relative;
-  padding-left: 2rem;
-  margin: 2rem 0;
+  padding-left: 2.25rem;
+  margin: 2.5rem 0;
 }
 
 .timeline::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(180deg, $primary 0%, $accent 100%);
+  left: 4px;
+  top: 0.7rem;
+  bottom: 0.7rem;
+  width: 2px;
+  background: linear-gradient(180deg, $navy 0%, $ocean 35%, $sea 70%, $mist 100%);
   border-radius: 2px;
 }
 
 .timeline-item {
   position: relative;
-  padding-bottom: 1.75rem;
+  padding-bottom: 2rem;
 }
 
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -2.35rem;
-  top: 0.6rem;
-  width: 14px;
-  height: 14px;
+  left: -2.3rem;
+  top: 0.85rem;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
-  background: $primary;
-  border: 3px solid #FFFFFF;
-  box-shadow: 0 0 0 2px $primary, 0 2px 6px rgba(0, 0, 0, 0.15);
-  transition: background-color 0.3s ease;
+  background: $paper;
+  border: 2px solid $navy;
+  box-shadow: 0 0 0 4px $paper;
+  transition: all 0.25s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .timeline-item:hover::before {
-  background: $accent;
-  box-shadow: 0 0 0 2px $accent, 0 2px 10px rgba($accent, 0.4);
+  background: $csic;
+  border-color: $csic;
+  box-shadow: 0 0 0 4px $paper, 0 0 0 5px rgba(200, 16, 46, 0.18);
 }
 
 .timeline-item h3 {
-  font-family: $headings-font-family;
-  color: $primary;
+  color: $ink;
+  font-weight: 600;
   margin-top: 0;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
+  letter-spacing: -0.018em;
+}
+
+.timeline-item h3 em,
+.timeline-item h3 i {
+  display: block;
+  font-style: normal;
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: $csic;
+  margin-top: 0.35rem;
+  font-weight: 500;
 }
 
 // ====================================================================
-// Blockquotes — call-out for emphasis
+// Blockquote — featured ocean callout, centered
 // ====================================================================
 blockquote {
-  border-left: 4px solid $accent;
-  padding: 0.9rem 1.25rem;
-  margin: 1.75rem 0;
-  font-style: italic;
-  color: #465764;
-  background: linear-gradient(90deg, rgba($primary, 0.04) 0%, transparent 100%);
-  border-radius: 0 8px 8px 0;
+  border: 0;
+  padding: 2.5rem 2rem;
+  margin: 3rem 0;
+  font-family: $font-family-sans-serif;
+  font-weight: 500;
+  font-size: clamp(1.2rem, 0.95rem + 0.8vw, 1.65rem);
+  line-height: 1.4;
+  color: $paper;
+  background: linear-gradient(135deg, $navy 0%, $ocean 60%, $sea 100%);
+  border-radius: 4px;
+  position: relative;
+  letter-spacing: -0.022em;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 24px 60px -30px rgba(11, 36, 71, 0.55);
 }
+
+// hairline accent at the bottom of the callout — CSIC red
+blockquote::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, $csic 50%, transparent 100%);
+}
+
+// subtle ocean glow on the right
+blockquote::after {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: -20%;
+  width: 60%;
+  aspect-ratio: 1;
+  background: radial-gradient(circle, rgba(199, 214, 221, 0.25) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+blockquote p { color: $paper; margin: 0; max-width: none; }
+blockquote strong { color: $paper; font-weight: 600; }
+blockquote a {
+  color: $paper;
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.4), rgba(255,255,255,0.4));
+}
+blockquote a:hover { color: $paper; background-image: linear-gradient(0deg, $csic, $csic); }
 
 // ====================================================================
 // Code blocks
 // ====================================================================
 pre {
-  background-color: #0F2A3A;
-  color: #F4F6F8;
-  border-left: 4px solid $accent;
-  padding: 1rem 1.25rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: $ink;
+  color: $paper;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.4rem 1.5rem;
+  box-shadow: none;
+  font-family: $font-family-monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  position: relative;
+  overflow-x: auto;
+}
+
+pre::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  background: $csic;
 }
 
 code {
-  color: $primary;
-  background-color: rgba($primary, 0.08);
-  padding: 0.15rem 0.4rem;
-  border-radius: 4px;
-  font-size: 0.88em;
+  font-family: $font-family-monospace;
+  color: $ink;
+  background: $paper-alt;
+  border: 1px solid $hairline;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.86em;
 }
 
 // ====================================================================
-// Tables — clean, restrained
+// Tables — restrained, data-first
 // ====================================================================
 table {
   width: 100%;
-  margin: 1.5rem 0;
-  border-collapse: separate;
-  border-spacing: 0;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  margin: 2.5rem 0;
+  border-collapse: collapse;
+  background: transparent;
+  border-radius: 0;
+  overflow: visible;
+  box-shadow: none;
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
 
   thead {
-    background: linear-gradient(90deg, $primary 0%, $primary-light 100%);
-    color: #FFFFFF;
+    background: transparent;
+    color: $ink;
+    border-bottom: 2px solid $ink;
   }
 
-  th, td {
-    padding: 0.75rem 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  th {
+    font-family: $font-family-monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: $ink-muted;
+    padding: 0.65rem 1rem;
+    font-weight: 500;
+    text-align: left;
   }
 
-  tbody tr:nth-child(even) {
-    background-color: rgba($primary, 0.03);
+  td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid $hairline;
+    color: $ink;
   }
 
-  tbody tr:hover {
-    background-color: rgba($accent, 0.08);
-  }
+  tbody tr { transition: background 0.2s ease; }
+  tbody tr:nth-child(even) { background-color: transparent; }
+  tbody tr:hover { background-color: $paper-alt; }
+  tbody tr:last-child td { border-bottom: 0; }
 }
 
 // ====================================================================
 // Lists
 // ====================================================================
 ul, ol {
-  margin: 1rem 0;
-  padding-left: 1.75rem;
+  margin: 1rem 0 1.25rem;
+  padding-left: 1.4rem;
 
   li {
-    margin-bottom: 0.5rem;
-    line-height: 1.75;
+    margin-bottom: 0.4rem;
+    line-height: 1.7;
   }
 }
 
+ul li::marker { color: $csic; }
+ol li::marker { color: $csic; font-weight: 500; font-family: $font-family-monospace; }
+
 // ====================================================================
-// Hero section (homepage column-page figure)
+// Images
 // ====================================================================
-.column-page img {
-  border-radius: 14px;
-  box-shadow: 0 12px 30px rgba(10, 77, 107, 0.18);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px $hairline, 0 30px 60px -30px rgba(10, 14, 20, 0.3);
 }
 
-.column-page img:hover {
-  transform: scale(1.015);
-  box-shadow: 0 18px 40px rgba(10, 77, 107, 0.25);
+.column-page img,
+.column-body img {
+  border-radius: 2px;
+  filter: saturate(0.95) contrast(1.03);
+  transition: transform 0.5s cubic-bezier(0.65, 0, 0.35, 1), filter 0.4s ease;
 }
+
+.column-page img:hover { transform: scale(1.01); filter: saturate(1) contrast(1.05); }
 
 .column-page figcaption,
-.column-page p {
+.column-page p:has(img) {
   text-align: center;
-  font-style: italic;
-  color: #586874;
-  margin-top: 0.75rem;
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: $ink-muted;
+  margin-top: 1rem;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: none;
+}
+
+// ====================================================================
+// Horizontal rule — single hairline with a CSIC red dot
+// ====================================================================
+hr {
+  border: 0;
+  height: 1px;
+  background: $hairline;
+  margin: 3.5rem auto;
+  width: 100%;
+  position: relative;
+  opacity: 1;
+  overflow: visible;
+}
+
+hr {
+  background: linear-gradient(90deg, transparent 0%, $hairline 20%, rgba($navy, 0.4) 50%, $hairline 80%, transparent 100%);
+}
+
+hr::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: $paper;
+  border: 2px solid $navy;
+  box-shadow: 0 0 0 4px $paper, 0 0 12px rgba($navy, 0.18);
 }
 
 // ====================================================================
 // Badges
 // ====================================================================
 .badge {
+  font-family: $font-family-monospace;
   font-weight: 500;
-  padding: 0.4rem 0.8rem;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.7rem;
   border-radius: 999px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: transparent;
+  color: $ink;
+  border: 1px solid $hairline-2;
 }
 
 // ====================================================================
-// Smooth scroll & selection
+// Selection · focus
 // ====================================================================
-html {
-  scroll-behavior: smooth;
-}
+::selection { background: $csic; color: $paper; }
 
-::selection {
-  background: $primary;
-  color: #FFFFFF;
-}
-
-// ====================================================================
-// Accessibility
-// ====================================================================
-a:focus,
-button:focus {
-  outline: 2px solid $accent;
-  outline-offset: 2px;
+a:focus, button:focus {
+  outline: 2px solid $csic;
+  outline-offset: 3px;
 }
 
 // ====================================================================
 // Print
 // ====================================================================
 @media print {
-  .navbar,
-  .page-footer,
-  .nav-footer {
-    display: none;
-  }
-
-  body {
-    color: #000000;
-    background: #FFFFFF;
-  }
-
-  a {
-    color: #000000;
-    text-decoration: underline;
-    border-bottom: none;
-  }
-
-  .metric-box {
-    background: #FFFFFF !important;
-    color: $dark !important;
-    border: 1px solid $primary;
-    box-shadow: none;
-  }
+  .navbar, .page-footer, .nav-footer { display: none; }
+  body { background: #fff; color: #000; }
+  a { color: #000; }
+  .metric-box { background: #fff !important; color: #000 !important; border: 1px solid #000; }
+  .metric-number { color: #000 !important; }
 }
 
 // ====================================================================
-// Responsive tweaks
+// Ocean blocks — visible blue surfaces that punctuate the page
+// ====================================================================
+
+// 1. Title banner — soft mist surface beneath the page title
+.quarto-title-block {
+  background: linear-gradient(180deg, $ice 0%, rgba($ice, 0.4) 100%);
+  margin: 0 -1rem 3rem;
+  padding: 3rem 1rem 2.5rem;
+  border-bottom: 1px solid $hairline-2;
+  position: relative;
+  border-radius: 0;
+}
+
+.quarto-title-block::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, $navy 0%, $ocean 50%, $sea 100%);
+}
+
+.quarto-title-block .quarto-title {
+  position: relative;
+  z-index: 1;
+}
+
+// 2. Metric-grid surface — wrap the row of metric boxes in a mist panel
+.grid:has(.metric-box) {
+  background: $ice;
+  padding: 2rem 1.5rem;
+  border-radius: 4px;
+  border: 1px solid rgba($navy, 0.08);
+  margin: 2.5rem 0;
+  position: relative;
+}
+
+.grid:has(.metric-box)::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, $navy 0%, $ocean 35%, transparent 100%);
+}
+
+// individual metric boxes inside should remain on paper for contrast
+.grid:has(.metric-box) .metric-box {
+  background: $paper;
+}
+
+// 3. Timeline panel — soft mist background, framed
+.timeline {
+  background: $ice;
+  padding: 2rem 1.5rem 1rem 3.5rem;
+  border-radius: 4px;
+  border: 1px solid rgba($navy, 0.08);
+  border-left: 0;
+  position: relative;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, $navy 0%, $ocean 50%, $sea 100%);
+  border-radius: 4px 0 0 4px;
+}
+
+// re-position the timeline rail inside the panel
+.timeline::before {
+  left: 1.5rem;
+}
+
+.timeline-item::before {
+  left: -2rem;
+}
+
+// 4. About-entity (Quarto trestles template) — soft ice surface
+.about-entity {
+  background: linear-gradient(135deg, $ice 0%, rgba($ice, 0.3) 100%);
+  padding: 2.5rem 2rem;
+  border-radius: 4px;
+  margin: 2rem 0 3rem;
+  border: 1px solid rgba($navy, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-entity::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, $navy 0%, $csic 70%, $sea 100%);
+}
+
+// the trestles template uses .about-contents and .about-image side-by-side
+.about-entity .about-image {
+  position: relative;
+  z-index: 1;
+}
+
+// ====================================================================
+// Responsive
 // ====================================================================
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.85rem;
-  }
-
-  .metric-number {
-    font-size: 2rem;
-  }
-
-  .metric-label {
-    font-size: 0.72rem;
-  }
+  h1 { font-size: clamp(2.25rem, 1.6rem + 3vw, 3rem); }
+  h2 { margin-top: 3rem; }
+  .metric-number { font-size: 2.5rem; }
+  .metric-label  { font-size: 0.65rem; letter-spacing: 0.14em; }
+  blockquote { padding-left: 1.25rem; }
 }

@@ -160,6 +160,16 @@ Coastal observation network in the Balearic Sea, with emphasis on *Posidonia oce
 - Characterisation of acidification trends, water-column oxygenation and GHG emissions
 - Methodologies transferred to deep-sea ecosystems through EVALUARTE and INDICLIMA
 
+### COJOHNS — Johnsons Cove Time Series *(2024 – Present)*
+
+High-frequency time series of seawater **pCO₂** and biogeochemical properties (temperature, salinity, dissolved oxygen, chlorophyll) in **Johnsons Cove, Livingston Island (South Shetland Islands, Antarctica)** — a glacier-influenced embayment adjacent to a tidewater glacier on the western Antarctic Peninsula.
+**Role**: *Scientific coordinator*.
+
+- Continuous **pCO₂ monitoring via a fixed mooring** with an autonomous CO₂ sensor (active since February 2024)
+- First year-round record of carbonate-system variability in a glacier-fed Antarctic embayment
+- Quantification of air–sea CO₂ fluxes to assess the area as a sink or source of CO₂ to the atmosphere
+- Strengthens the observational framework for **coastal carbon inputs to the Southern Ocean** and improves the representation of Antarctic waters in global C-cycle assessments
+
 ---
 
 ## Open-Source Tools & Digital Transfer
