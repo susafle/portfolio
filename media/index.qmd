@@ -72,11 +72,11 @@ A visual collection of fieldwork across different marine ecosystems worldwide.
 </div>
 
 <div class="gallery-item">
-<img src="../img/SFS.jpeg" alt="Susana Flecha Saura - Researcher in Ocean Biogeochemistry">
+<img src="../img/SFS.jpeg" alt="Susana Flecha - Researcher in Ocean Biogeochemistry">
 <div class="gallery-overlay">
 <div class="gallery-text">
 <h3>Professional Profile</h3>
-<p>Susana Flecha Saura - Researcher in Ocean Biogeochemistry</p>
+<p>Susana Flecha - Researcher in Ocean Biogeochemistry</p>
 </div>
 </div>
 </div>
@@ -187,4 +187,4 @@ Field research in collaboration with:
 
 ---
 
-*All images © Susana Flecha Saura. For use of images for educational or outreach purposes, please contact: susana.flecha@csic.es*
+*All images © Susana Flecha. For use of images for educational or outreach purposes, please contact: susana.flecha@csic.es*

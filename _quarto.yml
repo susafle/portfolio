@@ -1,8 +1,8 @@
-# Scientific Portfolio - Susana Flecha Saura
+# Scientific Portfolio - Susana Flecha
 # Marine Scientist - Biogeochemistry
 
 website:
-  title: "Susana Flecha Saura"
+  title: "Susana Flecha"
   description: "Marine Scientist | Biogeochemistry | CSIC"
   site-url: https://susafle.github.io/portfolio
 
@@ -47,7 +47,7 @@ website:
 
   page-footer:
     left: |
-      <span class="faux-block">Susana Flecha Saura, PhD</span>
+      <span class="faux-block">Susana Flecha, PhD</span>
       <span class="faux-block">Institute of Marine Sciences of Andalusia (CSIC)</span>
     center: |
       <span class="faux-block">Marine Scientist | Ocean Biogeochemistry</span>

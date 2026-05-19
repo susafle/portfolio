@@ -1,5 +1,5 @@
 ---
-title: "Susana Flecha Saura, PhD"
+title: "Susana Flecha, PhD"
 subtitle: "Marine Scientist · Ocean Biogeochemistry · OCEAN–IA"
 image: img/SFS.jpeg
 about:
