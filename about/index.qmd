@@ -1,7 +1,7 @@
 ---
 title: "About"
 subtitle: "Biography, trajectory and research vision"
-image: ../img/SFS.jpeg
+image: "../img/WhatsApp Image 2026-06-10 at 16.46.56.jpeg"
 about:
   template: solana
   image-shape: rounded
@@ -9,7 +9,7 @@ about:
 
 ## Biography
 
-I hold a **PhD in Marine Sciences** from the University of Cádiz (2015, *Summa Cum Laude* — **Extraordinary PhD Award** and **International PhD Mention**) and currently develop my research career as a **Postdoctoral Researcher under the MOMENTUM excellence programme** at the **Institute of Marine Sciences of Andalusia (ICMAN-CSIC)**, in the *Department of Ecology and Coastal Management — Ecosystem Oceanography Group*.
+I hold a **PhD in Marine Sciences** from the Universidad de Cádiz (2015, *Summa Cum Laude* — **Extraordinary PhD Award** and **International PhD Mention**) and currently develop my research career as a **Postdoctoral Researcher under the MOMENTUM excellence programme** at the **Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)**, in the *Department of Ecology and Coastal Management — Ecosystem Oceanography Group*.
 
 My research focuses on **ocean biogeochemistry** applied to the evaluation of **natural and anthropogenic impacts on coastal, shelf and deep-sea ecosystems**. I study the **carbon system**, **ocean acidification** and **deoxygenation**, together with the variability and air–sea exchange of **greenhouse gases (CO₂, CH₄, N₂O)**, using long-term observational series and innovative **AI-based methods** articulated in my **OCEAN–IA** research line.
 
@@ -17,28 +17,23 @@ Since **2008** I have coordinated the **Gibraltar Fixed Time Series (GIFT)** and
 
 ## Academic Background
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
 **PhD in Marine Sciences**
-University of Cádiz, Spain · 2015
+Universidad de Cádiz, Spain · 2015
 *Summa Cum Laude*
 **Extraordinary PhD Award** · **International PhD Mention**
 Thesis: *Carbon fluxes in coastal systems of the South-Atlantic Iberian Basin: CO₂ exchange with the atmosphere and quantification of the anthropogenic footprint.*
-:::
 
-::: {.g-col-12 .g-col-md-6}
 **MSc in Oceanography**
-University of Cádiz, Spain · 2009
+Universidad de Cádiz, Spain · 2009
 
 **BSc in Marine Sciences**
-University of Cádiz, Spain · 2008
+Universidad de Cádiz, Spain · 2008
 
 **Expert Programme in Data Science & Generative AI**
-Datamecum Data Management · Ongoing
-:::
+Datamecum Data Management · 2026
 
-:::
+**Data Analytics & AI Bootcamp** (380 h)
+CSIC Bootcamp — Upgrade Hub, Madrid · 2026
 
 ## Professional Trajectory
 
@@ -51,6 +46,7 @@ Datamecum Data Management · Ongoing
 - Leading the **OCEAN–IA** line: deep-learning approaches for reconstructing and predicting ocean acidification, deoxygenation and GHG fluxes
 - Coordinator of the GHG multiplatform monitoring programme for Andalusian coastal, continental and marine systems
 - Scientific coordination of the GIFT time series and of Antarctic observations at Deception Island
+- Co-coordinator of **Objective 8** of the ICMAN-CSIC Excellence Plan (**MAX-CSIC · Blue Health**): scientific leadership, the **DATALAB** technical unit and AI training in marine sciences
 :::
 
 ::: {.timeline-item}
@@ -64,7 +60,7 @@ Datamecum Data Management · Ongoing
 
 ::: {.timeline-item}
 ### Postdoctoral Researcher · Margalida Comas Programme *(2017 – 2019)*
-*University of the Balearic Islands (UIB), Spain*
+*Universidad de las Islas Baleares (UIB), Spain*
 
 - PI of the Margalida Comas project on coastal pH variability
 - Acquisition and deployment of autonomous pH sensors (SAMI)
@@ -81,7 +77,7 @@ Datamecum Data Management · Ongoing
 
 ::: {.timeline-item}
 ### Predoctoral Researcher — JAE Programme *(2011 – 2015)*
-*Institute of Marine Sciences of Andalusia (ICMAN-CSIC)*
+*Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)*
 
 - Doctoral research on ocean acidification in the Mediterranean Sea
 - International research stays at University of Washington, Université de Liège, and UPMC-LOCEAN (Paris)
@@ -136,18 +132,22 @@ Datamecum Data Management · Ongoing
 
 ## Awards & Recognitions
 
-- **Extraordinary PhD Award** — University of Cádiz (2016)
-- **International PhD Mention** — University of Cádiz (2016)
+- **Extraordinary PhD Award** — Universidad de Cádiz (2016)
+- **International PhD Mention** — Universidad de Cádiz (2016)
 - **Canon Foundation in Europe Research Fellowship** — Japan (2016) · € 14,200
-- **Vicenç Mut Postdoctoral Contract** — Government of the Balearic Islands (2022–2025)
-- **Margalida Comas Postdoctoral Contract** — Government of the Balearic Islands (2017–2019)
+- **Vicenç Mut Postdoctoral Contract** — Gobierno de las Islas Baleares (2022–2025)
+- **Margalida Comas Postdoctoral Contract** — Gobierno de las Islas Baleares (2017–2019)
 - **JAE-Intro Predoctoral Contract** — CSIC (2011–2015)
 - **Short Term Scientific Mission COST Action 735** — Université de Liège (2010)
 
 ## Scientific Leadership
 
+- **Co-coordinator of Objective 8** ("Scientific Leadership & Technological Cross-cutting") of the **ICMAN-CSIC Excellence Plan (MAX-CSIC 2024 · Blue Health)** · 2026–2028
 - **Mediterranean node representative — Steering Committee of ICONEC** (International Carbon Ocean Network for Early Career), affiliated to **GOA-ON** · Since 2023
-- **Coordinator of the *Risks & Hazards* area** of the **Conexión Polar CSIC** network
+- **Coordinator of the *Risks & Hazards* area** of the **Conexión Polar CSIC** network (72 researchers) · Since 2025
+- **Core Team member — Working Group on Antarctic Biogeochemistry & Carbon Cycling**, *Antarctic InSync* programme (UN Ocean Decade · UNESCO-IOC) · Since 2026
+- **CSIC institutional representative** to the **Scientific Committee on Oceanic Research (SCOR)** · Since 2026
+- **Member of the ICMAN-CSIC Sustainability Committee** · Since 2026
 - **Scientific coordinator** of the Gibraltar Fixed Time Series (GIFT) · Since 2008
 - **Co-founder and co-PI** of the Balearic Ocean Acidification Time Series (BOATS) · Since 2018
 - **Expert Evaluator** for Marie Skłodowska-Curie actions and ERC panels — *Research Executive Agency, European Commission* (2020, 2021, 2023, 2024, 2025)
@@ -158,8 +158,8 @@ Datamecum Data Management · Ongoing
 
 - **PhD co-supervision** — Peru Águeda Aramburu, *Greenhouse gas dynamics in coastal ecosystems of the Balearic Islands*, UIB María de Maeztu · 2024–2028
 - **5 Master's theses** directed or co-directed (Erasmus Mundus MER+, IMBRSea; Universities of Ghent, Bologna, Valencia and País Vasco) — all with *Outstanding* or *Summa Cum Laude*
-- **International mentorship** — Pier2Peer Programme, NOAA Ocean Acidification Program (2025–2026)
-- **JAE-Intro tutor** — CSIC (2015, 2022, 2026)
+- **International mentorship** — Pier2Peer Programme, NOAA Ocean Acidification Program: mentoring Yurley Tatiana Zapata Rey (INVEMAR, Colombia) · 2025–2026
+- **JAE-Intro principal tutor** — CSIC (2015, 2022, 2026); 2026 award within **Conexión Polar CSIC** on GHG inventories and fluxes (CO₂, CH₄, N₂O) in Antarctic coastal ecosystems
 
 ## Outreach & Knowledge Transfer
 

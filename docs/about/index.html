@@ -67,6 +67,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Deep Ocean Dark · set theme before first paint to avoid flash -->
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('sf-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    var m = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!m || !m.matches) {
+      document.documentElement.classList.add('js-anim');
+    }
+  })();
+</script>
 
 
 <link rel="stylesheet" href="../css/styles.css">
@@ -174,22 +189,17 @@ ul.task-list li input[type="checkbox"] {
       <div class="about-contents"><main class="content" id="quarto-document-content">
 <section id="biography" class="level2">
 <h2 data-anchor-id="biography">Biography</h2>
-<p>I hold a <strong>PhD in Marine Sciences</strong> from the University of Cádiz (2015, <em>Summa Cum Laude</em> — <strong>Extraordinary PhD Award</strong> and <strong>International PhD Mention</strong>) and currently develop my research career as a <strong>Postdoctoral Researcher under the MOMENTUM excellence programme</strong> at the <strong>Institute of Marine Sciences of Andalusia (ICMAN-CSIC)</strong>, in the <em>Department of Ecology and Coastal Management — Ecosystem Oceanography Group</em>.</p>
+<p>I hold a <strong>PhD in Marine Sciences</strong> from the Universidad de Cádiz (2015, <em>Summa Cum Laude</em> — <strong>Extraordinary PhD Award</strong> and <strong>International PhD Mention</strong>) and currently develop my research career as a <strong>Postdoctoral Researcher under the MOMENTUM excellence programme</strong> at the <strong>Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)</strong>, in the <em>Department of Ecology and Coastal Management — Ecosystem Oceanography Group</em>.</p>
 <p>My research focuses on <strong>ocean biogeochemistry</strong> applied to the evaluation of <strong>natural and anthropogenic impacts on coastal, shelf and deep-sea ecosystems</strong>. I study the <strong>carbon system</strong>, <strong>ocean acidification</strong> and <strong>deoxygenation</strong>, together with the variability and air–sea exchange of <strong>greenhouse gases (CO₂, CH₄, N₂O)</strong>, using long-term observational series and innovative <strong>AI-based methods</strong> articulated in my <strong>OCEAN–IA</strong> research line.</p>
 <p>Since <strong>2008</strong> I have coordinated the <strong>Gibraltar Fixed Time Series (GIFT)</strong> and, since <strong>2018</strong>, I co-lead the <strong>Balearic Ocean Acidification Time Series (BOATS)</strong>. I have participated in <strong>48 oceanographic cruises</strong> (≈278 days at sea) across the Southern Ocean, Atlantic Ocean, Strait of Gibraltar, Gulf of Cádiz, and Baltic and Mediterranean Seas, and in over <strong>180 field campaigns</strong> in coastal, estuarine and wetland environments.</p>
 </section>
 <section id="academic-background" class="level2">
 <h2 data-anchor-id="academic-background">Academic Background</h2>
-<div class="grid">
-<div class="g-col-12 g-col-md-6">
-<p><strong>PhD in Marine Sciences</strong> University of Cádiz, Spain · 2015 <em>Summa Cum Laude</em> <strong>Extraordinary PhD Award</strong> · <strong>International PhD Mention</strong> Thesis: <em>Carbon fluxes in coastal systems of the South-Atlantic Iberian Basin: CO₂ exchange with the atmosphere and quantification of the anthropogenic footprint.</em></p>
-</div>
-<div class="g-col-12 g-col-md-6">
-<p><strong>MSc in Oceanography</strong> University of Cádiz, Spain · 2009</p>
-<p><strong>BSc in Marine Sciences</strong> University of Cádiz, Spain · 2008</p>
-<p><strong>Expert Programme in Data Science &amp; Generative AI</strong> Datamecum Data Management · Ongoing</p>
-</div>
-</div>
+<p><strong>PhD in Marine Sciences</strong> Universidad de Cádiz, Spain · 2015 <em>Summa Cum Laude</em> <strong>Extraordinary PhD Award</strong> · <strong>International PhD Mention</strong> Thesis: <em>Carbon fluxes in coastal systems of the South-Atlantic Iberian Basin: CO₂ exchange with the atmosphere and quantification of the anthropogenic footprint.</em></p>
+<p><strong>MSc in Oceanography</strong> Universidad de Cádiz, Spain · 2009</p>
+<p><strong>BSc in Marine Sciences</strong> Universidad de Cádiz, Spain · 2008</p>
+<p><strong>Expert Programme in Data Science &amp; Generative AI</strong> Datamecum Data Management · 2026</p>
+<p><strong>Data Analytics &amp; AI Bootcamp</strong> (380 h) CSIC Bootcamp — Upgrade Hub, Madrid · 2026</p>
 </section>
 <section id="professional-trajectory" class="level2">
 <h2 data-anchor-id="professional-trajectory">Professional Trajectory</h2>
@@ -201,6 +211,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Leading the <strong>OCEAN–IA</strong> line: deep-learning approaches for reconstructing and predicting ocean acidification, deoxygenation and GHG fluxes</li>
 <li>Coordinator of the GHG multiplatform monitoring programme for Andalusian coastal, continental and marine systems</li>
 <li>Scientific coordination of the GIFT time series and of Antarctic observations at Deception Island</li>
+<li>Co-coordinator of <strong>Objective 8</strong> of the ICMAN-CSIC Excellence Plan (<strong>MAX-CSIC · Blue Health</strong>): scientific leadership, the <strong>DATALAB</strong> technical unit and AI training in marine sciences</li>
 </ul>
 </section>
 <section id="postdoctoral-researcher-vicenç-mut-programme-2022-2024" class="level3 timeline-item">
@@ -214,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="postdoctoral-researcher-margalida-comas-programme-2017-2019" class="level3 timeline-item">
 <h3 data-anchor-id="postdoctoral-researcher-margalida-comas-programme-2017-2019">Postdoctoral Researcher · Margalida Comas Programme <em>(2017 – 2019)</em></h3>
-<p><em>University of the Balearic Islands (UIB), Spain</em></p>
+<p><em>Universidad de las Islas Baleares (UIB), Spain</em></p>
 <ul>
 <li>PI of the Margalida Comas project on coastal pH variability</li>
 <li>Acquisition and deployment of autonomous pH sensors (SAMI)</li>
@@ -231,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="predoctoral-researcher-jae-programme-2011-2015" class="level3 timeline-item">
 <h3 data-anchor-id="predoctoral-researcher-jae-programme-2011-2015">Predoctoral Researcher — JAE Programme <em>(2011 – 2015)</em></h3>
-<p><em>Institute of Marine Sciences of Andalusia (ICMAN-CSIC)</em></p>
+<p><em>Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)</em></p>
 <ul>
 <li>Doctoral research on ocean acidification in the Mediterranean Sea</li>
 <li>International research stays at University of Washington, Université de Liège, and UPMC-LOCEAN (Paris)</li>
@@ -291,11 +302,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="awards-recognitions" class="level2">
 <h2 data-anchor-id="awards-recognitions">Awards &amp; Recognitions</h2>
 <ul>
-<li><strong>Extraordinary PhD Award</strong> — University of Cádiz (2016)</li>
-<li><strong>International PhD Mention</strong> — University of Cádiz (2016)</li>
+<li><strong>Extraordinary PhD Award</strong> — Universidad de Cádiz (2016)</li>
+<li><strong>International PhD Mention</strong> — Universidad de Cádiz (2016)</li>
 <li><strong>Canon Foundation in Europe Research Fellowship</strong> — Japan (2016) · € 14,200</li>
-<li><strong>Vicenç Mut Postdoctoral Contract</strong> — Government of the Balearic Islands (2022–2025)</li>
-<li><strong>Margalida Comas Postdoctoral Contract</strong> — Government of the Balearic Islands (2017–2019)</li>
+<li><strong>Vicenç Mut Postdoctoral Contract</strong> — Gobierno de las Islas Baleares (2022–2025)</li>
+<li><strong>Margalida Comas Postdoctoral Contract</strong> — Gobierno de las Islas Baleares (2017–2019)</li>
 <li><strong>JAE-Intro Predoctoral Contract</strong> — CSIC (2011–2015)</li>
 <li><strong>Short Term Scientific Mission COST Action 735</strong> — Université de Liège (2010)</li>
 </ul>
@@ -303,8 +314,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="scientific-leadership" class="level2">
 <h2 data-anchor-id="scientific-leadership">Scientific Leadership</h2>
 <ul>
+<li><strong>Co-coordinator of Objective 8</strong> (“Scientific Leadership &amp; Technological Cross-cutting”) of the <strong>ICMAN-CSIC Excellence Plan (MAX-CSIC 2024 · Blue Health)</strong> · 2026–2028</li>
 <li><strong>Mediterranean node representative — Steering Committee of ICONEC</strong> (International Carbon Ocean Network for Early Career), affiliated to <strong>GOA-ON</strong> · Since 2023</li>
-<li><strong>Coordinator of the <em>Risks &amp; Hazards</em> area</strong> of the <strong>Conexión Polar CSIC</strong> network</li>
+<li><strong>Coordinator of the <em>Risks &amp; Hazards</em> area</strong> of the <strong>Conexión Polar CSIC</strong> network (72 researchers) · Since 2025</li>
+<li><strong>Core Team member — Working Group on Antarctic Biogeochemistry &amp; Carbon Cycling</strong>, <em>Antarctic InSync</em> programme (UN Ocean Decade · UNESCO-IOC) · Since 2026</li>
+<li><strong>CSIC institutional representative</strong> to the <strong>Scientific Committee on Oceanic Research (SCOR)</strong> · Since 2026</li>
+<li><strong>Member of the ICMAN-CSIC Sustainability Committee</strong> · Since 2026</li>
 <li><strong>Scientific coordinator</strong> of the Gibraltar Fixed Time Series (GIFT) · Since 2008</li>
 <li><strong>Co-founder and co-PI</strong> of the Balearic Ocean Acidification Time Series (BOATS) · Since 2018</li>
 <li><strong>Expert Evaluator</strong> for Marie Skłodowska-Curie actions and ERC panels — <em>Research Executive Agency, European Commission</em> (2020, 2021, 2023, 2024, 2025)</li>
@@ -317,8 +332,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>PhD co-supervision</strong> — Peru Águeda Aramburu, <em>Greenhouse gas dynamics in coastal ecosystems of the Balearic Islands</em>, UIB María de Maeztu · 2024–2028</li>
 <li><strong>5 Master’s theses</strong> directed or co-directed (Erasmus Mundus MER+, IMBRSea; Universities of Ghent, Bologna, Valencia and País Vasco) — all with <em>Outstanding</em> or <em>Summa Cum Laude</em></li>
-<li><strong>International mentorship</strong> — Pier2Peer Programme, NOAA Ocean Acidification Program (2025–2026)</li>
-<li><strong>JAE-Intro tutor</strong> — CSIC (2015, 2022, 2026)</li>
+<li><strong>International mentorship</strong> — Pier2Peer Programme, NOAA Ocean Acidification Program: mentoring Yurley Tatiana Zapata Rey (INVEMAR, Colombia) · 2025–2026</li>
+<li><strong>JAE-Intro principal tutor</strong> — CSIC (2015, 2022, 2026); 2026 award within <strong>Conexión Polar CSIC</strong> on GHG inventories and fluxes (CO₂, CH₄, N₂O) in Antarctic coastal ecosystems</li>
 </ul>
 </section>
 <section id="outreach-knowledge-transfer" class="level2">
@@ -353,11 +368,204 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </main></div>
     </div>
-    <img src="../img/SFS.jpeg" class="about-image
+    <img src="../img/WhatsApp Image 2026-06-10 at 16.46.56.jpeg" class="about-image
   rounded " style="width: 15em;">
   </div>
 </div>
  <!-- /main -->
+<!-- Deep Ocean Dark · interactions: theme toggle · scroll progress · scroll-reveal · count-up -->
+<script>
+(function () {
+  "use strict";
+
+  var reduceMotion = window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------------------------------------------------------------
+     1 · Theme toggle (dark default, persisted in localStorage)
+  ----------------------------------------------------------------*/
+  function currentTheme() {
+    return document.documentElement.getAttribute('data-theme') || 'dark';
+  }
+
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    try { localStorage.setItem('sf-theme', t); } catch (e) {}
+    if (btn) {
+      var dark = t !== 'light';
+      btn.innerHTML = dark
+        ? '<i class="bi bi-sun-fill"></i><span>Modo claro</span>'
+        : '<i class="bi bi-moon-stars-fill"></i><span>Modo oscuro</span>';
+      btn.setAttribute('aria-label', dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
+      btn.setAttribute('title', dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
+    }
+  }
+
+  var btn = document.createElement('button');
+  btn.className = 'theme-toggle';
+  btn.type = 'button';
+  document.addEventListener('DOMContentLoaded', function () {
+    document.documentElement.appendChild(btn); // attach to <html> so body overflow:hidden can't clip it
+    applyTheme(currentTheme());
+  });
+  btn.addEventListener('click', function () {
+    applyTheme(currentTheme() === 'light' ? 'dark' : 'light');
+  });
+
+  /* ---------------------------------------------------------------
+     2 · Scroll progress bar
+  ----------------------------------------------------------------*/
+  var bar = document.createElement('div');
+  bar.className = 'scroll-progress';
+  document.addEventListener('DOMContentLoaded', function () {
+    document.documentElement.appendChild(bar);
+  });
+  function onScroll() {
+    var h = document.documentElement;
+    var max = (h.scrollHeight - h.clientHeight) || 1;
+    var pct = Math.min(100, Math.max(0, (h.scrollTop || window.pageYOffset) / max * 100));
+    bar.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* ---------------------------------------------------------------
+     3 · Count-up for metric numbers (preserves prefix/suffix)
+  ----------------------------------------------------------------*/
+  function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+
+  function countUp(el) {
+    if (el.dataset.counted) return;
+    el.dataset.counted = '1';
+    var raw = el.textContent.trim();
+    var m = raw.match(/^(\D*)([\d][\d.,]*)(\D*)$/);
+    if (!m) return;
+    var prefix = m[1], suffix = m[3];
+    var clean = m[2].replace(/,/g, '');
+    var target = parseFloat(clean);
+    if (isNaN(target)) return;
+    var decimals = (clean.split('.')[1] || '').length;
+    if (reduceMotion) { return; } // leave final value as-is
+    var dur = 1150, start = null;
+    function frame(ts) {
+      if (start === null) start = ts;
+      var p = Math.min(1, (ts - start) / dur);
+      var val = target * easeOutCubic(p);
+      el.textContent = prefix + val.toFixed(decimals).replace(/\.0+$/, '') + suffix;
+      if (p < 1) requestAnimationFrame(frame);
+      else el.textContent = prefix + m[2] + suffix;
+    }
+    requestAnimationFrame(frame);
+  }
+
+  /* ---------------------------------------------------------------
+     3b · Live Google Scholar metrics (h-index + citations)
+          Values live in scholar-metrics.json, refreshed by a
+          scheduled GitHub Action. Fetched client-side so the site
+          reflects updates without a rebuild. Falls back silently.
+  ----------------------------------------------------------------*/
+  function applyScholar(data) {
+    if (!data) return;
+    [['hindex', data.hindex], ['citations', data.citations]].forEach(function (pair) {
+      var key = pair[0], val = pair[1];
+      if (val == null) return;
+      document.querySelectorAll('[data-scholar="' + key + '"]').forEach(function (el) {
+        el.textContent = String(val);
+        if (el.dataset.counted) { delete el.dataset.counted; countUp(el); }
+      });
+    });
+  }
+
+  function loadScholar() {
+    var candidates = [
+      '/portfolio/scholar-metrics.json',
+      '/scholar-metrics.json',
+      'scholar-metrics.json',
+      '../scholar-metrics.json'
+    ];
+    (function tryNext(i) {
+      if (i >= candidates.length || !window.fetch) return;
+      fetch(candidates[i], { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('not ok'); return r.json(); })
+        .then(function (d) { applyScholar(d); })
+        .catch(function () { tryNext(i + 1); });
+    })(0);
+  }
+
+  document.addEventListener('DOMContentLoaded', loadScholar);
+
+  /* ---------------------------------------------------------------
+     3c · Institutional logos (MOMENTUM + ICMAN)
+          src is resolved at runtime against several base paths so it
+          works at site root, in /portfolio/ and in nested pages.
+          If the file is absent the <img> is hidden (no broken icon).
+  ----------------------------------------------------------------*/
+  function setLogos() {
+    var bases = ['/portfolio/', '/', '', '../', '../../'];
+    document.querySelectorAll('img.brand-logo[data-logo]').forEach(function (img) {
+      var name = img.getAttribute('data-logo');
+      var i = 0;
+      (function tryNext() {
+        if (i >= bases.length) { img.style.display = 'none'; return; }
+        var url = bases[i++] + 'img/logo-' + name + '.png';
+        var probe = new Image();
+        probe.onload = function () { img.src = url; };
+        probe.onerror = tryNext;
+        probe.src = url;
+      })();
+    });
+  }
+  document.addEventListener('DOMContentLoaded', setLogos);
+
+  /* ---------------------------------------------------------------
+     4 · Scroll-reveal via IntersectionObserver
+  ----------------------------------------------------------------*/
+  var REVEAL_SELECTOR = [
+    'main section',
+    '.metric-box',
+    '.timeline-item',
+    '.publication-item',
+    '.project-item',
+    'main .grid > div',
+    '.gallery-item',
+    '.section-divider',
+    'main > .quarto-figure',
+    'main > p > img'
+  ].join(',');
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nodes = Array.prototype.slice.call(document.querySelectorAll(REVEAL_SELECTOR));
+
+    if (reduceMotion || !('IntersectionObserver' in window)) {
+      // No animation: make sure counters still show final value, nothing hidden.
+      document.querySelectorAll('.metric-number').forEach(function (n) { n.dataset.counted = '1'; });
+      return;
+    }
+
+    nodes.forEach(function (el, i) {
+      el.classList.add('reveal');
+      var parent = el.parentElement;
+      var idx = parent ? Array.prototype.indexOf.call(parent.children, el) : i;
+      el.style.transitionDelay = Math.min(idx % 8, 7) * 55 + 'ms';
+    });
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        el.classList.add('is-visible');
+        el.querySelectorAll && el.querySelectorAll('.metric-number').forEach(countUp);
+        if (el.classList.contains('metric-number')) countUp(el);
+        io.unobserve(el);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+    nodes.forEach(function (el) { io.observe(el); });
+
+    // Observe metric numbers directly too (in case their box isn't a reveal target)
+    document.querySelectorAll('.metric-number').forEach(function (n) { io.observe(n); });
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
@@ -762,10 +970,10 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span class="faux-block">Susana Flecha, PhD</span> <span class="faux-block">Institute of Marine Sciences of Andalusia (CSIC)</span></p>
+<p><span class="faux-block">Susana Flecha, PhD</span> <span class="faux-block">Instituto de Ciencias Marinas de Andalucía (CSIC)</span></p>
 </div>   
     <div class="nav-footer-center">
-<p><span class="faux-block">Marine Scientist | Ocean Biogeochemistry</span></p>
+<p><span class="faux-block">Marine Scientist | Ocean Biogeochemistry</span> <span class="brand-logos"> <img class="brand-logo" data-logo="momentum" alt="MOMENTUM Programme (CSIC)"> <img class="brand-logo" data-logo="icman" alt="ICMAN-CSIC"> </span></p>
 </div>
     <div class="nav-footer-right">
 <p><span class="faux-block">© 2025 Susana Flecha | Built with <a href="https://quarto.org/" target="_blank">Quarto</a></span></p>

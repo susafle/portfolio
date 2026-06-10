@@ -3,6 +3,7 @@
 _site/
 *.html
 !docs/**/*.html
+!includes/*.html
 *.pdf
 !docs/**/*.pdf
 /.luarc.json

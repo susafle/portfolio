@@ -48,15 +48,23 @@ website:
   page-footer:
     left: |
       <span class="faux-block">Susana Flecha, PhD</span>
-      <span class="faux-block">Institute of Marine Sciences of Andalusia (CSIC)</span>
+      <span class="faux-block">Instituto de Ciencias Marinas de Andalucía (CSIC)</span>
     center: |
       <span class="faux-block">Marine Scientist | Ocean Biogeochemistry</span>
+      <span class="brand-logos">
+        <img class="brand-logo" data-logo="momentum" alt="MOMENTUM Programme (CSIC)">
+        <img class="brand-logo" data-logo="icman" alt="ICMAN-CSIC">
+      </span>
     right: |
       <span class="faux-block">© 2025 Susana Flecha | Built with <a href="https://quarto.org/" target="_blank">Quarto</a></span>
 
 project:
   type: website
   output-dir: docs
+  resources:
+    - scholar-metrics.json
+    - img/logo-momentum.png
+    - img/logo-icman.png
 
   preview:
     port: 4200
@@ -73,6 +81,8 @@ format:
       - cosmo
       - css/custom.scss
     css: css/styles.css
+    include-in-header: includes/theme-init.html
+    include-after-body: includes/portfolio-js.html
     toc: false
     code-link: true
     anchor-sections: true

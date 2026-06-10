@@ -5,6 +5,21 @@ subtitle: "Professional development and technical certifications"
 
 ## Artificial Intelligence & Machine Learning
 
+### Data Analytics & AI Bootcamp
+
+- **Data Analytics & Artificial Intelligence Bootcamp**
+  - Institution: CSIC Bootcamp — Upgrade Hub, Madrid
+  - Year: 2026
+  - Duration: 380 hours
+  - Focus: Intensive professional training in data analytics, machine learning and AI
+
+### Expert Programme in Data Science & Generative AI
+
+- **Expert Programme in Data Science + Generative AI**
+  - Institution: Datamecum Data Management, SL
+  - Year: 2026
+  - Focus: Advanced data science and generative AI applied to research
+
 ### AI for Earth and Climate Sciences
 
 - **ELLIS Summer School: AI for Earth and Climate Sciences**

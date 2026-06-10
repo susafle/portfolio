@@ -12,6 +12,56 @@ A visual collection of fieldwork across different marine ecosystems worldwide.
 <div class="image-gallery-grid">
 
 <div class="gallery-item">
+<img src="../img/WhatsApp Image 2026-06-10 at 16.46.55 (1).jpeg" alt="Researcher facing the BIO Hespérides research vessel during the Spanish Antarctic Campaign">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Spanish Antarctic Campaign</h3>
+<p>Facing the BIO Hespérides research vessel at Deception Island, South Shetland Islands</p>
+</div>
+</div>
+</div>
+
+<div class="gallery-item">
+<img src="../img/WhatsApp Image 2026-06-10 at 16.46.56 (4).jpeg" alt="Silhouette deploying a CTD rosette from the deck of a research vessel at sea">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>CTD Deployment</h3>
+<p>Deploying a CTD rosette from the deck during open-ocean sampling operations</p>
+</div>
+</div>
+</div>
+
+<div class="gallery-item">
+<img src="../img/WhatsApp Image 2026-06-10 at 16.46.56 (2).jpeg" alt="Aerial view of two CSIC-UTM zodiac boats on turquoise glacial water">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>CSIC–UTM Operations</h3>
+<p>Aerial view of zodiac boats during fieldwork over glacier-fed Antarctic waters</p>
+</div>
+</div>
+</div>
+
+<div class="gallery-item">
+<img src="../img/WhatsApp Image 2026-06-10 at 16.46.55.jpeg" alt="Researcher in survival suit beside a glacier wall on a black volcanic beach">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Glacier Front</h3>
+<p>Surveying a tidewater glacier wall on a volcanic beach, western Antarctic Peninsula</p>
+</div>
+</div>
+</div>
+
+<div class="gallery-item">
+<img src="../img/WhatsApp Image 2026-06-10 at 16.46.56 (1).jpeg" alt="Fieldwork beside a glacier with a zodiac carrying scientific instruments">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Polar Sampling</h3>
+<p>Instrument-laden zodiac at a glacier front during Antarctic carbon-system sampling</p>
+</div>
+</div>
+</div>
+
+<div class="gallery-item">
 <img src="../img/Susana_Flecha en Cabrera junto a una linea de fondeo con sensores de pH_oxigeno disuelto_temperatura_y_salinidad.jpeg" alt="Mooring line with oceanographic sensors - pH, dissolved oxygen, temperature, and salinity monitoring station">
 <div class="gallery-overlay">
 <div class="gallery-text">
@@ -111,6 +161,16 @@ A visual collection of fieldwork across different marine ecosystems worldwide.
 </div>
 </div>
 
+<div class="gallery-item">
+<img src="../img/IMG-20130911-WA0006.jpg" alt="Estuarine fieldwork recovering a moored instrument frame with sensors and buoys in a coastal wetland of SW Spain">
+<div class="gallery-overlay">
+<div class="gallery-text">
+<h3>Estuarine Monitoring</h3>
+<p>Recovering a moored instrument frame with sensors and buoys in a coastal wetland (SW Spain)</p>
+</div>
+</div>
+</div>
+
 </div>
 
 ---
@@ -141,7 +201,7 @@ My field work has covered diverse marine ecosystems:
 ### Polar Regions
 - Antarctic Peninsula
 - Southern Ocean
-- Deception Island
+- Deception Island & Livingston Island
 - Cold water biogeochemistry
 :::
 
@@ -151,7 +211,7 @@ My field work has covered diverse marine ecosystems:
 
 ## Expedition Highlights
 
-- **47 oceanographic cruises** (~275 days at sea)
+- **48 oceanographic cruises** (278 days at sea)
 - **>180 field campaigns** in diverse environments
 - Research in **Southern Ocean, Atlantic, Mediterranean, and Baltic Seas**
 - Locations: Comau Fjord (Chile), Balearic Sea, Guadalquivir estuary, Doñana National Park, Scheldt estuary (Belgium)
@@ -163,14 +223,23 @@ My field work has covered diverse marine ecosystems:
 ### Long-term Time Series
 
 **Gibraltar Fixed Timeseries (GIFT)**
+
 - Coordinated since 2008
 - Strait of Gibraltar water mass exchange monitoring
 - Carbon system and biogeochemical parameters
 
 **Balearic Ocean Acidification Time Series (BOATS)**
-- Coordinated since 2018
+
+- Co-founded and co-led since 2018
 - High-frequency pH and biogeochemical monitoring
 - Ocean acidification assessment in Mediterranean coastal waters
+
+**Carbon Observatory Johnson (COJOHNS)**
+
+- Coordinated since 2024
+- Johnsons Cove (Caleta Johnson), Livingston Island, Antarctica
+- High-frequency pH, pCO₂ and environmental monitoring via an autonomous mooring (since February 2024)
+- Air–sea CO₂ fluxes in a glacier-fed Antarctic embayment
 
 ---
 

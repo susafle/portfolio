@@ -9,28 +9,28 @@ subtitle: "Peer-reviewed articles, open datasets and book chapters"
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">29</span>
+<span class="metric-number">30</span>
 <span class="metric-label">SCI Articles</span>
 </div>
 :::
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">17</span>
-<span class="metric-label">Q1 JCR · 59 %</span>
+<span class="metric-number">25</span>
+<span class="metric-label">Q1 JCR · 83 %</span>
 </div>
 :::
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">16</span>
+<span class="metric-number" data-scholar="hindex">16</span>
 <span class="metric-label">H-index (GS)</span>
 </div>
 :::
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">731</span>
+<span class="metric-number" data-scholar="citations">731</span>
 <span class="metric-label">Citations (GS)</span>
 </div>
 :::
@@ -41,10 +41,10 @@ subtitle: "Peer-reviewed articles, open datasets and book chapters"
 
 ::: {.g-col-12 .g-col-md-6}
 ### Leadership Metrics
-- **8** first-author publications (28 %)
-- **7** corresponding-author publications (24 %)
-- **Average IF**: 4.2 (4.8 since PhD)
-- Production consistently in international top venues
+- **8** first-author publications
+- **7** corresponding-author publications
+- **9** second-author publications
+- **Average IF**: 4.8 (5.3 since PhD)
 :::
 
 ::: {.g-col-12 .g-col-md-6}
@@ -57,15 +57,23 @@ subtitle: "Peer-reviewed articles, open datasets and book chapters"
 
 :::
 
-*Data updated: April 2026. Full list available on [ORCID](https://orcid.org/0000-0003-2826-5820), Google Scholar and [ResearchGate](https://www.researchgate.net/profile/Susana-Flecha).*
+*Data updated: May 2026. Full list available on [ORCID](https://orcid.org/0000-0003-2826-5820), [Google Scholar](https://scholar.google.es/citations?user=d0RZmGoAAAAJ&hl=es) and [ResearchGate](https://www.researchgate.net/profile/Susana-Flecha).*
 
 ---
 
-## 2025 · Latest Publications
+## 2026 · Latest Publications
+
+de la Paz, M., **Flecha, S.**, Bouthir, F.Z., Fahkri, M., Hassoun, A.E.R., Ibello, V., Özkan, K., Pérez, F.F., Chair, A., Hendriks, I.E. (2026).
+*Nitrous oxide and methane concentrations and air–sea fluxes in undersampled areas of the Mediterranean basin.*
+**Earth System Science Data Discussions** *[preprint, in review]*. [DOI: 10.5194/essd-2026-259](https://doi.org/10.5194/essd-2026-259)
+
+---
+
+## 2025 · Recent Publications
 
 **Álvarez, M., García-Ibáñez, M.I., Lange, N., Kozyr, A., Velo, A., Tanhua, T., Civitarese, G., Cantoni, C., Belgacem, M., Schroeder, K., *et al.*, Flecha, S., *et al.*** (2025).
 *CARIMED: CARbon, tracers and ancillary data In the MEDiterranean Sea — a ship-based data synthesis product: overview and quality-control procedures.*
-**Earth System Science Data Discussions** *[preprint, in review]*. [DOI: 10.5194/essd-2025-759](https://doi.org/10.5194/essd-2025-759)
+**Earth System Science Data**, 17, 5315–5336. [DOI: 10.5194/essd-17-5315-2025](https://doi.org/10.5194/essd-17-5315-2025)
 
 **Flecha, S.**, Amaya-Vías, S., Medina, M., Fraile-Nuez, E., Jiménez-Morales, V., Contreras-Guijarro, G., Díez-Minguito, M., Caballero-Martínez, O.A., Navarro, G., Tovar-Sánchez, A., Huertas, I.E. (2025).
 *Integrated meteocean and seismic dataset for AI-based seawater CO₂ estimation at Deception Island, Antarctica.*

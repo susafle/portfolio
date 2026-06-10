@@ -1,32 +1,15 @@
 ---
 title: "Susana Flecha, PhD"
 subtitle: "Marine Scientist · Ocean Biogeochemistry · OCEAN–IA"
-image: img/SFS.jpeg
-about:
-  template: trestles
-  image-shape: rounded
-  image-width: 20em
-  links:
-    - icon: envelope-fill
-      text: Email
-      href: mailto:susana.flecha@csic.es
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/susana-flecha-b5b05a44/
-    - icon: github
-      text: GitHub
-      href: https://github.com/susafle
-    - text: "ORCID"
-      href: https://orcid.org/0000-0003-2826-5820
-    - text: "ResearchGate"
-      href: https://www.researchgate.net/profile/Susana-Flecha
+image: "img/WhatsApp Image 2026-06-10 at 16.46.56.jpeg"
+include-before-body: includes/hero.html
 ---
 
 ## Welcome
 
-I am a **PhD in Marine Sciences** (University of Cádiz, 2015 — *Summa Cum Laude*, Extraordinary PhD Award & International Mention) specialised in **ocean biogeochemistry**, with a research focus on the **carbon system, ocean acidification, dissolved greenhouse gases** and the **application of artificial intelligence** to long-term oceanographic observation.
+I am a **PhD in Marine Sciences** (Universidad de Cádiz, 2015 — *Summa Cum Laude*, Extraordinary PhD Award & International Mention) specialised in **ocean biogeochemistry**, with a research focus on the **carbon system, ocean acidification, dissolved greenhouse gases** and the **application of artificial intelligence** to long-term oceanographic observation.
 
-Since **December 2024**, I am a **Postdoctoral Researcher under the competitive MOMENTUM programme (2024–2028)** at the [Institute of Marine Sciences of Andalusia (ICMAN-CSIC)](https://www.icman.csic.es/) in Cádiz, Spain, where I lead the **OCEAN–IA** research line — a framework that integrates oceanographic, meteorological and geophysical observations with deep learning to diagnose, reconstruct and predict the impact of natural and anthropogenic pressures on coastal, shelf and deep-sea ecosystems.
+Since **December 2024**, I am a **Postdoctoral Researcher under the competitive MOMENTUM programme (2024–2028)** at the [Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)](https://www.icman.csic.es/) in Cádiz, Spain, where I lead the **OCEAN–IA** research line — a framework that integrates oceanographic, meteorological and geophysical observations with deep learning to diagnose, reconstruct and predict the impact of natural and anthropogenic pressures on coastal, shelf and deep-sea ecosystems.
 
 ::: {.grid}
 
@@ -50,27 +33,35 @@ Since **December 2024**, I am a **Postdoctoral Researcher under the competitive 
 
 :::
 
+::: {.section-divider style="background-image:url('img/maniobra.jpeg')"}
+::: {.section-divider__text}
+### From the Strait of Gibraltar to Antarctica
+
+Reconstructing the ocean's carbon system with long-term observation and deep learning.
+:::
+:::
+
 ### At a Glance
 
 ::: {.grid}
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">29</span>
+<span class="metric-number">30</span>
 <span class="metric-label">SCI Publications</span>
 </div>
 :::
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">16</span>
+<span class="metric-number" data-scholar="hindex">16</span>
 <span class="metric-label">H-index (GS)</span>
 </div>
 :::
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">731</span>
+<span class="metric-number" data-scholar="citations">731</span>
 <span class="metric-label">Total Citations</span>
 </div>
 :::
@@ -86,7 +77,7 @@ Since **December 2024**, I am a **Postdoctoral Researcher under the competitive 
 
 ### Highlights
 
-- **29 peer-reviewed articles** (59 % in Q1 JCR), **3 publications in the global Top 10 %** most-cited in their fields
+- **30 peer-reviewed articles** (83 % in Q1 JCR), **3 publications in the global Top 10 %** most-cited in their fields
 - **Principal Investigator** of 6 competitive projects — over **€359 k** of funding captured as PI
 - Coordinator of the **Gibraltar Fixed Time Series (GIFT)** since 2008 and co-founder of the **Balearic Ocean Acidification Time Series (BOATS)** since 2018
 - Fieldwork across the **Southern, Atlantic, Baltic and Mediterranean oceans** — 278 days at sea, 180+ field campaigns
@@ -96,6 +87,21 @@ Since **December 2024**, I am a **Postdoctoral Researcher under the competitive 
 
 ---
 
-::: {.column-page}
-![Field research in the Cabrera Archipelago — mooring line with pH, dissolved oxygen, temperature and salinity sensors.](img/Susana_Flecha en Cabrera junto a una linea de fondeo con sensores de pH_oxigeno disuelto_temperatura_y_salinidad.jpeg)
+::: {.section-divider style="background-image:url('img/WhatsApp Image 2026-06-10 at 16.46.56 (2).jpeg')"}
+::: {.section-divider__text}
+### Fieldwork at the frontier
+
+CSIC–UTM operations in the Southern Ocean — sampling glacier-fed Antarctic waters.
+:::
+:::
+
+::: {.column-screen-inset}
+<div class="antarctic-strip">
+  <figure class="antarctic-photo"><img src="img/WhatsApp Image 2026-06-10 at 18.30.21.jpeg" alt="Deploying an instrument on a volcanic beach in Antarctica"></figure>
+  <figure class="antarctic-photo"><img src="img/WhatsApp Image 2026-06-10 at 18.35.19.jpeg" alt="Sampling on deck during an Antarctic snowstorm"></figure>
+  <figure class="antarctic-photo"><img src="img/WhatsApp Image 2026-06-10 at 18.30.21 (1).jpeg" alt="Holding a water sampler in front of an Antarctic glacier"></figure>
+  <figure class="antarctic-photo"><img src="img/WhatsApp Image 2026-06-10 at 18.30.21 (3).jpeg" alt="Aerial view of zodiacs over Antarctic waters"></figure>
+  <figure class="antarctic-photo"><img src="img/WhatsApp Image 2026-06-10 at 18.30.21 (4).jpeg" alt="Recovering field gear on an Antarctic shore"></figure>
+  <figure class="antarctic-photo"><img src="img/WhatsApp Image 2026-06-10 at 18.30.21 (2).jpeg" alt="Preparing a biogeochemical instrument before deployment"></figure>
+</div>
 :::

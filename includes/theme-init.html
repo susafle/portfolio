@@ -1,0 +1,15 @@
+<!-- Deep Ocean Dark · set theme before first paint to avoid flash -->
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('sf-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    var m = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!m || !m.matches) {
+      document.documentElement.classList.add('js-anim');
+    }
+  })();
+</script>

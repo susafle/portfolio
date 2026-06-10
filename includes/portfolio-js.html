@@ -1,0 +1,193 @@
+<!-- Deep Ocean Dark · interactions: theme toggle · scroll progress · scroll-reveal · count-up -->
+<script>
+(function () {
+  "use strict";
+
+  var reduceMotion = window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------------------------------------------------------------
+     1 · Theme toggle (dark default, persisted in localStorage)
+  ----------------------------------------------------------------*/
+  function currentTheme() {
+    return document.documentElement.getAttribute('data-theme') || 'dark';
+  }
+
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    try { localStorage.setItem('sf-theme', t); } catch (e) {}
+    if (btn) {
+      var dark = t !== 'light';
+      btn.innerHTML = dark
+        ? '<i class="bi bi-sun-fill"></i><span>Modo claro</span>'
+        : '<i class="bi bi-moon-stars-fill"></i><span>Modo oscuro</span>';
+      btn.setAttribute('aria-label', dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
+      btn.setAttribute('title', dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
+    }
+  }
+
+  var btn = document.createElement('button');
+  btn.className = 'theme-toggle';
+  btn.type = 'button';
+  document.addEventListener('DOMContentLoaded', function () {
+    document.documentElement.appendChild(btn); // attach to <html> so body overflow:hidden can't clip it
+    applyTheme(currentTheme());
+  });
+  btn.addEventListener('click', function () {
+    applyTheme(currentTheme() === 'light' ? 'dark' : 'light');
+  });
+
+  /* ---------------------------------------------------------------
+     2 · Scroll progress bar
+  ----------------------------------------------------------------*/
+  var bar = document.createElement('div');
+  bar.className = 'scroll-progress';
+  document.addEventListener('DOMContentLoaded', function () {
+    document.documentElement.appendChild(bar);
+  });
+  function onScroll() {
+    var h = document.documentElement;
+    var max = (h.scrollHeight - h.clientHeight) || 1;
+    var pct = Math.min(100, Math.max(0, (h.scrollTop || window.pageYOffset) / max * 100));
+    bar.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* ---------------------------------------------------------------
+     3 · Count-up for metric numbers (preserves prefix/suffix)
+  ----------------------------------------------------------------*/
+  function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+
+  function countUp(el) {
+    if (el.dataset.counted) return;
+    el.dataset.counted = '1';
+    var raw = el.textContent.trim();
+    var m = raw.match(/^(\D*)([\d][\d.,]*)(\D*)$/);
+    if (!m) return;
+    var prefix = m[1], suffix = m[3];
+    var clean = m[2].replace(/,/g, '');
+    var target = parseFloat(clean);
+    if (isNaN(target)) return;
+    var decimals = (clean.split('.')[1] || '').length;
+    if (reduceMotion) { return; } // leave final value as-is
+    var dur = 1150, start = null;
+    function frame(ts) {
+      if (start === null) start = ts;
+      var p = Math.min(1, (ts - start) / dur);
+      var val = target * easeOutCubic(p);
+      el.textContent = prefix + val.toFixed(decimals).replace(/\.0+$/, '') + suffix;
+      if (p < 1) requestAnimationFrame(frame);
+      else el.textContent = prefix + m[2] + suffix;
+    }
+    requestAnimationFrame(frame);
+  }
+
+  /* ---------------------------------------------------------------
+     3b · Live Google Scholar metrics (h-index + citations)
+          Values live in scholar-metrics.json, refreshed by a
+          scheduled GitHub Action. Fetched client-side so the site
+          reflects updates without a rebuild. Falls back silently.
+  ----------------------------------------------------------------*/
+  function applyScholar(data) {
+    if (!data) return;
+    [['hindex', data.hindex], ['citations', data.citations]].forEach(function (pair) {
+      var key = pair[0], val = pair[1];
+      if (val == null) return;
+      document.querySelectorAll('[data-scholar="' + key + '"]').forEach(function (el) {
+        el.textContent = String(val);
+        if (el.dataset.counted) { delete el.dataset.counted; countUp(el); }
+      });
+    });
+  }
+
+  function loadScholar() {
+    var candidates = [
+      '/portfolio/scholar-metrics.json',
+      '/scholar-metrics.json',
+      'scholar-metrics.json',
+      '../scholar-metrics.json'
+    ];
+    (function tryNext(i) {
+      if (i >= candidates.length || !window.fetch) return;
+      fetch(candidates[i], { cache: 'no-store' })
+        .then(function (r) { if (!r.ok) throw new Error('not ok'); return r.json(); })
+        .then(function (d) { applyScholar(d); })
+        .catch(function () { tryNext(i + 1); });
+    })(0);
+  }
+
+  document.addEventListener('DOMContentLoaded', loadScholar);
+
+  /* ---------------------------------------------------------------
+     3c · Institutional logos (MOMENTUM + ICMAN)
+          src is resolved at runtime against several base paths so it
+          works at site root, in /portfolio/ and in nested pages.
+          If the file is absent the <img> is hidden (no broken icon).
+  ----------------------------------------------------------------*/
+  function setLogos() {
+    var bases = ['/portfolio/', '/', '', '../', '../../'];
+    document.querySelectorAll('img.brand-logo[data-logo]').forEach(function (img) {
+      var name = img.getAttribute('data-logo');
+      var i = 0;
+      (function tryNext() {
+        if (i >= bases.length) { img.style.display = 'none'; return; }
+        var url = bases[i++] + 'img/logo-' + name + '.png';
+        var probe = new Image();
+        probe.onload = function () { img.src = url; };
+        probe.onerror = tryNext;
+        probe.src = url;
+      })();
+    });
+  }
+  document.addEventListener('DOMContentLoaded', setLogos);
+
+  /* ---------------------------------------------------------------
+     4 · Scroll-reveal via IntersectionObserver
+  ----------------------------------------------------------------*/
+  var REVEAL_SELECTOR = [
+    'main section',
+    '.metric-box',
+    '.timeline-item',
+    '.publication-item',
+    '.project-item',
+    'main .grid > div',
+    '.gallery-item',
+    '.section-divider',
+    'main > .quarto-figure',
+    'main > p > img'
+  ].join(',');
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nodes = Array.prototype.slice.call(document.querySelectorAll(REVEAL_SELECTOR));
+
+    if (reduceMotion || !('IntersectionObserver' in window)) {
+      // No animation: make sure counters still show final value, nothing hidden.
+      document.querySelectorAll('.metric-number').forEach(function (n) { n.dataset.counted = '1'; });
+      return;
+    }
+
+    nodes.forEach(function (el, i) {
+      el.classList.add('reveal');
+      var parent = el.parentElement;
+      var idx = parent ? Array.prototype.indexOf.call(parent.children, el) : i;
+      el.style.transitionDelay = Math.min(idx % 8, 7) * 55 + 'ms';
+    });
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        el.classList.add('is-visible');
+        el.querySelectorAll && el.querySelectorAll('.metric-number').forEach(countUp);
+        if (el.classList.contains('metric-number')) countUp(el);
+        io.unobserve(el);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+    nodes.forEach(function (el) { io.observe(el); });
+
+    // Observe metric numbers directly too (in case their box isn't a reveal target)
+    document.querySelectorAll('.metric-number').forEach(function (n) { io.observe(n); });
+  });
+})();
+</script>

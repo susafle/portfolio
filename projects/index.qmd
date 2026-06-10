@@ -25,14 +25,14 @@ My research trajectory is sustained by **continuous competitive funding** as **P
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">24</span>
+<span class="metric-number">26</span>
 <span class="metric-label">Team Projects</span>
 </div>
 :::
 
 ::: {.g-col-6 .g-col-md-3}
 <div class="metric-box">
-<span class="metric-number">7</span>
+<span class="metric-number">8</span>
 <span class="metric-label">International</span>
 </div>
 :::
@@ -66,12 +66,12 @@ Research framed within the **OCEAN–IA** line: development of deep-learning met
 Multiplatform monitoring of greenhouse-gas emissions across coastal, continental and marine systems of Andalusia, combining fixed stations, autonomous sensors and ship-based observations.
 
 ### INDICLIMA — Key Indicators for Climate-Change Impacts in Deep-Sea Ecosystems
-**Period**: July 2024 – July 2027 · **Funding**: EU NextGeneration — BIOACT 2024 · **Budget**: **€ 67,850.10**
+**Period**: July 2024 – July 2027 · **Funding**: EU NextGeneration — BIOACT 2024 (BIOACT2024-004) · **Budget**: **€ 67,850.10**
 
 Development of biogeochemical indicators for evaluating climate-change impacts on deep-sea ecosystems of the Western Mediterranean, building on the methodological outputs of EVALUARTE.
 
 ### EVALUARTE — Vulnerability of Deep-Sea Ecosystems to Climate Change
-**Period**: June 2022 – June 2025 · **Funding**: Government of the Balearic Islands — *Vicenç Mut 2022* · **Budget**: **€ 114,000**
+**Period**: June 2022 – June 2025 · **Funding**: Gobierno de las Islas Baleares — *Vicenç Mut 2022* · **Budget**: **€ 114,000**
 
 Integrated assessment of the vulnerability of deep-sea ecosystems to climate change in the Western Mediterranean, examining the state of the art and trends in the Balearic Sea Basin.
 
@@ -81,12 +81,12 @@ Integrated assessment of the vulnerability of deep-sea ecosystems to climate cha
 Quantification of the impact of wastewater discharges on the ecosystem services provided by *Posidonia oceanica* meadows in Mallorca.
 
 ### Margalida Comas 2017 — pH Variability in Coastal Areas
-**Period**: December 2017 – December 2019 · **Funding**: Government of the Balearic Islands · **Budget**: **€ 66,000**
+**Period**: December 2017 – December 2019 · **Funding**: Gobierno de las Islas Baleares · **Budget**: **€ 66,000**
 
 Comparison across scales and sources of pH variability in Mediterranean coastal areas, establishing baselines for ocean acidification monitoring. Machine-learning applications for pH reconstruction, published in *Scientific Reports*.
 
 ### AAEE111/2017 — Acquisition of Autonomous pH Sensors (SAMI)
-**Period**: June 2018 – July 2019 · **Funding**: Government of the Balearic Islands · **Budget**: **€ 19,560**
+**Period**: June 2018 – July 2019 · **Funding**: Gobierno de las Islas Baleares · **Budget**: **€ 19,560**
 
 Acquisition and deployment of autonomous SAMI pH sensors for continuous monitoring of ocean acidification in Mediterranean coastal waters.
 
@@ -96,12 +96,24 @@ Acquisition and deployment of autonomous SAMI pH sensors for continuous monitori
 
 ## Selected Team-Member Projects *(post-doctoral period)*
 
+### Blue Health — ICMAN-CSIC Excellence Plan · MAX-CSIC 2024 (DEEPMAX-2024-2)
+**Period**: 2026 – 2028 · **Funding**: MAX-CSIC 2024 + ICMAN-CSIC resources · **Budget**: € 657,400 *(Objective 8: € 62,900)*
+**Role**: *Co-coordinator of Objective 8 — "Scientific Leadership & Technological Cross-cutting"*
+
+Institutional excellence strategy *Blue Health: a One Health approach for the ocean*. Co-leading the Scientific Leadership & Cross-cutting plan: consolidation of the **DATALAB** cross-cutting technical unit, a three-level training programme in **AI and data science applied to marine sciences**, intergenerational mentoring, interdisciplinary co-supervision, and positioning of ICMAN-CSIC in international networks under the *One Ocean, One Health* identity.
+
+### AMIGA — Antarctic Methane and Ice-Marine GHG Assessment
+**Period**: granted 2026 · **Funding**: EU HORIZON — POLARIN Transnational Access (GA 10113094) · **Budget**: € 102,000
+**Role**: *Participating researcher — biogeochemistry (CH₄, N₂O and carbon system)*
+
+Transnational access to the **Neumayer Station III** research infrastructure (Alfred Wegener Institute, Antarctica), coordinated by the Thule Institute, University of Oulu (Finland). Responsible for the biogeochemical components in Antarctic coastal waters adjacent to Neumayer III, integrating in-situ observations with advanced data-analysis methods.
+
 ### BIMAR2025 — GIFT4ALL · Gibraltar Fixed Time Series for AI Operational Tools
 **Period**: 2026 – 2028 · **Funding**: CSIC — BIMAR2025 · **Budget**: € 17,605.34
 **Role**: *Work-package leader for Artificial Intelligence*
 
 ### DICHOSO — Deception Island Biogeochemical Inventories in the Southern Ocean
-**Period**: 2023 – 2026 · **Funding**: Spanish Ministry of Science and Innovation · **Budget**: € 338,800
+**Period**: 2023 – 2026 · **Funding**: Ministerio de Ciencia e Innovación · **Budget**: € 338,800
 **Role**: *Work-package leader for Greenhouse Gases*
 
 ### CYCLE — Complex Dynamics of Coastal Ecosystems and Climate Resilience
@@ -135,6 +147,7 @@ Acquisition and deployment of autonomous SAMI pH sensors for continuous monitori
 - **SESAME** — *Southern European Seas: Assessing and Modelling Ecosystem Changes* · FP6-036949 GOCE · 2006–2011
 - **CARBOOCEAN** — *Marine Carbon Sources and Sinks Assessment* · FP6-511176 GOCE · 2005–2009
 - **COST Action 735** — *Tools for Assessing Air–Sea Fluxes of Climate Gases* · Short-Term Scientific Mission, Université de Liège (2010)
+- **AMIGA** — *Antarctic Methane and Ice-Marine GHG Assessment* · EU HORIZON — POLARIN Transnational Access (GA 10113094), Neumayer Station III · 2026
 - **Canon Foundation in Europe Research Fellowship** — JAMSTEC (Japan), 2016–2017
 - **Pier2Peer Mentorship Programme** — NOAA Ocean Acidification Program, 2025–2026
 
@@ -160,9 +173,9 @@ Coastal observation network in the Balearic Sea, with emphasis on *Posidonia oce
 - Characterisation of acidification trends, water-column oxygenation and GHG emissions
 - Methodologies transferred to deep-sea ecosystems through EVALUARTE and INDICLIMA
 
-### COJOHNS — Johnsons Cove Time Series *(2024 – Present)*
+### COJOHNS — Carbon Observatory Johnson *(2024 – Present)*
 
-High-frequency time series of seawater **pH**, **pCO₂** and additional environmental variables (temperature, salinity, dissolved oxygen, chlorophyll) in **Johnsons Cove, Livingston Island (South Shetland Islands, Antarctica)** — a glacier-influenced embayment adjacent to a tidewater glacier on the western Antarctic Peninsula.
+High-frequency time series of seawater **pH**, **pCO₂** and additional environmental variables (temperature, salinity, dissolved oxygen, chlorophyll) in **Johnsons Cove (Caleta Johnson), Livingston Island (South Shetland Islands, Antarctica)** — a glacier-influenced embayment adjacent to a tidewater glacier on the western Antarctic Peninsula.
 **Role**: *Scientific coordinator*.
 
 - Continuous **pH and pCO₂ monitoring via a fixed mooring** with autonomous sensors (active since February 2024)
@@ -174,7 +187,7 @@ High-frequency time series of seawater **pH**, **pCO₂** and additional environ
 
 ## Open-Source Tools & Digital Transfer
 
-### [GIFT Dashboard](https://github.com/susafle/GIFT_DASHBOARD)
+### [GIFT Dashboard](https://susafle-gift-dashboard-panelappmain-2bx2qd.streamlit.app/)
 Open-source platform for managing, visualising and analysing the GIFT biogeochemical time series. Developed as lead author and aligned with the FAIR principles.
 
 ### [CO₂ Prediction · BiLSTM](https://github.com/susafle/CO2_prediction_BiLSTM)
@@ -239,7 +252,7 @@ The results of my research have contributed to:
 - **International climate assessments** — IPCC SROCC (2019), CLIVAR-Spain 2025
 - **Monitoring protocols** — OOI Biogeochemical Sensor Data Best Practices and User Guide
 - **Open-access public databases** — IOC-UNESCO SDG 14.3.1, DIGITAL.CSIC, SOCAT v2026, GLODAP
-- **Regional policy support** — Andalusian Regional Government, Government of the Balearic Islands
+- **Regional policy support** — Andalusian Regional Government, Gobierno de las Islas Baleares
 
 ---
 
