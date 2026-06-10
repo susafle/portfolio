@@ -1,5 +1,89 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Susana Flecha, PhD",
+    "section": "",
+    "text": "Instituto de Ciencias Marinas de Andalucía · CSIC\n    \n    Marine Scientist · Ocean Biogeochemistry · OCEAN–IA\n    Carbon system, ocean acidification and dissolved greenhouse gases —\n      from the Strait of Gibraltar to Antarctica — powered by artificial intelligence.\n    \n       Email\n       LinkedIn\n       GitHub\n      ORCID\n      ResearchGate"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Susana Flecha, PhD",
+    "section": "Welcome",
+    "text": "Welcome\nI am a PhD in Marine Sciences (Universidad de Cádiz, 2015 — Summa Cum Laude, Extraordinary PhD Award & International Mention) specialised in ocean biogeochemistry, with a research focus on the carbon system, ocean acidification, dissolved greenhouse gases and the application of artificial intelligence to long-term oceanographic observation.\nSince December 2024, I am a Postdoctoral Researcher under the competitive MOMENTUM programme (2024–2028) at the Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC) in Cádiz, Spain, where I lead the OCEAN–IA research line — a framework that integrates oceanographic, meteorological and geophysical observations with deep learning to diagnose, reconstruct and predict the impact of natural and anthropogenic pressures on coastal, shelf and deep-sea ecosystems.\n\n\nCarbon System & GHG\n\nOcean–atmosphere CO₂, CH₄ and N₂O fluxes\nOcean acidification and deoxygenation\nCoastal, shelf and deep-sea biogeochemistry\nPolar and Mediterranean carbon dynamics\n\n\n\nOCEAN–IA · AI for the Ocean\n\nDeep learning for pH, CO₂ and GHG reconstruction\nLong-term time-series analysis (GIFT, BOATS)\nIntegration of oceanographic, meteorological and seismic data\nOpen, reproducible tools aligned with FAIR principles\n\n\n\n\n\nFrom the Strait of Gibraltar to Antarctica\nReconstructing the ocean’s carbon system with long-term observation and deep learning.\n\n\n\nAt a Glance\n\n\n\n30 SCI Publications\n\n\n\n\n16 H-index (GS)\n\n\n\n\n731 Total Citations\n\n\n\n\n48 Oceanographic Cruises\n\n\n\n\n\nHighlights\n\n30 peer-reviewed articles (83 % in Q1 JCR), 3 publications in the global Top 10 % most-cited in their fields\nPrincipal Investigator of 6 competitive projects — over €359 k of funding captured as PI\nCoordinator of the Gibraltar Fixed Time Series (GIFT) since 2008 and co-founder of the Balearic Ocean Acidification Time Series (BOATS) since 2018\nFieldwork across the Southern, Atlantic, Baltic and Mediterranean oceans — 278 days at sea, 180+ field campaigns\nInternational collaborations with institutions in Europe, America, Asia and Africa\nRepresentative of the Mediterranean node in the steering committee of ICONEC (GOA-ON) and coordinator of the Risks & Hazards area of Conexión Polar CSIC\nResearch outputs cited in the IPCC SROCC (2019), the IPCC AR6 Synthesis Report (2023) and the CLIVAR-Spain 2025 national assessment\n\n\n\n\n\nFieldwork at the frontier\nCSIC–UTM operations in the Southern Ocean — sampling glacier-fed Antarctic waters."
+  },
+  {
+    "objectID": "training/index.html",
+    "href": "training/index.html",
+    "title": "Specialized Training & Courses",
+    "section": "",
+    "text": "Data Analytics & Artificial Intelligence Bootcamp\n\nInstitution: CSIC Bootcamp — Upgrade Hub, Madrid\nYear: 2026\nDuration: 380 hours\nFocus: Intensive professional training in data analytics, machine learning and AI\n\n\n\n\n\n\nExpert Programme in Data Science + Generative AI\n\nInstitution: Datamecum Data Management, SL\nYear: 2026\nFocus: Advanced data science and generative AI applied to research\n\n\n\n\n\n\nELLIS Summer School: AI for Earth and Climate Sciences\n\nInstitution: ELLIS UNIT, Jena, Germany\nYear: 2025\nDuration: 40 hours\nFocus: Application of artificial intelligence techniques to earth and climate sciences\nTopics: Machine learning for environmental data, deep learning applications\n\n\n\n\n\n\nExpert Training in Artificial Intelligence Applied to the Environment\n\nInstitution: Datamecum\nYear: 2025\nDuration: 6 hours\nFocus: Expert training in AI applied to environmental sciences\nApplication: AI-driven environmental monitoring and analysis\n\n\n\n\n\n\nPACE Data Hackweek\n\nInstitution: NASA - University of Maryland Baltimore County\nLocation: Baltimore, United States\nYear: 2025\nDuration: 40 hours\nFocus: Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite data processing\nTopics: Remote sensing data analysis, satellite oceanography"
+  },
+  {
+    "objectID": "training/index.html#artificial-intelligence-machine-learning",
+    "href": "training/index.html#artificial-intelligence-machine-learning",
+    "title": "Specialized Training & Courses",
+    "section": "",
+    "text": "Data Analytics & Artificial Intelligence Bootcamp\n\nInstitution: CSIC Bootcamp — Upgrade Hub, Madrid\nYear: 2026\nDuration: 380 hours\nFocus: Intensive professional training in data analytics, machine learning and AI\n\n\n\n\n\n\nExpert Programme in Data Science + Generative AI\n\nInstitution: Datamecum Data Management, SL\nYear: 2026\nFocus: Advanced data science and generative AI applied to research\n\n\n\n\n\n\nELLIS Summer School: AI for Earth and Climate Sciences\n\nInstitution: ELLIS UNIT, Jena, Germany\nYear: 2025\nDuration: 40 hours\nFocus: Application of artificial intelligence techniques to earth and climate sciences\nTopics: Machine learning for environmental data, deep learning applications\n\n\n\n\n\n\nExpert Training in Artificial Intelligence Applied to the Environment\n\nInstitution: Datamecum\nYear: 2025\nDuration: 6 hours\nFocus: Expert training in AI applied to environmental sciences\nApplication: AI-driven environmental monitoring and analysis\n\n\n\n\n\n\nPACE Data Hackweek\n\nInstitution: NASA - University of Maryland Baltimore County\nLocation: Baltimore, United States\nYear: 2025\nDuration: 40 hours\nFocus: Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite data processing\nTopics: Remote sensing data analysis, satellite oceanography"
+  },
+  {
+    "objectID": "training/index.html#programming-data-science",
+    "href": "training/index.html#programming-data-science",
+    "title": "Specialized Training & Courses",
+    "section": "Programming & Data Science",
+    "text": "Programming & Data Science\n\nPython Programming\n\nData Analysis and Visualization with Python\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2024\nDuration: 20 hours\nTopics: Data analysis and visualization with Python\nLibraries: pandas, numpy, matplotlib, seaborn\n\nAdvanced Python Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2021\nDuration: 40 hours\nTopics: Advanced Python programming\nFocus: Scientific computing, data structures, object-oriented programming\n\nAdvanced Python Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2020\nDuration: 40 hours\nTopics: Advanced Python programming techniques\nApplication: Oceanographic data processing and automation\n\n\n\n\nDesign & Visualization Software\n\nAdvanced Photoshop CS4 Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2011\nDuration: 35 hours\nInstructor: Miguel Ángel Zapardiel Álvarez\nTopics: Advanced image editing for scientific publications\n\nBasic Photoshop CS4 Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2010\nDuration: 24 hours\nInstructor: Maria Flor Garrido Calero\nTopics: Basic image editing and scientific figure preparation"
+  },
+  {
+    "objectID": "training/index.html#biogeochemical-analytical-techniques",
+    "href": "training/index.html#biogeochemical-analytical-techniques",
+    "title": "Specialized Training & Courses",
+    "section": "Biogeochemical & Analytical Techniques",
+    "text": "Biogeochemical & Analytical Techniques\n\nOceanographic Training\n\n4º Surface Ocean-Lower Atmosphere Study (SOLAS) Summer School\n\nInstitution: Université de Corse\nLocation: Cargese, Corsica, France\nYear: 2009\nDuration: 100 hours\nInstructor: Veronique Garçon\nTopics: Ocean-atmosphere interactions, biogeochemical cycles\nFocus: Carbon system, gas exchange, marine biogeochemistry\n\nRegional Training Course onboard R/V “Professor Shtokman”\n\nInstitution: Russian State Hydrometeorological University\nLocation: Saint Petersburg, Russia\nYear: 2007\nDuration: 58 hours\nInstructor: M. Mamaeva\nTopics: At-sea operations, oceanographic sampling techniques\nFocus: Hands-on training during oceanographic cruise\n\n\n\n\nPractical Experience\n\nInternship in CSIC\n\nInstitution: Universidad de Cádiz / CSIC\nLocation: Cádiz, Spain\nYear: 2008\nDuration: 300 hours\nSupervisor: Nieves Gómez Aguilar\nTopics: Laboratory techniques, biogeochemical analysis\nFocus: Carbon system measurements, sample processing\n\nTeaching Assistant - Applied Physics Department\n\nInstitution: Universidad de Cádiz\nLocation: Cádiz, Spain\nYear: 2008\nDuration: 400 hours\nSupervisor: Diego Sales Márquez\nTopics: Teaching support, practical demonstrations\nFocus: Physics applied to marine sciences"
+  },
+  {
+    "objectID": "training/index.html#maritime-navigation",
+    "href": "training/index.html#maritime-navigation",
+    "title": "Specialized Training & Courses",
+    "section": "Maritime & Navigation",
+    "text": "Maritime & Navigation\n\nScientific Diving\n\n3-Star Diver\n\nInstitution: FEDAS (Spanish Federation of Underwater Activities)\nYear: 2024\nLevel: 3-Star CMAS certification\nSpecialization: Advanced diving skills for scientific research\nDepth: Advanced depth certification\n\nScientific Diving\n\nInstitution: IMEDEA (Instituto Mediterráneo de Estudios Avanzados)\nYear: 2023\nDuration: 8 hours\nFocus: Underwater sampling techniques for marine research\nTopics: Scientific protocols, underwater data collection\n\nDive Master\n\nInstitution: PADI (Professional Association of Diving Instructors)\nYear: 2023\nLevel: Professional level certification\nSpecialization: Leadership and dive supervision\nFocus: Scientific diving operations, research support\n\nReact Right: First Aid O₂ AID Training\n\nInstitution: Scuba Schools International\nYear: 2022\nTopics: Oxygen administration, first aid for diving emergencies\nFocus: Emergency response for diving accidents\n\n\n\n\nNautical Training\n\nIntroduction to Nautical Sciences\n\nInstitution: Universidad de Cádiz\nLocation: Cádiz, Spain\nYear: 2007\nTopics: Introduction to nautical sciences\nFocus: Navigation, seamanship, maritime operations\n\nBasic Safety Training (STCW Basic Safety)\n\nInstitution: Ministerio de Fomento - España\nLocation: Cádiz, Spain\nYear: 2017\nDuration: 70 hours\nTopics: Standards of Training, Certification and Watchkeeping\nFocus: Personal survival techniques, fire prevention, first aid, personal safety"
+  },
+  {
+    "objectID": "training/index.html#safety-emergency-response",
+    "href": "training/index.html#safety-emergency-response",
+    "title": "Specialized Training & Courses",
+    "section": "Safety & Emergency Response",
+    "text": "Safety & Emergency Response\n\nLaboratory & Field Safety\n\nBasic Training in Field Work\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nYear: 2019\nDuration: 4 hours\nTopics: Field work safety protocols\nFocus: Risk assessment, emergency procedures for field campaigns\n\nBasic Level Occupational Risk Prevention\n\nInstitution: PREVICAT, SL\nYear: 2020\nDuration: 450 hours\nTopics: Basic occupational risk prevention\nFocus: Workplace safety, hazard identification, risk management\n\nChemical Risk in Research Centers\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nYear: 2021\nDuration: 4 hours\nTopics: Chemical risk in research centers\nFocus: Safe handling of hazardous materials, laboratory safety\n\nOccupational Risk Prevention in Chemical Product Use\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Sevilla, Spain\nYear: 2011\nDuration: 2 hours\nTopics: Risk prevention in chemical product use\nFocus: Proper handling, storage, and disposal of chemicals\n\nSafety in Gas Handling\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Sevilla, Spain\nYear: 2011\nDuration: 2 hours\nTopics: Safety in gas handling\nFocus: Compressed gas cylinders, gas detection, emergency procedures\n\nOccupational Risk Prevention in Computer Work\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Sevilla, Spain\nYear: 2011\nDuration: 2 hours\nTopics: Ergonomics and health in computer work\nFocus: Workstation setup, visual health, posture"
+  },
+  {
+    "objectID": "training/index.html#professional-development",
+    "href": "training/index.html#professional-development",
+    "title": "Specialized Training & Courses",
+    "section": "Professional Development",
+    "text": "Professional Development\n\nPersonal Development & Resilience\n\nStrategies for Developing Resilience (Online Course)\n\nInstitution: CSIC (Agencia Estatal Consejo Superior de Investigaciones Científicas)\nYear: 2022\nDuration: 35 hours\nTopics: Resilience development strategies\nFocus: Stress management, adaptability, work-life balance in research\n\n\n\n\nLanguage Training\n\nEnglish Language Courses\n\nSuper Intensive English Program - Advanced (500) Level\n\nInstitution: Institute of Intensive English\nLocation: Honolulu, Hawaii, United States\nYear: 2008\nDuration: 70 hours\nInstructor: Ed Lee\nLevel: Advanced (500)\nFocus: Intensive English immersion\n\nEnglish Language Immersion Course\n\nInstitution: Universidad Internacional Menéndez Pelayo (UIMP)\nYear: 2009\nDuration: 40 hours\nFocus: English language immersion for academic purposes\n\nCourse Specific English: Writing\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nYear: 2014\nDuration: 30 hours\nFocus: Scientific writing in English, manuscript preparation\n\n\nItalian Language\n\nCourse “Italian as a Foreign Language”\n\nInstitution: Universidad de Cádiz\nLocation: Cádiz, Spain\nYear: 2015\nDuration: 90 hours\nLevel: B1 (First part)\nFocus: Italian language acquisition for international collaboration"
+  },
+  {
+    "objectID": "training/index.html#summary-by-category",
+    "href": "training/index.html#summary-by-category",
+    "title": "Specialized Training & Courses",
+    "section": "Summary by Category",
+    "text": "Summary by Category\n\n\nAI & Data Science\n\nELLIS Summer School (AI for Earth Sciences)\nNASA PACE Data Hackweek\nAI for Environmental Applications\nPython Programming (120+ hours)\nData Analysis & Visualization\n\n\n\nOceanographic Methods\n\nSOLAS Summer School\nOnboard R/V Training\nCSIC Internship\nField Safety Training\nAt-Sea Operations\n\n\n\nMaritime & Diving\n\nCMAS 3-Star Diver (FEDAS)\nPADI Dive Master\nScientific Diving (IMEDEA)\nDiving First Aid & O₂\nSTCW Basic Safety (70 hours)\n\n\n\nProfessional Skills\n\nResilience Development\nEnglish (Advanced - 140+ hours)\nItalian (B1 Level)\nLaboratory Safety\nRisk Prevention (450+ hours)"
+  },
+  {
+    "objectID": "training/index.html#training-statistics",
+    "href": "training/index.html#training-statistics",
+    "title": "Specialized Training & Courses",
+    "section": "Training Statistics",
+    "text": "Training Statistics\n\nTotal Training Hours: 1,800+ documented hours\nAI & Programming: 5 specialized courses (146 hours)\nDiving Certifications: 4 professional levels including Dive Master\nSafety Training: 540+ hours of occupational safety and risk prevention\nLanguage Training: 200+ hours in English and Italian\nInternational Programs: Training in USA, France, Russia, Germany"
+  },
+  {
+    "objectID": "training/index.html#continuous-professional-development",
+    "href": "training/index.html#continuous-professional-development",
+    "title": "Specialized Training & Courses",
+    "section": "Continuous Professional Development",
+    "text": "Continuous Professional Development\nThroughout my career, I have maintained a commitment to continuous learning and professional development, with particular emphasis on:\n\nArtificial Intelligence Applications: Specialized training in AI for environmental and climate sciences\nScientific Diving: Professional-level certifications enabling autonomous underwater research\nProgramming & Data Science: Comprehensive Python training for scientific computing\nSafety & Compliance: Extensive training in laboratory, field, and maritime safety protocols\nInternational Collaboration: Language skills and cross-cultural training experiences\n\n\nFor inquiries about training programs or collaboration: susana.flecha@csic.es"
+  },
+  {
     "objectID": "media/index.html",
     "href": "media/index.html",
     "title": "Field Research Gallery",
@@ -42,18 +126,109 @@
     "text": "International Collaborations\nField research in collaboration with:\n\nUniversity of Washington, Seattle, USA\nUniversité de Liège, Belgium\nLOCEAN, Paris, France\nJAMSTEC, Japan\nOGS, Trieste, Italy\nInstitut National de Recherche Halieutique (INRH), Casablanca, Morocco\n\n\nAll images © Susana Flecha. For use of images for educational or outreach purposes, please contact: susana.flecha@csic.es"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Susana Flecha, PhD",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
     "section": "",
-    "text": "Instituto de Ciencias Marinas de Andalucía · CSIC\n    \n    Marine Scientist · Ocean Biogeochemistry · OCEAN–IA\n    Carbon system, ocean acidification and dissolved greenhouse gases —\n      from the Strait of Gibraltar to Antarctica — powered by artificial intelligence.\n    \n       Email\n       LinkedIn\n       GitHub\n      ORCID\n      ResearchGate"
+    "text": "This space is dedicated to sharing reflections, experiences, and knowledge about marine research, ocean biogeochemistry, and the challenges of studying the ocean in the context of climate change.\n\n\nHere you will find posts about:\n\nField research: Experiences during oceanographic expeditions\nOcean acidification: Trends, impacts, and future perspectives\nMethods and techniques: Carbon system analysis and new methodologies\nData science: AI and Big Data applications in oceanography\nScience communication: Accessible explanations of complex concepts\nAcademic life: Reflections on the research career"
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Susana Flecha, PhD",
-    "section": "Welcome",
-    "text": "Welcome\nI am a PhD in Marine Sciences (Universidad de Cádiz, 2015 — Summa Cum Laude, Extraordinary PhD Award & International Mention) specialised in ocean biogeochemistry, with a research focus on the carbon system, ocean acidification, dissolved greenhouse gases and the application of artificial intelligence to long-term oceanographic observation.\nSince December 2024, I am a Postdoctoral Researcher under the competitive MOMENTUM programme (2024–2028) at the Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC) in Cádiz, Spain, where I lead the OCEAN–IA research line — a framework that integrates oceanographic, meteorological and geophysical observations with deep learning to diagnose, reconstruct and predict the impact of natural and anthropogenic pressures on coastal, shelf and deep-sea ecosystems.\n\n\nCarbon System & GHG\n\nOcean–atmosphere CO₂, CH₄ and N₂O fluxes\nOcean acidification and deoxygenation\nCoastal, shelf and deep-sea biogeochemistry\nPolar and Mediterranean carbon dynamics\n\n\n\nOCEAN–IA · AI for the Ocean\n\nDeep learning for pH, CO₂ and GHG reconstruction\nLong-term time-series analysis (GIFT, BOATS)\nIntegration of oceanographic, meteorological and seismic data\nOpen, reproducible tools aligned with FAIR principles\n\n\n\n\n\nFrom the Strait of Gibraltar to Antarctica\nReconstructing the ocean’s carbon system with long-term observation and deep learning.\n\n\n\nAt a Glance\n\n\n\n30 SCI Publications\n\n\n\n\n16 H-index (GS)\n\n\n\n\n731 Total Citations\n\n\n\n\n48 Oceanographic Cruises\n\n\n\n\n\nHighlights\n\n30 peer-reviewed articles (83 % in Q1 JCR), 3 publications in the global Top 10 % most-cited in their fields\nPrincipal Investigator of 6 competitive projects — over €359 k of funding captured as PI\nCoordinator of the Gibraltar Fixed Time Series (GIFT) since 2008 and co-founder of the Balearic Ocean Acidification Time Series (BOATS) since 2018\nFieldwork across the Southern, Atlantic, Baltic and Mediterranean oceans — 278 days at sea, 180+ field campaigns\nInternational collaborations with institutions in Europe, America, Asia and Africa\nRepresentative of the Mediterranean node in the steering committee of ICONEC (GOA-ON) and coordinator of the Risks & Hazards area of Conexión Polar CSIC\nResearch outputs cited in the IPCC SROCC (2019), the IPCC AR6 Synthesis Report (2023) and the CLIVAR-Spain 2025 national assessment\n\n\n\n\n\nFieldwork at the frontier\nCSIC–UTM operations in the Southern Ocean — sampling glacier-fed Antarctic waters."
+    "objectID": "blog/index.html#welcome-to-the-blog",
+    "href": "blog/index.html#welcome-to-the-blog",
+    "title": "Blog",
+    "section": "",
+    "text": "This space is dedicated to sharing reflections, experiences, and knowledge about marine research, ocean biogeochemistry, and the challenges of studying the ocean in the context of climate change.\n\n\nHere you will find posts about:\n\nField research: Experiences during oceanographic expeditions\nOcean acidification: Trends, impacts, and future perspectives\nMethods and techniques: Carbon system analysis and new methodologies\nData science: AI and Big Data applications in oceanography\nScience communication: Accessible explanations of complex concepts\nAcademic life: Reflections on the research career"
+  },
+  {
+    "objectID": "blog/index.html#coming-soon",
+    "href": "blog/index.html#coming-soon",
+    "title": "Blog",
+    "section": "Coming Soon",
+    "text": "Coming Soon\nThis section will be populated with content about:\n\nChronicles of oceanographic expeditions\nAnalysis of recent results\nTutorials on oceanographic data analysis\nReflections on marine climate change\nExperiences in international collaborations\n\n\n\nStay Connected\nFor updates and additional content:\n\nLinkedIn: Susana Flecha - Regular research updates\nEmail: susana.flecha@csic.es - For questions or topic suggestions\n\n\n“The ocean is the Earth’s largest life support system. Understanding it is essential for our future.”"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "I hold a PhD in Marine Sciences from the Universidad de Cádiz (2015, Summa Cum Laude — Extraordinary PhD Award and International PhD Mention) and currently develop my research career as a Postdoctoral Researcher under the MOMENTUM excellence programme at the Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC), in the Department of Ecology and Coastal Management — Ecosystem Oceanography Group.\nMy research focuses on ocean biogeochemistry applied to the evaluation of natural and anthropogenic impacts on coastal, shelf and deep-sea ecosystems. I study the carbon system, ocean acidification and deoxygenation, together with the variability and air–sea exchange of greenhouse gases (CO₂, CH₄, N₂O), using long-term observational series and innovative AI-based methods articulated in my OCEAN–IA research line.\nSince 2008 I have coordinated the Gibraltar Fixed Time Series (GIFT) and, since 2018, I co-lead the Balearic Ocean Acidification Time Series (BOATS). I have participated in 48 oceanographic cruises (≈278 days at sea) across the Southern Ocean, Atlantic Ocean, Strait of Gibraltar, Gulf of Cádiz, and Baltic and Mediterranean Seas, and in over 180 field campaigns in coastal, estuarine and wetland environments."
+  },
+  {
+    "objectID": "about/index.html#biography",
+    "href": "about/index.html#biography",
+    "title": "About",
+    "section": "",
+    "text": "I hold a PhD in Marine Sciences from the Universidad de Cádiz (2015, Summa Cum Laude — Extraordinary PhD Award and International PhD Mention) and currently develop my research career as a Postdoctoral Researcher under the MOMENTUM excellence programme at the Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC), in the Department of Ecology and Coastal Management — Ecosystem Oceanography Group.\nMy research focuses on ocean biogeochemistry applied to the evaluation of natural and anthropogenic impacts on coastal, shelf and deep-sea ecosystems. I study the carbon system, ocean acidification and deoxygenation, together with the variability and air–sea exchange of greenhouse gases (CO₂, CH₄, N₂O), using long-term observational series and innovative AI-based methods articulated in my OCEAN–IA research line.\nSince 2008 I have coordinated the Gibraltar Fixed Time Series (GIFT) and, since 2018, I co-lead the Balearic Ocean Acidification Time Series (BOATS). I have participated in 48 oceanographic cruises (≈278 days at sea) across the Southern Ocean, Atlantic Ocean, Strait of Gibraltar, Gulf of Cádiz, and Baltic and Mediterranean Seas, and in over 180 field campaigns in coastal, estuarine and wetland environments."
+  },
+  {
+    "objectID": "about/index.html#academic-background",
+    "href": "about/index.html#academic-background",
+    "title": "About",
+    "section": "Academic Background",
+    "text": "Academic Background\nPhD in Marine Sciences Universidad de Cádiz, Spain · 2015 Summa Cum Laude Extraordinary PhD Award · International PhD Mention Thesis: Carbon fluxes in coastal systems of the South-Atlantic Iberian Basin: CO₂ exchange with the atmosphere and quantification of the anthropogenic footprint.\nMSc in Oceanography Universidad de Cádiz, Spain · 2009\nBSc in Marine Sciences Universidad de Cádiz, Spain · 2008\nExpert Programme in Data Science & Generative AI Datamecum Data Management · 2026\nData Analytics & AI Bootcamp (380 h) CSIC Bootcamp — Upgrade Hub, Madrid · 2026"
+  },
+  {
+    "objectID": "about/index.html#professional-trajectory",
+    "href": "about/index.html#professional-trajectory",
+    "title": "About",
+    "section": "Professional Trajectory",
+    "text": "Professional Trajectory\n\n\nPostdoctoral Researcher · MOMENTUM Programme (Dec 2024 – 2028)\nICMAN-CSIC, Cádiz, Spain · Department of Ecology and Coastal Management\n\nLeading the OCEAN–IA line: deep-learning approaches for reconstructing and predicting ocean acidification, deoxygenation and GHG fluxes\nCoordinator of the GHG multiplatform monitoring programme for Andalusian coastal, continental and marine systems\nScientific coordination of the GIFT time series and of Antarctic observations at Deception Island\nCo-coordinator of Objective 8 of the ICMAN-CSIC Excellence Plan (MAX-CSIC · Blue Health): scientific leadership, the DATALAB technical unit and AI training in marine sciences\n\n\n\nPostdoctoral Researcher · Vicenç Mut Programme (2022 – 2024)\nIMEDEA (CSIC–UIB), Esporles, Mallorca\n\nPrincipal Investigator of the EVALUARTE project on deep-sea ecosystem vulnerability\nCoordination of the BOATS observational network in the Balearic Sea\nDevelopment of machine-learning methodologies for pH reconstruction\n\n\n\nPostdoctoral Researcher · Margalida Comas Programme (2017 – 2019)\nUniversidad de las Islas Baleares (UIB), Spain\n\nPI of the Margalida Comas project on coastal pH variability\nAcquisition and deployment of autonomous pH sensors (SAMI)\nCo-foundation of the BOATS time series\n\n\n\nPostdoctoral Researcher · Canon Foundation Fellowship (2016 – 2017)\nJAMSTEC, Yokosuka, Japan\n\nOpen-ocean carbon dynamics and anthropogenic carbon quantification\nOutputs integrated into the CLIVAR-Spain 2025 report\n\n\n\nPredoctoral Researcher — JAE Programme (2011 – 2015)\nInstituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)\n\nDoctoral research on ocean acidification in the Mediterranean Sea\nInternational research stays at University of Washington, Université de Liège, and UPMC-LOCEAN (Paris)\nParticipation in European projects CARBOCHANGE, PERSEUS and SESAME"
+  },
+  {
+    "objectID": "about/index.html#international-research-stays",
+    "href": "about/index.html#international-research-stays",
+    "title": "About",
+    "section": "International Research Stays",
+    "text": "International Research Stays\n\nIstituto Nazionale di Oceanografia e di Geofisica Sperimentale (OGS) — Trieste, Italy · 3 months, 2019\nJAMSTEC — Research and Development Center for Global Change — Yokosuka, Japan · 6 months, 2016–2017 (Canon Foundation in Europe Fellowship)\nUniversité Pierre et Marie Curie — LOCEAN — Paris, France · 2014\nFundación San Ignacio de Huinay — Patagonia, Chile · 2013\nUniversity of Washington — School of Oceanography — Seattle, USA · 3 months, 2012\nUniversité de Liège — Chemical Oceanography Unit — Liège, Belgium · 82 days, 2010 (COST Action 735)\n\n≈ 16 months of international mobility in six institutions of reference across Europe, Asia and America."
+  },
+  {
+    "objectID": "about/index.html#research-lines",
+    "href": "about/index.html#research-lines",
+    "title": "About",
+    "section": "Research Lines",
+    "text": "Research Lines\n\nCarbon system and ocean acidification across coastal, shelf and deep environments\nDissolved greenhouse gases (CO₂, CH₄, N₂O) dynamics and air–sea exchange\nOCEAN–IA: artificial intelligence and machine learning applied to environmental impact assessment\nLong-term biogeochemical time-series and climate-change indicators (GIFT, BOATS)\nPolar biogeochemistry — Antarctic Peninsula, Deception Island\nTrend detection and compound events in coastal and deep-sea ecosystems"
+  },
+  {
+    "objectID": "about/index.html#skills-techniques",
+    "href": "about/index.html#skills-techniques",
+    "title": "About",
+    "section": "Skills & Techniques",
+    "text": "Skills & Techniques\n\n\nAnalytical Techniques\n\nCarbon system (DIC, TA, pH, pCO₂) analysis\nSpectrophotometry and potentiometric titration\nCH₄ and N₂O quantification by gas chromatography\nDeployment and maintenance of biogeochemical sensors (SAMI, SeaFET, Contros HydroC)\nOceanographic sampling and scientific diving\n\n\n\nComputational Tools\n\nPython, R, MATLAB — scientific programming\nDeep learning (BiLSTM, feed-forward NN) — PyTorch / TensorFlow\nLarge-scale time-series and satellite data processing\nBiogeochemical and statistical modelling\nGeographic Information Systems (GIS)"
+  },
+  {
+    "objectID": "about/index.html#awards-recognitions",
+    "href": "about/index.html#awards-recognitions",
+    "title": "About",
+    "section": "Awards & Recognitions",
+    "text": "Awards & Recognitions\n\nExtraordinary PhD Award — Universidad de Cádiz (2016)\nInternational PhD Mention — Universidad de Cádiz (2016)\nCanon Foundation in Europe Research Fellowship — Japan (2016) · € 14,200\nVicenç Mut Postdoctoral Contract — Gobierno de las Islas Baleares (2022–2025)\nMargalida Comas Postdoctoral Contract — Gobierno de las Islas Baleares (2017–2019)\nJAE-Intro Predoctoral Contract — CSIC (2011–2015)\nShort Term Scientific Mission COST Action 735 — Université de Liège (2010)"
+  },
+  {
+    "objectID": "about/index.html#scientific-leadership",
+    "href": "about/index.html#scientific-leadership",
+    "title": "About",
+    "section": "Scientific Leadership",
+    "text": "Scientific Leadership\n\nCo-coordinator of Objective 8 (“Scientific Leadership & Technological Cross-cutting”) of the ICMAN-CSIC Excellence Plan (MAX-CSIC 2024 · Blue Health) · 2026–2028\nMediterranean node representative — Steering Committee of ICONEC (International Carbon Ocean Network for Early Career), affiliated to GOA-ON · Since 2023\nCoordinator of the Risks & Hazards area of the Conexión Polar CSIC network (72 researchers) · Since 2025\nCore Team member — Working Group on Antarctic Biogeochemistry & Carbon Cycling, Antarctic InSync programme (UN Ocean Decade · UNESCO-IOC) · Since 2026\nCSIC institutional representative to the Scientific Committee on Oceanic Research (SCOR) · Since 2026\nMember of the ICMAN-CSIC Sustainability Committee · Since 2026\nScientific coordinator of the Gibraltar Fixed Time Series (GIFT) · Since 2008\nCo-founder and co-PI of the Balearic Ocean Acidification Time Series (BOATS) · Since 2018\nExpert Evaluator for Marie Skłodowska-Curie actions and ERC panels — Research Executive Agency, European Commission (2020, 2021, 2023, 2024, 2025)\nExpert reviewer for the OOI Biogeochemical Sensor Best Practices and User Guide (Woods Hole, USA, 2022) and for the German Research Vessel Panel (GPF) — DFG & Helmholtz Association (2023)\nMember of the IMEDEA Outreach Commission (2022–2024)"
+  },
+  {
+    "objectID": "about/index.html#supervision-training",
+    "href": "about/index.html#supervision-training",
+    "title": "About",
+    "section": "Supervision & Training",
+    "text": "Supervision & Training\n\nPhD co-supervision — Peru Águeda Aramburu, Greenhouse gas dynamics in coastal ecosystems of the Balearic Islands, UIB María de Maeztu · 2024–2028\n5 Master’s theses directed or co-directed (Erasmus Mundus MER+, IMBRSea; Universities of Ghent, Bologna, Valencia and País Vasco) — all with Outstanding or Summa Cum Laude\nInternational mentorship — Pier2Peer Programme, NOAA Ocean Acidification Program: mentoring Yurley Tatiana Zapata Rey (INVEMAR, Colombia) · 2025–2026\nJAE-Intro principal tutor — CSIC (2015, 2022, 2026); 2026 award within Conexión Polar CSIC on GHG inventories and fluxes (CO₂, CH₄, N₂O) in Antarctic coastal ecosystems"
+  },
+  {
+    "objectID": "about/index.html#outreach-knowledge-transfer",
+    "href": "about/index.html#outreach-knowledge-transfer",
+    "title": "About",
+    "section": "Outreach & Knowledge Transfer",
+    "text": "Outreach & Knowledge Transfer\nI am strongly committed to the public communication of science:\n\nInterviews and features in national media — La Vanguardia, Canal Sur, RTVE, IB3, Onda Cádiz RTV, Voces CSIC Baleares\nEuropean Researchers’ Night and Ocean Night regular participant\nWorkshops for schools and general audiences — Entendamos el cambio climático\nInvited talks at JAMSTEC (Japan) and at the Andalusian Regional Government\nResearch outputs cited in major international and national climate assessments:\n\nIPCC (2019) — Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC). Intergovernmental Panel on Climate Change. DOI: 10.1017/9781009157964\nIPCC (2023) — AR6 Synthesis Report: Climate Change 2023. Intergovernmental Panel on Climate Change. DOI: 10.59327/IPCC/AR6-9789291691647\nCLIVAR-Spain (2025) — National assessment of climate variability and change in the Spanish marine environment"
+  },
+  {
+    "objectID": "about/index.html#contact",
+    "href": "about/index.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nFor collaborations, inquiries or more information:\n\nEmail — susana.flecha@csic.es\nORCID — 0000-0003-2826-5820\nLinkedIn — Susana Flecha\nGitHub — susafle\nResearchGate — Susana-Flecha"
   },
   {
     "objectID": "projects/index.html",
@@ -222,180 +397,5 @@
     "title": "Scientific Publications",
     "section": "Access to Publications",
     "text": "Access to Publications\n\nORCID — 0000-0003-2826-5820\nGoogle Scholar — via the ORCID profile\nResearchGate — Susana-Flecha\nGitHub — susafle\n\nFor PDF requests or collaborations: susana.flecha@csic.es"
-  },
-  {
-    "objectID": "training/index.html",
-    "href": "training/index.html",
-    "title": "Specialized Training & Courses",
-    "section": "",
-    "text": "Data Analytics & Artificial Intelligence Bootcamp\n\nInstitution: CSIC Bootcamp — Upgrade Hub, Madrid\nYear: 2026\nDuration: 380 hours\nFocus: Intensive professional training in data analytics, machine learning and AI\n\n\n\n\n\n\nExpert Programme in Data Science + Generative AI\n\nInstitution: Datamecum Data Management, SL\nYear: 2026\nFocus: Advanced data science and generative AI applied to research\n\n\n\n\n\n\nELLIS Summer School: AI for Earth and Climate Sciences\n\nInstitution: ELLIS UNIT, Jena, Germany\nYear: 2025\nDuration: 40 hours\nFocus: Application of artificial intelligence techniques to earth and climate sciences\nTopics: Machine learning for environmental data, deep learning applications\n\n\n\n\n\n\nExpert Training in Artificial Intelligence Applied to the Environment\n\nInstitution: Datamecum\nYear: 2025\nDuration: 6 hours\nFocus: Expert training in AI applied to environmental sciences\nApplication: AI-driven environmental monitoring and analysis\n\n\n\n\n\n\nPACE Data Hackweek\n\nInstitution: NASA - University of Maryland Baltimore County\nLocation: Baltimore, United States\nYear: 2025\nDuration: 40 hours\nFocus: Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite data processing\nTopics: Remote sensing data analysis, satellite oceanography"
-  },
-  {
-    "objectID": "training/index.html#artificial-intelligence-machine-learning",
-    "href": "training/index.html#artificial-intelligence-machine-learning",
-    "title": "Specialized Training & Courses",
-    "section": "",
-    "text": "Data Analytics & Artificial Intelligence Bootcamp\n\nInstitution: CSIC Bootcamp — Upgrade Hub, Madrid\nYear: 2026\nDuration: 380 hours\nFocus: Intensive professional training in data analytics, machine learning and AI\n\n\n\n\n\n\nExpert Programme in Data Science + Generative AI\n\nInstitution: Datamecum Data Management, SL\nYear: 2026\nFocus: Advanced data science and generative AI applied to research\n\n\n\n\n\n\nELLIS Summer School: AI for Earth and Climate Sciences\n\nInstitution: ELLIS UNIT, Jena, Germany\nYear: 2025\nDuration: 40 hours\nFocus: Application of artificial intelligence techniques to earth and climate sciences\nTopics: Machine learning for environmental data, deep learning applications\n\n\n\n\n\n\nExpert Training in Artificial Intelligence Applied to the Environment\n\nInstitution: Datamecum\nYear: 2025\nDuration: 6 hours\nFocus: Expert training in AI applied to environmental sciences\nApplication: AI-driven environmental monitoring and analysis\n\n\n\n\n\n\nPACE Data Hackweek\n\nInstitution: NASA - University of Maryland Baltimore County\nLocation: Baltimore, United States\nYear: 2025\nDuration: 40 hours\nFocus: Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite data processing\nTopics: Remote sensing data analysis, satellite oceanography"
-  },
-  {
-    "objectID": "training/index.html#programming-data-science",
-    "href": "training/index.html#programming-data-science",
-    "title": "Specialized Training & Courses",
-    "section": "Programming & Data Science",
-    "text": "Programming & Data Science\n\nPython Programming\n\nData Analysis and Visualization with Python\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2024\nDuration: 20 hours\nTopics: Data analysis and visualization with Python\nLibraries: pandas, numpy, matplotlib, seaborn\n\nAdvanced Python Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2021\nDuration: 40 hours\nTopics: Advanced Python programming\nFocus: Scientific computing, data structures, object-oriented programming\n\nAdvanced Python Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2020\nDuration: 40 hours\nTopics: Advanced Python programming techniques\nApplication: Oceanographic data processing and automation\n\n\n\n\nDesign & Visualization Software\n\nAdvanced Photoshop CS4 Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2011\nDuration: 35 hours\nInstructor: Miguel Ángel Zapardiel Álvarez\nTopics: Advanced image editing for scientific publications\n\nBasic Photoshop CS4 Online\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Madrid, Spain\nYear: 2010\nDuration: 24 hours\nInstructor: Maria Flor Garrido Calero\nTopics: Basic image editing and scientific figure preparation"
-  },
-  {
-    "objectID": "training/index.html#biogeochemical-analytical-techniques",
-    "href": "training/index.html#biogeochemical-analytical-techniques",
-    "title": "Specialized Training & Courses",
-    "section": "Biogeochemical & Analytical Techniques",
-    "text": "Biogeochemical & Analytical Techniques\n\nOceanographic Training\n\n4º Surface Ocean-Lower Atmosphere Study (SOLAS) Summer School\n\nInstitution: Université de Corse\nLocation: Cargese, Corsica, France\nYear: 2009\nDuration: 100 hours\nInstructor: Veronique Garçon\nTopics: Ocean-atmosphere interactions, biogeochemical cycles\nFocus: Carbon system, gas exchange, marine biogeochemistry\n\nRegional Training Course onboard R/V “Professor Shtokman”\n\nInstitution: Russian State Hydrometeorological University\nLocation: Saint Petersburg, Russia\nYear: 2007\nDuration: 58 hours\nInstructor: M. Mamaeva\nTopics: At-sea operations, oceanographic sampling techniques\nFocus: Hands-on training during oceanographic cruise\n\n\n\n\nPractical Experience\n\nInternship in CSIC\n\nInstitution: Universidad de Cádiz / CSIC\nLocation: Cádiz, Spain\nYear: 2008\nDuration: 300 hours\nSupervisor: Nieves Gómez Aguilar\nTopics: Laboratory techniques, biogeochemical analysis\nFocus: Carbon system measurements, sample processing\n\nTeaching Assistant - Applied Physics Department\n\nInstitution: Universidad de Cádiz\nLocation: Cádiz, Spain\nYear: 2008\nDuration: 400 hours\nSupervisor: Diego Sales Márquez\nTopics: Teaching support, practical demonstrations\nFocus: Physics applied to marine sciences"
-  },
-  {
-    "objectID": "training/index.html#maritime-navigation",
-    "href": "training/index.html#maritime-navigation",
-    "title": "Specialized Training & Courses",
-    "section": "Maritime & Navigation",
-    "text": "Maritime & Navigation\n\nScientific Diving\n\n3-Star Diver\n\nInstitution: FEDAS (Spanish Federation of Underwater Activities)\nYear: 2024\nLevel: 3-Star CMAS certification\nSpecialization: Advanced diving skills for scientific research\nDepth: Advanced depth certification\n\nScientific Diving\n\nInstitution: IMEDEA (Instituto Mediterráneo de Estudios Avanzados)\nYear: 2023\nDuration: 8 hours\nFocus: Underwater sampling techniques for marine research\nTopics: Scientific protocols, underwater data collection\n\nDive Master\n\nInstitution: PADI (Professional Association of Diving Instructors)\nYear: 2023\nLevel: Professional level certification\nSpecialization: Leadership and dive supervision\nFocus: Scientific diving operations, research support\n\nReact Right: First Aid O₂ AID Training\n\nInstitution: Scuba Schools International\nYear: 2022\nTopics: Oxygen administration, first aid for diving emergencies\nFocus: Emergency response for diving accidents\n\n\n\n\nNautical Training\n\nIntroduction to Nautical Sciences\n\nInstitution: Universidad de Cádiz\nLocation: Cádiz, Spain\nYear: 2007\nTopics: Introduction to nautical sciences\nFocus: Navigation, seamanship, maritime operations\n\nBasic Safety Training (STCW Basic Safety)\n\nInstitution: Ministerio de Fomento - España\nLocation: Cádiz, Spain\nYear: 2017\nDuration: 70 hours\nTopics: Standards of Training, Certification and Watchkeeping\nFocus: Personal survival techniques, fire prevention, first aid, personal safety"
-  },
-  {
-    "objectID": "training/index.html#safety-emergency-response",
-    "href": "training/index.html#safety-emergency-response",
-    "title": "Specialized Training & Courses",
-    "section": "Safety & Emergency Response",
-    "text": "Safety & Emergency Response\n\nLaboratory & Field Safety\n\nBasic Training in Field Work\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nYear: 2019\nDuration: 4 hours\nTopics: Field work safety protocols\nFocus: Risk assessment, emergency procedures for field campaigns\n\nBasic Level Occupational Risk Prevention\n\nInstitution: PREVICAT, SL\nYear: 2020\nDuration: 450 hours\nTopics: Basic occupational risk prevention\nFocus: Workplace safety, hazard identification, risk management\n\nChemical Risk in Research Centers\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nYear: 2021\nDuration: 4 hours\nTopics: Chemical risk in research centers\nFocus: Safe handling of hazardous materials, laboratory safety\n\nOccupational Risk Prevention in Chemical Product Use\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Sevilla, Spain\nYear: 2011\nDuration: 2 hours\nTopics: Risk prevention in chemical product use\nFocus: Proper handling, storage, and disposal of chemicals\n\nSafety in Gas Handling\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Sevilla, Spain\nYear: 2011\nDuration: 2 hours\nTopics: Safety in gas handling\nFocus: Compressed gas cylinders, gas detection, emergency procedures\n\nOccupational Risk Prevention in Computer Work\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nLocation: Sevilla, Spain\nYear: 2011\nDuration: 2 hours\nTopics: Ergonomics and health in computer work\nFocus: Workstation setup, visual health, posture"
-  },
-  {
-    "objectID": "training/index.html#professional-development",
-    "href": "training/index.html#professional-development",
-    "title": "Specialized Training & Courses",
-    "section": "Professional Development",
-    "text": "Professional Development\n\nPersonal Development & Resilience\n\nStrategies for Developing Resilience (Online Course)\n\nInstitution: CSIC (Agencia Estatal Consejo Superior de Investigaciones Científicas)\nYear: 2022\nDuration: 35 hours\nTopics: Resilience development strategies\nFocus: Stress management, adaptability, work-life balance in research\n\n\n\n\nLanguage Training\n\nEnglish Language Courses\n\nSuper Intensive English Program - Advanced (500) Level\n\nInstitution: Institute of Intensive English\nLocation: Honolulu, Hawaii, United States\nYear: 2008\nDuration: 70 hours\nInstructor: Ed Lee\nLevel: Advanced (500)\nFocus: Intensive English immersion\n\nEnglish Language Immersion Course\n\nInstitution: Universidad Internacional Menéndez Pelayo (UIMP)\nYear: 2009\nDuration: 40 hours\nFocus: English language immersion for academic purposes\n\nCourse Specific English: Writing\n\nInstitution: CSIC (Consejo Superior de Investigaciones Científicas)\nYear: 2014\nDuration: 30 hours\nFocus: Scientific writing in English, manuscript preparation\n\n\nItalian Language\n\nCourse “Italian as a Foreign Language”\n\nInstitution: Universidad de Cádiz\nLocation: Cádiz, Spain\nYear: 2015\nDuration: 90 hours\nLevel: B1 (First part)\nFocus: Italian language acquisition for international collaboration"
-  },
-  {
-    "objectID": "training/index.html#summary-by-category",
-    "href": "training/index.html#summary-by-category",
-    "title": "Specialized Training & Courses",
-    "section": "Summary by Category",
-    "text": "Summary by Category\n\n\nAI & Data Science\n\nELLIS Summer School (AI for Earth Sciences)\nNASA PACE Data Hackweek\nAI for Environmental Applications\nPython Programming (120+ hours)\nData Analysis & Visualization\n\n\n\nOceanographic Methods\n\nSOLAS Summer School\nOnboard R/V Training\nCSIC Internship\nField Safety Training\nAt-Sea Operations\n\n\n\nMaritime & Diving\n\nCMAS 3-Star Diver (FEDAS)\nPADI Dive Master\nScientific Diving (IMEDEA)\nDiving First Aid & O₂\nSTCW Basic Safety (70 hours)\n\n\n\nProfessional Skills\n\nResilience Development\nEnglish (Advanced - 140+ hours)\nItalian (B1 Level)\nLaboratory Safety\nRisk Prevention (450+ hours)"
-  },
-  {
-    "objectID": "training/index.html#training-statistics",
-    "href": "training/index.html#training-statistics",
-    "title": "Specialized Training & Courses",
-    "section": "Training Statistics",
-    "text": "Training Statistics\n\nTotal Training Hours: 1,800+ documented hours\nAI & Programming: 5 specialized courses (146 hours)\nDiving Certifications: 4 professional levels including Dive Master\nSafety Training: 540+ hours of occupational safety and risk prevention\nLanguage Training: 200+ hours in English and Italian\nInternational Programs: Training in USA, France, Russia, Germany"
-  },
-  {
-    "objectID": "training/index.html#continuous-professional-development",
-    "href": "training/index.html#continuous-professional-development",
-    "title": "Specialized Training & Courses",
-    "section": "Continuous Professional Development",
-    "text": "Continuous Professional Development\nThroughout my career, I have maintained a commitment to continuous learning and professional development, with particular emphasis on:\n\nArtificial Intelligence Applications: Specialized training in AI for environmental and climate sciences\nScientific Diving: Professional-level certifications enabling autonomous underwater research\nProgramming & Data Science: Comprehensive Python training for scientific computing\nSafety & Compliance: Extensive training in laboratory, field, and maritime safety protocols\nInternational Collaboration: Language skills and cross-cultural training experiences\n\n\nFor inquiries about training programs or collaboration: susana.flecha@csic.es"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About",
-    "section": "",
-    "text": "I hold a PhD in Marine Sciences from the Universidad de Cádiz (2015, Summa Cum Laude — Extraordinary PhD Award and International PhD Mention) and currently develop my research career as a Postdoctoral Researcher under the MOMENTUM excellence programme at the Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC), in the Department of Ecology and Coastal Management — Ecosystem Oceanography Group.\nMy research focuses on ocean biogeochemistry applied to the evaluation of natural and anthropogenic impacts on coastal, shelf and deep-sea ecosystems. I study the carbon system, ocean acidification and deoxygenation, together with the variability and air–sea exchange of greenhouse gases (CO₂, CH₄, N₂O), using long-term observational series and innovative AI-based methods articulated in my OCEAN–IA research line.\nSince 2008 I have coordinated the Gibraltar Fixed Time Series (GIFT) and, since 2018, I co-lead the Balearic Ocean Acidification Time Series (BOATS). I have participated in 48 oceanographic cruises (≈278 days at sea) across the Southern Ocean, Atlantic Ocean, Strait of Gibraltar, Gulf of Cádiz, and Baltic and Mediterranean Seas, and in over 180 field campaigns in coastal, estuarine and wetland environments."
-  },
-  {
-    "objectID": "about/index.html#biography",
-    "href": "about/index.html#biography",
-    "title": "About",
-    "section": "",
-    "text": "I hold a PhD in Marine Sciences from the Universidad de Cádiz (2015, Summa Cum Laude — Extraordinary PhD Award and International PhD Mention) and currently develop my research career as a Postdoctoral Researcher under the MOMENTUM excellence programme at the Instituto de Ciencias Marinas de Andalucía (ICMAN-CSIC), in the Department of Ecology and Coastal Management — Ecosystem Oceanography Group.\nMy research focuses on ocean biogeochemistry applied to the evaluation of natural and anthropogenic impacts on coastal, shelf and deep-sea ecosystems. I study the carbon system, ocean acidification and deoxygenation, together with the variability and air–sea exchange of greenhouse gases (CO₂, CH₄, N₂O), using long-term observational series and innovative AI-based methods articulated in my OCEAN–IA research line.\nSince 2008 I have coordinated the Gibraltar Fixed Time Series (GIFT) and, since 2018, I co-lead the Balearic Ocean Acidification Time Series (BOATS). I have participated in 48 oceanographic cruises (≈278 days at sea) across the Southern Ocean, Atlantic Ocean, Strait of Gibraltar, Gulf of Cádiz, and Baltic and Mediterranean Seas, and in over 180 field campaigns in coastal, estuarine and wetland environments."
-  },
-  {
-    "objectID": "about/index.html#academic-background",
-    "href": "about/index.html#academic-background",
-    "title": "About",
-    "section": "Academic Background",
-    "text": "Academic Background\nPhD in Marine Sciences Universidad de Cádiz, Spain · 2015 Summa Cum Laude Extraordinary PhD Award · International PhD Mention Thesis: Carbon fluxes in coastal systems of the South-Atlantic Iberian Basin: CO₂ exchange with the atmosphere and quantification of the anthropogenic footprint.\nMSc in Oceanography Universidad de Cádiz, Spain · 2009\nBSc in Marine Sciences Universidad de Cádiz, Spain · 2008\nExpert Programme in Data Science & Generative AI Datamecum Data Management · 2026\nData Analytics & AI Bootcamp (380 h) CSIC Bootcamp — Upgrade Hub, Madrid · 2026"
-  },
-  {
-    "objectID": "about/index.html#professional-trajectory",
-    "href": "about/index.html#professional-trajectory",
-    "title": "About",
-    "section": "Professional Trajectory",
-    "text": "Professional Trajectory\n\n\nPostdoctoral Researcher · MOMENTUM Programme (Dec 2024 – 2028)\nICMAN-CSIC, Cádiz, Spain · Department of Ecology and Coastal Management\n\nLeading the OCEAN–IA line: deep-learning approaches for reconstructing and predicting ocean acidification, deoxygenation and GHG fluxes\nCoordinator of the GHG multiplatform monitoring programme for Andalusian coastal, continental and marine systems\nScientific coordination of the GIFT time series and of Antarctic observations at Deception Island\nCo-coordinator of Objective 8 of the ICMAN-CSIC Excellence Plan (MAX-CSIC · Blue Health): scientific leadership, the DATALAB technical unit and AI training in marine sciences\n\n\n\nPostdoctoral Researcher · Vicenç Mut Programme (2022 – 2024)\nIMEDEA (CSIC–UIB), Esporles, Mallorca\n\nPrincipal Investigator of the EVALUARTE project on deep-sea ecosystem vulnerability\nCoordination of the BOATS observational network in the Balearic Sea\nDevelopment of machine-learning methodologies for pH reconstruction\n\n\n\nPostdoctoral Researcher · Margalida Comas Programme (2017 – 2019)\nUniversidad de las Islas Baleares (UIB), Spain\n\nPI of the Margalida Comas project on coastal pH variability\nAcquisition and deployment of autonomous pH sensors (SAMI)\nCo-foundation of the BOATS time series\n\n\n\nPostdoctoral Researcher · Canon Foundation Fellowship (2016 – 2017)\nJAMSTEC, Yokosuka, Japan\n\nOpen-ocean carbon dynamics and anthropogenic carbon quantification\nOutputs integrated into the CLIVAR-Spain 2025 report\n\n\n\nPredoctoral Researcher — JAE Programme (2011 – 2015)\nInstituto de Ciencias Marinas de Andalucía (ICMAN-CSIC)\n\nDoctoral research on ocean acidification in the Mediterranean Sea\nInternational research stays at University of Washington, Université de Liège, and UPMC-LOCEAN (Paris)\nParticipation in European projects CARBOCHANGE, PERSEUS and SESAME"
-  },
-  {
-    "objectID": "about/index.html#international-research-stays",
-    "href": "about/index.html#international-research-stays",
-    "title": "About",
-    "section": "International Research Stays",
-    "text": "International Research Stays\n\nIstituto Nazionale di Oceanografia e di Geofisica Sperimentale (OGS) — Trieste, Italy · 3 months, 2019\nJAMSTEC — Research and Development Center for Global Change — Yokosuka, Japan · 6 months, 2016–2017 (Canon Foundation in Europe Fellowship)\nUniversité Pierre et Marie Curie — LOCEAN — Paris, France · 2014\nFundación San Ignacio de Huinay — Patagonia, Chile · 2013\nUniversity of Washington — School of Oceanography — Seattle, USA · 3 months, 2012\nUniversité de Liège — Chemical Oceanography Unit — Liège, Belgium · 82 days, 2010 (COST Action 735)\n\n≈ 16 months of international mobility in six institutions of reference across Europe, Asia and America."
-  },
-  {
-    "objectID": "about/index.html#research-lines",
-    "href": "about/index.html#research-lines",
-    "title": "About",
-    "section": "Research Lines",
-    "text": "Research Lines\n\nCarbon system and ocean acidification across coastal, shelf and deep environments\nDissolved greenhouse gases (CO₂, CH₄, N₂O) dynamics and air–sea exchange\nOCEAN–IA: artificial intelligence and machine learning applied to environmental impact assessment\nLong-term biogeochemical time-series and climate-change indicators (GIFT, BOATS)\nPolar biogeochemistry — Antarctic Peninsula, Deception Island\nTrend detection and compound events in coastal and deep-sea ecosystems"
-  },
-  {
-    "objectID": "about/index.html#skills-techniques",
-    "href": "about/index.html#skills-techniques",
-    "title": "About",
-    "section": "Skills & Techniques",
-    "text": "Skills & Techniques\n\n\nAnalytical Techniques\n\nCarbon system (DIC, TA, pH, pCO₂) analysis\nSpectrophotometry and potentiometric titration\nCH₄ and N₂O quantification by gas chromatography\nDeployment and maintenance of biogeochemical sensors (SAMI, SeaFET, Contros HydroC)\nOceanographic sampling and scientific diving\n\n\n\nComputational Tools\n\nPython, R, MATLAB — scientific programming\nDeep learning (BiLSTM, feed-forward NN) — PyTorch / TensorFlow\nLarge-scale time-series and satellite data processing\nBiogeochemical and statistical modelling\nGeographic Information Systems (GIS)"
-  },
-  {
-    "objectID": "about/index.html#awards-recognitions",
-    "href": "about/index.html#awards-recognitions",
-    "title": "About",
-    "section": "Awards & Recognitions",
-    "text": "Awards & Recognitions\n\nExtraordinary PhD Award — Universidad de Cádiz (2016)\nInternational PhD Mention — Universidad de Cádiz (2016)\nCanon Foundation in Europe Research Fellowship — Japan (2016) · € 14,200\nVicenç Mut Postdoctoral Contract — Gobierno de las Islas Baleares (2022–2025)\nMargalida Comas Postdoctoral Contract — Gobierno de las Islas Baleares (2017–2019)\nJAE-Intro Predoctoral Contract — CSIC (2011–2015)\nShort Term Scientific Mission COST Action 735 — Université de Liège (2010)"
-  },
-  {
-    "objectID": "about/index.html#scientific-leadership",
-    "href": "about/index.html#scientific-leadership",
-    "title": "About",
-    "section": "Scientific Leadership",
-    "text": "Scientific Leadership\n\nCo-coordinator of Objective 8 (“Scientific Leadership & Technological Cross-cutting”) of the ICMAN-CSIC Excellence Plan (MAX-CSIC 2024 · Blue Health) · 2026–2028\nMediterranean node representative — Steering Committee of ICONEC (International Carbon Ocean Network for Early Career), affiliated to GOA-ON · Since 2023\nCoordinator of the Risks & Hazards area of the Conexión Polar CSIC network (72 researchers) · Since 2025\nCore Team member — Working Group on Antarctic Biogeochemistry & Carbon Cycling, Antarctic InSync programme (UN Ocean Decade · UNESCO-IOC) · Since 2026\nCSIC institutional representative to the Scientific Committee on Oceanic Research (SCOR) · Since 2026\nMember of the ICMAN-CSIC Sustainability Committee · Since 2026\nScientific coordinator of the Gibraltar Fixed Time Series (GIFT) · Since 2008\nCo-founder and co-PI of the Balearic Ocean Acidification Time Series (BOATS) · Since 2018\nExpert Evaluator for Marie Skłodowska-Curie actions and ERC panels — Research Executive Agency, European Commission (2020, 2021, 2023, 2024, 2025)\nExpert reviewer for the OOI Biogeochemical Sensor Best Practices and User Guide (Woods Hole, USA, 2022) and for the German Research Vessel Panel (GPF) — DFG & Helmholtz Association (2023)\nMember of the IMEDEA Outreach Commission (2022–2024)"
-  },
-  {
-    "objectID": "about/index.html#supervision-training",
-    "href": "about/index.html#supervision-training",
-    "title": "About",
-    "section": "Supervision & Training",
-    "text": "Supervision & Training\n\nPhD co-supervision — Peru Águeda Aramburu, Greenhouse gas dynamics in coastal ecosystems of the Balearic Islands, UIB María de Maeztu · 2024–2028\n5 Master’s theses directed or co-directed (Erasmus Mundus MER+, IMBRSea; Universities of Ghent, Bologna, Valencia and País Vasco) — all with Outstanding or Summa Cum Laude\nInternational mentorship — Pier2Peer Programme, NOAA Ocean Acidification Program: mentoring Yurley Tatiana Zapata Rey (INVEMAR, Colombia) · 2025–2026\nJAE-Intro principal tutor — CSIC (2015, 2022, 2026); 2026 award within Conexión Polar CSIC on GHG inventories and fluxes (CO₂, CH₄, N₂O) in Antarctic coastal ecosystems"
-  },
-  {
-    "objectID": "about/index.html#outreach-knowledge-transfer",
-    "href": "about/index.html#outreach-knowledge-transfer",
-    "title": "About",
-    "section": "Outreach & Knowledge Transfer",
-    "text": "Outreach & Knowledge Transfer\nI am strongly committed to the public communication of science:\n\nInterviews and features in national media — La Vanguardia, Canal Sur, RTVE, IB3, Onda Cádiz RTV, Voces CSIC Baleares\nEuropean Researchers’ Night and Ocean Night regular participant\nWorkshops for schools and general audiences — Entendamos el cambio climático\nInvited talks at JAMSTEC (Japan) and at the Andalusian Regional Government\nResearch outputs cited in major international and national climate assessments:\n\nIPCC (2019) — Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC). Intergovernmental Panel on Climate Change. DOI: 10.1017/9781009157964\nIPCC (2023) — AR6 Synthesis Report: Climate Change 2023. Intergovernmental Panel on Climate Change. DOI: 10.59327/IPCC/AR6-9789291691647\nCLIVAR-Spain (2025) — National assessment of climate variability and change in the Spanish marine environment"
-  },
-  {
-    "objectID": "about/index.html#contact",
-    "href": "about/index.html#contact",
-    "title": "About",
-    "section": "Contact",
-    "text": "Contact\nFor collaborations, inquiries or more information:\n\nEmail — susana.flecha@csic.es\nORCID — 0000-0003-2826-5820\nLinkedIn — Susana Flecha\nGitHub — susafle\nResearchGate — Susana-Flecha"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "This space is dedicated to sharing reflections, experiences, and knowledge about marine research, ocean biogeochemistry, and the challenges of studying the ocean in the context of climate change.\n\n\nHere you will find posts about:\n\nField research: Experiences during oceanographic expeditions\nOcean acidification: Trends, impacts, and future perspectives\nMethods and techniques: Carbon system analysis and new methodologies\nData science: AI and Big Data applications in oceanography\nScience communication: Accessible explanations of complex concepts\nAcademic life: Reflections on the research career"
-  },
-  {
-    "objectID": "blog/index.html#welcome-to-the-blog",
-    "href": "blog/index.html#welcome-to-the-blog",
-    "title": "Blog",
-    "section": "",
-    "text": "This space is dedicated to sharing reflections, experiences, and knowledge about marine research, ocean biogeochemistry, and the challenges of studying the ocean in the context of climate change.\n\n\nHere you will find posts about:\n\nField research: Experiences during oceanographic expeditions\nOcean acidification: Trends, impacts, and future perspectives\nMethods and techniques: Carbon system analysis and new methodologies\nData science: AI and Big Data applications in oceanography\nScience communication: Accessible explanations of complex concepts\nAcademic life: Reflections on the research career"
-  },
-  {
-    "objectID": "blog/index.html#coming-soon",
-    "href": "blog/index.html#coming-soon",
-    "title": "Blog",
-    "section": "Coming Soon",
-    "text": "Coming Soon\nThis section will be populated with content about:\n\nChronicles of oceanographic expeditions\nAnalysis of recent results\nTutorials on oceanographic data analysis\nReflections on marine climate change\nExperiences in international collaborations\n\n\n\nStay Connected\nFor updates and additional content:\n\nLinkedIn: Susana Flecha - Regular research updates\nEmail: susana.flecha@csic.es - For questions or topic suggestions\n\n\n“The ocean is the Earth’s largest life support system. Understanding it is essential for our future.”"
   }
 ]

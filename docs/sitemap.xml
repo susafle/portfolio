@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://susafle.github.io/portfolio/media/index.html</loc>
-    <lastmod>2026-06-10T16:58:51.369Z</lastmod>
-  </url>
-  <url>
     <loc>https://susafle.github.io/portfolio/index.html</loc>
-    <lastmod>2026-06-10T17:06:57.699Z</lastmod>
-  </url>
-  <url>
-    <loc>https://susafle.github.io/portfolio/projects/index.html</loc>
-    <lastmod>2026-06-10T16:55:06.906Z</lastmod>
-  </url>
-  <url>
-    <loc>https://susafle.github.io/portfolio/publications/index.html</loc>
-    <lastmod>2026-06-10T16:20:11.083Z</lastmod>
+    <lastmod>2026-06-10T17:13:09.385Z</lastmod>
   </url>
   <url>
     <loc>https://susafle.github.io/portfolio/training/index.html</loc>
-    <lastmod>2026-06-10T16:23:03.712Z</lastmod>
+    <lastmod>2026-06-10T17:13:09.385Z</lastmod>
   </url>
   <url>
-    <loc>https://susafle.github.io/portfolio/about/index.html</loc>
-    <lastmod>2026-06-10T16:39:12.957Z</lastmod>
+    <loc>https://susafle.github.io/portfolio/media/index.html</loc>
+    <lastmod>2026-06-10T17:13:09.385Z</lastmod>
   </url>
   <url>
     <loc>https://susafle.github.io/portfolio/blog/index.html</loc>
-    <lastmod>2026-06-10T15:37:44.814Z</lastmod>
+    <lastmod>2026-06-10T17:13:09.300Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susafle.github.io/portfolio/about/index.html</loc>
+    <lastmod>2026-06-10T17:13:09.300Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susafle.github.io/portfolio/projects/index.html</loc>
+    <lastmod>2026-06-10T17:13:09.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://susafle.github.io/portfolio/publications/index.html</loc>
+    <lastmod>2026-06-10T17:13:09.385Z</lastmod>
   </url>
 </urlset>
